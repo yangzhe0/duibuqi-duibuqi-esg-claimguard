@@ -146,9 +146,9 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 % 每行缩进两个汉字
 \setlength\parindent{2em}
 % 设置字体
-\setmainfont{Times New Roman}
-\setmonofont{Courier New}
-\setsansfont{Arial}
+\setmainfont[Path=fonts/]{times.ttf}
+\setmonofont[Path=fonts/]{times.ttf}
+\setsansfont[Path=fonts/]{times.ttf}
 % 资源路径以项目根目录为基准：主文件为 latex/MathModel.tex，编译从项目根目录触发。
 \setCJKmainfont[Path=fonts/,AutoFakeBold={2.15},ItalicFont={KaiTi.ttf}]{SimSun.ttf}
 \setCJKmonofont[Path=fonts/,AutoFakeBold={2.15}]{SimSun.ttf}
@@ -156,7 +156,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \setCJKfamilyfont{gmcmhei}[Path=fonts/,AutoFakeBold={2.15}]{SimHei.ttf}
 \setCJKfamilyfont{gmcmkai}[Path=fonts/]{KaiTi.ttf}
 \setCJKfamilyfont{gmcmxw}[Path=fonts/]{STXinwei.ttf}
-\setCJKfamilyfont{gmcmlishu}[Path=fonts/]{LiSu.ttf}
+\setCJKfamilyfont{gmcmlishu}[Path=fonts/,AutoFakeBold={2.15}]{STLiti.ttf}
 %
 %\setCJKfamilyfont{zhyou}{YouYuan}
 \providecommand*{\songti}{}
