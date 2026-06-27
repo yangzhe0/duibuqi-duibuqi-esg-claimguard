@@ -1,0 +1,6798 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2025 年度ESG暨社会责任报告中电科芯片技术股份有限公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                537,
+                299,
+                944,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC Chips Technology Inc."
+                    }
+                ]
+            },
+            "bbox": [
+                537,
+                504,
+                924,
+                552
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                18,
+                570,
+                46
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "电科芯片"
+                    }
+                ]
+            },
+            "bbox": [
+                591,
+                21,
+                654,
+                45
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "联系我们"
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                943,
+                71,
+                963
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "地址：中国·重庆"
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                968,
+                91,
+                986
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "电话：023-65860877"
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                968,
+                223,
+                985
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "上证股票代码：600877"
+                    }
+                ]
+            },
+            "bbox": [
+                249,
+                968,
+                354,
+                985
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公司官网"
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                943,
+                565,
+                963
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "https://chiptechinc.com.cn/"
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                969,
+                639,
+                987
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "微信公众号"
+                    }
+                ]
+            },
+            "bbox": [
+                849,
+                946,
+                910,
+                966
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": []
+            },
+            "bbox": [
+                916,
+                940,
+                954,
+                993
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "关于本报告"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                47,
+                153,
+                76
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告旨在通过对公司 2025 年 ESG 理念、ESG 实践与 ESG 成效的真实披露，展示公司与利益相关方坦诚沟通的态度，回应各利益相关方的期望与诉求。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                102,
+                445,
+                143
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "时间范围"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                61,
+                173,
+                108,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告涉及的时间范围为 2025 年 1 月 1 日至 2025 年 12 月 31 日，部分内容根据实际情况做了前后延续。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                196,
+                448,
+                238
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "发布周期"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                267,
+                107,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告为年度报告。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                290,
+                144,
+                309
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "报告范围"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                340,
+                107,
+                359
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告覆盖公司及控股子公司部分信息。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                363,
+                232,
+                382
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "称谓说明"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                61,
+                413,
+                107,
+                432
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为便于表达和阅读，本报告中提及的“中电科芯片技术股份有限公司”也以“电科芯片”“公司”“我们”表示。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                436,
+                437,
+                478
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "报告承诺"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                509,
+                107,
+                528
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "电科芯片承诺本报告内容不存在任何虚假记载、误导性陈述或重大遗漏，对内容的真实性、准确性和完整性负责。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                532,
+                445,
+                572
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "数据说明"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                61,
+                603,
+                107,
+                621
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告包含信息以电科芯片成立以来至 2025 年 12 月 31 日的统计数据和正式文件为主。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                626,
+                439,
+                645
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "参考标准"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                61,
+                675,
+                107,
+                694
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告主要参照上海证券交易所《上市公司自律监管指引第14 号—可持续发展报告（试行）》《上市公司自律监管指南第 4 号—可持续发展报告编制（2026 年 1 月修订）》等规则进行编制。同时参考国资委《央企控股上市公司 ESG 专项报告参考指标体系》、中国企业改革与发展研究会《中国企业可持续发展报告指南（CASS-ESG 6.0）》等相关要求，结合公司实际运营与可持续发展实践编制而成。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                698,
+                452,
+                802
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "报告获取及解读"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                61,
+                821,
+                140,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告电子版在公司法定信息披露媒体发布， 并在上海证券交易所官网(www.sse.com.cn)发布， 供读者读取参阅。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                842,
+                449,
+                882
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告力求完整、客观、便于阅读，但受到各种条件限制，披露中难免有未尽如人意之处，欢迎您通过公司公告的联系方式，及时反馈意见与建议，推动公司社会责任披露工作的持续改进。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                884,
+                450,
+                945
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "目 录 /CONTENTS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                587,
+                42,
+                741,
+                71
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "01/关于我们"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                112,
+                667,
+                134
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司简介 …………………………………………………………… <sub>02</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                141,
+                908,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "企业文化 …………………………………………………………… 04"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                166,
+                908,
+                187
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "02/公司治理与规范运作"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                205,
+                733,
+                227
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "组织结构 …………………………………………………………… <sub>05</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                232,
+                908,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "治理机制 …………………………………………………………… <sub>06</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                258,
+                908,
+                278
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "管控目标 …………………………………………………………… <sub>08</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                282,
+                908,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "投资者关系管理 …………………………………………………… <sub>08</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                306,
+                908,
+                327
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "内控制度体系建设 ………………………………………………… <sub>09</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                331,
+                908,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信息披露 …………………………………………………………… <sub>10</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                355,
+                908,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "责任管理 …………………………………………………………… <sub>11</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                379,
+                908,
+                400
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "03/党建引领"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                424,
+                667,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "深化学习教育 …………………………………………………… <sub>14</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                451,
+                908,
+                471
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "锤炼高素质队伍 …………………………………………………… <sub>15</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                476,
+                908,
+                496
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "强化宣传引导 …………………………………………………… <sub>16</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                500,
+                908,
+                520
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "全面从严治党 …………………………………………………… 17"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                525,
+                908,
+                545
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "04/科技引领"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                568,
+                667,
+                589
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "战略发展 …………………………………………………………… <sub>19</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                595,
+                908,
+                616
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "研发投入 …………………………………………………………… <sub>20</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                621,
+                908,
+                641
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "核心技术储备 ……………………………………………………… <sub>21</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                645,
+                908,
+                666
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "05/社会责任"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                689,
+                668,
+                711
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "保护员工权益 ……………………………………………………… <sub>23</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                719,
+                908,
+                739
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "质量体系建设 ……………………………………………………… <sub>25</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                744,
+                908,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "社会公益事业 ……………………………………………………… <sub>26</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                768,
+                908,
+                787
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "06/绿色办公"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                805,
+                667,
+                826
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推行电子化办公理念 …………………………………………… <sub>27</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                830,
+                908,
+                850
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推行节约用电用水 …………………………………………… <sub>27</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                854,
+                908,
+                873
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推广绿色环保出行"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                876,
+                908,
+                895
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推行废弃物统一管理 …………………………………………… <sub>27</sub>"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                898,
+                908,
+                919
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/925e22cd207f20d8287a91681e4812e8f35ed36a502b04b4b4ff01ba69d42000.jpg"
+                },
+                "content": "CETC\nCETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                0,
+                0,
+                494,
+                998
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "01 关于我们/公司简介"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                596,
+                261,
+                803,
+                296
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中电科芯片技术股份有限公司（曾用名：中电科声光电科技股份有限公司、中电科能源股份有限公司）前身为中国嘉陵工业股份有限公司（集团），于1995年10月13日在上海证券交易所主板正式挂牌交易。公司2021年实施完成重大资产重组，证券代码“600877”，证券简称“电科芯片”。"
+                    }
+                ]
+            },
+            "bbox": [
+                595,
+                355,
+                912,
+                496
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司所属行业为硅基模拟半导体芯片、模拟集成电路及其应用行业，主要业务为硅基模拟半导体芯片、器件、模组的设计、研发、制造、测试、销售，可根据客户需求，提供定制化整体解决方案和相关智能终端应用产品。"
+                    }
+                ]
+            },
+            "bbox": [
+                595,
+                564,
+                912,
+                675
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "近年来，公司不断加强技术研发投入、提升质量管控水平、积极开拓市场、加快产业链资源整合，在安全电子、卫星通信与导航、蜂窝与短距通信、能源管理、工业/汽车及消费电子、智能电源等领域等主赛道推出极具竞争力的系列化产品，获得行业客户广泛认可。"
+                    }
+                ]
+            },
+            "bbox": [
+                595,
+                684,
+                912,
+                796
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                959,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "02"
+                    }
+                ]
+            },
+            "bbox": [
+                954,
+                921,
+                966,
+                935
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "公司简介"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                42,
+                94,
+                122,
+                123
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/84e145c5a665b1271cf75020024df36bc92b1b69483c07a6b77c302f3c2a7335.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                34,
+                148,
+                458,
+                426
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "重庆西南集成电路设计有限责任公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                470,
+                207,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "子公司西南设计是中国半导体行业协会理事单位、中国集成电路设计创新联盟常务理事单位、重庆市半导体行业协会副理事长单位，重庆电子学会常务理事单位，先后获得高新技术企业、国家信息产业基地龙头企业、全国电子信息行业优秀创新企业、最具投资价值企业、十年中国芯优秀设计企业、中国卫星导航与位置服务行业五十强企业、国家专精特新重点“小巨人”企业、国家制造业单项冠军企业、重庆制造业企业100强、重庆市技术创新示范企业、重庆市级重点软件龙头企业等荣誉。西南设计2025年成功入选为工信部第九批制造业单项冠军企业、荣获重庆经开区“制造业创新领军企业”、“重庆市专精特新中小企业”荣誉称号。西南设计已成为行业集成电路领域自主创新、自立自强的中坚力量。"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                493,
+                466,
+                645
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "重庆中科芯亿达电子有限公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                665,
+                174,
+                685
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "子公司芯亿达是国家专精特新“小巨人”企业、高新技术企业、重庆市半导体行业协会会员单位、重庆市认定企业技术中心、重庆市工业设计中心，先后获得重庆市知识产权优势企业、重庆市中小企业小巨人、重庆市技术创新示范企业、重庆高新区企业研发创新中心等荣誉称号，在功率驱动、电源管理集成电路领域具有较强的行业影响力。"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                693,
+                466,
+                778
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳市瑞晶实业有限公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                805,
+                150,
+                824
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "子公司瑞晶实业是中国电源学会会员单位、高新技术企业、深圳市专精特新企业、深圳市LED产业标准联盟核心会员单位、深圳市龙岗区工程技术中心、深圳市质量强市促进会理事单位、深圳市南山区工商业联合会会员，获得广东省守合同重信用企业荣誉称号，在电源产品领域的行业地位优势较为明显。"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                833,
+                465,
+                895
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "企业文化"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                531,
+                89,
+                612,
+                119
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/883a9c88e24448266afd47de9aea021836e54bc66f539c1652a7b488540a1415.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                575,
+                143,
+                610,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "忠 于 使 命"
+                    }
+                ]
+            },
+            "bbox": [
+                630,
+                158,
+                685,
+                177
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a1cb1aeab61c577c81b92361f491116e302d8e3247650e63636003281a15565c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                742,
+                145,
+                775,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "勇 于 创 新"
+                    }
+                ]
+            },
+            "bbox": [
+                801,
+                158,
+                856,
+                177
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c0ecec87889d5390b0824cb572a20b6d9c5709b21fe502336b62f632f61a2a13.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                575,
+                203,
+                610,
+                251
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "善 于 协 同"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                220,
+                686,
+                239
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0489c098bee594664a6fe5e2b0f261b80309161ef7ada2325267eec2952ac54d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                742,
+                203,
+                775,
+                250
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "成 于 务 实"
+                    }
+                ]
+            },
+            "bbox": [
+                802,
+                220,
+                857,
+                239
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "企业使命"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                529,
+                318,
+                577,
+                337
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "做技术引领的先行者，致力推动中国芯片产业自主发展，让信息社会更加高效美好"
+                    }
+                ]
+            },
+            "bbox": [
+                526,
+                352,
+                849,
+                370
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "企业愿景"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                529,
+                404,
+                577,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "成为国内卓越、世界一流，有社会责任感和使命感的多技术融合半导体产业领军企业"
+                    }
+                ]
+            },
+            "bbox": [
+                524,
+                450,
+                856,
+                467
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "企业定位"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                530,
+                504,
+                577,
+                523
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "硅基半导体芯片及其应用产品的产业发展与资本运作主平台"
+                    }
+                ]
+            },
+            "bbox": [
+                525,
+                547,
+                752,
+                564
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "公司荣誉及奖项"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                529,
+                622,
+                607,
+                641
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/73017802a4e714c8a604ec451f930069a8c4d6820187ad8d63b19c09991170ff.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "重庆市软件和信息服务企业五十强"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                512,
+                653,
+                606,
+                742
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e86e0cdbc715c4d76a13672112d46243d503a4c0a74feab49c4d1fd4f6b862cc.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "重庆市技术创新示范企业"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                613,
+                652,
+                714,
+                745
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/de08a98e191fd316a2a598fc12f437c3295f7a6ebf89dc952d18be145acf9f5d.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "重庆市制造业单项冠军企业"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                727,
+                653,
+                823,
+                742
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2a668037df415ad20347f21e46aac86c83c13450749c040e92ed317e304e440c.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "芯亿达获高新技术企业证书"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                842,
+                653,
+                936,
+                742
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6c0e6900f46f26ef67d73e2fc081ad9ac64dd59af8a71dd604b356cc48122864.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "民用北斗短报文规模化应用团队获电科芯片2024年度先进班组（团队）"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                513,
+                792,
+                606,
+                880
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8ff538ab4b20b8ab4b3508796cd8bc0a70edb6e4ba60fc9f6c8e818bf284e914.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "西南设计获电科芯片2023-2024年度先进集体-先进分工会"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                613,
+                792,
+                710,
+                881
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c51f5cea96515dc67dbd115b37b47f5f642e1c5ab05bd8027a12539c8b34ce0d.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "电科芯片（集团）科技进步奖二等奖：高性能多通道波束赋形芯片与阵列天线技术"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                731,
+                791,
+                821,
+                881
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a9e801263e2346c2a23b9a3d5d62dfd60df51c4490e80568899a03e311038d5e.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "芯亿达获优秀党员创新 工程奖项"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                840,
+                785,
+                937,
+                882
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "关于我们"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "03"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                922,
+                39,
+                935
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "04"
+                    }
+                ]
+            },
+            "bbox": [
+                945,
+                922,
+                958,
+                935
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/29c78d759323adb16dfb473229a708a4f2568932b8a43012151c02d86e6cd24f.jpg"
+                },
+                "content": "CEIC\n电科芯片",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                0,
+                0,
+                998,
+                690
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "02 公司治理与规范运作"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                21,
+                821,
+                451,
+                900
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c9925c1e45b674f227eede218d7706b460a6970fece97aab94317f86013f6091.jpg"
+                },
+                "content": "CETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                491,
+                795,
+                998,
+                955
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "组织结构"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                46,
+                133,
+                102,
+                156
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司通过建立健全科学、规范、系统、高效的治理结构，加强规范运作，提升决策水平，保障投资者的各项合法权益。"
+                    }
+                ]
+            },
+            "bbox": [
+                30,
+                192,
+                469,
+                238
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/00477a2133da25b928989eec625efd801675b349af3d8e8dd97b288e892fbf36.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"股东会\"] --> B[\"董事会\"]\n  B --> C[\"经营管理层\"]\n  B --> D[\"战略委员会\\n审计与风险控制委员会\\n提名委员会\\n薪酬与考核委员会\"]\n  C --> E[\"综合管理部\"]\n  C --> F[\"财务投资部\"]\n  C --> G[\"人力资源和党群工作部\"]\n  C --> H[\"规划与经营部\"]\n  C --> I[\"董事会办公室\"]\n  C --> J[\"法务与纪审部\"]\n```",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                90,
+                261,
+                421,
+                667
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "全资子公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                48,
+                677,
+                116,
+                700
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2892c3af18a5bda96097bbd613fe6bf995c844fe2aa33f15cae67f35f5e657ba.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"中电科芯片技术股份有限公司\"] --> B[\"重庆西南集成电路设计有限责任公司\"]\n  A --> C[\"重庆中科芯亿达电子有限公司\"]\n  A --> D[\"深圳市瑞晶实业有限公司\"]\n```",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                33,
+                729,
+                459,
+                847
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "治理机制"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                532,
+                131,
+                589,
+                153
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司董事会持续完善法人治理结构，建立健全内部控制制度，构建了由股东会、董事会和经营管理层组成的治理组织体系。董事会由9名董事组成(非独立董事5人、独立董事4人)，下设战略委员会、审计与风险控制委员会、提名委员会和薪酬与考核委员会，各专门委员会严格按照其议事规则等要求在公司战略、风险管控、人才选拔、绩效考核等方面发挥引领、推动、保障和监督作用，为董事会决策提供意见或建议，提高决策科学性，提升经营管理效率。"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                184,
+                950,
+                303
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "股东会"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                533,
+                357,
+                577,
+                379
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "股东会是公司的权力机构，负责决定经营方针、筹资、投资、利润分配等重大事项。公司召开股东会时除现场会议外，还向股东提供网络形式的投票平台，充分听取中小股东的意见和诉求，并及时答复中小股东关心的问题。2025年，电科芯片召开1次年度股东会，2次临时股东会，共审议通过17项议案。"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                404,
+                740,
+                546
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2e80842fb79f606bfc80b0af33829b3474515dd0a8555647f2eec8fd9c12afd5.jpg"
+                },
+                "content": "股东会举行次数\n3次\n股东会审议事项数量\n17项",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                753,
+                412,
+                968,
+                527
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "董事会"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                533,
+                602,
+                576,
+                625
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "董事会规范高效运行，全面提升董事会建设质量。电科芯片重视董事会成员的多元化，由9名具有不同行业与学术背景的董事组成；设有4名独立董事，充分发挥独立董事在参与决策、监督制衡、专业咨询等方面作用，维护公司整体利益和全体股东尤其是中小股东的合法权益。2025年，董事会成员均积极参加公司召开的股东会、董事会及专门委员会会议，对董事会各项议案及公司其他事项未提出异议。"
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                640,
+                962,
+                733
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/f32b54550f5b553e53f718c3a0e379486951ac615134f6392a50a8c0253ee3d7.jpg"
+                },
+                "content": "| 指标 | 数值 |\n| --- | --- |\n| 董事会举行次数 | 3 次 |\n| 董事会审议事项数量 | 53 项 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "董事会会议情况"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "sub_type": "funnel",
+            "bbox": [
+                516,
+                783,
+                723,
+                918
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/e1d5a15164ba50ea09d9d6ee90e5f1ec83d26ce09467b92c6f9403ddca0c7c80.jpg"
+                },
+                "content": "| 指标 | 数值 |\n| --- | --- |\n| 会议举行次数 | 3 次 |\n| 审议事项数量 | 17 项 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "独立董事专门会议情况"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "sub_type": "funnel",
+            "bbox": [
+                755,
+                783,
+                958,
+                917
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理与规范运作"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                147,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                959,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "05"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                922,
+                39,
+                936
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "06"
+                    }
+                ]
+            },
+            "bbox": [
+                952,
+                922,
+                964,
+                936
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "董事会专门委员会"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                64,
+                126,
+                173,
+                149
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f145b4b3c0b9f0fe5523c710db9288ba4cfd04b64862f911f359244c8e43c5d4.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>专业委员会</td><td>召开次数</td><td>主要职责</td><td>审议议案数量</td></tr><tr><td>战略委员会</td><td>3次</td><td>·对公司中长期发展战略和优化业务布局进行研究并提出建议·构建完善ESG管理制度体系</td><td>4份</td></tr><tr><td>审计与风险控制委员会</td><td>4次</td><td>·监督及评估外部审计工作,提议聘请或更换外部审计机构·监督及评估内部审计工作,负责内部审计与外部审计的协调·审核公司的财务信息及其披露·监督及评估公司的内部控制·协调公司管理层、内部审计部门及相关部门与外部审计机构的沟通</td><td>34份</td></tr><tr><td>薪酬与考核委员会</td><td>2次</td><td>·根据董事及高级管理人员管理岗位的主要范围、职责、重要性以及其他相关企业相关岗位的薪酬水平,研究、制定和审查薪酬计划或方案·研究董事与高级管理人员考核的标准,审查公司董事及高级管理人员的履行职责情况并对其进行年度绩效考评,提出考核建议·负责对公司薪酬制度执行情况进行监督</td><td>2份</td></tr><tr><td>提名委员会</td><td>1次</td><td>·根据公司经营活动情况、资产规模和股权结构对董事会的规模和构成向董事会提出建议·研究董事、高级管理人员的选择标准和程序,并向董事会提出建议·遴选合格的董事和高级管理人员的人选·对董事候选人和高级管理人员人选进行审核并提出建议</td><td>1份</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                32,
+                172,
+                461,
+                610
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "监事会"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                59,
+                647,
+                102,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司监事会由3名监事组成，设监事会主席1名，职工监事1名。2025年，公司监事会召开2次会议，审议议案数量19份。"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                696,
+                263,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据《公司法》《上市公司章程指引》的相关要求和最新规定，结合公司实际情况，公司不再设置监事会，公司《监事会议事规则》等监事会相关制度相应废止，监事会的职权由公司董事会审计与风险控制委员会行使，并对《公司章程》中的相应条款进行了修订。该事项经2025年9月23日公司第"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                769,
+                259,
+                910
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "一次临时股东会审议通过。"
+                    }
+                ]
+            },
+            "bbox": [
+                46,
+                916,
+                155,
+                934
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8729dce295dea16d133a01609e1b9688dd3f36fedd257373dbf659349baf31d7.jpg"
+                },
+                "content": "监事会举行次数\n2 次\n监事会审议事项数量\n19 项",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                265,
+                734,
+                477,
+                858
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "管控目标"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                540,
+                126,
+                597,
+                149
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "产业协同 资源共享"
+                    }
+                ]
+            },
+            "bbox": [
+                598,
+                210,
+                658,
+                269
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "减负赋能激发活力防控风险促进发展"
+                    }
+                ]
+            },
+            "bbox": [
+                712,
+                210,
+                771,
+                268
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                821,
+                210,
+                879,
+                267
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "产业协同资源共享"
+                    }
+                ]
+            },
+            "bbox": [
+                565,
+                344,
+                657,
+                364
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为子公司减负赋能，激发活力，提升创新能力防控风险，促进高质量发展"
+                    }
+                ]
+            },
+            "bbox": [
+                677,
+                339,
+                801,
+                376
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                814,
+                344,
+                948,
+                364
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "提升战略管理水平，打造企业品牌统筹子公司协作和资源共享，提升产业链话语权，实现公司整体协同发展充分发挥子公司在市场、技术和产品的价值创造潜力和竞争力，提升公司行业地位，促进可持续发展"
+                    }
+                ]
+            },
+            "bbox": [
+                523,
+                413,
+                665,
+                456
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                678,
+                413,
+                809,
+                456
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "监控和防范各业务群系统风险，实现国有资产保值增值，充分发挥上市公司“四主”作用"
+                    }
+                ]
+            },
+            "bbox": [
+                815,
+                413,
+                956,
+                456
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "投资者关系管理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                543,
+                482,
+                639,
+                505
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司与投资者开展多层次、全方位的互动与交流，通过建立常态化与动态管理相结合的沟通机制，进一步健全投资者交流的平台，通过投资者热线、公司邮箱和上证E互动平台，提高投资者对企业的认知度、认同度，实现公司信息与价值在资本市场的有效传播。"
+                    }
+                ]
+            },
+            "bbox": [
+                515,
+                537,
+                968,
+                604
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年4月、9月、11月，公司通过上证路演中心、全景网等平台举办2024年度暨2025年第一季度业绩说明会、2025年半年度业绩说明会和重庆辖区投资者网上集体接待日活动、投资者交流，重视与投资者的良性互动，主动与投资者进行线上交流，董事会办公室提前编制《投资者关注的热点问题（Q.A）》，从公司治理、发展战略、技术研发、市场布局及风险管控等5大板块加深投资者对公司的全面了解，提升公司在资本市场的良好形象及知名度。"
+                    }
+                ]
+            },
+            "bbox": [
+                515,
+                609,
+                971,
+                726
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9a318fb587d218e3986109c10a78bf77c29f64b2747fbb90e642afa4d4e7ed2b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                672,
+                757,
+                695,
+                788
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "业绩说明会、辖区投资者接待活动及投资者交流次数"
+                    }
+                ]
+            },
+            "bbox": [
+                625,
+                794,
+                744,
+                826
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3次"
+                    }
+                ]
+            },
+            "bbox": [
+                674,
+                842,
+                702,
+                872
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6bd0f98320642053fb91014bef15cbe620ec4b5ef26f1aef2a766aa005132b9c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                806,
+                757,
+                828,
+                783
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "回答投资者有效问题"
+                    }
+                ]
+            },
+            "bbox": [
+                772,
+                800,
+                862,
+                817
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "260余个"
+                    }
+                ]
+            },
+            "bbox": [
+                787,
+                841,
+                856,
+                872
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理与规范运作"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                147,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "07"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                922,
+                38,
+                936
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "08"
+                    }
+                ]
+            },
+            "bbox": [
+                948,
+                923,
+                961,
+                937
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "内控制度体系建设"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                56,
+                126,
+                146,
+                146
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "经过多年来对内控制度的梳理、反复修编和强化执行，公司内控制度体系和运行机制已趋于完善。2025年，公司新制定、修订制度57项，有效规范担保行为、信息披露、关联交易等重大事项的决策和管理程序。报告期内，公司根据新《公司法》以及最新的监管要求结合自身经营管理先后修订《公司章程》《股东会议事规则》《董事会议事规则》等内部控制基本制度，公司内控体系更加标准化、规范化。在此基础上，公司持续开展内部控制制度执行情况的自查自评工作，以了解和掌握各项制度的执行情况和运行中遇到的问题，及时分析反馈，确保制度的有效执行。"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                179,
+                471,
+                308
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d2a811f75014b89e7ccff4c9e63856a096999f5f9c6de5b0977ba3e186ae3e9e.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"2\">中电科芯片技术股份有限公司治理细则一览表</td></tr><tr><td>序号</td><td>名称</td></tr><tr><td>1</td><td>《公司章程》</td></tr><tr><td>2</td><td>《股东会议事规则》</td></tr><tr><td>3</td><td>《董事会议事规则》</td></tr><tr><td>4</td><td>《对外担保管理制度》</td></tr><tr><td>5</td><td>《对外投资管理办法》</td></tr><tr><td>6</td><td>《关联交易管理制度》</td></tr><tr><td>7</td><td>《防范控股股东及关联方占用资金管理制度》</td></tr><tr><td>8</td><td>《独立董事制度》</td></tr><tr><td>9</td><td>《募集资金使用管理办法》</td></tr><tr><td>10</td><td>《董事会战略委员会实施细则》</td></tr><tr><td>11</td><td>《董事会审计与风险控制委员会实施细则(试行)》</td></tr><tr><td>12</td><td>《董事会提名委员会实施细则》</td></tr><tr><td>13</td><td>《董事会薪酬与考核委员会实施细则》</td></tr><tr><td>14</td><td>《总经理工作规则》</td></tr><tr><td>15</td><td>《董事会秘书工作制度》</td></tr><tr><td>16</td><td>《信息披露事务管理制度》</td></tr><tr><td>17</td><td>《重大信息内部报告制度》</td></tr><tr><td>18</td><td>《信息披露暂缓与豁免业务管理制度》</td></tr><tr><td>19</td><td>《内幕信息及知情人登记管理制度》</td></tr><tr><td>20</td><td>《内部审计管理基本制度》</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                35,
+                343,
+                460,
+                891
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/5b3779c67e5960d9acfc865af3e4663dd1dba3a10110a787783534c8c56003b8.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "中电科芯片技术股份有限公司治理细则一览表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>序号</td><td>名称</td></tr><tr><td>21</td><td>《独立董事年报工作制度》</td></tr><tr><td>22</td><td>《年报信息披露重大差错责任追究制度》</td></tr><tr><td>23</td><td>《投资者关系管理制度》</td></tr><tr><td>24</td><td>《投资者投诉处理工作制度》</td></tr><tr><td>25</td><td>《董事和高级管理人员持有本公司股份及其变动管理制度》</td></tr><tr><td>26</td><td>《董事和高级管理人员离职管理制度》</td></tr><tr><td>27</td><td>《信息披露重点监管事项管理与责任追究办法》</td></tr><tr><td>28</td><td>《媒体宣传及财经公关管理办法》</td></tr><tr><td>29</td><td>《独立董事专门会议工作制度》</td></tr><tr><td>30</td><td>《ESG管理制度》</td></tr><tr><td>31</td><td>《内部审计管理基本制度》</td></tr><tr><td>32</td><td>《市值管理制度》</td></tr><tr><td>33</td><td>《董事会授权管理制度》</td></tr><tr><td>34</td><td>《董事和高级管理人员离职管理制度》</td></tr><tr><td>35</td><td>《会计师事务所选聘制度》</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                513,
+                161,
+                948,
+                556
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "信息披露"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                531,
+                589,
+                578,
+                608
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司严格遵循公开、公平、公正的信息披露原则，认真履行信息披露主体责任，构建内外部合规的信息传递机制。在董事会、监事会等重大会议方式上，积极采用通讯、现场和通讯会议结合的方式， 通过电子化提升效率。全年披露公告文件107条（其中公告39条，定期报告4次，披露文件64份），保证了信息披露的及时、真实、准确、完整、公平，同时通过在定期报告中主动披露行业经营信息等内容，向投资者传递公司价值，维护公司股价稳定，保护股东和社会公众权益。"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                616,
+                954,
+                721
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司加强外部信息的收集整理工作，采用舆情日常监控方式关注市场相关信息和有关公司动态，避免内幕信息的泄露或不实传闻的传播；同时，密切关注证券市场波动，进一步完善危机公关的制度建设和组织保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                725,
+                948,
+                766
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1b2b1f1b53c745a5bbc4751d0efb682e4abaf65e86d6e689c12ca631775d3cb1.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                568,
+                785,
+                589,
+                815
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公告数量"
+                    }
+                ]
+            },
+            "bbox": [
+                561,
+                829,
+                596,
+                844
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "39个"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                858,
+                593,
+                883
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e5c81800fbb5c260edd790f60396c23036df9ff1a63fc8249ed246d223c98bd6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                671,
+                785,
+                693,
+                817
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定期报告数量"
+                    }
+                ]
+            },
+            "bbox": [
+                658,
+                829,
+                709,
+                843
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4个"
+                    }
+                ]
+            },
+            "bbox": [
+                674,
+                859,
+                697,
+                883
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8a80b7c356ad04cc7f4a99a876466f432ee7d600d667b071b6b402ea2b3ba3f1.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                778,
+                785,
+                800,
+                817
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "非公告编号文件"
+                    }
+                ]
+            },
+            "bbox": [
+                758,
+                829,
+                817,
+                843
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "64个"
+                    }
+                ]
+            },
+            "bbox": [
+                772,
+                858,
+                806,
+                883
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c02819a29bec3c2d8df5ac0b6d96053e0f425d4c45aaff5a073757ddc1141910.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                881,
+                785,
+                902,
+                817
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "上传交易所公告附件"
+                    }
+                ]
+            },
+            "bbox": [
+                854,
+                829,
+                928,
+                843
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "208个"
+                    }
+                ]
+            },
+            "bbox": [
+                867,
+                858,
+                913,
+                883
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理与规范运作"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                147,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                50,
+                958,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "09"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                922,
+                39,
+                936
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                950,
+                922,
+                961,
+                936
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "责任管理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                79,
+                111,
+                135,
+                133
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司紧抓机遇，加快自身发展，加强与各利益相关方的沟通与交流，不断提升公司经营业绩和治理水平，全力维护好投资者的利益；继续加强人才梯队建设，完善激励机制，不断提升员工的幸福感和归属感；公司将继续支持社会公益事业，促进公司与社会的协调发展；不断深化企业社会责任理念，将履行社会责任的工作融入公司经营、管理等各项活动中，提高公司社会责任的透明度，促进公司持续健康稳定发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                177,
+                455,
+                295
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/83ba8ea1c3c344b0d3dedb9d1e560d527cb5819e7d3c8eec679a8b080fdcadc3.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>主要利益相关方</td><td>期望和诉求</td><td>沟通及回应</td></tr><tr><td rowspan=\"3\">股东/投资者</td><td>财务业绩</td><td>创造更佳经营业绩</td></tr><tr><td>风险控制</td><td>完善内控合规制度</td></tr><tr><td>及时信息披露</td><td>按时做好信息披露</td></tr><tr><td rowspan=\"3\">政府/监管部门</td><td>遵纪守法</td><td>强化合规管理</td></tr><tr><td>依法纳税</td><td>按时足额纳税</td></tr><tr><td>带动就业</td><td>积极创造就业岗位</td></tr><tr><td rowspan=\"4\">客户</td><td>提供一体化产品解决方案</td><td>提升产品设计开发能力和生产控制能力</td></tr><tr><td>畅通沟通渠道</td><td>搭建多种客户反馈渠道</td></tr><tr><td>保障供应链稳定</td><td>成为客户核心合作伙伴</td></tr><tr><td>隐私保护</td><td>消费者权益及隐私保护</td></tr><tr><td rowspan=\"4\">员工</td><td>尊重和保障基本权益</td><td>签订合同、有竞争力的薪酬体系</td></tr><tr><td>职业发展及培训</td><td>搭建晋升与培训体系</td></tr><tr><td>工作环境</td><td>保障职业健康安全</td></tr><tr><td>人文关怀</td><td>开展各项文体活动</td></tr><tr><td rowspan=\"3\">合作伙伴</td><td>透明采购</td><td>公平、公正、公开采购</td></tr><tr><td>信守承诺</td><td>依法履行合同</td></tr><tr><td>经验分享</td><td>参与行业沟通交流与标准制定</td></tr><tr><td rowspan=\"2\">社区</td><td>支持社区发展</td><td>倡导和谐文化</td></tr><tr><td>公益慈善</td><td>开展公益活动</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                63,
+                354,
+                466,
+                910
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "利益相关方沟通"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                543,
+                128,
+                631,
+                149
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司坚持与股东或投资者、政府及监管机构、客户、员工、合作伙伴、社区等进行沟通，及时收集、了解、分析其对公司的诉求，视作公司进步提升的珍贵机会，及时制定方案并采取措施进行针对性的回应。"
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                173,
+                774,
+                266
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cd05862fe6173691f882d69930e978bedd9e57ff3d4a90c5408a85bf13121bed.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"公司治理\"] --> B[\"环境保护\"]\n  C[\"社会贡献\"] --> B\n  D[\"图例图标\"] -.-> A\n  E[\"工具图标\"] -.-> B\n  F[\"工具图标\"] -.-> C\n```",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                799,
+                122,
+                941,
+                320
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/9c204ecde9d3f7de3629da1e28eeaed4f0fe3f93bee1dcea7f5e5299c341344c.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"2\">类别</td><td>议题</td></tr><tr><td rowspan=\"7\" colspan=\"2\"><img src=\"images/74a15288e93a6cf8239b9638b97ee9507a91ca45038fe2ec88a44b79c37f96b4.jpg\"/> 治理</td><td>公司治理</td></tr><tr><td>科技创新</td></tr><tr><td>合规经营</td></tr><tr><td>风险管控</td></tr><tr><td>客户关系管理</td></tr><tr><td>客户信息保护</td></tr><tr><td>客户满意度</td></tr><tr><td rowspan=\"3\" colspan=\"2\"><img src=\"images/7b5abd186ce9fc57deecf6284a7829d7047e7fbb922afd710f1ca44f23b09a7a.jpg\"/> 环境</td><td>废弃物管理</td></tr><tr><td>节约资源</td></tr><tr><td>绿色文化倡导</td></tr><tr><td rowspan=\"7\" colspan=\"2\"><img src=\"images/763e50b114efa397447946600341eadc199a980ea4d4b1c2c25315051b704dd5.jpg\"/> 社会</td><td>供应商管理</td></tr><tr><td>保障员工权益</td></tr><tr><td>职业健康安全</td></tr><tr><td>员工培训与发展</td></tr><tr><td>员工关爱</td></tr><tr><td>社区发展</td></tr><tr><td>公益慈善</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                581,
+                354,
+                956,
+                910
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理与规范运作"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                147,
+                74
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                922,
+                38,
+                936
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                953,
+                922,
+                964,
+                936
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                271,
+                213,
+                381,
+                276
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "电科芯片"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                272,
+                282,
+                380,
+                330
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ]
+            },
+            "bbox": [
+                49,
+                646,
+                172,
+                719
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "03 党建引领"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                84,
+                821,
+                330,
+                900
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9eb0174c6803e6aaabe08f7e86b3c63c626104ee5a967ba3cef1fcb3687dd802.jpg"
+                },
+                "content": "CETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                491,
+                795,
+                998,
+                952
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                52,
+                153,
+                70,
+                196
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "高质量党建"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                99,
+                141,
+                223,
+                178
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "引领公司发展新动能"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                202,
+                369,
+                240
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司坚持以习近平新时代中国特色社会主义思想为指导，全面贯彻党的二十大和二十届历次全会精神，深入落实党的二十届中央纪委四次全会精神，全面落实集团公司改革发展部署会要求、控股股东2025年度工作会要求和全面从严治党工作会部署，扎实开展深入贯彻中央八项规定精神学习教育，持续深化“一巩固三做强”业务布局，切实在夯实基础、强化功能、凝聚力量、赋能发展上精准发力，坚持不懈把全面从严治党向纵深推进，以高质量党建引领保障公司高质量发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                303,
+                418,
+                444
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1aca885c1c88fce71ec7e610ee34dedff03c33d18d2f8112cf977be74cea1cc3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                48,
+                531,
+                77,
+                574
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持政治引领，筑牢行动根基"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                88,
+                541,
+                283,
+                566
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "深学细悟推动落实落地。严格落实“第一议题”制度，确保公司改革发展始终保持正确的政治方向，共开展“第一议题”学习11次，形成贯彻落实举措39项，推动习近平总书记重要指示批示精神和党中央重大决策部署在公司落实落地。深化理论学习中心组学习质量提升行动，制定党委理论中心组学习制度，组织学习9次，抢抓产业化、数字化发展机遇，以“聚焦、转型、升级”为主线，锚定模拟及数模混合集成电路领域三链条信号链、功率链、驱控链编制“十五五”规划。下设基层党支部依托“三会一课”、主题党日等形式开展“第一议题”学习研讨，组织党员落实“第一议题”闭环管理机制。"
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                601,
+                290,
+                850
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cbbe878d4f0e814130209dac1e013c868568744144fab05dd645a75f2647bd28.jpg"
+                },
+                "content": "中电科芯片技术股份有限公司\n研究中心指导员学习",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "党委中心组学习"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                296,
+                599,
+                459,
+                826
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "巩固深化整治整改。狠抓问题导向，突出党委主责，聚焦巡察整改、专项整治以及“两金”等重要任务推进整改完成，进一步强化常态化监督、融合监督，消除监督盲区和漏洞。落实“台账管理+动态评估”的巡察整改机制，每月跟进汇总整改任务进展，结合交付物完成情况逐项销号。"
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                136,
+                956,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理效能不断提升。在完善公司治理中进一步加强党的领导，修订党委工作规则，优化党委前置事项清单。公司党委带头抓重大任务实施、重大事项协调、重难点问题整改、重大风险化解，党委前置事项研究23项，全链条管理党委会议决议督办工作。制定《董事会授权管理制度》，细化授权事项及标准，确保授权合理、可控。全面撤销控股公司监事，强化下属子公司的对标管控，持续配齐建强子公司经理层，公司治理结构进一步完善。"
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                219,
+                958,
+                322
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d420e27e575ccf5cc55e57e1abf2afb8744d95faf458d613d80e0e9cb7a51c21.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                547,
+                379,
+                577,
+                424
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深化学习教育，构建常态长效机制"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                584,
+                390,
+                808,
+                415
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "系统谋划，推进学习教育。公司党委高度重视深入贯彻中央八项规定精神学习教育，研究制定实施方案，明确10个方面24项具体工作内容，逐一落实责任领导、完成时限和交付物，确保学习教育有序推进。"
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                442,
+                961,
+                502
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "深学细悟，夯实理论根基。党委班子成员充分发挥带头作用，举办4期读书班，持续深化“四个结合”学习法，深入学习领会习近平总书记关于加强党的作风建设的重要论述、中央八项规定及其实施细则精神等内容，以聚焦目标要求、聚焦问题导向、聚焦中心任务、聚焦长效机制、聚焦群众满意的\"五聚焦\"工作原则，带动全公司形成浓厚的学习氛围。"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                526,
+                958,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "从严查摆，深化整治整改。党委领导班子及其成员深入自查自纠，形成共计5方面10个具体表现的问题清单。领导班子成员主动认领问题，研究制定26项整改举措，整改工作取得明显成效。"
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                630,
+                955,
+                669
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/543eb42c43b59895b80eb50e1da68e98a6a9b34671ca626577d25cc96ad32783.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "深入贯彻中央八项规定精神专题党课"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                547,
+                730,
+                911,
+                904
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "党建引领"
+                    }
+                ]
+            },
+            "bbox": [
+                33,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                70
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                930,
+                41,
+                943
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                941,
+                930,
+                952,
+                943
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "蓄势赋能，激活发展动能。公司党委抢抓“自主可控、产业升级”双轮驱动机遇，以 “高端芯片设计+特种工艺制造”为牵引，在巩固发展优势的基础上，推动重大工程配套项目落地，作风改进为公司高质量发展注入强劲动力。"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                130,
+                439,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "开门教育，办好职工实事。重点推进职工关注焦点问题的解决。主动接受群众监督，班子成员面向基层讲授专题党课通报查摆问题、整治情况，让群众了解整改进展情况。"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                213,
+                439,
+                254
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e4c0f57bb9bdf6359f1252af5bbc709c398fd05677d30f7dca825cd0892df438.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                44,
+                311,
+                76,
+                358
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "锤炼高素质队伍，全面提升履职能力"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                80,
+                323,
+                320,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "抓好班子和干部队伍建设。围绕公司高质量发展要求和新时代好干部标准，完成2名本部职能部门负责人、4名控股公司副总经理、1名党总支书记的干部配置，优化干部队伍结构，提升团队战斗力。落实经理层成员任期制与契约化管理协议与目标签订工作，明确干部任职期限和考核标准，强化退出约束和激励机制，推动领导干部能上能下的选人用人机制。"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                407,
+                453,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "打造与业务匹配高的科技人才。聚焦主营业务需求分析，制定针对性人才招聘计划，年内已招聘入职2025届专业技术人员21人，其中硕士20人，占比95.2%，在社招人员中实现博士招聘零突破。强化人才培育，完成研究员级高级工程师申报1名，高级工程师申报13名。强化人才培养力度，持续完善员工培训管理制度。强化人才托举，筹划开展企业长江人才计划申报，为人才发展保驾护航。"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                510,
+                453,
+                613
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2bea154f7328c7f53c3563fbbe942299d8f36900650e47f4c1737cb2f1d50a56.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                43,
+                673,
+                75,
+                720
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "夯实组织基础，推动党建业务深度融合"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                76,
+                683,
+                330,
+                709
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "做实基础工作提质赋能。加强党建工作谋划，结合党委年度重点工作制定支部年度工作计划、落实月度党建工作安排，指导基层支部规范开展工作。坚持应换尽换，指导西南设计党总支及其下设支部规范有序推进换届工作，深化党的组织和工作“两个覆盖”。严格把关发展、转正程序，完成4个党员发展培养，为党组织注入新鲜血液。加强基层服务保障，推动督导服务规范精准、务实高效。"
+                    }
+                ]
+            },
+            "bbox": [
+                41,
+                738,
+                444,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "党建和业务工作深度融合。成立“规划引领”党委领航团，切实发挥党委“把管保”作用，做好公司的“十五五”规划。抓实抓细特色争创项目，聚焦芯片设计、工艺创新等领域创建党员攻关团队、党员创新工程和党员先锋岗、示范岗17项，划定党员责任区16个、设立党员星标任务126项，引领党员主动揭榜挂帅、攻坚克难，在重大任务、重点环节中充分发挥党员先锋模范作用。开展党建联建共建3次，促进关键技术联合攻关、产学研项目合作。深化党建品牌效应，党委打造“1+N”党建品牌矩阵，着力推进生产经营和党建质效共同提升。下设1个党支部、3名党员荣获控股股东优秀支部、优秀党员称号，1个党建子品牌荣获控股股东“一支部一品牌”三等奖。"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                130,
+                841,
+                336
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/395f17063072dafcbe625b5913b8cb52b62790502a98e6b56a46622c6fd673d3.jpg"
+                },
+                "content": "CEIC 中电科芯片技术股份有限公司\n荣誉\n《电科芯片先进党支部》\n芯亿达公司党支部\n《电科芯片优秀党员》\n王露\n黄芳",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                857,
+                117,
+                950,
+                390
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8181fb7ae5b040046def5fd57181e22912d99a482068d7e97ba65308ce7e71da.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                546,
+                446,
+                579,
+                493
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "强化宣传引导，坚守意识形态主阵地"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                580,
+                460,
+                820,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "严格落实意识形态工作责任制。健全网络生态治理长效机制，建立舆情监督工作小组台账，未发生重大负面舆情事件。加强对公司及子公司微信公众号、网站的管理，严格执行“三审三校”制度，严格履行新闻宣传审查审批流程，切实筑牢新闻宣传保密防线。"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                516,
+                956,
+                576
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "汇聚改革发展树品牌。按照围绕主题宣传、典型宣传、成就宣传、文化及品牌宣传月度计划，累计开展“学习贯彻党的二十届三中、四中全会精神”“落实集团公司、公司党委年度工作会议精神、全面从严治党工作会精神“深入贯彻中央八项规定精神学习教育”等专题宣传。优化公司网站版面设置，强化微信公众号运营，全年公司共发表推文126篇。"
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                616,
+                784,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "总经理马羽荣膺2024年度十大重庆经济年度人物，弘扬重庆优秀企业家精神；北斗短报文团队短视频荣获重庆市科技局“弘扬科学家精神，加强作风学风建设”短视频作品一等奖；公司荣获控股股东2024年度新闻宣传先进集体。"
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                762,
+                782,
+                863
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f0e8f0dcfc622b47b33fb9a38e130e15b30a52980203b13d2c404d4b5484e292.jpg"
+                },
+                "content": "弘扬科学家精神\n加强作风学风建设\n荣誉证书\nCERTIFICATE OF HONOR\n作品名称：《通天之路》\n主要人物(团队)：李家祎\n创作单位：中电科芯片技术(集团)有限公司\n创作者：张伟、胡源、刘思忆\n祝贺在重庆市科学技术局、重庆市科学技术协会联合举办的2025年“弘扬科学家精神，加强作风学风建设”\n短视频作品征集活动中荣获：\n一等奖\n特质此证，以资鼓励！",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "重庆市科技局“弘扬科学家精神，加强作风学风建设”短视频作品一等奖"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                805,
+                653,
+                961,
+                804
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "党建引领"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                86,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                959,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                30,
+                918,
+                42,
+                933
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                946,
+                920,
+                957,
+                932
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cbb6f650880302626f865cc094309c5bb8312a1938786278dadf3f84f401c60e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                46,
+                139,
+                76,
+                186
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "纵深推进正风肃纪，落实全面从严治党"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                84,
+                149,
+                339,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "全面压实管党治党责任。严格执行全面从严治党主体责任规定，抓好党委全面从严治党工作责任书和领导班子“一人一表”责任清单落实，与下设党组织签订全面从严治党责任书，进一步形成从严从紧氛围。"
+                    }
+                ]
+            },
+            "bbox": [
+                39,
+                195,
+                438,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "强化政治监督，推动党的决策部署落地见效。形成政治监督清单，聚焦巡察整改、专项整治以及“两金”等重要任务、重大项目，进一步压实巡察整改责任。跟踪落实公司巡察反馈整改措施，通过党委巡察办的评估。对三家子公司在强军首责、科技创新和产业发展的三个方面共11项重点任务按季度进行跟踪，各项任务进展进度正常。"
+                    }
+                ]
+            },
+            "bbox": [
+                39,
+                278,
+                438,
+                359
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "持续纠正“四风”，压紧压实管党治党政治责任。准确运用“四种形态” ，坚定不移正风肃纪反腐。坚持正面引导和反面警示相结合，用身边人身边事以案明纪、以案说法。"
+                    }
+                ]
+            },
+            "bbox": [
+                39,
+                382,
+                438,
+                422
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/095c59ad9081733e0804bf2015c1a3633aef684ceaaadccd84426b40a758289e.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "参观廉政教育基地"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                85,
+                500,
+                385,
+                809
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/237b74f9cd82eb30f829a40d0e16a9ce84136c8b59740c9ae12c444c91694049.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                536,
+                140,
+                568,
+                187
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "持续增强群团力量，发展合力加速凝聚"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                570,
+                148,
+                824,
+                173
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "持续从思想上引领、工作上支持、生活上保障、身心上关爱的“职工四项关爱”着手，根据上级工会修订文件的最新标准，进一步提升职工节日生日慰问、生育退休去世关怀等相关标准，不断增强职工的获得感、幸福感和安全感。"
+                    }
+                ]
+            },
+            "bbox": [
+                539,
+                222,
+                940,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "围绕必交必保项目、巡察整改重点深入开展主题劳动和技能竞赛，子公司组织“降本增效”专项合理化建议活动，通过优化流程、整合资源、材料升级等方式提升产品市场竞争力。"
+                    }
+                ]
+            },
+            "bbox": [
+                539,
+                305,
+                940,
+                345
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "组织青年员工参加上级团委的青年科技创新论坛、五小创新项目的系列活动，激发青年创新活力。"
+                    }
+                ]
+            },
+            "bbox": [
+                539,
+                367,
+                940,
+                406
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/62d364e00336a0752bc95468a55a8c630342f61a1a989406c270280c99d206a3.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "降本增效专项行动"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                583,
+                439,
+                905,
+                832
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "党建引领"
+                    }
+                ]
+            },
+            "bbox": [
+                33,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                70
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                910,
+                40,
+                924
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                949,
+                911,
+                961,
+                924
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                48,
+                649,
+                176,
+                718
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "04 科技引领"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                83,
+                819,
+                330,
+                901
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a62e52e7fb26e56c9c452d3fff7a0e0052736605784fabf749d08f7d74460d23.jpg"
+                },
+                "content": "CETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                491,
+                795,
+                998,
+                956
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "闻"
+                    }
+                ]
+            },
+            "bbox": [
+                979,
+                4,
+                994,
+                28
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "战略发展"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                43,
+                125,
+                100,
+                147
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "“十五五”期间，公司将紧扣数智化、绿色化、融合化发展总趋势，主动服务智能化装备体系构建、现代产业体系建设、高水平科技自立自强等国家战略，瞄准安全电子、蜂窝与短距通信、卫星通信与导航、电源与能源管理、运动驱控与工业/汽车及消费电子等五大核心优势应用场景以及新一代无线通信、智能网联汽车、具身智能、低空经济、商业航天等战略性新兴领域，坚持“高端化、差异化、自主化”发展战略，聚焦硅基模拟半导体芯片核心主业，解决高端芯片“卡脖子”问题，构建“核心芯片＋模块＋组件＋应用方案”一体化的完整产品体系。依托控股股东特色工艺制造能力，统筹资源要素，夯实核心能力，进一步完善核心技术、产品、服务和供应链体系，致力于成为国家模拟集成电路领域的中坚力量，支撑高水平科技自立自强的骨干力量，推动新一代电子信息产业创新发展的重要力量，为国防安全和产业安全保驾护航。"
+                    }
+                ]
+            },
+            "bbox": [
+                22,
+                167,
+                457,
+                383
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "射频、模拟、数模混合集成电路领域"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                444,
+                338,
+                466
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b3c9bf21a173c8666b36f0130a1ff2c6188ce98eabec9234dc93b0854770f569.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "5G基站"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                52,
+                514,
+                94,
+                558
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b59bec9e158797c156fa36eb24ee35f71ca3272b8452d263480940af11111c58.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "卫星导航"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                100,
+                518,
+                154,
+                554
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/edfe6b8b30e4a6b20957e669441a49d6c8efd96b9661f640c818a8e4e89b0a45.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                166,
+                518,
+                197,
+                553
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "光伏组件"
+                    }
+                ]
+            },
+            "bbox": [
+                38,
+                574,
+                80,
+                592
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "快充同步整流"
+                    }
+                ]
+            },
+            "bbox": [
+                38,
+                600,
+                86,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "BMS管理红外驱动放大"
+                    }
+                ]
+            },
+            "bbox": [
+                38,
+                625,
+                82,
+                640
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2369266b5e3c2807f7b089f31fc432989dcb2287f4ec10247a14f4263da63d5b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                88,
+                572,
+                118,
+                640
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                152,
+                583,
+                179,
+                610
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "防复制标签"
+                    }
+                ]
+            },
+            "bbox": [
+                148,
+                617,
+                188,
+                631
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1211f011f830a109ed46c4ac9e034675d7fc08110a44b961725971f37b4a5143.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                185,
+                582,
+                209,
+                612
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "MOSFET栅极驱动器"
+                    }
+                ]
+            },
+            "bbox": [
+                243,
+                491,
+                282,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "集成RX2电机驱动器达林顿驱动产品系列"
+                    }
+                ]
+            },
+            "bbox": [
+                241,
+                526,
+                284,
+                556
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c9dc1bda086c48ad0daed99db6f2e905ee85939e33f8013edd6ca8d8f306c985.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                283,
+                484,
+                322,
+                517
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eb20a7f93fba2df1ce9704cd5870bd12ae4b63dfdc252c6c3f9bab17401b7e5c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                282,
+                524,
+                321,
+                560
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                348,
+                510,
+                396,
+                537
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1f5c08b1593d52a01717d93f4fbe350eafb96e3dacb23a18852da7790df51403.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                401,
+                490,
+                449,
+                549
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "视频滤波"
+                    }
+                ]
+            },
+            "bbox": [
+                244,
+                587,
+                282,
+                604
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "模拟人体热释电专用电路低压LED驱动器"
+                    }
+                ]
+            },
+            "bbox": [
+                243,
+                612,
+                289,
+                639
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7d6aa617e66d5fef7ec1407a02150aeb54e495a2131b70267b0c098c304fa81a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                287,
+                579,
+                322,
+                612
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/31640d4efc97ce34f27abde87459cdf876446fdf2fe000b135d2a87d51f3a43b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                286,
+                615,
+                323,
+                643
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                360,
+                579,
+                391,
+                606
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "照明LED驱动器"
+                    }
+                ]
+            },
+            "bbox": [
+                363,
+                617,
+                393,
+                643
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/852755880b10d55908bba354eba7839633def604529d7ec7625ee7c172896a55.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                399,
+                577,
+                443,
+                611
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1224b9f95a674e327d2b7b488707266e1e48fb32793a5a745cadb6cf7ee2abdb.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                399,
+                616,
+                447,
+                643
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "电源模块领域"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                198,
+                681,
+                273,
+                703
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "手机电源"
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                731,
+                69,
+                745
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "电脑电源"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                731,
+                106,
+                745
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "移动电源"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                732,
+                147,
+                745
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "桌面式电源"
+                    }
+                ]
+            },
+            "bbox": [
+                161,
+                732,
+                202,
+                745
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6d844f7e4e306c7fdfbd7f7ce10c2b9c5a7276b87eef4c13743d4262350b2fb6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                38,
+                759,
+                204,
+                810
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "车充电源"
+                    }
+                ]
+            },
+            "bbox": [
+                247,
+                737,
+                281,
+                752
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "特种专业电源"
+                    }
+                ]
+            },
+            "bbox": [
+                298,
+                737,
+                345,
+                751
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "双充无线充"
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                737,
+                390,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "无线充音响"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                736,
+                447,
+                750
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0e4b11916d2837dbc6d0745642c2a3fa01ef41ef97b7cc9f9607b99d74a28cba.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                250,
+                771,
+                277,
+                808
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6b87829f829a4ef907d6208331475c6e7f2156997bee43ff5560df66c41db6a9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                301,
+                766,
+                341,
+                813
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/689554ca5c2638569889b0b2b5cd7a65462dbf4134fee3844ea46ba7846be696.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                350,
+                769,
+                387,
+                807
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fc6b60227069af2bf9b23e63e7836ae051c6213a3a228d6ddd1fe5c70d4b4eb8.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                400,
+                761,
+                443,
+                811
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "研发投入"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                559,
+                125,
+                615,
+                147
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "创新平台"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                548,
+                179,
+                599,
+                200
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "u 西南设计入选“重庆市制造业单项冠军企业”"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "u 西南设计入选“重庆市技术创新示范企业”"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "u 西南设计获重庆市软件和信息服务企业综合竞争力50强"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                229,
+                798,
+                302
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "科技成果"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                548,
+                352,
+                599,
+                375
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "“北斗三号卫星短消息SoC芯片”荣获中国集成电路设计创新联盟“2025中国创新IC突破奖”、中国芯-优秀市场表现产品、第二届重庆设计100优秀案例十佳设计产品、入选重庆市“十四五”重大科技成果；"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "u “高性能多通道波束赋形芯片与阵列天线技术”荣获中国电子学会科学技术进步三等奖。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                399,
+                896,
+                518
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "知识产权"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                548,
+                549,
+                599,
+                569
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "u 截至2025年末，公司累计获得授权专利172项（其中发明专利97项、实用新型专利63项、外观专利12项），集成电路布图登记107项，软件著作权17项；公司申请受理专利89项。"
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                594,
+                907,
+                662
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "172<sub>项</sub>专利"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                750,
+                605,
+                800
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "97<sub>项</sub>发明专利"
+                    }
+                ]
+            },
+            "bbox": [
+                662,
+                750,
+                712,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "63<sub>项</sub>实用新型"
+                    }
+                ]
+            },
+            "bbox": [
+                767,
+                750,
+                817,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "107<sub>项</sub>集成电路布图"
+                    }
+                ]
+            },
+            "bbox": [
+                866,
+                748,
+                919,
+                815
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "科技引领"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                53,
+                86,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                959,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                911,
+                40,
+                925
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20"
+                    }
+                ]
+            },
+            "bbox": [
+                953,
+                911,
+                966,
+                924
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "核心技术储备"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                49,
+                101,
+                119,
+                120
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "经过多年积累，公司具有较强的研发能力，三家子公司均为高新技术企业，拥有各种资质、认证60余项。全年研发累计投入2.28亿元，占营业收入比例为22.35%，较上年同期20.82%增加1.53个百分点，硅基模拟半导体芯片技术在行业中具有较强的技术优势，相关核心技术储备情况如下："
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                132,
+                456,
+                200
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/faf35a8f5d5208170683d3f72ce2451e9e8838a1cc24cc9a049eaec03cee43de.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>序号</td><td>技术名称</td><td>技术描述</td><td>应用领域</td><td>细分市场</td></tr><tr><td>1</td><td>高精度低相噪模拟温度补偿晶体振荡器设计技术</td><td>具有高精度温度传感器设计、高精度可变增益加法器设计、低相噪压控振荡器设计等关键技术。形成-40°C~85°C范围内±0.3ppm的频率精度,20MHz频率1kHz频偏处相位噪声低于-142dBc/Hz的高精度模拟温度补偿晶体振荡器产品。在高精度五阶模拟乘法器设计的基础上,扩展到六阶模拟乘法器设计,新增残差补偿功能,温度补偿范围扩展到-55°C~105°C频率精度达到±0.5ppm</td><td>安全电子</td><td>高精度频率源与时钟设备</td></tr><tr><td>2</td><td>超宽带低底板相位噪声频率合成器设计技术</td><td>具有高性能频率合成器及线性调制频率合成器设计能力,在频率合成器电路设计方面拥有近30项核心专利技术,包括高频低相噪片上VCO设计技术、低功耗高频电路设计技术、低功耗高频驱动电路设计技术、超宽频带输出级电路设计技术、快速跳频设计技术、输出相位调节设计技术以及高鉴相频率设计技术、频率直接调制/快速波形产生等,可实现无滑动杂散,低于-235dBc/Hz的超低底板相位噪声,覆盖频率范围达到10MHz-30GHz</td><td>安全电子</td><td>高性能、高可靠性频率源设备</td></tr><tr><td>3</td><td>多模多频卫星导航射频收发技术</td><td>具有多系统全频点卫星导航射频收发电路架构设计、多通道可重构接收机设计、宽带低噪声设计、超低功耗设计、多通道间高隔离度设计、低杂散宽带低相噪频率合成器设计、抗干扰接收机设计和高灵敏度设计等关键技术,授权多项发明专利。形成了卫星导航射频芯片及卫星通信射频基带一体化SoC芯片系列产品,可支持BDS、GPS、GLONASS、GALILEO卫星导航系统RNSS和短报文信号的收发</td><td>卫星通信与导航</td><td>北斗卫星导航、下一代PNT系统终端</td></tr><tr><td>4</td><td>多波束多通道毫米波波束赋形技术</td><td>针对宽带卫星互联网在多星之间无缝切换需求,开展多波束多通道毫米波波束赋形芯片架构研究、超低功耗数控移相器设计技术研究、片上温度补偿以及功率检测技术研究,形成应用于地面以及星载的多波束多通道波束赋形接收/发射芯片</td><td>卫星通信与导航</td><td>K/Ka波段卫星互联网、毫米波蜂窝通信</td></tr><tr><td>5</td><td>高集成度多模卫星通信收发链路设计技术</td><td>具有多系统多模式卫星通信收发电路架构设计、多通道可重构接收机设计、宽带低噪声设计、大动态抗阻塞接收通道设计、高线性发射通道设计、多通道间高隔离度设计和宽带低杂散频率合成器设计等关键技术。实现接收通道噪声系数小于5dB,抗阻塞达到-21dBm;发射通道EVM小于2%@Pout=5dBm;鉴相漏小于-70dBm。形成射频芯片及射频基带SoC芯片系列产品,可兼容高轨和低轨卫星通信信号的收发</td><td>卫星通信与导航</td><td>手机直连卫星通信终端</td></tr><tr><td>6</td><td>高线性低噪声射频前端设计技术</td><td>具有射频前端电路相关的高线性度设计、低噪声设计、高隔离度、多通道集成等关键技术,成功研制出多款高性能低噪声放大器、射频开关、功率驱动放大器、数控衰减器、功率限幅器和小型化射频前端FEM等射频前端产品</td><td>蜂窝与短距通信</td><td>5.5GHz蜂窝通信基站、下一代移动通信</td></tr><tr><td>7</td><td>高集成低成本收发变频信道设计技术</td><td>针对物联网技术对于人、机、物的随时随地互联互通需求,解决无线通信产品高集成度,低成本,高灵敏度,低功耗等多方面难题。具有高集成低成本收发无线通信射频电路产品系统结构设计、全数字调制\\解调电路设计技术、高集成度IQ校正技术、快速DC失调校正技术、以及数模混合SoC测试应用等技术,形成2.4GHz SFSK收发器系列产品、433MHz无线通信系列产品、5.8GHz无线感知SoC电路及UWB SoC系列产品</td><td>蜂窝与短距通信</td><td>SUB-6GHz短距离通信</td></tr><tr><td>8</td><td>毫米波收发器技术</td><td>针对智能驾驶、智能感知等应用需求,开展毫米波雷达芯片线性调制频率源设计、高效率功率放大器设计、毫米波低噪声放大器设计、毫米波移相器设计、低相位噪声压控振荡器设计、毫米波倍频电路设计等关键技术研究,突破毫米波线性频率调制技术,毫米波多通道集成技术,形成76-81GHz毫米波雷达射频芯片</td><td>蜂窝与短距通信</td><td>智能驾驶车载毫米波雷达、智能感知毫米波传感器</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                28,
+                212,
+                458,
+                931
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/19fb900b4aa97053c79bdea3d9ddad44ec3c580961c9c98363233457fd3090e8.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>序号</td><td>技术名称</td><td>技术描述</td><td>应用领域</td><td>细分市场</td></tr><tr><td>9</td><td>具有高可靠性的新型太阳能电池保护技术</td><td>具有高可靠性的新型太阳能电池保护技术,采用智能IC控制功率MOS,并辅以储能元件,具有极低的正向导通电压和反向漏电流。该技术能够有效解决传统肖特基二极管方案的热逃逸问题,在高额定电流下具有成本低,可靠性高的优势</td><td>能源管理</td><td>太阳能光伏电池保护设备</td></tr><tr><td>10</td><td>高功率密度、高效率电源管理芯片设计技术</td><td>具有工作电压范围宽、集成度高、效率高、负载电流大、功耗低、开关延迟时间短等特点的单片降压型、升压型和升降压型DC-DC;低噪声、高PSSR的LDO;基于自主设计的核心芯片形成的SIP封装的高功率密度、高效率、小型化微模块电源管理系列产品</td><td>能源管理</td><td>无线通信设备服务器汽车电子</td></tr><tr><td>11</td><td>基于BCD工艺的功率驱动集成电路设计技术</td><td>基于标准的BCD工艺平台,开发特色的LDMOS器件,提高单片驱动电路的功率密度,降低产品成本</td><td>工业/汽车及消费电子</td><td>电控玩具、小家电、医疗器械</td></tr><tr><td>12</td><td>高可靠性半桥/全桥驱动技术</td><td>完善的功率集成电路在过温、过流、短路、过压、欠压等各种异常情况下的保护技术</td><td>工业/汽车及消费电子</td><td>智能家居、智能门锁、益智玩具</td></tr><tr><td>13</td><td>高精度步进电机驱动技术</td><td>具有256级细分功能的步进电机控制技术</td><td>工业/汽车及消费电子</td><td>安防监控、打印机</td></tr><tr><td>14</td><td>高可靠性电子开关技术</td><td>通过对工艺条件的改进、电路设计及封装BOM的改进、测试管控的提升,实现MSL1的产品等级,终端产品的失效率降至ppm级别</td><td>工业/汽车及消费电子</td><td>白电市场、汽车电子</td></tr><tr><td>15</td><td>三相无刷直流电机驱动技术</td><td>集成数字控制算法、模拟信号处理和功率管的单片三相无感无刷电机驱动技术</td><td>工业/汽车及消费电子</td><td>电动工具、风扇、水泵</td></tr><tr><td>16</td><td>高压栅极驱动技术</td><td>基于高压BCD工艺,集成欠压、过压、死区等保护功能的高速栅极驱动技术,具有较强的抗共模干扰能力</td><td>工业/汽车及消费电子</td><td>风扇、电动工具</td></tr><tr><td>17</td><td>隔离栅极驱动技术</td><td>基于容隔技术,实现耐压5700V,输出电流6A的栅极驱动能力,同时具有极强的抗共模干扰能力</td><td>工业/汽车及消费电子</td><td>汽车电子、工业设备</td></tr><tr><td>18</td><td>高压IPM技术</td><td>基于600V高压栅极驱动芯片与功率器件,合封实现高可靠、大功率的IPM模块</td><td>工业/汽车及消费电子</td><td>白电市场、风扇、吊扇</td></tr><tr><td>19</td><td>基于同步整流技术的无线充电技术</td><td>同步整流技术应用于无线充电上,可以提高无线充电的转换效率,降低工作温度</td><td>智能电源</td><td>终端设备供电</td></tr><tr><td>20</td><td>智能识别多协议快充控制电路技术</td><td>能够兼容市场主流充电设备且能实现最优方式充电</td><td>智能电源</td><td>终端设备供电</td></tr><tr><td>21</td><td>基于宽电压输出技术的QC输出控制电路技术</td><td>可用于多电池串联快速充电管理,工作电压可变且范围宽,能自适应智能快速将电量充满</td><td>智能电源</td><td>终端设备供电</td></tr><tr><td>22</td><td>基于双向快充技术的PD输入输出控制电路技术</td><td>双向充电的技术使充电更便捷</td><td>智能电源</td><td>终端设备供电</td></tr><tr><td>23</td><td>基于氮化镓驱动电路技术的充电控制电路技术</td><td>满足高效率,小体积的充电需求,更容易实现各种造型ID的需求</td><td>智能电源</td><td>终端设备供电</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                525,
+                120,
+                964,
+                912
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "科技引领"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                50,
+                958,
+                70
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                953,
+                38,
+                966
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22"
+                    }
+                ]
+            },
+            "bbox": [
+                949,
+                953,
+                961,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                271,
+                213,
+                381,
+                276
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "电科芯片"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                272,
+                282,
+                380,
+                330
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CETC"
+                    }
+                ]
+            },
+            "bbox": [
+                49,
+                646,
+                172,
+                719
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "05 社会责任"
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                821,
+                330,
+                899
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d7ff73bbf6aee027f53d9c1c36e17716e5c42eb5820370d341892cdfb7ce1365.jpg"
+                },
+                "content": "CETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                491,
+                795,
+                998,
+                952
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "保障员工权益"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                53,
+                151,
+                127,
+                171
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司始终将维护员工合法权益置于首位，致力于营造多元、平等、充满人文关怀的工作氛围。构建完善的职业发展体系，重视人才培养与职业晋升通道建设，系统化开展专业能力提升培训，同时精心策划各类活动，持续激发团队创新活力与奋斗热情，最终实现员工与企业共同成长，共赢发展新篇章。"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                200,
+                461,
+                265
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "平等雇佣 公司严格遵循用工管理，构建科学严谨的选聘机制，通过透明化的甄选流程确保机会均等。恪守平等雇佣原则，严格禁止任何形式的强制劳动、职场暴力及未成年用工现象，依法落实带薪休假制度并建立个人信息安全屏障，切实维护全体员工的合法权益。截至报告期末，公司726名在岗人员实现全员劳动合同覆盖，构建起规范完善的劳动关系网络。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "薪酬福利 公司遵循“同工同酬、绩优酬优”原则，建立以基本薪酬、绩效薪酬、中长期激励、津补贴、福利保障为核心的薪酬管理体系。为员工提供社会保险和住房公积金等法定福利，职业资格提升帮助、专业技能培训等职业发展保障，年度体检、生日节日慰问等生活关怀。报告期内，社会保险和住房公积金覆盖率为100%。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "职业发展 公司构建多维职业发展通道，通过能力认证与晋升选拔双轨机制驱动员工专业能力进阶，实现人才梯队可持续发展与组织凝聚力提升，同时公司与高校构建合作平台，为员工能力提升实现托举。2025年度新员工岗前培训覆盖率保持100%，报告期内组织专项培训活动覆盖9870人次，系统性强化员工各项能力。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "关爱员工 持续从思想上引领、工作上支持、生活上保障、身心上关爱四个方面推动知心、暖心、安心、强心职工四心关爱行动。进一步完善公司职工小家，梳理畅通员工职业发展通道，为员工业务能力提升搭建平台，促进新员工持续成长，增强对公司的认同感。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "100%"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "社会保险覆盖率"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9,870人次"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "员工培训覆盖人次"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "“四心”"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "助力关爱员工"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                315,
+                461,
+                824
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "组织系列员工喜闻乐见的文体活动"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                532,
+                151,
+                713,
+                172
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/28f164ea401467f165a09c984d9ae21617d692e1e6ce8c76e8136e8909fe6e63.jpg"
+                },
+                "content": "Group of people seated at a long table in an open-plan meeting room with large windows and red banners (no visible text or symbols)",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "节日活动"
+                    },
+                    {
+                        "type": "text",
+                        "content": "“芯”喜临门"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                515,
+                250,
+                644,
+                399
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1c0b9c763f9f0b0d92cb3b40e8cec628c7945cf912d0d18ad02e3362f3fd16cf.jpg"
+                },
+                "content": "建功新时代\n书香满庭芳",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "玫瑰书香"
+                    },
+                    {
+                        "type": "text",
+                        "content": "拔河比赛"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                648,
+                250,
+                801,
+                399
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3651bd21b731b0bdfb54b3fa067c9a8f8a17b276738a3cb623c643765f11a04d.jpg"
+                },
+                "content": "“芯火相传 聚力启航”\n重庆西南集成电路设计研究院北京公司职工电脑活力活动\n“芯火相传 聚力启航”\n重庆西南集成电路设计研究院有限责任公司职工电脑活力活动\n“芯火相传 聚力启航”\n重庆西南集成电路设计研究院北京公司职工电脑活力活动\n“芯火相传 聚力启航”\n重庆西南集成电路设计研究院有限责任公司职工电脑活力活动",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "拓展训练"
+                    },
+                    {
+                        "type": "text",
+                        "content": "亲子活动"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                809,
+                251,
+                959,
+                395
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/942bb6adcaee2cd541fd7ed3b216878060aed7700213eee989c7385adc98438a.jpg"
+                },
+                "content": "金已事\n万事功\n喜樂\n喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜乐喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜樂喜柔\n学习新校园的二十届三中奖颁奖典礼",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "夏送清凉"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                512,
+                458,
+                647,
+                629
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/15106400245a6f1947006fa9f7cd9c1d75d123ef667cd15ca2a0205140cc47ef.jpg"
+                },
+                "content": "Group of people playing tug-of-war in a large indoor gymnasium with large windows and a green track mat (no visible text or signage)",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "参观教育"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                650,
+                458,
+                798,
+                629
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/265d1d7a9ff01918edeb17d5b2ff93cdbd3dda62372f30dbf3781c83118b3ff2.jpg"
+                },
+                "content": "104\n中国民良卫",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "喜迎国庆"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                801,
+                458,
+                963,
+                629
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2a16be032c89f8e5655a85722fe1baabf93529c014795a9e4265fdd454ef73f4.jpg"
+                },
+                "content": "雷香正气口服液\n大鼠\nHUOXIANG\n雷香正气口服液\n大鼠\nHUOXIANG\n雷香正气口服液\n大鼠集团重庆涪陵制药厂有限公司\n雷香正气口服液\n大鼠\nHUOXIANG\n雷香正气口服液\n雷香正气口服液\n破石水\n20ml\n20ml\n20ml\n医用酒精消毒地球\n大鼠粉\n25g\n25g\n破石水\nUNIONEY\n伤口消毒液\nWOUND HEALING\n焕窑型\n双面皂\n外",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                511,
+                689,
+                648,
+                847
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/99c603ef0d31267a8a5fb9816564f957ee02e0cb0f2359b13c1e4e8d845789b0.jpg"
+                },
+                "content": "歌乐忠魂\n自公誓，遵守洞革命先烈斗争事迹展",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                654,
+                695,
+                808,
+                849
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d79cfc1cfdb0f4d1c4594a5774e4dd71ba342d9faeabe41722b66810c815e47d.jpg"
+                },
+                "content": "Group photo of people holding gift boxes and red lanterns in an indoor setting, with visible Chinese text on gift boxes.",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                816,
+                694,
+                963,
+                851
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "社会责任"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                50,
+                958,
+                70
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                923,
+                38,
+                936
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24"
+                    }
+                ]
+            },
+            "bbox": [
+                951,
+                923,
+                963,
+                936
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "质量体系建设"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                110,
+                157,
+                191,
+                179
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司重视质量管理体系建设，通过了GJB9001C-2017、GB/T19001-2016、汽车生产件及相关服务件组织的质量管理体系要求（IATF16949:2016）等质量管理体系认证并持续有效。"
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                203,
+                442,
+                270
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司坚持以客户为关注焦点，充分沟通，宣传、提高员工质量意识。制定了质量方针“科技领先，质量第一，持续改进，满足顾客”与公司发展战略相适应，对满足、适应客户和适用法律法规的要求及持续改进质量管理体系的有效性做出了承诺，同时按照所建立的体系有效的实施、运行并得到第三方及客户的认可。"
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                276,
+                445,
+                368
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a40ebdaba8d82cf7913cfd4313c740735e6b96171361a367c1022185ca6c1fc4.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "Congratulations to the company for having achieved:"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Environmental Claim Validation"
+                    },
+                    {
+                        "type": "text",
+                        "content": "fo"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Shenzhen Ruijing Industrial Co.Ltd"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Building C1, Hengli Industrial Park, No.168 Xiakeng 1 road, Longgang District, Shenzhen Guangdong, China"
+                    },
+                    {
+                        "type": "text",
+                        "content": "emailing LST.ULE.ProgramAdministration@ul.com"
+                    },
+                    {
+                        "type": "text",
+                        "content": "11/30/2023-11/30/2024 Validation period"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                438,
+                438,
+                906
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "积极开展社会公益事业"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                586,
+                156,
+                719,
+                179
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "n 中国电科集团的定点帮扶地区开展消费帮扶工作。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "公司积极践行央企的责任和使命，响应中国电科集团及控股股东号召，2025年开展消费扶贫，购买扶贫地区农产品实现帮扶，为实现接续推动脱贫地区可持续发展贡献力量。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "n 组织员工开展志愿活动，如社区志愿服务、义务植树、志愿献血等。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                582,
+                213,
+                897,
+                329
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9ff7a3127501378c1a563f6318aefe6e988f3f85963a141343772fbc15fb3ec5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                540,
+                425,
+                933,
+                906
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b72373a48003b2cdbdf882afa317a85c73945fcee25d16c24cdb62fb75708410.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                540,
+                718,
+                912,
+                906
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "社会责任"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                50,
+                958,
+                70
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                923,
+                38,
+                936
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "26"
+                    }
+                ]
+            },
+            "bbox": [
+                951,
+                923,
+                963,
+                936
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7f14690f3e5bf2b76d48a1847e8c88d03c9f3d58d32ae4e03df50552eb2eae66.jpg"
+                },
+                "content": "CEIC\n电科芯片",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                0,
+                0,
+                998,
+                690
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "06 绿色办公"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                107,
+                821,
+                353,
+                900
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1a4bc993121b157f10a6395258e8a5b13ec04935a0266ca9aff90e232b6423f1.jpg"
+                },
+                "content": "CETC 中国电科",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                491,
+                795,
+                998,
+                955
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "倡导绿色办公推行节能理念"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                62,
+                121,
+                309,
+                153
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "履行社会责任，保护资源和环境，实现可持续发展"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                48,
+                181,
+                293,
+                202
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "环境是人类社会发展所要考虑的中心问题，是人类可持续发展的关键。因此，公司将环境保护作为企业可持续发展战略的重要内容，高度重视环境保护和节能减排，大力发展循环经济，不断提高资源综合利用水平，切实推进企业与环境的可持续、和谐发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                217,
+                443,
+                279
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持推行电子化办公理念"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                306,
+                175,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对办公用纸采用节约使用、重复使用、循环使用的措施，减少纸张消耗。针对办公区域纸能消耗较大的打印机，采取默认双面打印、单面打印废纸回收，设立“办公用纸回收箱”，回收利用废旧纸张；提倡使用再生纸，从小处践行低碳理念。"
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                354,
+                438,
+                417
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持全员推行节约用电用水"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                451,
+                188,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "使用节能灯管及灯控开关；关闭大楼公区照明灯，仅开启应急灯；随手关闭电灯、空调等设备，减少不必要能耗；办公室空调温度限制在26度以上；通过在办公区域内张贴节约用电用水小贴士，在温馨提示和潜移默化中传递、普及节约资源理念。"
+                    }
+                ]
+            },
+            "bbox": [
+                46,
+                500,
+                437,
+                562
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持全员推广绿色环保出行"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                594,
+                188,
+                613
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推广低碳、环保、健康的出行方式，公司开展“文明交通 绿色出行”实践行动。多选用步行、自行车和公共交通出行，积极践行“135”通勤方案，即1公里内步行、3公里内骑行、5公里内公共交通出行，减少碳排放和交通拥堵，践行绿色出行环保理念。"
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                637,
+                448,
+                700
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持推行废弃物统一管理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                741,
+                181,
+                760
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "子公司瑞晶实业聘请资质齐全的第三方环保公司对生产过程中产生的废气进行活性炭二次处理后予以排放，同时对生产过程中产生的少量固体废弃物进行集中收集统一管理，并与资质齐全的第三方处置机构建立合作关系，由其对集中收集的固体废弃物按照国家的法律法规及环境要求进行统一的收取及处理，确保不产生对环境有污染的物质或气体，履行企业环保责任。"
+                    }
+                ]
+            },
+            "bbox": [
+                49,
+                784,
+                445,
+                869
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "未来展望"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                547,
+                115,
+                629,
+                144
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "展望未来，企业发展与社会责任始终同频共振、互促共进。2025年，公司持续深化践行ESG理念，在提升经营质效的同时，全面推进社会责任体系化建设，实现与各利益相关方的价值共创。面向2026年，公司着力构建更具韧性的可持续发展模式：聚焦主业精进，通过业务转型升级与治理体系优化，持续提升股东回报与市场竞争力；深化人才梯队建设，打造多元成长通道与创新激励机制，构建员工与企业共同成长生态；重点推进战略型项目科技研发，积极参与公益项目，形成社会价值创造的示范效应；将责任理念深度融入战略决策与运营全流程，以透明沟通构建多方共赢的发展格局。"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                211,
+                937,
+                421
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/972b5ead4ea8e0b3e7d14d3c0024c3ea1507033dc2c1d3c5b0eb72ad529459bb.jpg"
+                },
+                "content": "CETC\n电科芯片\n28",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                489,
+                460,
+                970,
+                998
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "绿色办公"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                54,
+                85,
+                74
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG暨社会责任报告"
+                    }
+                ]
+            },
+            "bbox": [
+                791,
+                49,
+                958,
+                71
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "27"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                923,
+                37,
+                935
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "28"
+                    }
+                ]
+            },
+            "bbox": [
+                951,
+                922,
+                962,
+                935
+            ]
+        }
+    ]
+]
