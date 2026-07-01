@@ -1,0 +1,4 @@
+﻿report_id,indicator_id,indicator_name,dimension,indicator_type,status,value,unit,evidence_quote,page_no,block_id,block_type,error_category,root_cause,fix_strategy,raw_response
+600278_东方创业_2025_ESG报告,g_independent_director_ratio,独立董事占比,G,quantitative,found,6:3,,非独立董事和独立董事比例为 6 : 3,11,600278_东方创业_2025_ESG报告:p11:b15,paragraph,quantitative_unit_missing,定量结果缺少单位，且 evidence_quote 无法可靠补齐。,保持 found 并标记 quantitative_incomplete；后续补充单位词召回或人工复核。,
+600278_东方创业_2025_ESG报告,g_board_diversity,董事会多元化,G,quantitative,found,7:2,,董事会成员男女比例为 7 : 2,11,600278_东方创业_2025_ESG报告:p11:b14,paragraph,quantitative_unit_missing,定量结果缺少单位，且 evidence_quote 无法可靠补齐。,保持 found 并标记 quantitative_incomplete；后续补充单位词召回或人工复核。,
+600783_鲁信创投_2025_ESG报告,g_independent_director_ratio,独立董事占比,G,quantitative,found,2,,独立董事2位 非独立董事1位 独董担任主任委员,16,600783_鲁信创投_2025_ESG报告:p16:b8,paragraph,quantitative_unit_missing,定量结果缺少单位，且 evidence_quote 无法可靠补齐。,保持 found 并标记 quantitative_incomplete；后续补充单位词召回或人工复核。,

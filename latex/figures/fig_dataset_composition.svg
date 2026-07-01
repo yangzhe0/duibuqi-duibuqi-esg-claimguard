@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="72" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="38" font-weight="700" fill="#1A202C">样本报告类型构成</text>
+<path d="M 380 430 L 380.00 200.00 A 230 230 0 1 1 198.26 289.03 Z" fill="#2F7D5A" stroke="white" stroke-width="3"/>
+<path d="M 380 430 L 198.26 289.03 A 230 230 0 0 1 302.09 213.60 Z" fill="#2B6CB0" stroke="white" stroke-width="3"/>
+<path d="M 380 430 L 302.09 213.60 A 230 230 0 0 1 380.00 200.00 Z" fill="#B7791F" stroke="white" stroke-width="3"/>
+<rect x="720" y="224" width="34" height="34" rx="4" fill="#2F7D5A"/>
+<text x="775" y="250" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="28" font-weight="400" fill="#1A202C">ESG报告：171（85.5%）</text>
+<rect x="720" y="294" width="34" height="34" rx="4" fill="#2B6CB0"/>
+<text x="775" y="320" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="28" font-weight="400" fill="#1A202C">可持续发展报告：18（9.0%）</text>
+<rect x="720" y="364" width="34" height="34" rx="4" fill="#B7791F"/>
+<text x="775" y="390" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="28" font-weight="400" fill="#1A202C">ESG暨社会责任报告：11（5.5%）</text>
+<text x="60" y="795" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="20" font-weight="400" fill="#4A5568">数据来源：报告标识元数据统计</text>
+</svg>

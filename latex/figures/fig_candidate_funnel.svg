@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="780" viewBox="0 0 1300 780">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="72" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="38" font-weight="700" fill="#1A202C">候选证据召回与抽取链路漏斗</text>
+<text x="60" y="176" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">总任务</text>
+<rect x="300" y="150" width="920" height="34" rx="4" fill="#4A5568"/>
+<text x="1236" y="177" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">13000</text>
+<text x="60" y="234" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">候选为空</text>
+<rect x="300" y="208" width="209" height="34" rx="4" fill="#C2413B"/>
+<text x="525" y="235" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">2958</text>
+<text x="60" y="292" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">进入模型</text>
+<rect x="300" y="266" width="710" height="34" rx="4" fill="#2B6CB0"/>
+<text x="1026" y="293" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">10042</text>
+<text x="60" y="350" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">found</text>
+<rect x="300" y="324" width="550" height="34" rx="4" fill="#2F7D5A"/>
+<text x="866" y="351" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">7777</text>
+<text x="60" y="408" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">missing</text>
+<rect x="300" y="382" width="369" height="34" rx="4" fill="#B7791F"/>
+<text x="685" y="409" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">5223</text>
+<line x1="300" y1="685" x2="1220" y2="685" stroke="#CBD5E0" stroke-width="2"/>
+<text x="60" y="725" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="20" font-weight="400" fill="#4A5568">数据来源：项目既有结构化输出统计生成</text>
+</svg>

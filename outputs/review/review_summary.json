@@ -1,0 +1,35 @@
+{
+  "total_review_samples": 300,
+  "by_dimension": {
+    "E": 105,
+    "S": 97,
+    "G": 98
+  },
+  "by_indicator_type": {
+    "quantitative": 107,
+    "boolean": 97,
+    "qualitative": 96
+  },
+  "by_status": {
+    "found": 156,
+    "missing": 144
+  },
+  "by_suspected_issue_type": {
+    "high_risk_indicator": 215,
+    "possible_zero_event": 6,
+    "value_unit_missing": 1,
+    "normal_sample": 69,
+    "evidence_too_short": 2,
+    "possible_rate_as_count": 5,
+    "possible_policy_as_boolean": 1,
+    "possible_money_as_count": 1
+  },
+  "concrete_risk_count": 16,
+  "caution_tag_count": 231,
+  "by_risk_level": {
+    "low": 6,
+    "high": 7,
+    "medium": 3
+  },
+  "needs_manual_check_count": 231
+}

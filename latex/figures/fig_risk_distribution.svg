@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="72" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="38" font-weight="700" fill="#1A202C">质量诊断风险类型分布</text>
+<text x="60" y="176" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">value_unit_missing</text>
+<rect x="300" y="150" width="49" height="34" rx="4" fill="#C2413B"/>
+<text x="365" y="177" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">3</text>
+<text x="60" y="234" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">possible_rate_as_count</text>
+<rect x="300" y="208" width="525" height="34" rx="4" fill="#B7791F"/>
+<text x="841" y="235" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">32</text>
+<text x="60" y="292" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">possible_money_as_count</text>
+<rect x="300" y="266" width="16" height="34" rx="4" fill="#2B6CB0"/>
+<text x="332" y="293" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">1</text>
+<text x="60" y="350" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">evidence_too_short</text>
+<rect x="300" y="324" width="640" height="34" rx="4" fill="#2F7D5A"/>
+<text x="956" y="351" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">39</text>
+<text x="60" y="408" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">possible_policy_as_boolean</text>
+<rect x="300" y="382" width="542" height="34" rx="4" fill="#4A5568"/>
+<text x="858" y="409" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">33</text>
+<text x="60" y="466" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">possible_zero_event</text>
+<rect x="300" y="440" width="920" height="34" rx="4" fill="#C2413B"/>
+<text x="1236" y="467" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">56</text>
+<line x1="300" y1="805" x2="1220" y2="805" stroke="#CBD5E0" stroke-width="2"/>
+<text x="60" y="845" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="20" font-weight="400" fill="#4A5568">数据来源：项目既有结构化输出统计生成</text>
+</svg>

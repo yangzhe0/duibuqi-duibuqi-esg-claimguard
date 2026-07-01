@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="72" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="38" font-weight="700" fill="#1A202C">MinerU 解析产物规模</text>
+<text x="60" y="176" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">页数</text>
+<rect x="300" y="150" width="188" height="34" rx="4" fill="#2F7D5A"/>
+<text x="504" y="177" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">10528</text>
+<text x="60" y="234" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">Markdown字符/1000</text>
+<rect x="300" y="208" width="318" height="34" rx="4" fill="#2B6CB0"/>
+<text x="634" y="235" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">17740</text>
+<text x="60" y="292" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">表格标记</text>
+<rect x="300" y="266" width="120" height="34" rx="4" fill="#B7791F"/>
+<text x="436" y="293" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">6713</text>
+<text x="60" y="350" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">图片引用</text>
+<rect x="300" y="324" width="546" height="34" rx="4" fill="#2F7D5A"/>
+<text x="862" y="351" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">30465</text>
+<text x="60" y="408" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="400" fill="#1A202C">标题行</text>
+<rect x="300" y="382" width="920" height="34" rx="4" fill="#2B6CB0"/>
+<text x="1236" y="409" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">51289</text>
+<line x1="300" y1="805" x2="1220" y2="805" stroke="#CBD5E0" stroke-width="2"/>
+<text x="60" y="845" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="20" font-weight="400" fill="#4A5568">数据来源：项目既有结构化输出统计生成</text>
+</svg>

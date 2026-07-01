@@ -145,10 +145,10 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
   {\gmcm@endoldtabular\egroup}
 % 每行缩进两个汉字
 \setlength\parindent{2em}
-% 设置字体
-\setmainfont[Path=fonts/]{times.ttf}
-\setmonofont[Path=fonts/]{times.ttf}
-\setsansfont[Path=fonts/]{times.ttf}
+% 设置字体。Linux 环境通常没有模板原始 Windows 字体，使用 TeX Live 自带等价字体保证可编译。
+\setmainfont{TeX Gyre Termes}
+\setmonofont{TeX Gyre Cursor}
+\setsansfont{TeX Gyre Heros}
 % 资源路径以项目根目录为基准：主文件为 latex/MathModel.tex，编译从项目根目录触发。
 \setCJKmainfont[Path=fonts/,AutoFakeBold={2.15},ItalicFont={KaiTi.ttf}]{SimSun.ttf}
 \setCJKmonofont[Path=fonts/,AutoFakeBold={2.15}]{SimSun.ttf}
@@ -156,7 +156,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \setCJKfamilyfont{gmcmhei}[Path=fonts/,AutoFakeBold={2.15}]{SimHei.ttf}
 \setCJKfamilyfont{gmcmkai}[Path=fonts/]{KaiTi.ttf}
 \setCJKfamilyfont{gmcmxw}[Path=fonts/]{STXinwei.ttf}
-\setCJKfamilyfont{gmcmlishu}[Path=fonts/,AutoFakeBold={2.15}]{STLiti.ttf}
+\setCJKfamilyfont{gmcmlishu}[Path=fonts/]{LiSu.ttf}
 %
 %\setCJKfamilyfont{zhyou}{YouYuan}
 \providecommand*{\songti}{}
@@ -210,13 +210,13 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \captionsetup[figure]{%
   format=hang,   % 标题从第二行开始都有缩进, 应该和 justification=raggedright 的效果一样.
   labelsep=quad, % 分隔符是一个空格
-  font={song,minusfour,bf}, % 图的字体, 宋体小四
+  font={song,minusfour}, % 图的字体, 宋体小四
   position=bottom % position=bottom, 不代表标题放在下面, 标题仍放在你放\caption的位置.
 }
 \captionsetup[table]{%
   format=hang,   % 标题从第二行开始都有缩进, 应该和 justification=raggedright 的效果一样.
   labelsep=quad, % 分隔符是一个空格
-  font={song,minusfour,bf}, % 表的字体, 宋体小四
+  font={song,minusfour}, % 表的字体, 宋体小四
   position=top % position=bottom, 不代表标题放在下面, 标题仍放在你放\caption的位置.
 }
 % 列表环境设置
@@ -322,18 +322,10 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \def\makenametitle{
 \newpage
 \setcounter{page}{1}
-\vspace*{2.3cm}
-\begin{center}
-%{\includegraphics[width=4cm]{logo}}
-
-\vskip.5\baselineskip%
-{\xinwei\zihao{2} \gmcm@ges@string@contents \par}
-\end{center}
-
-\vskip1.6cm%
+\vspace*{0.3cm}
 
 \begin{center}\begin{tabularx}{.95\textwidth}{@{}lX@{}}
-{\zihao{4} 题\qquad 目} &\hfill\zihao{3}\heiti \@title\hfill\null\\
+{\zihao{-2} 题\ 目：} &\hfill\zihao{3}\heiti \@title\hfill\null\\
 \cline{2-2}
 \end{tabularx}
 \end{center}
@@ -355,19 +347,19 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
   {1.25ex\@plus -1ex \@minus -.2ex}%
   {1.25ex \@plus .2ex}%
-  {\normalfont\normalsize\bfseries}}
+  {\normalfont\normalsize\songti}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
   {1.25ex\@plus -1ex \@minus -.2ex}%
   {1.2ex \@plus .2ex}%
-  {\normalfont\normalsize\bfseries}}
+  {\normalfont\normalsize\songti}}
 \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
   {3.25ex \@plus1ex \@minus.2ex}%
   {-1em}%
-  {\normalfont\normalsize\bfseries}}
+  {\normalfont\normalsize\songti}}
 \renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
    {3.25ex \@plus1ex \@minus .2ex}%
    {-1em}%
-   {\normalfont\normalsize\bfseries}}
+   {\normalfont\normalsize\songti}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Define new environment and command
@@ -378,7 +370,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
     \section*{\abstractname}%
   \else
    \begin{center}%
-  {\zihao{3}\lishu{摘 \qquad \quad 要:}\vspace{\z@}}%
+  {\zihao{-2}\lishu{摘\ 要:}\vspace{\z@}}%
    \end{center}%
    \quotation
   \fi}
@@ -396,7 +388,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
   \renewcommand{\gmcm@tokens@keywords}{#1}
   \par
   \vskip1ex
-  {\noindent\zihao{-4}\heiti\gmcm@cap@keywordsname：}~{\gmcm@tokens@keywords}
+  {\noindent\zihao{-2}\lishu\gmcm@cap@keywordsname：}~{\gmcm@tokens@keywords}
   }
 % 定义附录  
 \renewcommand\appendix{\par
@@ -435,7 +427,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \newcommand*{\gmcm@cap@proof}{证明}
 \newcommand*{\gmcm@cap@solution}{解}
  %%%  中文标题名称
-\newcommand*{\gmcm@cap@abstractname}{摘\qquad要:}
+\newcommand*{\gmcm@cap@abstractname}{摘\ 要:}
  %%%  中文关键字
 \newcommand*{\gmcm@cap@keywordsname}{关键字}
 
@@ -449,7 +441,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 
 %设置目录格式
 % 节的目录格式
-\titlecontents{section}[0pt]{\vspace{2mm}\bfseries\heiti}
+\titlecontents{section}[0pt]{\vspace{2mm}\songti}
 {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
 % 小节的目录格式
 \titlecontents{subsection}[30pt]{\songti}

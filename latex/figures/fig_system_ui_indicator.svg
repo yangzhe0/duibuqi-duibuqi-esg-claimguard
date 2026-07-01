@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1200" viewBox="0 0 1440 1200">
+  <rect width="100%" height="100%" fill="white"/>
+  <image href="fig_system_ui_indicator.png" x="0" y="0" width="1440" height="1200" preserveAspectRatio="xMidYMin meet"/>
+  <text x="36" y="1170" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#4A5568">指标视角真实 Streamlit 页面截图</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#718096"/></marker></defs>
+<text x="60" y="72" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="38" font-weight="700" fill="#1A202C">PDF 到内容块的结构化表示模型</text>
+<rect x="80" y="190" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#2F7D5A" stroke-width="3"/>
+<text x="205" y="227" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">PDF页面</text>
+<path d="M 330 235.0 L 360 235.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="378" y="190" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="3"/>
+<text x="503" y="227" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">文本/标题</text>
+<path d="M 628 235.0 L 658 235.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="676" y="190" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#B7791F" stroke-width="3"/>
+<text x="801" y="227" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">表格块</text>
+<path d="M 926 235.0 L 956 235.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="974" y="190" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#4A5568" stroke-width="3"/>
+<text x="1099" y="227" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">图片资源</text>
+<path d="M 1224 235.0 L 1254 235.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="1272" y="190" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#C2413B" stroke-width="3"/>
+<text x="1397" y="227" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">page_no</text>
+<path d="M 1397.0 280 C 1397.0 340, 205.0 300, 205.0 362" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="80" y="380" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#2F7D5A" stroke-width="3"/>
+<text x="205" y="417" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">block_id</text>
+<path d="M 330 425.0 L 360 425.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="378" y="380" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="3"/>
+<text x="503" y="417" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">block_type</text>
+<path d="M 628 425.0 L 658 425.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="676" y="380" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#B7791F" stroke-width="3"/>
+<text x="801" y="417" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">text</text>
+<path d="M 926 425.0 L 956 425.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="974" y="380" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#4A5568" stroke-width="3"/>
+<text x="1099" y="417" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">证据空间</text>
+<path d="M 1224 425.0 L 1254 425.0" stroke="#718096" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="1272" y="380" width="250" height="90" rx="8" fill="#FFFFFF" stroke="#C2413B" stroke-width="3"/>
+<text x="1397" y="417" text-anchor="middle" font-family="Noto Serif CJK SC, SimSun, serif" font-size="24" font-weight="700" fill="#1A202C">候选集合</text>
+<text x="80" y="750" text-anchor="start" font-family="Noto Serif CJK SC, SimSun, serif" font-size="22" font-weight="400" fill="#4A5568">内容块是后续召回、抽取和复核定位的最小证据单元。</text>
+</svg>
