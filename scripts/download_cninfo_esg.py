@@ -132,6 +132,23 @@ def sha256_file(path):
     return digest.hexdigest()
 
 
+def read_csv_rows(path):
+    if not path.exists() or path.stat().st_size == 0:
+        return []
+    with path.open(encoding="utf-8-sig", newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def write_csv_rows(path, fieldnames, rows):
+    """Write metadata atomically so an interrupted run cannot truncate the ledger."""
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    with tmp_path.open("w", newline="", encoding="utf-8-sig") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+    tmp_path.replace(path)
+
+
 def publish_date(ms):
     if not ms:
         return ""
@@ -158,6 +175,20 @@ def should_skip(item, include_english):
         return "summary"
     if "关于披露" in title or "提示性公告" in title:
         return "announcement_notice"
+    if any(
+        marker in title
+        for marker in (
+            "通知信函",
+            "通知函",
+            "发布通知",
+            "發佈通知",
+            "鉴证声明",
+            "鑒證聲明",
+        )
+    ):
+        return "publication_notice"
+    if "基金" in title and ("季度报告" in title or "季度報告" in title):
+        return "fund_quarterly_report"
     if not include_english and ("英文" in title or "English" in title):
         return "english"
     if "ESG" not in title.upper() and "环境、社会" not in title and "可持续" not in title:
@@ -175,6 +206,11 @@ def main():
     parser.add_argument("--out-dir", default="data/raw_pdfs")
     parser.add_argument("--index", default="data/report_index.csv")
     parser.add_argument("--log", default="data/download_log.csv")
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Append genuinely new reports to the existing index instead of replacing it.",
+    )
     args = parser.parse_args()
 
     out_dir = Path(args.out_dir)
@@ -183,10 +219,13 @@ def main():
     index_path.parent.mkdir(parents=True, exist_ok=True)
     log_path.parent.mkdir(parents=True, exist_ok=True)
 
-    rows = []
-    log_rows = []
-    seen_ids = set()
-    seen_paths = set()
+    rows = read_csv_rows(index_path) if args.resume else []
+    log_rows = read_csv_rows(log_path) if args.resume else []
+    seen_ids = {row.get("id", "") for row in rows + log_rows if row.get("id", "")}
+    seen_paths = {Path(row["local_path"]) for row in rows if row.get("local_path")}
+    seen_companies = {row.get("company", "") for row in rows if row.get("company", "")}
+    if args.resume:
+        seen_paths.update(out_dir.glob("*.pdf"))
     successful = 0
 
     for page in range(1, args.max_pages + 1):
@@ -211,6 +250,18 @@ def main():
             pdf_url = STATIC_BASE + adjunct_url.lstrip("/")
             filename = f"{safe_part(stock_code)}_{safe_part(company)}_{safe_part(year)}_{safe_part(kind)}.pdf"
             local_path = out_dir / filename
+            if args.resume and company in seen_companies:
+                log_rows.append(
+                    {
+                        "id": ann_id,
+                        "stock_code": stock_code,
+                        "company": company,
+                        "title": title,
+                        "status": "skipped_duplicate_company",
+                        "error": "",
+                    }
+                )
+                continue
             if local_path in seen_paths:
                 log_rows.append(
                     {
@@ -264,8 +315,10 @@ def main():
                 status, digest, size = download_file(pdf_url, local_path)
                 row["file_sha256"] = digest
                 row["file_size_bytes"] = size
-                successful += 1
-                rows.append(row)
+                if status == "downloaded":
+                    successful += 1
+                    rows.append(row)
+                    seen_companies.add(company)
                 log_rows.append(
                     {
                         "id": ann_id,
@@ -318,14 +371,8 @@ def main():
         "file_size_bytes",
         "error",
     ]
-    with index_path.open("w", newline="", encoding="utf-8-sig") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-    with log_path.open("w", newline="", encoding="utf-8-sig") as fh:
-        writer = csv.DictWriter(fh, fieldnames=["id", "stock_code", "company", "title", "status", "error"])
-        writer.writeheader()
-        writer.writerows(log_rows)
+    write_csv_rows(index_path, fieldnames, rows)
+    write_csv_rows(log_path, ["id", "stock_code", "company", "title", "status", "error"], log_rows)
 
     print(f"downloaded={successful}")
     print(f"index={index_path}")

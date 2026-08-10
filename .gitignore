@@ -4,3 +4,16 @@
 *.aux
 *.blg
 *.fdb_latexmk
+__pycache__/
+*.py[cod]
+.venv/
+dashboard_web/node_modules/
+dashboard_web/dist/
+dashboard_web/*.tsbuildinfo
+dashboard_web/vite.config.js
+dashboard_web/vite.config.d.ts
+outputs/dashboard/reviews.sqlite3
+outputs/dashboard/uploads/
+outputs/dashboard/tasks/
+outputs/dashboard/mineru_probe/
+outputs/dashboard/extraction_probe/

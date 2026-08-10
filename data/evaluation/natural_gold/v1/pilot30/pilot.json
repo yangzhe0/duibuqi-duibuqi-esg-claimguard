@@ -1,0 +1,29 @@
+{
+  "pilot_version": "natural-gold-v1-pilot30",
+  "state": "frozen",
+  "source_dataset": "natural-gold-v1",
+  "source_manifest_sha256": "b9897c056822486b69e29f10842530df4a7537c80e2be4300e6de81d9ce587bc",
+  "pilot_manifest_sha256": "67016dc25c93861f5befa869489369e3af90e9b0525e7636d4fcde7c3e6f6206",
+  "sampling_seed": "esg-claimguard-natural-gold-pilot30-20260809",
+  "sample_size": 30,
+  "unique_indicators": 30,
+  "dimension_counts": {
+    "E": 10,
+    "G": 10,
+    "S": 10
+  },
+  "stratum_counts": {
+    "E/quantitative": 8,
+    "G/qualitative": 4,
+    "S/boolean": 2,
+    "G/boolean": 3,
+    "S/qualitative": 3,
+    "S/quantitative": 5,
+    "G/quantitative": 3,
+    "E/qualitative": 1,
+    "E/boolean": 1
+  },
+  "silver_only": true,
+  "promotion_policy": "Machine drafts never enter Natural-Gold without independent human confirmation.",
+  "created_at": "2026-08-09T17:04:18+00:00"
+}

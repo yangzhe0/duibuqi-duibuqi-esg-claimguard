@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="728.815pt" height="370.8pt" viewBox="0 0 728.815 370.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-09T17:11:06.425782</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 370.8 
+L 728.815 370.8 
+L 728.815 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 29.695 318.528 
+L 330.529783 318.528 
+L 330.529783 57.96 
+L 29.695 57.96 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 43.369308 318.528 
+L 73.54038 318.528 
+L 73.54038 110.0736 
+L 43.369308 110.0736 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 92.032327 318.528 
+L 122.203399 318.528 
+L 122.203399 144.816 
+L 92.032327 144.816 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 140.695346 318.528 
+L 170.866418 318.528 
+L 170.866418 214.3008 
+L 140.695346 214.3008 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 189.358365 318.528 
+L 219.529437 318.528 
+L 219.529437 214.3008 
+L 189.358365 214.3008 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 238.021384 318.528 
+L 268.192455 318.528 
+L 268.192455 249.0432 
+L 238.021384 249.0432 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 286.684403 318.528 
+L 316.855474 318.528 
+L 316.855474 283.7856 
+L 286.684403 283.7856 
+z
+" clip-path="url(#pb57b8e5ffd)" style="fill: #557a95"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(43.046689 342.857133) rotate(-22)">证据原文</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(100.054363 336.114215) rotate(-22)">数值</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(140.372727 342.857133) rotate(-22)">披露状态</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(193.208073 339.485674) rotate(-22)">证据页</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(246.043419 336.114215) rotate(-22)">期间</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'" transform="translate(294.706438 336.114215) rotate(-22)">单位</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="322.488" transform="rotate(-0 26.195 322.488)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="287.7456" transform="rotate(-0 26.195 287.7456)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="253.0032" transform="rotate(-0 26.195 253.0032)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="218.2608" transform="rotate(-0 26.195 218.2608)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="183.5184" transform="rotate(-0 26.195 183.5184)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="148.776" transform="rotate(-0 26.195 148.776)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="114.0336" transform="rotate(-0 26.195 114.0336)">6</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="26.195" y="79.2912" transform="rotate(-0 26.195 79.2912)">7</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="16" y="188.244" transform="rotate(-90 16 188.244)">发生分歧的任务数</text>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 29.695 318.528 
+L 29.695 57.96 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 29.695 318.528 
+L 330.529783 318.528 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="58.454844" y="104.303376" transform="rotate(-0 58.454844 104.303376)">6</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="107.117863" y="139.045776" transform="rotate(-0 107.117863 139.045776)">5</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="155.780882" y="208.530576" transform="rotate(-0 155.780882 208.530576)">3</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="204.443901" y="208.530576" transform="rotate(-0 204.443901 208.530576)">3</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="253.10692" y="243.272976" transform="rotate(-0 253.10692 243.272976)">2</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="301.769938" y="278.015376" transform="rotate(-0 301.769938 278.015376)">1</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="180.112391" y="51.96" transform="rotate(-0 180.112391 51.96)">a  分歧集中于证据与数值字段</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_11">
+    <path d="M 420.780217 318.528 
+L 721.615 318.528 
+L 721.615 57.96 
+L 420.780217 57.96 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 434.454526 318.528 
+L 495.935912 318.528 
+L 495.935912 282.338 
+L 434.454526 282.338 
+z
+" clip-path="url(#p2b2e75b372)" style="fill: #1f7a5a"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 540.456916 318.528 
+L 601.938302 318.528 
+L 601.938302 173.768 
+L 540.456916 173.768 
+z
+" clip-path="url(#p2b2e75b372)" style="fill: #3973b7"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 646.459306 318.528 
+L 707.940692 318.528 
+L 707.940692 101.388 
+L 646.459306 101.388 
+z
+" clip-path="url(#p2b2e75b372)" style="fill: #b98517"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_15"/>
+     <g id="text_23">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="465.195219" y="329.948" transform="rotate(-0 465.195219 329.948)">环境 E</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16"/>
+     <g id="text_24">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="571.197609" y="329.948" transform="rotate(-0 571.197609 329.948)">社会 S</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17"/>
+     <g id="text_25">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="677.199999" y="329.948" transform="rotate(-0 677.199999 329.948)">治理 G</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_9">
+     <g id="line2d_18"/>
+     <g id="text_26">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="417.280217" y="322.488" transform="rotate(-0 417.280217 322.488)">0</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19"/>
+     <g id="text_27">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="417.280217" y="250.108" transform="rotate(-0 417.280217 250.108)">20</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_20"/>
+     <g id="text_28">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="417.280217" y="177.728" transform="rotate(-0 417.280217 177.728)">40</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_21"/>
+     <g id="text_29">
+      <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: end" x="417.280217" y="105.348" transform="rotate(-0 417.280217 105.348)">60</text>
+     </g>
+    </g>
+    <g id="text_30">
+     <text style="font-size: 10px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="402.090217" y="188.244" transform="rotate(-90 402.090217 188.244)">至少一个字段分歧（%）</text>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 420.780217 318.528 
+L 420.780217 57.96 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 420.780217 318.528 
+L 721.615 318.528 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="465.195219" y="276.567776" transform="rotate(-0 465.195219 276.567776)">10%</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="571.197609" y="167.997776" transform="rotate(-0 571.197609 167.997776)">40%</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="677.199999" y="95.617776" transform="rotate(-0 677.199999 95.617776)">60%</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="571.197609" y="51.96" transform="rotate(-0 571.197609 51.96)">b  治理类需优先人工复核</text>
+   </g>
+  </g>
+  <g id="text_35">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Noto Sans CJK SC'; text-anchor: middle" x="364.495" y="20.4" transform="rotate(-0 364.495 20.4)">Silver 双路草稿：分歧将人工注意力集中到 11 个任务</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 9px; font-family: 'Noto Sans CJK SC'; text-anchor: middle; fill: #555555" x="364.495" y="362.52" transform="rotate(-0 364.495 362.52)">注：这是机器草稿之间的差异，不代表人工一致性，也不代表模型准确率。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb57b8e5ffd">
+   <rect x="29.695" y="57.96" width="300.834783" height="260.568"/>
+  </clipPath>
+  <clipPath id="p2b2e75b372">
+   <rect x="420.780217" y="57.96" width="300.834783" height="260.568"/>
+  </clipPath>
+ </defs>
+</svg>

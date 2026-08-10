@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-08-09T16:26:34+00:00",
+  "validation_kind": "contract_and_coverage_validation_not_accuracy_evaluation",
+  "data_scope": {
+    "reports": 200,
+    "extraction_rows": 13000
+  },
+  "graph": {
+    "claim_count": 7776,
+    "evidence_count": 5826,
+    "constraint_count": 147,
+    "standard_count": 700,
+    "node_count": 14649,
+    "edge_count": 16757
+  },
+  "issues": {
+    "total": 578,
+    "by_severity": {
+      "important": 73,
+      "attention": 453,
+      "blocking": 52
+    },
+    "by_type": {
+      "constraint_ghg_scope_balance": 19,
+      "constraint_waste_balance": 18,
+      "diagnostic_evidence_too_short": 39,
+      "claim_evidence_mismatch": 52,
+      "diagnostic_possible_zero_event": 56,
+      "diagnostic_possible_rate_as_count": 32,
+      "diagnostic_possible_policy_as_boolean": 33,
+      "standard_explanation_gap": 325,
+      "field_completeness": 3,
+      "diagnostic_possible_money_as_count": 1
+    },
+    "traceability_completeness": 1.0,
+    "calculation_candidates": 37,
+    "calculation_reproducibility": 1.0
+  },
+  "action_contract": {
+    "report_id": "600779_水井坊_2025_ESG报告",
+    "issue_id": "issue-a7c23a09e355217b",
+    "open_before": 9,
+    "open_after": 8,
+    "closed_before": 0,
+    "closed_after": 1,
+    "passed": true,
+    "note": "使用内存 action 验证状态合同，不写入正式数据库。"
+  },
+  "reports_with_most_blocking_issues": [
+    {
+      "report_id": "603577_汇金通_2025_ESG报告",
+      "issues": 6,
+      "blocking": 3,
+      "important": 1,
+      "attention": 2
+    },
+    {
+      "report_id": "603272_ST联翔_2025_ESG暨社会责任报告",
+      "issues": 6,
+      "blocking": 2,
+      "important": 1,
+      "attention": 3
+    },
+    {
+      "report_id": "603373_安邦护卫_2025_ESG暨社会责任报告",
+      "issues": 11,
+      "blocking": 2,
+      "important": 1,
+      "attention": 8
+    },
+    {
+      "report_id": "003030_祖名股份_2025_ESG报告",
+      "issues": 4,
+      "blocking": 2,
+      "important": 0,
+      "attention": 2
+    },
+    {
+      "report_id": "600480_凌云股份_2025_ESG报告",
+      "issues": 6,
+      "blocking": 2,
+      "important": 0,
+      "attention": 4
+    },
+    {
+      "report_id": "688400_凌云光_2025_ESG报告",
+      "issues": 6,
+      "blocking": 2,
+      "important": 0,
+      "attention": 4
+    },
+    {
+      "report_id": "600278_东方创业_2025_ESG报告",
+      "issues": 8,
+      "blocking": 1,
+      "important": 2,
+      "attention": 5
+    },
+    {
+      "report_id": "600587_新华医疗_2025_ESG报告",
+      "issues": 6,
+      "blocking": 1,
+      "important": 2,
+      "attention": 3
+    },
+    {
+      "report_id": "600779_水井坊_2025_ESG报告",
+      "issues": 9,
+      "blocking": 1,
+      "important": 2,
+      "attention": 6
+    },
+    {
+      "report_id": "600846_同济科技_2025_ESG报告",
+      "issues": 6,
+      "blocking": 1,
+      "important": 2,
+      "attention": 3
+    }
+  ],
+  "limitations": [
+    "This validation measures implementation coverage and traceability, not model accuracy.",
+    "Natural-Gold human annotations do not exist yet; precision/recall/F1 are intentionally omitted.",
+    "Cross-claim arithmetic checks are scope-difference candidates until subject, period and scope fields are fully extracted.",
+    "Automatic rule mapping is enabled only for Shanghai-listed reports in the first MVP."
+  ]
+}

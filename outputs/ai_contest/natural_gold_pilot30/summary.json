@@ -1,0 +1,54 @@
+{
+  "pilot_version": "natural-gold-v1-pilot30",
+  "silver_only": true,
+  "total_tasks": 30,
+  "silver_a_completed": 30,
+  "silver_b_completed": 30,
+  "paired_tasks": 30,
+  "exact_agreements": 19,
+  "tasks_with_disagreement": 11,
+  "exact_agreement_rate": 0.6333,
+  "disclosure_agreement_rate": 0.9,
+  "field_disagreement_counts": {
+    "evidence_pages": 3,
+    "evidence_text": 6,
+    "value": 5,
+    "disclosure": 3,
+    "period": 2,
+    "unit": 1
+  },
+  "status_pairs": {
+    "uncertain|uncertain": 13,
+    "found|found": 14,
+    "uncertain|found": 3
+  },
+  "dimension_disagreement": {
+    "E": {
+      "count": 1,
+      "total": 10,
+      "rate": 0.1
+    },
+    "S": {
+      "count": 4,
+      "total": 10,
+      "rate": 0.4
+    },
+    "G": {
+      "count": 6,
+      "total": 10,
+      "rate": 0.6
+    }
+  },
+  "validation": {
+    "silver_a_needs_human": 8,
+    "silver_b_needs_human": 8
+  },
+  "human_next": {
+    "priority_arbitration": 11,
+    "agreement_spot_check": 4,
+    "total_review_queue": 15,
+    "review_queue": "human_review_queue.csv",
+    "promotion_to_gold": 0
+  },
+  "boundary": "Silver-A/B are machine-generated candidate labels. They are not independent human annotations and must not enter Natural-Gold without human confirmation."
+}

@@ -1,0 +1,16 @@
+{
+  "dataset_version": "natural-gold-v1",
+  "manifest_state": "frozen",
+  "manifest_sha256": "b9897c056822486b69e29f10842530df4a7537c80e2be4300e6de81d9ce587bc",
+  "sample_size": 300,
+  "sampling_seed": "esg-claimguard-natural-gold-v1-20260809",
+  "sampling_method": "equal E/S/G quota; equal allocation within every indicator; deterministic report hash ranking",
+  "model_output_in_manifest": false,
+  "roles": [
+    "annotator_a",
+    "annotator_b",
+    "adjudicator"
+  ],
+  "created_at": "2026-08-09T16:37:43+00:00",
+  "change_policy": "Do not overwrite after annotation starts; create a new version instead."
+}
