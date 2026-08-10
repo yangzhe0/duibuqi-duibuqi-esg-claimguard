@@ -26,7 +26,6 @@ streamlit_app.py      Streamlit 复核系统
 - 图表契约：`latex/figure_contracts.md`
 - 图表面板：`latex/figure_gallery.html`
 - 自查记录：`latex/SELF_CHECK.md`
-- 项目台账：`docs/台账.md`
 - 正式结果：`outputs/formal_v2/llm_200/extraction_results.csv`
 - 指标池：`outputs/formal_v2/indicator_pool_v2.csv`
 - 质量诊断：`outputs/review/quality_metrics.json`
