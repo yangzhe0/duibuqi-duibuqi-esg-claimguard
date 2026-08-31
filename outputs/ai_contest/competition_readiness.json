@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-08-31T09:17:59+00:00",
+  "official_deadline": "2026-09-01T23:59:00+08:00",
+  "scope": "第八届中国研究生人工智能创新大赛开放赛题初赛",
+  "inference": {
+    "reports": 200,
+    "indicators": 65,
+    "results": 13000,
+    "llm_calls": 10015,
+    "llm_error_count": 0,
+    "result_error_count": 0,
+    "timed_final_candidate_rows": 9806,
+    "average_timed_final_row_seconds": 2.777,
+    "p95_timed_final_row_seconds": 3.718,
+    "last_run_wall_seconds": 27928.801,
+    "evidence_quote_complete_rate": 1.0,
+    "block_id_resolvable_rate": 1.0,
+    "v3_complete": true
+  },
+  "hardware": {
+    "cpu": "AMD Ryzen Threadripper PRO 9955WX 16-Cores",
+    "memory_bytes": "133973954560",
+    "memory_gib": 124.8,
+    "gpu": "NVIDIA GeForce RTX 5090, 32607 MiB, 580.159.04"
+  },
+  "criteria": [
+    {
+      "requirement": "可运行的 AI 原型",
+      "status": "ready",
+      "evidence": "生产 smoke test 18 个端点通过",
+      "next": "保持一键验收进入提交包"
+    },
+    {
+      "requirement": "AI inference 效果与运行指标",
+      "status": "ready",
+      "evidence": "V3：200 份报告、10015 次 Qwen3.6 生成、错误 0；9806 条保留候选行具有可用行级耗时",
+      "next": "在项目文档中与准确率指标分栏呈现"
+    },
+    {
+      "requirement": "准确率声明边界",
+      "status": "ready",
+      "evidence": "本作品仅声明工程完整性和证据可追溯性，不使用工程复核记录计算准确率",
+      "next": "不声明未经独立人工评测的 Precision、Recall 或 F1"
+    },
+    {
+      "requirement": "创新性论证",
+      "status": "ready",
+      "evidence": "项目文档和创新矩阵已集中说明四项机制、现有证据、待验证增益与失败退化方案",
+      "next": "保持工程证据与效果指标边界"
+    },
+    {
+      "requirement": "与已有工作对比调研",
+      "status": "ready",
+      "evidence": "已形成关键词/正则、整份 PDF 单次问答、普通 RAG 三类预注册基线及参考资料",
+      "next": "保持可审计性对比，不声明未经验证的准确率优势"
+    },
+    {
+      "requirement": "数据、行业知识、算法和硬件来源",
+      "status": "ready",
+      "evidence": "来源与借鉴台账已区分公开数据、标准、模型工具、学术借鉴与项目原创工程",
+      "next": "部署或再分发前按上游许可证复核"
+    },
+    {
+      "requirement": "300 字作品简介 PDF",
+      "status": "ready",
+      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+      "next": "提交前再次核对文件可打开且正文不超过 300 字"
+    },
+    {
+      "requirement": "模板项目文档 PDF",
+      "status": "ready",
+      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+      "next": "提交前再次核对文件可打开"
+    },
+    {
+      "requirement": "5 分钟以内项目视频",
+      "status": "ready",
+      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4",
+      "next": "无字幕画面、独立配音和真实工作台录屏均须通过最终抽帧复核"
+    },
+    {
+      "requirement": "200 MB 内其他材料 ZIP",
+      "status": "ready",
+      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
+      "next": "提交前再次核对 SHA-256 和 200 MB 限制"
+    }
+  ],
+  "status_counts": {
+    "ready": 10
+  },
+  "agent_can_complete_without_human_labels": [
+    "提交文件自动复验与口径审计"
+  ],
+  "requires_user_or_external_input": [
+    "在比赛平台上传四项最终文件并确认在线预览"
+  ],
+  "boundary": "Readiness checks implementation and submission evidence. The submission does not claim accuracy without independent human evaluation."
+}

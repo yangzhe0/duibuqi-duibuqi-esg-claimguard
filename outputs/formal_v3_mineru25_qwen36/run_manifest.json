@@ -1,0 +1,1708 @@
+{
+  "schema_version": "formal-v3-run-manifest-1",
+  "created_at": "2026-08-22T01:13:39+00:00",
+  "report_count": 200,
+  "page_count": 10528,
+  "indicator_count": 65,
+  "expected_result_rows": 13000,
+  "parser": {
+    "name": "MinerU2.5-Pro-2605-1.2B",
+    "backend": "vlm-engine",
+    "binary": "/home/sues01/.conda/envs/mineru/bin/mineru",
+    "version": "mineru, version 3.4.0",
+    "model_source": "modelscope"
+  },
+  "extractor": {
+    "name": "Qwen3.6-27B-Q4_K_M",
+    "alias": "qwen3.6-27b-q4_k_m",
+    "api": "openai",
+    "runtime_assets": {
+      "server": {
+        "ready": true,
+        "path": "/usr/local/lib/ollama/llama-server"
+      },
+      "model": {
+        "ready": true,
+        "path": "/usr/share/ollama/.ollama/models/huggingface/ggml-org/Qwen3.6-27B-GGUF/Qwen3.6-27B-Q4_K_M.gguf"
+      },
+      "mmproj": {
+        "ready": true,
+        "path": "/usr/share/ollama/.ollama/models/huggingface/ggml-org/Qwen3.6-27B-GGUF/mmproj-Qwen3.6-27B-Q8_0.gguf"
+      },
+      "cuda_backend": {
+        "ready": true,
+        "path": "/usr/local/lib/ollama/cuda_v13/libggml-cuda.so"
+      }
+    }
+  },
+  "indicator_pool": {
+    "path": "outputs/formal_v3_mineru25_qwen36/indicator_pool.csv",
+    "sha256": "c711f35e4acbc195d98da429757b583805f114c62321b6dfb3ecbbd026d2420e"
+  },
+  "isolation_contract": {
+    "write_root": "outputs/formal_v3_mineru25_qwen36",
+    "protected": [
+      "data/parsed_reports_v1",
+      "outputs/formal_v2",
+      "data/evaluation/natural_gold_v1",
+      "dashboard formal database"
+    ]
+  },
+  "reports": [
+    {
+      "sequence": 1,
+      "report_id": "000016_深康佳Ａ_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000016_深康佳Ａ_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18571555,
+      "pdf_sha256": "d7915e78af82038cda08053deefc7f26e0200daeabc825908cfb8b2295433952",
+      "pages": 46
+    },
+    {
+      "sequence": 2,
+      "report_id": "000158_常山北明_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000158_常山北明_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25313896,
+      "pdf_sha256": "2865bf56799c47d1f3f7b0082e3d4240e6868d0d56e39251058166a5da459cbd",
+      "pages": 32
+    },
+    {
+      "sequence": 3,
+      "report_id": "000403_派林生物_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000403_派林生物_2025_ESG报告.pdf",
+      "pdf_size_bytes": 5151642,
+      "pdf_sha256": "069c8cefafe48b95195094eb7c432fd85decad4531712d771a831e0aa317bf8a",
+      "pages": 36
+    },
+    {
+      "sequence": 4,
+      "report_id": "000503_国新健康_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000503_国新健康_2025_ESG报告.pdf",
+      "pdf_size_bytes": 31632276,
+      "pdf_sha256": "bfe081d1ca20f7a58637d86b302b5b97350686fd3bcde6a46086279bffe92111",
+      "pages": 35
+    },
+    {
+      "sequence": 5,
+      "report_id": "000526_学大教育_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000526_学大教育_2025_ESG报告.pdf",
+      "pdf_size_bytes": 3013175,
+      "pdf_sha256": "29b4930a12f5d3889486a78f0e3fd040d1c715e731a70eb00b421d8c9734e2d0",
+      "pages": 50
+    },
+    {
+      "sequence": 6,
+      "report_id": "000537_绿发电力_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000537_绿发电力_2025_ESG报告.pdf",
+      "pdf_size_bytes": 32524281,
+      "pdf_sha256": "e706524d63b4c173ab7fbf44b2874972c30f26a2c2abc3f6ca3bc8acfd7af9c0",
+      "pages": 51
+    },
+    {
+      "sequence": 7,
+      "report_id": "000547_航天发展_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000547_航天发展_2025_ESG报告.pdf",
+      "pdf_size_bytes": 13910874,
+      "pdf_sha256": "d0a1faf09eb876a19a53b05b5e265773ba48ecd3d258df186578e57cbe35e2c1",
+      "pages": 47
+    },
+    {
+      "sequence": 8,
+      "report_id": "000557_西部创业_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/000557_西部创业_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 24219619,
+      "pdf_sha256": "2d107a642ecfefd7ffd40df1c4a084ac839a8523ba8b696b5a63e53795e16a02",
+      "pages": 54
+    },
+    {
+      "sequence": 9,
+      "report_id": "000598_兴蓉环境_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000598_兴蓉环境_2025_ESG报告.pdf",
+      "pdf_size_bytes": 11103375,
+      "pdf_sha256": "6324e0cca28c550b3df3763b818e9733e9a6a06159eacfc93df429ec2d0d9899",
+      "pages": 38
+    },
+    {
+      "sequence": 10,
+      "report_id": "000628_高新发展_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000628_高新发展_2025_ESG报告.pdf",
+      "pdf_size_bytes": 11548903,
+      "pdf_sha256": "b2386cf4fb8389fe0372a35d3c50d831c12adc0a911d65c6500440607b9b98c9",
+      "pages": 69
+    },
+    {
+      "sequence": 11,
+      "report_id": "000720_新能泰山_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000720_新能泰山_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12551305,
+      "pdf_sha256": "b5ef183241434407b8becec072bb3cc88d93a748579cbff6a0329c365c21fa5f",
+      "pages": 36
+    },
+    {
+      "sequence": 12,
+      "report_id": "000758_中色股份_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/000758_中色股份_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 21852102,
+      "pdf_sha256": "c2f9584aacea5ba27596251052d7f2693ba67c1e47397920b9d4fceff9fb5d50",
+      "pages": 53
+    },
+    {
+      "sequence": 13,
+      "report_id": "000777_中核科技_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/000777_中核科技_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 25000141,
+      "pdf_sha256": "8f137ece64d49070b9c2ae4f7f0b5efc40b52c4920d119565ba1000b5a43db0b",
+      "pages": 58
+    },
+    {
+      "sequence": 14,
+      "report_id": "000810_创维数字_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000810_创维数字_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16714361,
+      "pdf_sha256": "bf4a1aedd8f83579e91559c60a6f080a23b96aea73fc0beb69f07a0f7a220d84",
+      "pages": 47
+    },
+    {
+      "sequence": 15,
+      "report_id": "000825_太钢不锈_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/000825_太钢不锈_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 11821929,
+      "pdf_sha256": "9f8499cd51d92725f02dcb394183650126c0cd9d94b6fb4ede1f82bcd8befab1",
+      "pages": 51
+    },
+    {
+      "sequence": 16,
+      "report_id": "000881_中广核技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000881_中广核技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 5597469,
+      "pdf_sha256": "6e5bbd50cb5452f4ed91feedd5f47a58a129e277ed75e93fe95fda11f53f5a79",
+      "pages": 53
+    },
+    {
+      "sequence": 17,
+      "report_id": "000922_佳电股份_2026_ESG报告",
+      "pdf": "data/raw_pdfs/000922_佳电股份_2026_ESG报告.pdf",
+      "pdf_size_bytes": 174015,
+      "pdf_sha256": "d2297fbdfb0207d290f680cb0f637746d49dbbc37a96f488c458ef28c412f690",
+      "pages": 1
+    },
+    {
+      "sequence": 18,
+      "report_id": "000923_河钢资源_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000923_河钢资源_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22103613,
+      "pdf_sha256": "d0adbfe04fc56a1539dec9fa09bf12ba108424c032bc0dc25b3847c98b170989",
+      "pages": 46
+    },
+    {
+      "sequence": 19,
+      "report_id": "000968_蓝焰控股_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000968_蓝焰控股_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25474433,
+      "pdf_sha256": "5c4abdbc288198410be2b4a40ec8eb253bbdc58b41eb85bd2372ebdf31863b4d",
+      "pages": 50
+    },
+    {
+      "sequence": 20,
+      "report_id": "000998_隆平高科_2025_ESG报告",
+      "pdf": "data/raw_pdfs/000998_隆平高科_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25521781,
+      "pdf_sha256": "b54759119cdaa97db709cfa79b19b3160582cca188d6604a36c69b0180e07347",
+      "pages": 103
+    },
+    {
+      "sequence": 21,
+      "report_id": "001287_中电港_2025_ESG报告",
+      "pdf": "data/raw_pdfs/001287_中电港_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12535893,
+      "pdf_sha256": "d09719d93beaf5b53715a8a677d6e839c613af6ce4e8c787c8321d47e42f2436",
+      "pages": 35
+    },
+    {
+      "sequence": 22,
+      "report_id": "001322_箭牌家居_2025_ESG报告",
+      "pdf": "data/raw_pdfs/001322_箭牌家居_2025_ESG报告.pdf",
+      "pdf_size_bytes": 4009382,
+      "pdf_sha256": "9dabbc3e4171fc825ca64f9b56062d8deaab9e3464c3b22d3ca04974ff725aae",
+      "pages": 63
+    },
+    {
+      "sequence": 23,
+      "report_id": "001390_古麒绒材_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/001390_古麒绒材_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 16000377,
+      "pdf_sha256": "acb742ba42a6bf965a995d5220322e08e727964504b5e19b89b6a58e50a56908",
+      "pages": 55
+    },
+    {
+      "sequence": 24,
+      "report_id": "002011_盾安环境_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002011_盾安环境_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22067692,
+      "pdf_sha256": "02802bc72ceacee1181c4c0febe129c69c76b511e54f5af7116cfb05c92e110a",
+      "pages": 50
+    },
+    {
+      "sequence": 25,
+      "report_id": "002035_华帝股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002035_华帝股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12226249,
+      "pdf_sha256": "27c65c5388e1070e2f8d1af08a097b668fd97e787998fa431e0c53b136514f79",
+      "pages": 50
+    },
+    {
+      "sequence": 26,
+      "report_id": "002037_保利联合_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002037_保利联合_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20408591,
+      "pdf_sha256": "32365314c45519cf480c379f1b3bd0e6373e77d608b4e0533e7fa73cd6fcf132",
+      "pages": 18
+    },
+    {
+      "sequence": 27,
+      "report_id": "002048_宁波华翔_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002048_宁波华翔_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21557665,
+      "pdf_sha256": "bd163c63e290865c4d3c774306204ab71f357208a1b1bc3ffb4e1238bdc7dc5d",
+      "pages": 50
+    },
+    {
+      "sequence": 28,
+      "report_id": "002079_苏州固锝_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002079_苏州固锝_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18915621,
+      "pdf_sha256": "d3fe0d400c16fb8ab75888ac842a32a6723c0420d47a238b36b194b50afdb8ba",
+      "pages": 56
+    },
+    {
+      "sequence": 29,
+      "report_id": "002203_海亮股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002203_海亮股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19518271,
+      "pdf_sha256": "a247c4d9aa325c35949f53a6cf94397c3a3e9bbcd5ae92a2fc4ed7f1a6d13609",
+      "pages": 52
+    },
+    {
+      "sequence": 30,
+      "report_id": "002326_永太科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002326_永太科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21663898,
+      "pdf_sha256": "1cc4a2499be0754088f60861279b146db915042c462fab862c93a260f8c71058",
+      "pages": 53
+    },
+    {
+      "sequence": 31,
+      "report_id": "002444_巨星科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002444_巨星科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17322984,
+      "pdf_sha256": "698160da787b1bf879bf9769b9d329b67d3a440b28fa2703097db9f4b9c5a317",
+      "pages": 51
+    },
+    {
+      "sequence": 32,
+      "report_id": "002490_山东墨龙_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002490_山东墨龙_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7252561,
+      "pdf_sha256": "66bb71e67cffe5ef7b3df2a3d08d7c0127352d30b8fd6c1342d85b1d974d8abd",
+      "pages": 89
+    },
+    {
+      "sequence": 33,
+      "report_id": "002533_金杯电工_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002533_金杯电工_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30177510,
+      "pdf_sha256": "5e9fa862745fef56d970b696f464396aa26b52443ddd7d07c427eb1b2265b826",
+      "pages": 46
+    },
+    {
+      "sequence": 34,
+      "report_id": "002568_百润股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002568_百润股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 32134136,
+      "pdf_sha256": "4ccd27dede4ae55956137ddc06c06bfba4fe3fac7c6affda08b4fde7b07414f5",
+      "pages": 50
+    },
+    {
+      "sequence": 35,
+      "report_id": "002573_清新环境_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002573_清新环境_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30937255,
+      "pdf_sha256": "881d09969fe0c6a43a1a09c3a8e41647711f0621948b4035aef96f5564e27328",
+      "pages": 37
+    },
+    {
+      "sequence": 36,
+      "report_id": "002627_三峡旅游_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002627_三峡旅游_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16843078,
+      "pdf_sha256": "1392a31caf6ba07bb0ec5ca62490567b541f5e4e301fbd2d7f75c510355bd061",
+      "pages": 53
+    },
+    {
+      "sequence": 37,
+      "report_id": "002649_博彦科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002649_博彦科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16360077,
+      "pdf_sha256": "a8e7e2a76c728bb2b7f08487d41efa2aade2b2b659c76952b49dd69d24e1bef3",
+      "pages": 47
+    },
+    {
+      "sequence": 38,
+      "report_id": "002663_普邦股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002663_普邦股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7670077,
+      "pdf_sha256": "7701369627be53b9206f1773a4f3e2ba40e94abac5de9f5ba5f1c50b8ad01c7b",
+      "pages": 41
+    },
+    {
+      "sequence": 39,
+      "report_id": "002692_远程股份_2026_ESG报告",
+      "pdf": "data/raw_pdfs/002692_远程股份_2026_ESG报告.pdf",
+      "pdf_size_bytes": 29792228,
+      "pdf_sha256": "b4b62fd7d4c3edb18dc7612db11afaab279dfd7bab1af870fa14f30829f468cd",
+      "pages": 59
+    },
+    {
+      "sequence": 40,
+      "report_id": "002782_可立克_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/002782_可立克_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 22828257,
+      "pdf_sha256": "915094d1c5561212af7aa4a094426560d710223d57f1da499e3ee6b54d7d3cb3",
+      "pages": 43
+    },
+    {
+      "sequence": 41,
+      "report_id": "002807_江阴银行_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002807_江阴银行_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19055958,
+      "pdf_sha256": "a23949aa5ed130432c2392b5f9b6230a6ef12676119a63d54183a9d185275f45",
+      "pages": 52
+    },
+    {
+      "sequence": 42,
+      "report_id": "002849_威星智能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002849_威星智能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17147526,
+      "pdf_sha256": "15371198a81d0f73a97c587ad1cb3ba072bf1336fbef51e9883e1544902aff12",
+      "pages": 53
+    },
+    {
+      "sequence": 43,
+      "report_id": "002851_麦格米特_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/002851_麦格米特_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 25410264,
+      "pdf_sha256": "9c71365a4d503770a13f69941337415b1b75eea744718d0813ded37e165a6fa6",
+      "pages": 49
+    },
+    {
+      "sequence": 44,
+      "report_id": "002886_沃特股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002886_沃特股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 13486689,
+      "pdf_sha256": "4193f9cd212544c714ce0643da708cc7ab49cb4f3c149aeca4d3a2c2656550ef",
+      "pages": 38
+    },
+    {
+      "sequence": 45,
+      "report_id": "002887_绿茵生态_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002887_绿茵生态_2025_ESG报告.pdf",
+      "pdf_size_bytes": 10213203,
+      "pdf_sha256": "1e572a916e15cccfd93fb7f298c3bd78139813e3aedd31f615e1fc008cd37471",
+      "pages": 26
+    },
+    {
+      "sequence": 46,
+      "report_id": "002958_青农商行_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/002958_青农商行_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 31720868,
+      "pdf_sha256": "715cda0d6ab7a97856fda4f23ad88c30d06bdb8dd90708d62981c2b47648a7ac",
+      "pages": 77
+    },
+    {
+      "sequence": 47,
+      "report_id": "002999_天禾股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/002999_天禾股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 26649270,
+      "pdf_sha256": "47bc3989b731f39ea24f75863349d25da5394914c7ffa9972fd0fd21670d3e81",
+      "pages": 54
+    },
+    {
+      "sequence": 48,
+      "report_id": "003030_祖名股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/003030_祖名股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14284708,
+      "pdf_sha256": "88c5cbddf678dcd6c3731c4a18e33ddb62417d70995696b511b632fbc085a365",
+      "pages": 43
+    },
+    {
+      "sequence": 49,
+      "report_id": "00553_南京熊猫电子股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/00553_南京熊猫电子股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25476913,
+      "pdf_sha256": "a023493818ad34946d61a5d14d55aa8248824a758dff8c577abd888e12f804bc",
+      "pages": 45
+    },
+    {
+      "sequence": 50,
+      "report_id": "00568_山东墨龙_2025_ESG报告",
+      "pdf": "data/raw_pdfs/00568_山东墨龙_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7181955,
+      "pdf_sha256": "94d4aee41a880d3cbc2c683911206a214330cd09af8a1868c0caf6304c7d0fe5",
+      "pages": 89
+    },
+    {
+      "sequence": 51,
+      "report_id": "00588_北京北辰实业股份_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/00588_北京北辰实业股份_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 21092690,
+      "pdf_sha256": "ee71d750c9e585a33dc805f598b1fd864015ab7dc0ff8940490e274a0629b35d",
+      "pages": 34
+    },
+    {
+      "sequence": 52,
+      "report_id": "00666_瑞浦兰钧_2025_ESG报告",
+      "pdf": "data/raw_pdfs/00666_瑞浦兰钧_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19644166,
+      "pdf_sha256": "d545874eca828a460bc964030a7a66fbfd818c7fcae83b06ab96e59146f8faec",
+      "pages": 59
+    },
+    {
+      "sequence": 53,
+      "report_id": "00966_中国太平_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/00966_中国太平_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 19800954,
+      "pdf_sha256": "99f147bbc129c6056027ba0edfefe534f8d75cbb3124d17e3979724a779f738c",
+      "pages": 60
+    },
+    {
+      "sequence": 54,
+      "report_id": "01216_中原银行_2025_ESG报告",
+      "pdf": "data/raw_pdfs/01216_中原银行_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17804321,
+      "pdf_sha256": "9c2c1d6c0d8987c7831bdda47e01f67df34051087ad7384cb5a248db4bc16245",
+      "pages": 42
+    },
+    {
+      "sequence": 55,
+      "report_id": "01359_中国信达_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/01359_中国信达_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 13008965,
+      "pdf_sha256": "bf3654deb7c2c7dc2007a54cb18c15e092ff2a67136fdfcd54548ac185f44704",
+      "pages": 77
+    },
+    {
+      "sequence": 56,
+      "report_id": "01432_中国圣牧_2025_ESG报告",
+      "pdf": "data/raw_pdfs/01432_中国圣牧_2025_ESG报告.pdf",
+      "pdf_size_bytes": 29161397,
+      "pdf_sha256": "9922f6980925d5670329bb00043ca5dd5340bb5ef44cd644e5a7231f25d66628",
+      "pages": 46
+    },
+    {
+      "sequence": 57,
+      "report_id": "01847_云南建投混凝土_2025_ESG报告",
+      "pdf": "data/raw_pdfs/01847_云南建投混凝土_2025_ESG报告.pdf",
+      "pdf_size_bytes": 432108,
+      "pdf_sha256": "3892616e19cc059ccf43545ff3bf159a33851201cac980d87927d4bee45c1098",
+      "pages": 14
+    },
+    {
+      "sequence": 58,
+      "report_id": "01950_帝王实业控股_2026_ESG报告",
+      "pdf": "data/raw_pdfs/01950_帝王实业控股_2026_ESG报告.pdf",
+      "pdf_size_bytes": 2331403,
+      "pdf_sha256": "f705bc7cf23689611d1e229050bafcdfdfa61b841c62583f9cb72ad8aabc2115",
+      "pages": 54
+    },
+    {
+      "sequence": 59,
+      "report_id": "02402_亿华通_2025_ESG报告",
+      "pdf": "data/raw_pdfs/02402_亿华通_2025_ESG报告.pdf",
+      "pdf_size_bytes": 9631490,
+      "pdf_sha256": "e0dd163ad7907318ef6321a8755da8f6fefa90ade2129e52e72fa3100845a1ce",
+      "pages": 62
+    },
+    {
+      "sequence": 60,
+      "report_id": "02651_大众口腔_2025_ESG报告",
+      "pdf": "data/raw_pdfs/02651_大众口腔_2025_ESG报告.pdf",
+      "pdf_size_bytes": 2187798,
+      "pdf_sha256": "c378920f01505cf9fcd1ad829ca6b8b8be8a0b0ad7e5352a6c2cf60fe2933c25",
+      "pages": 57
+    },
+    {
+      "sequence": 61,
+      "report_id": "02676_纳芯微_2025_ESG报告",
+      "pdf": "data/raw_pdfs/02676_纳芯微_2025_ESG报告.pdf",
+      "pdf_size_bytes": 23830187,
+      "pdf_sha256": "2e5d9b729809dbb1ee788c44ab731af169291c1882362309a5dee5feec7ef203",
+      "pages": 78
+    },
+    {
+      "sequence": 62,
+      "report_id": "02768_国恩科技_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/02768_国恩科技_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 12596170,
+      "pdf_sha256": "a1dfe8daf933bca96564fac7ff199e75efb301a642e3cad9f44b0bbf48385261",
+      "pages": 37
+    },
+    {
+      "sequence": 63,
+      "report_id": "06198_青岛港_2025_ESG报告",
+      "pdf": "data/raw_pdfs/06198_青岛港_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8627129,
+      "pdf_sha256": "6f68b668a0bc5d20eb07fbf4af90345e1d8b4efe0b28ce60c69c6420c37858f5",
+      "pages": 57
+    },
+    {
+      "sequence": 64,
+      "report_id": "06656_思格新能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/06656_思格新能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20309677,
+      "pdf_sha256": "5dcfa924b4967e30b85ef1d05b38bbf8eb5b79c8655a2464f4d76d5caf9ddf8b",
+      "pages": 70
+    },
+    {
+      "sequence": 65,
+      "report_id": "06810_商米科技-Ｗ_2025_ESG报告",
+      "pdf": "data/raw_pdfs/06810_商米科技-Ｗ_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18119516,
+      "pdf_sha256": "ece5e74768bb51481c3b7167e7e75728f5d78be6d57c0e2e85cdf4be6d77fda7",
+      "pages": 76
+    },
+    {
+      "sequence": 66,
+      "report_id": "09668_渤海银行_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/09668_渤海银行_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 5267090,
+      "pdf_sha256": "9ebc8ee3557c4ffc2a2c573a544b985e1d9ad7e25cc9a3eaf4647c6ce93362d3",
+      "pages": 130
+    },
+    {
+      "sequence": 67,
+      "report_id": "300035_中科电气_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300035_中科电气_2025_ESG报告.pdf",
+      "pdf_size_bytes": 10096982,
+      "pdf_sha256": "aeeeda1c378e4b3a71b13baabaef66749ffe47d03c5336279c025839cb4ec6eb",
+      "pages": 69
+    },
+    {
+      "sequence": 68,
+      "report_id": "300068_ST南都_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300068_ST南都_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21687600,
+      "pdf_sha256": "b8dd04ca4767318d724c4070a685a361bb09050e976f34a74accebdbce373c7a",
+      "pages": 45
+    },
+    {
+      "sequence": 69,
+      "report_id": "300100_双林股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300100_双林股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 10664214,
+      "pdf_sha256": "c9df00727d4658133f52ee86d761b7ea038b4c916efe41005f119b7647e97ab9",
+      "pages": 40
+    },
+    {
+      "sequence": 70,
+      "report_id": "300149_睿智医药_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300149_睿智医药_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8094380,
+      "pdf_sha256": "a73d6180ee1eb0a325e4769f636aab80832e6316384bb05b7dcce6b694f4e74d",
+      "pages": 42
+    },
+    {
+      "sequence": 71,
+      "report_id": "300212_易华录_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300212_易华录_2025_ESG报告.pdf",
+      "pdf_size_bytes": 27753915,
+      "pdf_sha256": "d7b528d9261c6624180ef095d757d0fa5fb0c6a27b45d8f94a6a2fe83f4e177e",
+      "pages": 45
+    },
+    {
+      "sequence": 72,
+      "report_id": "300261_雅本化学_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300261_雅本化学_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12688263,
+      "pdf_sha256": "d73b59869056c83a7ce6018cc20353f323f9de6922bf9776bc8e29018ec84444",
+      "pages": 51
+    },
+    {
+      "sequence": 73,
+      "report_id": "300376_易事特_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/300376_易事特_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 23087169,
+      "pdf_sha256": "08aba7a5d552760d28f8fe4ec6df6f066a0db00c9527c7f2956d58e72a9f7ba2",
+      "pages": 63
+    },
+    {
+      "sequence": 74,
+      "report_id": "300459_汤姆猫_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300459_汤姆猫_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8961014,
+      "pdf_sha256": "23c39762b91f110fe280ebfc95b096b0f32508f466089e321837bb2ab6b52ea5",
+      "pages": 57
+    },
+    {
+      "sequence": 75,
+      "report_id": "300468_四方精创_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300468_四方精创_2025_ESG报告.pdf",
+      "pdf_size_bytes": 27524867,
+      "pdf_sha256": "93285be32d238b2a41dc5ef76e44d82a3737628a18aec2f38f96771271afa9b8",
+      "pages": 44
+    },
+    {
+      "sequence": 76,
+      "report_id": "300513_恒实科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300513_恒实科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19826629,
+      "pdf_sha256": "d0fd1f58b8d9478b50c43837d318cee04cb7d023d81d04d086dd7788a9ef1fca",
+      "pages": 22
+    },
+    {
+      "sequence": 77,
+      "report_id": "300527_ST应急_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300527_ST应急_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19122055,
+      "pdf_sha256": "74d213be50c3b3992d9b5299b5fdfb3f9df3bc110bded8967180c83b74abb40a",
+      "pages": 47
+    },
+    {
+      "sequence": 78,
+      "report_id": "300547_川环科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300547_川环科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20425189,
+      "pdf_sha256": "05c906ab031a52e6fb06d9da81e10de7e3aece35e4b8f3a18484e8dd512d7e02",
+      "pages": 36
+    },
+    {
+      "sequence": 79,
+      "report_id": "300597_吉大通信_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300597_吉大通信_2025_ESG报告.pdf",
+      "pdf_size_bytes": 27615831,
+      "pdf_sha256": "2014bcc7ec18e1b1aab2c043ed3bf93edcda8381c0660048b61740ecb708e849",
+      "pages": 78
+    },
+    {
+      "sequence": 80,
+      "report_id": "300832_新产业_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300832_新产业_2025_ESG报告.pdf",
+      "pdf_size_bytes": 9146282,
+      "pdf_sha256": "366a4234b143ddf9deef0445a747a69b77309b77b93f9280f39be3191caa8eef",
+      "pages": 49
+    },
+    {
+      "sequence": 81,
+      "report_id": "300834_星辉环材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300834_星辉环材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12005197,
+      "pdf_sha256": "babecaa26f768146de13f01e65261a68eebf5667b31d69012846b0da4e182513",
+      "pages": 30
+    },
+    {
+      "sequence": 82,
+      "report_id": "300949_奥雅股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300949_奥雅股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 23571267,
+      "pdf_sha256": "8275c6eaa86d172a5be02b5fafd148bef0708fa461f8e38e170e9b5c38f66297",
+      "pages": 49
+    },
+    {
+      "sequence": 83,
+      "report_id": "300972_万辰集团_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300972_万辰集团_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16454342,
+      "pdf_sha256": "6c2ac521edd98f4fff5570b55d6dfd3726fd491892109fffe724dbadc6cae7b7",
+      "pages": 45
+    },
+    {
+      "sequence": 84,
+      "report_id": "300982_苏文电能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/300982_苏文电能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 13554579,
+      "pdf_sha256": "b82ab9def1675ee5501d2303780c5f76a84af5c6a5240676aa366787d2be84cf",
+      "pages": 71
+    },
+    {
+      "sequence": 85,
+      "report_id": "301019_宁波色母_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/301019_宁波色母_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 626162,
+      "pdf_sha256": "d50eb584be9296b8bf4f41fa5ca66bce064bedd7c245abcb8efd2158456aac21",
+      "pages": 45
+    },
+    {
+      "sequence": 86,
+      "report_id": "301043_绿岛风_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301043_绿岛风_2025_ESG报告.pdf",
+      "pdf_size_bytes": 6476794,
+      "pdf_sha256": "378c09ed26071baec1faec007578a927b936b22e220976116994aefb53e5b4cc",
+      "pages": 29
+    },
+    {
+      "sequence": 87,
+      "report_id": "301073_君亭酒店_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301073_君亭酒店_2025_ESG报告.pdf",
+      "pdf_size_bytes": 26958974,
+      "pdf_sha256": "ca42922549cb7f79b132c5781f04d979c473f235a006d681783cfd04228774d6",
+      "pages": 69
+    },
+    {
+      "sequence": 88,
+      "report_id": "301185_鸥玛软件_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301185_鸥玛软件_2025_ESG报告.pdf",
+      "pdf_size_bytes": 11550735,
+      "pdf_sha256": "430734cd610cead267a43eb0b91f2bb3d7f608358dea821418fbe7cf6252d459",
+      "pages": 52
+    },
+    {
+      "sequence": 89,
+      "report_id": "301308_江波龙_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301308_江波龙_2025_ESG报告.pdf",
+      "pdf_size_bytes": 27504375,
+      "pdf_sha256": "b316b53d1fab0c9ec763fe8012233fa74e1cfe0a2ec03ffe1ebe299c0fbe342b",
+      "pages": 80
+    },
+    {
+      "sequence": 90,
+      "report_id": "301370_国科恒泰_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301370_国科恒泰_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14277225,
+      "pdf_sha256": "e2b770c2021f60b9025abbbd2fa5ae6057aa67edf517e8d7164826a7211ce386",
+      "pages": 55
+    },
+    {
+      "sequence": 91,
+      "report_id": "301522_上大股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301522_上大股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30184862,
+      "pdf_sha256": "3efe05c117dd99a48edc99b99121fba719a4b3d68094586ef0cddd218627cd1a",
+      "pages": 52
+    },
+    {
+      "sequence": 92,
+      "report_id": "301588_美新科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301588_美新科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17706233,
+      "pdf_sha256": "20ef42dd5ac0520c3a7b8d0c7d164d58463dbe2722c651fa46b31b5c337d4f0d",
+      "pages": 63
+    },
+    {
+      "sequence": 93,
+      "report_id": "301599_理奇智能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/301599_理奇智能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 4951591,
+      "pdf_sha256": "c18c1b53b896417d7e5b7da6431c23eea65d7c9a42ee63940d8ea2944ecaa460",
+      "pages": 27
+    },
+    {
+      "sequence": 94,
+      "report_id": "600009_上海机场_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600009_上海机场_2025_ESG报告.pdf",
+      "pdf_size_bytes": 9809837,
+      "pdf_sha256": "b659695387f8245ab2cedb72cb2e5098d97366a1f286954be005fc68c288c14d",
+      "pages": 70
+    },
+    {
+      "sequence": 95,
+      "report_id": "600021_上海电力_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600021_上海电力_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21762804,
+      "pdf_sha256": "328069dea053112fdce22cca440d300c35e9d1dd841a2589dad5bdc1e27dc394",
+      "pages": 52
+    },
+    {
+      "sequence": 96,
+      "report_id": "600025_华能水电_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600025_华能水电_2025_ESG报告.pdf",
+      "pdf_size_bytes": 9535597,
+      "pdf_sha256": "36334e51efe4d569c7f1c8e0e0a80bbb943936bf09276d130da6cdce040e62c4",
+      "pages": 38
+    },
+    {
+      "sequence": 97,
+      "report_id": "600072_中船科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600072_中船科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 24239138,
+      "pdf_sha256": "38b09cdd570e1fba1d8e2ce5b29726efb0b4c25beffa3675f94d16195b0d09e2",
+      "pages": 38
+    },
+    {
+      "sequence": 98,
+      "report_id": "600117_西宁特钢_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600117_西宁特钢_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8382803,
+      "pdf_sha256": "31ebb54b179b4e8a6571d07931dc53d691e03f60c692d451a6fb0c07e9146cca",
+      "pages": 47
+    },
+    {
+      "sequence": 99,
+      "report_id": "600199_金种子酒_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600199_金种子酒_2025_ESG报告.pdf",
+      "pdf_size_bytes": 6266017,
+      "pdf_sha256": "513bc24092e133a95a3a7a88c3a7ca659bde90a93b39518b368343a4dab7d81f",
+      "pages": 45
+    },
+    {
+      "sequence": 100,
+      "report_id": "600259_中稀有色_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600259_中稀有色_2025_ESG报告.pdf",
+      "pdf_size_bytes": 31384924,
+      "pdf_sha256": "4f4bf56ca0fb211bbc70a8513dfcfddc1a318b6d443f65ebf3e91aee418d662c",
+      "pages": 61
+    },
+    {
+      "sequence": 101,
+      "report_id": "600261_阳光照明_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600261_阳光照明_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17381755,
+      "pdf_sha256": "248a457428759468ee45f514c8bea848dd6660feb261bf6ab5702f957d017516",
+      "pages": 35
+    },
+    {
+      "sequence": 102,
+      "report_id": "600278_东方创业_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600278_东方创业_2025_ESG报告.pdf",
+      "pdf_size_bytes": 26796374,
+      "pdf_sha256": "a0580cdb08a20d6da0901dc8e7fd35b4f9ebd9fcb3123342366eb459ca61cb6a",
+      "pages": 39
+    },
+    {
+      "sequence": 103,
+      "report_id": "600322_津投城开_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600322_津投城开_2025_ESG报告.pdf",
+      "pdf_size_bytes": 15016266,
+      "pdf_sha256": "12d37c570886037fc49b475594ee4d75234f06f72592e66bb75c27663fe2f5e5",
+      "pages": 38
+    },
+    {
+      "sequence": 104,
+      "report_id": "600331_宏达股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600331_宏达股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30388423,
+      "pdf_sha256": "20f3770b77f2636b939f55dcecaaf228bda94da73554876973d46a19b6724690",
+      "pages": 62
+    },
+    {
+      "sequence": 105,
+      "report_id": "600396_华电辽能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600396_华电辽能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 28328543,
+      "pdf_sha256": "f615d79867d42a25a50710e087b5ae382aa9673cb7d9408a5635c4fe8966fcfd",
+      "pages": 29
+    },
+    {
+      "sequence": 106,
+      "report_id": "600400_红豆股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600400_红豆股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7024333,
+      "pdf_sha256": "2e89ff65070447a383b01169e8d78ba854faba6696a0a3bc6da2e2ed19426224",
+      "pages": 41
+    },
+    {
+      "sequence": 107,
+      "report_id": "600406_国电南瑞_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600406_国电南瑞_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22584570,
+      "pdf_sha256": "e46284292b46ea161dc0bca6b0b0cd48b4cd7ecbb7aff5774cda2de1c0b4b80e",
+      "pages": 75
+    },
+    {
+      "sequence": 108,
+      "report_id": "600456_宝钛股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600456_宝钛股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 28506549,
+      "pdf_sha256": "8a6fbc37f6bf802ea250fe0449cbac7c26ad8dd5f163fd45b6528dd8c3ab15e4",
+      "pages": 34
+    },
+    {
+      "sequence": 109,
+      "report_id": "600475_华光环能_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600475_华光环能_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18349072,
+      "pdf_sha256": "7dcecb885d68881bd6f7cb45345d9e2b7707c5b8c318a38d3d9c26b832145c6c",
+      "pages": 68
+    },
+    {
+      "sequence": 110,
+      "report_id": "600480_凌云股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600480_凌云股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22050779,
+      "pdf_sha256": "740c76cae9b2f30a5dc94e7a2e16bf964c68f73880e4b301ea6e178ba41dcdbd",
+      "pages": 52
+    },
+    {
+      "sequence": 111,
+      "report_id": "600516_方大炭素_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600516_方大炭素_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17083678,
+      "pdf_sha256": "67eaa5056bd4468f72527d05b06b32eb9330881ac5df7400e8ca14f12d1e132a",
+      "pages": 45
+    },
+    {
+      "sequence": 112,
+      "report_id": "600525_ST长园_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600525_ST长园_2025_ESG报告.pdf",
+      "pdf_size_bytes": 15402244,
+      "pdf_sha256": "54df85490a21aa1a673d1441998bff0ec7f18f076e6596f19260e9931e071fbc",
+      "pages": 52
+    },
+    {
+      "sequence": 113,
+      "report_id": "600587_新华医疗_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600587_新华医疗_2025_ESG报告.pdf",
+      "pdf_size_bytes": 12043604,
+      "pdf_sha256": "68069d39f40819be6492243ab3fbf322c3884eaacb778b0cb42221d7b6e316d0",
+      "pages": 89
+    },
+    {
+      "sequence": 114,
+      "report_id": "600630_龙头股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600630_龙头股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14755313,
+      "pdf_sha256": "d15db98cf0e517182129493aab925ef8580669ec280cbe6b6e6bc166469f7aa1",
+      "pages": 57
+    },
+    {
+      "sequence": 115,
+      "report_id": "600651_飞乐音响_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/600651_飞乐音响_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 33234700,
+      "pdf_sha256": "6fb80431ba9dfcaa5fabd3537c967f1cdb94d50b3122449ca4f3803a4f1f323a",
+      "pages": 45
+    },
+    {
+      "sequence": 116,
+      "report_id": "600684_珠江股份_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/600684_珠江股份_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 20086786,
+      "pdf_sha256": "e8348dbfe5ade1380994e735994ab48c7351ca787a9f96e2e68bf7c5388fd2f6",
+      "pages": 46
+    },
+    {
+      "sequence": 117,
+      "report_id": "600713_南京医药_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600713_南京医药_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17989792,
+      "pdf_sha256": "9db1a8778356c534a04ebb803605810b5d516fe34c4607168d78bb5617b94cc4",
+      "pages": 40
+    },
+    {
+      "sequence": 118,
+      "report_id": "600737_中粮糖业_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600737_中粮糖业_2025_ESG报告.pdf",
+      "pdf_size_bytes": 24668361,
+      "pdf_sha256": "7bb6f9fa8a36dbbdb968d4d76c7c5d0700907b658343bfd603842a97a76b9f92",
+      "pages": 69
+    },
+    {
+      "sequence": 119,
+      "report_id": "600759_ST洲际_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600759_ST洲际_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25629800,
+      "pdf_sha256": "c59382a19dc23db60b40ca0e745cbf4360ea5e68e4a8e8d27e6f9dd15a4cc7ac",
+      "pages": 43
+    },
+    {
+      "sequence": 120,
+      "report_id": "600779_水井坊_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600779_水井坊_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20895388,
+      "pdf_sha256": "2a43f692d53277ae738e85519465918339a6b4c7e534c0ea5a4ff27debac7270",
+      "pages": 61
+    },
+    {
+      "sequence": 121,
+      "report_id": "600783_鲁信创投_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600783_鲁信创投_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7723326,
+      "pdf_sha256": "bdf2942bbd3489e8194ced0f809beb0e5a62ea4b5b58358a055acbacb2aa1a4f",
+      "pages": 53
+    },
+    {
+      "sequence": 122,
+      "report_id": "600805_悦达投资_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600805_悦达投资_2025_ESG报告.pdf",
+      "pdf_size_bytes": 3654741,
+      "pdf_sha256": "0263cb32e6c6c175b64639b04c807ad2f23b323174ee3f63e6dac73b95bee053",
+      "pages": 32
+    },
+    {
+      "sequence": 123,
+      "report_id": "600846_同济科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600846_同济科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 31535788,
+      "pdf_sha256": "46368efb3a8a905f9064aae85f892d527a5d40377c240397a4abfe06424182cc",
+      "pages": 40
+    },
+    {
+      "sequence": 124,
+      "report_id": "600850_电科数字_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600850_电科数字_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8807624,
+      "pdf_sha256": "20d7711455e5804ac1a57a2f2d813dbbbdf73a7df6205c660d0e6baf1e3e73e1",
+      "pages": 37
+    },
+    {
+      "sequence": 125,
+      "report_id": "600855_航天长峰_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600855_航天长峰_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22615300,
+      "pdf_sha256": "fd231b2635b12131d929241b36a763e117e213fc02486b519276e6fb5c83a4bd",
+      "pages": 57
+    },
+    {
+      "sequence": 126,
+      "report_id": "600874_创业环保_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/600874_创业环保_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 10276524,
+      "pdf_sha256": "605ac26242d1ba3c8985b86803682c10f670b1613ad558b3e328d9dcde674c98",
+      "pages": 52
+    },
+    {
+      "sequence": 127,
+      "report_id": "600877_电科芯片_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/600877_电科芯片_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 29057079,
+      "pdf_sha256": "e8db9b39fd36f002dab35efda0d9595d6bc18ae2f8718fe5fb9ab71d6d0e7913",
+      "pages": 21
+    },
+    {
+      "sequence": 128,
+      "report_id": "600884_杉杉股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600884_杉杉股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25457573,
+      "pdf_sha256": "c45bea38c498a2268889faf06dbc992243306566960cbf67d981e27196c3245d",
+      "pages": 64
+    },
+    {
+      "sequence": 129,
+      "report_id": "600919_江苏银行_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/600919_江苏银行_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 5660893,
+      "pdf_sha256": "5476545b3a900a903a7f1fcb030272f8309c91db5c7ec9b40484f6c0d4275f49",
+      "pages": 65
+    },
+    {
+      "sequence": 130,
+      "report_id": "600963_岳阳林纸_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600963_岳阳林纸_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17565280,
+      "pdf_sha256": "2d2e65c5f7b41ca480f9178d2e2b7fa935cae0c4de01b1bf2262309e8dc5f856",
+      "pages": 60
+    },
+    {
+      "sequence": 131,
+      "report_id": "600996_贵广网络_2025_ESG报告",
+      "pdf": "data/raw_pdfs/600996_贵广网络_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8051001,
+      "pdf_sha256": "fb7023e9bf66290c7e6be05d4870192ee3ac2bb76e4f06412e9c4004c6cab05b",
+      "pages": 31
+    },
+    {
+      "sequence": 132,
+      "report_id": "601106_中国一重_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601106_中国一重_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21073235,
+      "pdf_sha256": "efeee30b75ea25bcdffc6cab9ef4ce0ca8d0681d4df6aea18c2a5dea2f6f70b7",
+      "pages": 61
+    },
+    {
+      "sequence": 133,
+      "report_id": "601118_海南橡胶_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601118_海南橡胶_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18879229,
+      "pdf_sha256": "74ad55a17cf8788bfac6adc8b732a051c9d464cba4029d1d6b6e3cb94ef77111",
+      "pages": 57
+    },
+    {
+      "sequence": 134,
+      "report_id": "601298_青岛港_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601298_青岛港_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8693208,
+      "pdf_sha256": "b26ca471d53f36e7f4abc1b841721046a745dff22ef645214f954b7903f6f1f1",
+      "pages": 57
+    },
+    {
+      "sequence": 135,
+      "report_id": "601360_三六零_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601360_三六零_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16013491,
+      "pdf_sha256": "6feb505ee5bcc2aaa759cf068d62202548986cd36b652fa874bed19762edb195",
+      "pages": 52
+    },
+    {
+      "sequence": 136,
+      "report_id": "601555_东吴证券_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/601555_东吴证券_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 5251631,
+      "pdf_sha256": "60d147e7afca41348754e90ca62b3dee6cb6d7589ab3ed5313324362e57132b8",
+      "pages": 64
+    },
+    {
+      "sequence": 137,
+      "report_id": "601577_长沙银行_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/601577_长沙银行_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 32013032,
+      "pdf_sha256": "e1fe16e4812b6d7511e1e3074a5a5b85dc5fa4f5ae8963343851f56442626bcd",
+      "pages": 59
+    },
+    {
+      "sequence": 138,
+      "report_id": "601956_东贝集团_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601956_东贝集团_2025_ESG报告.pdf",
+      "pdf_size_bytes": 33376517,
+      "pdf_sha256": "5836e95717c62a77b8ee129cd7bc426d62172265ef61133a47acaff79a1ccaa0",
+      "pages": 68
+    },
+    {
+      "sequence": 139,
+      "report_id": "601975_招商南油_2025_ESG报告",
+      "pdf": "data/raw_pdfs/601975_招商南油_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30095258,
+      "pdf_sha256": "d63ed5b6058ca5d3b7f9da1ecb2d49ddd9231384a08c8b6065be4a203bd16d2c",
+      "pages": 57
+    },
+    {
+      "sequence": 140,
+      "report_id": "603013_亚普股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603013_亚普股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 6512784,
+      "pdf_sha256": "2e082ad26416cb13fcafefcd31f4eea7f4387019eb884d4c5aa2a41d554fa1ed",
+      "pages": 59
+    },
+    {
+      "sequence": 141,
+      "report_id": "603051_鹿山新材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603051_鹿山新材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14942946,
+      "pdf_sha256": "9f958540c874a551513fcbdd916c7727bf54e9047be2b48a4aa03bbc71971a06",
+      "pages": 77
+    },
+    {
+      "sequence": 142,
+      "report_id": "603082_北自科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603082_北自科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14242462,
+      "pdf_sha256": "1f43c10c069ec7815e22841c4ce25e335632a43b1b4f025037a5a07025e0ab44",
+      "pages": 74
+    },
+    {
+      "sequence": 143,
+      "report_id": "603128_华贸物流_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603128_华贸物流_2025_ESG报告.pdf",
+      "pdf_size_bytes": 1675621,
+      "pdf_sha256": "3ebe1db2d9069e8c577935e0c98e269cd69003db5be2fab8df9d86cd378d8c97",
+      "pages": 35
+    },
+    {
+      "sequence": 144,
+      "report_id": "603257_中国瑞林_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603257_中国瑞林_2025_ESG报告.pdf",
+      "pdf_size_bytes": 32413030,
+      "pdf_sha256": "abdb01a1c2fbce327cf57eb47eaab004d9202cc7e79ed3c6fa5d7ba31528eed2",
+      "pages": 53
+    },
+    {
+      "sequence": 145,
+      "report_id": "603260_合盛硅业_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/603260_合盛硅业_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 16741598,
+      "pdf_sha256": "f0ec145aacba058c2ead2e1c7aebe72722f351aab23e448307be9011bbccee77",
+      "pages": 74
+    },
+    {
+      "sequence": 146,
+      "report_id": "603272_ST联翔_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/603272_ST联翔_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 6726830,
+      "pdf_sha256": "ac576e042eb9c5b39793ffd5f6e7e5a3d225ac6910dbcf32ffd389f65ea8a652",
+      "pages": 36
+    },
+    {
+      "sequence": 147,
+      "report_id": "603291_联合水务_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603291_联合水务_2025_ESG报告.pdf",
+      "pdf_size_bytes": 29133585,
+      "pdf_sha256": "a0e551bc1b411521697d43e21f7e94d8f4b1cbf9895fbebb7dde136caf686640",
+      "pages": 82
+    },
+    {
+      "sequence": 148,
+      "report_id": "603329_上海雅仕_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603329_上海雅仕_2025_ESG报告.pdf",
+      "pdf_size_bytes": 3531737,
+      "pdf_sha256": "d71b05ee676fb3943539faa62f613d49dee31bcc090cd4ad1a9497c717a42eeb",
+      "pages": 29
+    },
+    {
+      "sequence": 149,
+      "report_id": "603333_尚纬股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603333_尚纬股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 13645990,
+      "pdf_sha256": "56cb0fbf4f5a0c7d09641e4c4c646a357a0d8a5a7d4ae2b9be9d596d82cfb674",
+      "pages": 68
+    },
+    {
+      "sequence": 150,
+      "report_id": "603368_柳药集团_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603368_柳药集团_2025_ESG报告.pdf",
+      "pdf_size_bytes": 15157294,
+      "pdf_sha256": "e572ea8b6842cd0c7531df1202161a49da113739a8187a28ede509cd316c8061",
+      "pages": 73
+    },
+    {
+      "sequence": 151,
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/603369_今世缘_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 27067584,
+      "pdf_sha256": "7f0eda59b66350d02402d9fd8a6ae52fbd73f99f0af56a012ded5a79e0cd7a41",
+      "pages": 108
+    },
+    {
+      "sequence": 152,
+      "report_id": "603373_安邦护卫_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/603373_安邦护卫_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 6502076,
+      "pdf_sha256": "a48d4256117b866fa292b8418a8a003ea66c2d9caae18fcae0ac5a18edc6c204",
+      "pages": 37
+    },
+    {
+      "sequence": 153,
+      "report_id": "603399_永杉锂业_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/603399_永杉锂业_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 14762725,
+      "pdf_sha256": "635b40b44c143530f9b64c0726bcb1540f62f58d340da69cee09b363544ab6d4",
+      "pages": 62
+    },
+    {
+      "sequence": 154,
+      "report_id": "603577_汇金通_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603577_汇金通_2025_ESG报告.pdf",
+      "pdf_size_bytes": 24677281,
+      "pdf_sha256": "24872aed04ab1b74110ec5612d7d13b4411d01e6a41b83c504376ce799d3c181",
+      "pages": 50
+    },
+    {
+      "sequence": 155,
+      "report_id": "603628_清源股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603628_清源股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 23889317,
+      "pdf_sha256": "df1548f8bc7c5045c8d5fedaf7a72c7b202cf9c116cc3f46854ea7ae7a388e16",
+      "pages": 47
+    },
+    {
+      "sequence": 156,
+      "report_id": "603660_苏州科达_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603660_苏州科达_2025_ESG报告.pdf",
+      "pdf_size_bytes": 23143121,
+      "pdf_sha256": "92b4bc216f95ac11f0376fbc6508700576c0e34d430b73b2fe0e5135e79af93e",
+      "pages": 84
+    },
+    {
+      "sequence": 157,
+      "report_id": "603683_晶华新材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603683_晶华新材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22589674,
+      "pdf_sha256": "ef3cadf95804abdd8787b41fe97a5f077e5a53196d3b5cb8ba02da6bc43e89cc",
+      "pages": 44
+    },
+    {
+      "sequence": 158,
+      "report_id": "603717_天域生物_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603717_天域生物_2025_ESG报告.pdf",
+      "pdf_size_bytes": 5467481,
+      "pdf_sha256": "233e650ee652aeb3a7e5f7cb99629c3cf4448de2d4a4c886d613f2baa0d893e9",
+      "pages": 28
+    },
+    {
+      "sequence": 159,
+      "report_id": "603777_来伊份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603777_来伊份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 3390097,
+      "pdf_sha256": "210ea28ed1fb07a58791b2f186fa3b9acdae972eae600e978ac36b189a40a7e0",
+      "pages": 45
+    },
+    {
+      "sequence": 160,
+      "report_id": "603808_歌力思_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603808_歌力思_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8842466,
+      "pdf_sha256": "2da6281d64c1a9f1691506a4322832ae141e7298c28bb3600b5422c9e8c1234a",
+      "pages": 59
+    },
+    {
+      "sequence": 161,
+      "report_id": "603868_飞科电器_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603868_飞科电器_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8402038,
+      "pdf_sha256": "1e4070bda559be7285ee6152e9400e9daa5602c556de59ad8b144b4f0c363f77",
+      "pages": 74
+    },
+    {
+      "sequence": 162,
+      "report_id": "603918_金桥信息_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603918_金桥信息_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16088455,
+      "pdf_sha256": "c3b19d18d781c460fbeb054b8b9cc8164c5836f3234e6006f459d653d30d4bc7",
+      "pages": 40
+    },
+    {
+      "sequence": 163,
+      "report_id": "603979_金诚信_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603979_金诚信_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18484780,
+      "pdf_sha256": "967a1bd04a4499f9590382fbd82bb00c03bc8098c532bd45f91b87768384ce14",
+      "pages": 85
+    },
+    {
+      "sequence": 164,
+      "report_id": "603990_麦迪科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/603990_麦迪科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 33259021,
+      "pdf_sha256": "04fd8a2264e66cc52435979802182e9b8c16140b85bce40afc1e0c58734b846b",
+      "pages": 49
+    },
+    {
+      "sequence": 165,
+      "report_id": "605199_ST葫芦娃_2025_ESG报告",
+      "pdf": "data/raw_pdfs/605199_ST葫芦娃_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30689344,
+      "pdf_sha256": "c09abfabfaabe66b94340674f2ba543a5bdc53cc800892a5bfdd4e1470947227",
+      "pages": 49
+    },
+    {
+      "sequence": 166,
+      "report_id": "605377_华旺科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/605377_华旺科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21010239,
+      "pdf_sha256": "b025dd65c67bdf78ca962496a022b9f4ed97607f37245e6ba3196145f062099f",
+      "pages": 56
+    },
+    {
+      "sequence": 167,
+      "report_id": "605399_晨光新材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/605399_晨光新材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 5739332,
+      "pdf_sha256": "058c2d16ba753fe68f90382e5d00cfbd246e90dd1c8296fc409975e4bc8373f2",
+      "pages": 50
+    },
+    {
+      "sequence": 168,
+      "report_id": "605488_福莱新材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/605488_福莱新材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 26573980,
+      "pdf_sha256": "4ccbe880d812309354ddf37d72b9fcdb4a6bd7bb404bc0bced08592930e7df69",
+      "pages": 95
+    },
+    {
+      "sequence": 169,
+      "report_id": "605599_菜百股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/605599_菜百股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20603215,
+      "pdf_sha256": "8a2fed8b690da47d6ddb93dfa5e291ae4069881fe6889447e6c38d501f607b2b",
+      "pages": 56
+    },
+    {
+      "sequence": 170,
+      "report_id": "688015_交控科技_2025_ESG暨社会责任报告",
+      "pdf": "data/raw_pdfs/688015_交控科技_2025_ESG暨社会责任报告.pdf",
+      "pdf_size_bytes": 5886347,
+      "pdf_sha256": "9d99123e71cfec2d04e79f563bd060192f16751c6c56fadda0144af80c342f34",
+      "pages": 44
+    },
+    {
+      "sequence": 171,
+      "report_id": "688051_佳华科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688051_佳华科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 10347532,
+      "pdf_sha256": "56f292e87dcbd5ba743d9e5b69243772f3626adfcc316d1aea759c7cc5f30547",
+      "pages": 58
+    },
+    {
+      "sequence": 172,
+      "report_id": "688128_中国电研_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688128_中国电研_2025_ESG报告.pdf",
+      "pdf_size_bytes": 16306397,
+      "pdf_sha256": "7dc2f0d63b8311a9de29ee51481c5afc779fc9d0c4902877c202237aa8d905b5",
+      "pages": 57
+    },
+    {
+      "sequence": 173,
+      "report_id": "688147_微导纳米_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688147_微导纳米_2025_ESG报告.pdf",
+      "pdf_size_bytes": 24378221,
+      "pdf_sha256": "fcbe9edf3f2e346d25c71c878c9e3cc4a9cb633434314caaa6b7cb49a53be213",
+      "pages": 52
+    },
+    {
+      "sequence": 174,
+      "report_id": "688218_江苏北人_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688218_江苏北人_2025_ESG报告.pdf",
+      "pdf_size_bytes": 15889014,
+      "pdf_sha256": "0451b2ad2653afa29ba0a9938ad9a43f2a71f27de921591804bed5f6b88311ed",
+      "pages": 25
+    },
+    {
+      "sequence": 175,
+      "report_id": "688226_威腾电气_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688226_威腾电气_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19709848,
+      "pdf_sha256": "be436c72a714217951db123e3235bb265b5b050f0a4ca273a19ef40f9d922cb2",
+      "pages": 64
+    },
+    {
+      "sequence": 176,
+      "report_id": "688261_东微半导_2026_ESG报告",
+      "pdf": "data/raw_pdfs/688261_东微半导_2026_ESG报告.pdf",
+      "pdf_size_bytes": 15859518,
+      "pdf_sha256": "e663f1a35f80e83f6a44da50456a4e83b9822d3b07edac24db632a6cdaed42e8",
+      "pages": 43
+    },
+    {
+      "sequence": 177,
+      "report_id": "688279_峰岹科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688279_峰岹科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7243099,
+      "pdf_sha256": "2e6d45fd80a703cb95eb92b6689828eb511037cdf0850bf69d96828d08efb2d9",
+      "pages": 30
+    },
+    {
+      "sequence": 178,
+      "report_id": "688348_昱能科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688348_昱能科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19434530,
+      "pdf_sha256": "b7407417397dc2dee9610e062db03a16b27667601942c6a874c87838535ec26c",
+      "pages": 54
+    },
+    {
+      "sequence": 179,
+      "report_id": "688400_凌云光_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688400_凌云光_2025_ESG报告.pdf",
+      "pdf_size_bytes": 7201601,
+      "pdf_sha256": "302bb4aea4e709f09cf832f6c92caca21e3397c82b95b92391f9a5adbab34e28",
+      "pages": 53
+    },
+    {
+      "sequence": 180,
+      "report_id": "688409_富创精密_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688409_富创精密_2025_ESG报告.pdf",
+      "pdf_size_bytes": 30990614,
+      "pdf_sha256": "e20ab43faf76cec76bb604421ad3b4d53dbbc551ba9c5db296ea1263e0346cb4",
+      "pages": 57
+    },
+    {
+      "sequence": 181,
+      "report_id": "688439_振华风光_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688439_振华风光_2025_ESG报告.pdf",
+      "pdf_size_bytes": 21600119,
+      "pdf_sha256": "6f9e7fd37ce067f0fbfe6f70fd5fad2402dc358fb690c461bed949463b706232",
+      "pages": 46
+    },
+    {
+      "sequence": 182,
+      "report_id": "688503_聚和材料_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688503_聚和材料_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8177746,
+      "pdf_sha256": "35ac66b01c262e3aa19bade981092682582c96c65ad45499188c188d429c628f",
+      "pages": 79
+    },
+    {
+      "sequence": 183,
+      "report_id": "688509_正元地信_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688509_正元地信_2025_ESG报告.pdf",
+      "pdf_size_bytes": 1186003,
+      "pdf_sha256": "ca0b800e470922d9bf2032bf0f3addc2eec9f86606e4ca39fccba7e586501cf5",
+      "pages": 31
+    },
+    {
+      "sequence": 184,
+      "report_id": "688515_裕太微_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688515_裕太微_2025_ESG报告.pdf",
+      "pdf_size_bytes": 20623643,
+      "pdf_sha256": "8f78af4a494da2690db607772bbf06e24a6d0f6821c0d227eed0366ec1f63796",
+      "pages": 57
+    },
+    {
+      "sequence": 185,
+      "report_id": "688560_明冠新材_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688560_明冠新材_2025_ESG报告.pdf",
+      "pdf_size_bytes": 10629139,
+      "pdf_sha256": "0b7dec0e73d0d919b0b2ad5b99f0576253b05a48a58533fcef26610da137fdc8",
+      "pages": 45
+    },
+    {
+      "sequence": 186,
+      "report_id": "688598_金博股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688598_金博股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 33165856,
+      "pdf_sha256": "3c294f88b1d8a41322acb449744bb0554deca807c8a384449d3c8e95bfc79e83",
+      "pages": 55
+    },
+    {
+      "sequence": 187,
+      "report_id": "688613_奥精医疗_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688613_奥精医疗_2025_ESG报告.pdf",
+      "pdf_size_bytes": 19844167,
+      "pdf_sha256": "e024ecabf4b1964f2e5927c3857141b87cc435c070dee7d1186f7357127fb20e",
+      "pages": 41
+    },
+    {
+      "sequence": 188,
+      "report_id": "688618_三旺通信_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688618_三旺通信_2025_ESG报告.pdf",
+      "pdf_size_bytes": 8308646,
+      "pdf_sha256": "07667693421b8556316f3381885ab20035be5fd9d7b2f97567843fb5228c1169",
+      "pages": 50
+    },
+    {
+      "sequence": 189,
+      "report_id": "688690_纳微科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688690_纳微科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18608040,
+      "pdf_sha256": "6571220b5c265ab0f8434bb08a0b3670ccda980e334d6aaafe63a93914c56a4e",
+      "pages": 52
+    },
+    {
+      "sequence": 190,
+      "report_id": "688709_成都华微_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688709_成都华微_2025_ESG报告.pdf",
+      "pdf_size_bytes": 31250540,
+      "pdf_sha256": "2c8eb990fc893775fea18ccbb6696362390f897caa9871c3ebe98ffece31e0d5",
+      "pages": 63
+    },
+    {
+      "sequence": 191,
+      "report_id": "688728_格科微_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688728_格科微_2025_ESG报告.pdf",
+      "pdf_size_bytes": 14029617,
+      "pdf_sha256": "039cbdecc14a29c352879cc440439a53ce1c264a1e3a6f77546a5ca328b6406e",
+      "pages": 50
+    },
+    {
+      "sequence": 192,
+      "report_id": "688818_电科蓝天_2025_ESG报告",
+      "pdf": "data/raw_pdfs/688818_电科蓝天_2025_ESG报告.pdf",
+      "pdf_size_bytes": 6880154,
+      "pdf_sha256": "8a1447aba881e9b270ad81520b844c04bb98518e7cbbb22f56e11f7abd93d9bb",
+      "pages": 48
+    },
+    {
+      "sequence": 193,
+      "report_id": "920001_纬达光电_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920001_纬达光电_2025_ESG报告.pdf",
+      "pdf_size_bytes": 18043135,
+      "pdf_sha256": "f2472db5c8cb79f17a5c13b84fb333002b9093c447428313c3063d54d0c5819b",
+      "pages": 58
+    },
+    {
+      "sequence": 194,
+      "report_id": "920019_铜冠矿建_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920019_铜冠矿建_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22886824,
+      "pdf_sha256": "23eefba04e0892e53d9c93d4f5635e1bf723a11b0fb9b7a484d4408911246b07",
+      "pages": 37
+    },
+    {
+      "sequence": 195,
+      "report_id": "920029_开发科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920029_开发科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 27468742,
+      "pdf_sha256": "49b5f7c6fb2c0d6cbb36e199377c790ac75848f0ff48c30f948516e9c75ed927",
+      "pages": 84
+    },
+    {
+      "sequence": 196,
+      "report_id": "920039_国义招标_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920039_国义招标_2025_ESG报告.pdf",
+      "pdf_size_bytes": 25956066,
+      "pdf_sha256": "3cb176eafbb8130449213fc7462d67fd2d926cf676a8ee51df94253a960d68bd",
+      "pages": 62
+    },
+    {
+      "sequence": 197,
+      "report_id": "920122_中纺标_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920122_中纺标_2025_ESG报告.pdf",
+      "pdf_size_bytes": 6424869,
+      "pdf_sha256": "bede4449e62b5c967091766defc35a7da7172dfd1a830fd0b5c82f3991420dcc",
+      "pages": 48
+    },
+    {
+      "sequence": 198,
+      "report_id": "920167_同享科技_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920167_同享科技_2025_ESG报告.pdf",
+      "pdf_size_bytes": 17304803,
+      "pdf_sha256": "c2b8517624bed4ae847c468d7d3bab474678e638261e2840b6b8506e5fc11159",
+      "pages": 40
+    },
+    {
+      "sequence": 199,
+      "report_id": "920299_灿能电力_2025_可持续发展报告",
+      "pdf": "data/raw_pdfs/920299_灿能电力_2025_可持续发展报告.pdf",
+      "pdf_size_bytes": 7369426,
+      "pdf_sha256": "50000d719c9f3a0c5b32ca2f2b18cd798933162fda119b0b32861acfd2753f2e",
+      "pages": 77
+    },
+    {
+      "sequence": 200,
+      "report_id": "920665_科强股份_2025_ESG报告",
+      "pdf": "data/raw_pdfs/920665_科强股份_2025_ESG报告.pdf",
+      "pdf_size_bytes": 22590625,
+      "pdf_sha256": "ffc8e2ec05226d72e483b82a625e4fc6e5a633f181a233d3fca41fd81c42a848",
+      "pages": 44
+    }
+  ],
+  "run_id": "cg-20260822T011339Z-full200-vlm25-qwen36",
+  "state": "prepared",
+  "scope_type": "full200",
+  "cohort_id": "esg-claimguard-formal-200",
+  "is_full_200": true,
+  "evaluation_kind": "engineering_run_not_accuracy_evaluation",
+  "natural_gold_unlocked": false,
+  "promotion": "not_promoted",
+  "input_manifest": {
+    "path": "outputs/formal_v3_mineru25_qwen36/input_manifest.csv",
+    "sha256": "65e8f500f30baec24ca220bc20bb391c2b4c871c8ba20b464bc9dc5225401280"
+  },
+  "protected_input_hashes": {
+    "baseline": {
+      "outputs/formal_v2/llm_200/extraction_results.csv": "ee00ee5f0be98a0dd87dab2b84059edabefdf7273ed4c80acbe3cc9c3920e6d6",
+      "outputs/formal_v2/llm_200/run_summary.json": "cec167ee888c1965eb677ff2d4f6e6522dbb47ed0116393834c69d38676a5f09",
+      "outputs/formal_v2/indicator_pool_v2.csv": "c711f35e4acbc195d98da429757b583805f114c62321b6dfb3ecbbd026d2420e"
+    },
+    "natural_gold": {
+      "data/evaluation/natural_gold/v1/dataset.json": "c1c869a6a9c77071042d9897ed9d6b41898cd689ce1584f22d78fc52cbacec13",
+      "data/evaluation/natural_gold/v1/manifest.csv": "b9897c056822486b69e29f10842530df4a7537c80e2be4300e6de81d9ce587bc",
+      "data/evaluation/natural_gold/v1/pilot30/manifest.csv": "67016dc25c93861f5befa869489369e3af90e9b0525e7636d4fcde7c3e6f6206",
+      "data/evaluation/natural_gold/v1/pilot30/pilot.json": "eefac991bc5c9ac629c1b8037edb5968c5e4d5350425653cabd0a3e55b1f2d5b"
+    }
+  },
+  "source_control": {
+    "commit": "0bbedaa6e53e0452f5f842fd34707e3e6d478c33",
+    "dirty": true
+  },
+  "hardware": {
+    "platform": "Linux-5.15.0-179-generic-x86_64-with-glibc2.35",
+    "gpu": "NVIDIA GeForce RTX 5090, 32607 MiB, 580.159.04"
+  },
+  "extraction_config": {
+    "prompt_version": "formal-v2-evidence-only-20260822",
+    "canonical_postprocess": "model-table-bbox-backfill-v1",
+    "max_candidates": 5,
+    "context_tokens": 8192,
+    "max_output_tokens": 1024,
+    "temperature": 0,
+    "model_file": "/usr/share/ollama/.ollama/models/huggingface/ggml-org/Qwen3.6-27B-GGUF/Qwen3.6-27B-Q4_K_M.gguf",
+    "model_size_bytes": 19095766304
+  },
+  "config_sha256": "38b1fe9210e8d09cac634094ac9fbf15325b888758c0275b0d996ff38779893a",
+  "cohort_manifest": {
+    "csv_path": "outputs/formal_v3_mineru25_qwen36/cohort_manifest.csv",
+    "csv_sha256": "93898d69b4453d0d0d35cee2cde2685020725c09b08104ae66655401cc0082bc",
+    "json_path": "outputs/formal_v3_mineru25_qwen36/cohort_manifest.json",
+    "json_sha256": "4fd5866d25acc97261ef7c13f83ee4c2f776269d9708e6a7d7707ad8724573b2"
+  },
+  "historical_input_provenance": {
+    "source_report_list": "outputs/formal_v2/llm_200/run_summary.json",
+    "indicator_pool_path": "outputs/formal_v2/indicator_pool_v2.csv",
+    "original_run_manifest_sha256": "7df8cdbff752ea045dd0510f7aedd6addec0dce9e1cf503e390e1b4f5479eb98"
+  }
+}

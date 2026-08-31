@@ -117,14 +117,26 @@ CONSTRAINTS = (
 )
 
 
-def preaudit_summary(action_rows: list[dict[str, Any]], report_id: str = "") -> dict[str, Any]:
+def preaudit_summary(
+    action_rows: list[dict[str, Any]],
+    report_id: str = "",
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
+) -> dict[str, Any]:
+    metadata = repository.dataset_metadata(dataset_id)
     if report_id:
-        payload = preaudit_issues(action_rows, report_id, include_closed=True)
+        payload = preaudit_issues(action_rows, report_id, include_closed=True, dataset_id=dataset_id)
         issues = payload["items"]
-        graph = claim_graph(report_id)
-        found = [row for row in repository.results() if row.get("report_id") == report_id and row.get("status") == "found"]
+        graph = claim_graph(report_id, dataset_id)
+        found = [
+            row
+            for row in repository.results(dataset_id)
+            if row.get("report_id") == report_id and row.get("status") == "found"
+        ]
         evidenced = sum(bool(row.get("evidence_quote") and row.get("block_id")) for row in found)
         return {
+            "dataset_id": metadata["dataset_id"],
+            "run_id": metadata["run_id"],
+            "dataset_scope": metadata["scope"],
             "scope": report_id,
             "report_id": report_id,
             "suggested_report_id": report_id,
@@ -142,9 +154,28 @@ def preaudit_summary(action_rows: list[dict[str, Any]], report_id: str = "") -> 
             "method_note": "问题按阻断、重要、提示三级展示；没有人工校准数据前不输出伪精确风险分。首轮自动条款映射只对沪市报告启用。",
         }
 
-    reports = [item for item in repository.report_index() if item.get("has_pdf")]
-    suggested = max(reports, key=lambda item: (item.get("risk_count", 0), item.get("missing_count", 0)), default={}).get("report_id", "")
+    all_reports = repository.report_index(dataset_id)
+    reports = [item for item in all_reports if item.get("has_pdf")] or all_reports
+
+    # Pick a report that demonstrates the current claim-evidence workflow.  The
+    # former ordering depended on a historical risk_cases.csv snapshot; that
+    # made a deleted experiment silently control the product's default report.
+    def report_rank(item: dict[str, Any]) -> tuple[int, int, int, int, int]:
+        current_report_id = str(item.get("report_id", ""))
+        issues = _base_issues(current_report_id, dataset_id)
+        return (
+            int(any(issue.get("calculation") for issue in issues)),
+            sum(issue.get("severity") == "blocking" for issue in issues),
+            len(issues),
+            int(item.get("found_count", 0)),
+            int(item.get("missing_count", 0)),
+        )
+
+    suggested = max(reports, key=report_rank, default={}).get("report_id", "")
     return {
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "dataset_scope": metadata["scope"],
         "scope": "all_reports",
         "report_id": "",
         "suggested_report_id": suggested,
@@ -157,12 +188,21 @@ def preaudit_issues(
     action_rows: list[dict[str, Any]],
     report_id: str,
     include_closed: bool = False,
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
 ) -> dict[str, Any]:
+    metadata = repository.dataset_metadata(dataset_id)
     if not report_id:
-        return {"items": [], "total": 0, "report_id": ""}
+        return {
+            "items": [],
+            "total": 0,
+            "report_id": "",
+            "dataset_id": metadata["dataset_id"],
+            "run_id": metadata["run_id"],
+            "scope": metadata["scope"],
+        }
     action_map = {str(row.get("issue_id", "")): row for row in action_rows if row.get("report_id") == report_id}
     items: list[dict[str, Any]] = []
-    for raw in _base_issues(report_id):
+    for raw in _base_issues(report_id, dataset_id):
         item = dict(raw)
         action = action_map.get(item["issue_id"], {})
         item["action"] = action.get("action", "open")
@@ -173,12 +213,23 @@ def preaudit_issues(
         if include_closed or not item["closed"]:
             items.append(item)
     items.sort(key=lambda item: (item["closed"], SEVERITY_ORDER[item["severity"]], item["issue_type"], item["issue_id"]))
-    return {"items": items, "total": len(items), "report_id": report_id}
+    return {
+        "items": items,
+        "total": len(items),
+        "report_id": report_id,
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "scope": metadata["scope"],
+    }
 
 
-@lru_cache(maxsize=256)
-def claim_graph(report_id: str) -> dict[str, Any]:
-    rows = [row for row in repository.results() if row.get("report_id") == report_id]
+@lru_cache(maxsize=512)
+def claim_graph(
+    report_id: str,
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
+) -> dict[str, Any]:
+    metadata = repository.dataset_metadata(dataset_id)
+    rows = [row for row in repository.results(dataset_id) if row.get("report_id") == report_id]
     nodes: list[dict[str, Any]] = [{"id": f"report:{report_id}", "type": "report", "label": report_id}]
     edges: list[dict[str, Any]] = []
     standards_seen: set[str] = set()
@@ -239,6 +290,9 @@ def claim_graph(report_id: str) -> dict[str, Any]:
                 edges.append({"source": f"claim:{part}", "target": f"claim:{spec['total']}", "type": "part_of"})
 
     return {
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "scope": metadata["scope"],
         "report_id": report_id,
         "nodes": nodes,
         "edges": edges,
@@ -254,10 +308,15 @@ def claim_graph(report_id: str) -> dict[str, Any]:
     }
 
 
-def export_workpaper_csv(action_rows: list[dict[str, Any]], report_id: str) -> bytes:
-    issues = preaudit_issues(action_rows, report_id, include_closed=True)["items"]
+def export_workpaper_csv(
+    action_rows: list[dict[str, Any]],
+    report_id: str,
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
+) -> bytes:
+    metadata = repository.dataset_metadata(dataset_id)
+    issues = preaudit_issues(action_rows, report_id, include_closed=True, dataset_id=dataset_id)["items"]
     fields = [
-        "issue_id", "report_id", "severity", "issue_type", "title", "finding", "action", "action_note",
+        "dataset_id", "run_id", "scope", "issue_id", "report_id", "severity", "issue_type", "title", "finding", "action", "action_note",
         "reviewer", "updated_at", "indicator_names", "evidence_a", "evidence_a_page", "evidence_b",
         "evidence_b_page", "calculation", "standard", "clause", "source_url",
     ]
@@ -269,6 +328,9 @@ def export_workpaper_csv(action_rows: list[dict[str, Any]], report_id: str) -> b
         requirement = item.get("requirement", {})
         writer.writerow(
             {
+                "dataset_id": metadata["dataset_id"],
+                "run_id": metadata["run_id"],
+                "scope": metadata["scope"],
                 "issue_id": item["issue_id"],
                 "report_id": item["report_id"],
                 "severity": item["severity"],
@@ -293,9 +355,12 @@ def export_workpaper_csv(action_rows: list[dict[str, Any]], report_id: str) -> b
     return ("\ufeff" + stream.getvalue()).encode("utf-8")
 
 
-@lru_cache(maxsize=256)
-def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
-    rows = [row for row in repository.results() if row.get("report_id") == report_id]
+@lru_cache(maxsize=512)
+def _base_issues(
+    report_id: str,
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
+) -> tuple[dict[str, Any], ...]:
+    rows = [row for row in repository.results(dataset_id) if row.get("report_id") == report_id]
     by_id = {str(row.get("indicator_id", "")): row for row in rows}
     issues: list[dict[str, Any]] = []
 
@@ -309,6 +374,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
             issues.append(
                 _issue(
                     report_id,
+                    dataset_id,
                     "evidence_integrity",
                     "blocking",
                     "声明缺少可回溯证据",
@@ -328,6 +394,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
             issues.append(
                 _issue(
                     report_id,
+                    dataset_id,
                     "field_completeness",
                     "important",
                     "定量声明字段不完整",
@@ -341,6 +408,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
             issues.append(
                 _issue(
                     report_id,
+                    dataset_id,
                     "claim_evidence_mismatch",
                     "blocking",
                     "结构化数值无法在证据中定位",
@@ -357,6 +425,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
             issues.append(
                 _issue(
                     report_id,
+                    dataset_id,
                     f"diagnostic_{issue_type}",
                     "important" if risk_level == "high" else "attention",
                     ISSUE_TEXT.get(issue_type, "抽取结构需要人工核验"),
@@ -384,6 +453,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
         issues.append(
             _issue(
                 report_id,
+                dataset_id,
                 f"constraint_{spec['id']}",
                 "important",
                 str(spec["title"]),
@@ -412,6 +482,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
         issues.append(
             _issue(
                 report_id,
+                dataset_id,
                 "standard_explanation_gap",
                 "attention",
                 f"未找到“{requirement['topic']}”披露或省略说明",
@@ -431,6 +502,7 @@ def _base_issues(report_id: str) -> tuple[dict[str, Any], ...]:
 
 def _issue(
     report_id: str,
+    dataset_id: str,
     issue_type: str,
     severity: str,
     title: str,
@@ -441,9 +513,16 @@ def _issue(
     calculation: dict[str, Any] | None = None,
     requirement: dict[str, str] | None = None,
 ) -> dict[str, Any]:
-    stable_key = "|".join([report_id, issue_type, *sorted(indicator_ids)])
+    stable_parts = [report_id, issue_type, *sorted(indicator_ids)]
+    if dataset_id != repository.CURRENT_DATASET_ID:
+        stable_parts.insert(0, dataset_id)
+    stable_key = "|".join(stable_parts)
+    metadata = repository.dataset_metadata(dataset_id)
     issue_id = "issue-" + hashlib.sha1(stable_key.encode("utf-8")).hexdigest()[:16]
     return {
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "scope": metadata["scope"],
         "issue_id": issue_id,
         "report_id": report_id,
         "issue_type": issue_type,

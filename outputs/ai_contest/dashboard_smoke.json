@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "generated_at": "2026-08-31T06:25:34+00:00",
+  "python": "conda:paperagent",
+  "server_command": [
+    "bash",
+    "scripts/run_dashboard.sh",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "48037"
+  ],
+  "isolated_state": true,
+  "base_url": "http://127.0.0.1:48037",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 515,
+      "elapsed_ms": 3.8
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 821,
+      "elapsed_ms": 1.55
+    },
+    {
+      "path": "/api/summary",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 528,
+      "elapsed_ms": 83.66
+    },
+    {
+      "path": "/api/reports",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 60104,
+      "elapsed_ms": 2.37
+    },
+    {
+      "path": "/api/indicators",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 22312,
+      "elapsed_ms": 3.08
+    },
+    {
+      "path": "/api/review-metrics",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 478,
+      "elapsed_ms": 3.28
+    },
+    {
+      "path": "/api/audit/summary",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 743,
+      "elapsed_ms": 165.8
+    },
+    {
+      "path": "/api/preaudit/summary",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 334,
+      "elapsed_ms": 196.68
+    },
+    {
+      "path": "/api/natural-gold/summary",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 838,
+      "elapsed_ms": 3.05
+    },
+    {
+      "path": "/api/natural-gold/evaluation",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 204,
+      "elapsed_ms": 3.73
+    },
+    {
+      "path": "/api/tasks",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 25,
+      "elapsed_ms": 1.75
+    },
+    {
+      "path": "/api/results?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A&limit=65",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 112054,
+      "elapsed_ms": 5.25
+    },
+    {
+      "path": "/api/result/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A/e_ghg_total",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1683,
+      "elapsed_ms": 1.13
+    },
+    {
+      "path": "/api/preaudit/issues?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A&include_closed=true",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1180,
+      "elapsed_ms": 2.54
+    },
+    {
+      "path": "/api/preaudit/graph?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 31004,
+      "elapsed_ms": 2.22
+    },
+    {
+      "path": "/api/evidence/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A?block_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A%3Ap43%3Ab0",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1303,
+      "elapsed_ms": 5.58
+    },
+    {
+      "path": "/api/pdf/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 18571555,
+      "elapsed_ms": 10.43
+    },
+    {
+      "path": "/api/preaudit/workpaper.csv?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
+      "status": 200,
+      "content_type": "text/csv",
+      "bytes": 638,
+      "elapsed_ms": 2.0
+    }
+  ],
+  "assertions": {
+    "report_count_at_least_200": true,
+    "indicator_count_is_65": true,
+    "result_count_matches_reports_times_indicators": true,
+    "natural_gold_metrics_remain_locked": true
+  },
+  "check_count": 18,
+  "server_log_tail": []
+}

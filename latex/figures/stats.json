@@ -1,0 +1,66 @@
+{
+  "reports": 200,
+  "pages": 10528,
+  "indicators": 65,
+  "rows": 13000,
+  "statuses": {
+    "found": 7688,
+    "missing": 5312
+  },
+  "dimension": {
+    "E": {
+      "found": 2363,
+      "missing": 2637
+    },
+    "S": {
+      "found": 2550,
+      "missing": 1450
+    },
+    "G": {
+      "found": 2775,
+      "missing": 1225
+    }
+  },
+  "report_found": {
+    "min": 0,
+    "median": 42.0,
+    "max": 57
+  },
+  "inference": {
+    "calls": 10015,
+    "elapsed_seconds": 27928.801,
+    "median_row_seconds": 2.7649999999999997,
+    "p95_row_seconds": 3.683
+  },
+  "evidence": {
+    "parsed_reports": 200,
+    "result_rows": 13000,
+    "unique_keys": 13000,
+    "reports": 200,
+    "indicators": 65,
+    "errors": 0,
+    "canonical_empty_table_blocks": 0,
+    "found": 7688,
+    "found_with_quote_page_block": 7688,
+    "found_traceability_rate": 1.0,
+    "quantitative_found": 3214,
+    "quantitative_complete": 3214,
+    "quantitative_direct": 3089,
+    "quantitative_derived": 125,
+    "quantitative_normalized_or_inferred_unit": 109,
+    "quantitative_completeness_rate": 1.0,
+    "evidence_contract": {
+      "checked_found_rows": 7688,
+      "valid_found_rows": 7688,
+      "failure_count": 0
+    },
+    "data001_corrections": {
+      "passed": true,
+      "correction_count": 4,
+      "csv_sha256": "34fbb29db01d23c138b514436109a2045d6180c7bdeda322aa65ad7b005cc6a2",
+      "json_sha256": "80fcf3de822d1732c543fc9dfce50a14505ab167d1cdc290d81b77f9aac7060b",
+      "failure_count": 0,
+      "failures": []
+    }
+  }
+}

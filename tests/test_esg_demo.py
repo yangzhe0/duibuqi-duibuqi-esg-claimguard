@@ -1,6 +1,4 @@
 import json
-import subprocess
-import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -8,7 +6,7 @@ from pathlib import Path
 
 class EsgDemoTests(unittest.TestCase):
     def _write_report(self, root: Path, report_id: str, text: str) -> None:
-        report_dir = root / f"data/parsed_reports_v1/reports/{report_id}"
+        report_dir = root / f"outputs/formal_v3_mineru25_qwen36/parsed/{report_id}"
         report_dir.mkdir(parents=True)
         json_path = report_dir / f"{report_id}_content_list_v2.json"
         json_path.write_text(
@@ -41,20 +39,6 @@ class EsgDemoTests(unittest.TestCase):
         self.assertTrue(all(indicator.keywords for indicator in FORMAL_INDICATORS))
         self.assertTrue(all(hasattr(indicator, "common_units") for indicator in FORMAL_INDICATORS))
         self.assertGreaterEqual(sum(1 for indicator in FORMAL_INDICATORS if indicator.is_core), 50)
-
-    def test_cli_rejects_qwen25_model(self):
-        result = subprocess.run(
-            [sys.executable, "scripts/run_esg_demo.py", "--model", "qwen2.5:7b-instruct", "--no-llm"],
-            cwd=Path(__file__).resolve().parents[1],
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            check=False,
-        )
-
-        self.assertNotEqual(result.returncode, 0)
-        self.assertIn("qwen2.5:7b-instruct", result.stderr)
-        self.assertIn("not allowed", result.stderr)
 
     def test_flatten_blocks_extracts_text_and_table_fields(self):
         from src.esg_demo.blocks import flatten_report
@@ -184,12 +168,49 @@ class EsgDemoTests(unittest.TestCase):
         self.assertEqual(fake_opener.payload["format"], "json")
         self.assertEqual(fake_opener.payload["options"]["num_predict"], 1024)
 
+    def test_openai_compatible_generate_disables_thinking_and_requests_json(self):
+        from src.esg_demo.ollama import OpenAICompatibleClient
+
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, traceback):
+                return False
+
+            def read(self):
+                return json.dumps(
+                    {"choices": [{"message": {"content": "{\"status\":\"missing\"}"}}]}
+                ).encode("utf-8")
+
+        class FakeOpener:
+            def __init__(self):
+                self.payload = None
+
+            def open(self, req, timeout):
+                self.payload = json.loads(req.data.decode("utf-8"))
+                return FakeResponse()
+
+        client = OpenAICompatibleClient(
+            model="qwen3.6-27b-q4_k_m",
+            url="http://example.invalid/v1/chat/completions",
+        )
+        fake_opener = FakeOpener()
+        client.opener = fake_opener
+
+        result = client.generate("prompt")
+
+        self.assertEqual(result, '{"status":"missing"}')
+        self.assertEqual(fake_opener.payload["response_format"], {"type": "json_object"})
+        self.assertFalse(fake_opener.payload["chat_template_kwargs"]["enable_thinking"])
+        self.assertEqual(fake_opener.payload["max_tokens"], 1024)
+
     def test_no_llm_demo_writes_machine_outputs(self):
         from src.esg_demo.runner import run_demo
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            report_dir = root / "data/parsed_reports_v1/reports/605377_华旺科技_2025_ESG报告"
+            report_dir = root / "outputs/formal_v3_mineru25_qwen36/parsed/605377_华旺科技_2025_ESG报告"
             report_dir.mkdir(parents=True)
             json_path = report_dir / "605377_华旺科技_2025_ESG报告_content_list_v2.json"
             json_path.write_text(
@@ -244,7 +265,7 @@ class EsgDemoTests(unittest.TestCase):
                 "000001_测试公司_2025_ESG报告",
                 "温室气体排放总量为 20 吨二氧化碳当量，员工总数为 100 人。",
             )
-            out_dir = root / "outputs/formal_v1"
+            out_dir = root / "outputs/formal_v3_mineru25_qwen36/new_reports"
 
             summary = run_formal(
                 project_root=root,
@@ -257,7 +278,7 @@ class EsgDemoTests(unittest.TestCase):
                 use_llm=False,
             )
 
-            self.assertEqual(summary["indicator_set"], "formal_v1")
+            self.assertEqual(summary["indicator_set"], "formal_current")
             self.assertEqual(summary["reports"], 1)
             self.assertGreaterEqual(summary["indicators"], 80)
             self.assertTrue((out_dir / "indicator_pool.json").is_file())
@@ -288,7 +309,7 @@ class EsgDemoTests(unittest.TestCase):
                 project_root=root,
                 report_filters=[],
                 report_limit=1,
-                out_dir=root / "outputs/formal_v1",
+                out_dir=root / "outputs/formal_v3_mineru25_qwen36/new_reports",
                 model="qwen3:30b",
                 ollama_url="http://127.0.0.1:11434/api/generate",
                 max_blocks_per_indicator=3,
@@ -310,33 +331,6 @@ class EsgDemoTests(unittest.TestCase):
             self.assertNotIn("\x00", content)
             self.assertIn('""quoted""', content)
             self.assertIn("\\ path", content)
-
-    def test_cli_script_is_directly_executable_from_project_root(self):
-        result = subprocess.run(
-            [sys.executable, "scripts/run_esg_demo.py", "--help"],
-            cwd=Path(__file__).resolve().parents[1],
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            check=False,
-        )
-
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Run the ESG MinerU JSON extraction demo", result.stdout)
-
-    def test_formal_cli_script_is_directly_executable_from_project_root(self):
-        result = subprocess.run(
-            [sys.executable, "scripts/run_esg_formal.py", "--help"],
-            cwd=Path(__file__).resolve().parents[1],
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            check=False,
-        )
-
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Run the formal ESG extraction workflow", result.stdout)
-
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fig_pipeline",
+    "claim": "顺序部署把文档感知、语义抽取和确定性证据门分离，并保留人工处置出口。",
+    "evidence": "系统组件及数据流",
+    "type": "流程图"
+  },
+  {
+    "id": "fig_scale_status",
+    "claim": "正式链路完整覆盖 200×65 网格，结果只含 found/missing。",
+    "evidence": "200 报告、10,528 页、13,000 行及状态计数",
+    "type": "双面板柱状图"
+  },
+  {
+    "id": "fig_dimension_coverage",
+    "claim": "found 分布在 E/S/G 三个维度间存在差异，但这里只表示语料披露覆盖。",
+    "evidence": "按维度的 found/missing 计数与 found 比例",
+    "type": "堆叠柱状图"
+  },
+  {
+    "id": "fig_report_distribution",
+    "claim": "不同报告的 ESG-65 found 数量呈现明显离散分布。",
+    "evidence": "200 份报告的 found 数直方图与分位数",
+    "type": "直方图"
+  },
+  {
+    "id": "fig_inference",
+    "claim": "Qwen3.6 全量生成调用在单卡顺序链路中完成且 error=0；耗时直方图仅统计具有 elapsed_seconds 的结果行。",
+    "evidence": "生成调用运行汇总与有耗时记录的结果行分布",
+    "type": "直方图+运行级指标卡"
+  },
+  {
+    "id": "fig_evidence_gate",
+    "claim": "完成门分别呈现数值来源与单位来源，并把 found 结果绑定到严格原串证据。",
+    "evidence": "validation.json 中的严格 quote、value origin、unit origin 与人工核验计数",
+    "type": "三面板柱状图"
+  }
+]

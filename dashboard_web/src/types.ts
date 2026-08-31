@@ -79,6 +79,34 @@ export type PipelineTask = {
   updated_at: string
 }
 
+export type TaskSummary = {
+  task_id: string
+  dataset_id: string
+  scope: 'single_upload'
+  report_id: string
+  total_results: number
+  found_count: number
+  missing_count: number
+  error_count: number
+  completed_at: string
+}
+
+export type TaskPreaudit = {
+  task_id: string
+  dataset_id: string
+  scope: 'single_upload'
+  report_id: string
+  total: number
+  items: Array<{
+    issue_id: string
+    indicator_id: string
+    indicator_name: string
+    issue_type: string
+    severity: 'blocking' | 'important' | 'attention'
+    finding: string
+  }>
+}
+
 export type AuditSignals = {
   rule_risk: number
   uncertainty: number
@@ -138,9 +166,11 @@ export type EvidenceTarget = { reportId: string; indicatorId: string; nonce: num
 export type SystemHealth = {
   status: 'ready' | 'degraded'
   pipeline_ready: boolean
-  mineru: { ready: boolean; executable: string }
+  profile: 'claimguard' | 'legacy'
+  mineru: { ready: boolean; executable: string; backend: string }
   ollama: { ready: boolean; url: string }
-  model: { ready: boolean; requested: string; available_count: number }
+  model: { ready: boolean; requested: string; available_count: number; api: 'openai' | 'ollama' }
+  runtime_assets: Record<string, { ready: boolean; path: string }>
   error: string
 }
 

@@ -98,7 +98,7 @@ def validate(output_dir: Path = DEFAULT_OUTPUT) -> dict:
         "reports_with_most_blocking_issues": sorted(report_rows, key=lambda row: (-row["blocking"], -row["important"], row["report_id"]))[:10],
         "limitations": [
             "This validation measures implementation coverage and traceability, not model accuracy.",
-            "Natural-Gold human annotations do not exist yet; precision/recall/F1 are intentionally omitted.",
+            "Independent human accuracy evaluation is outside this submission scope; precision/recall/F1 are intentionally omitted.",
             "Cross-claim arithmetic checks are scope-difference candidates until subject, period and scope fields are fully extracted.",
             "Automatic rule mapping is enabled only for Shanghai-listed reports in the first MVP.",
         ],
@@ -140,7 +140,7 @@ def _markdown(payload: dict) -> str:
 
 ## 口径边界
 
-- 当前没有 Natural-Gold 人工金标准，因此不报告 Precision、Recall 或 F1。
+- 独立人工准确率评测不属于本次参赛交付范围，因此不报告 Precision、Recall 或 F1。
 - 数值总分检查是口径差异候选；subject、period、scope 未完整抽取前不认定报告错误。
 - 第一版自动条款映射只对沪市报告启用。
 - 人工处置合同使用内存数据验证，没有写入正式复核数据库。

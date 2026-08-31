@@ -70,7 +70,7 @@ def run_formal(
         max_blocks_per_indicator=max_blocks_per_indicator,
         use_llm=use_llm,
         indicators=FORMAL_INDICATORS,
-        indicator_set="formal_v1",
+        indicator_set="formal_current",
         write_formal_artifacts=True,
         report_limit=report_limit,
     )
@@ -177,10 +177,10 @@ def formal_main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run the formal ESG extraction workflow.")
     parser.add_argument("--reports", nargs="*", default=[], help="Report code/prefix filters. Empty means all parsed reports.")
     parser.add_argument("--report-limit", type=int, default=DEFAULT_FORMAL_REPORT_LIMIT)
-    parser.add_argument("--indicator-set", choices=["formal_v1"], default="formal_v1")
+    parser.add_argument("--indicator-set", choices=["formal_current"], default="formal_current")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--ollama-url", default=DEFAULT_OLLAMA_URL)
-    parser.add_argument("--out-dir", default="outputs/formal_v1")
+    parser.add_argument("--out-dir", default="outputs/formal_v3_mineru25_qwen36/new_reports")
     parser.add_argument("--max-blocks-per-indicator", type=int, default=5)
     parser.add_argument("--no-llm", action="store_true", help="Generate candidate evidence and coverage without calling Ollama.")
     args = parser.parse_args(argv)
@@ -269,7 +269,7 @@ def _quality_review_rows(results: list[dict], max_rows: int = 200) -> list[dict]
 
 
 def _find_report_jsons(project_root: Path, report_filters: list[str]) -> list[Path]:
-    reports_root = project_root / "data/parsed_reports_v1/reports"
+    reports_root = project_root / "outputs/formal_v3_mineru25_qwen36/parsed"
     paths = []
     for report_dir in sorted(path for path in reports_root.iterdir() if path.is_dir()):
         if report_filters and not any(report_dir.name.startswith(value) or value in report_dir.name for value in report_filters):

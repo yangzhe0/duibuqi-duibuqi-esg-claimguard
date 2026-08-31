@@ -1,4 +1,4 @@
-import type { AuditItem, AuditSummary, ClaimGraph, Evidence, ExtractionResult, NaturalGoldAnnotation, NaturalGoldRole, NaturalGoldSummary, NaturalGoldTask, PipelineTask, PreauditIssue, PreauditSummary, ReportItem, ReviewMetrics, Summary, SystemHealth } from '../types'
+import type { AuditItem, AuditSummary, ClaimGraph, Evidence, ExtractionResult, NaturalGoldAnnotation, NaturalGoldRole, NaturalGoldSummary, NaturalGoldTask, PipelineTask, PreauditIssue, PreauditSummary, ReportItem, ReviewMetrics, Summary, SystemHealth, TaskPreaudit, TaskSummary } from '../types'
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
   const response = await fetch(url, options)
@@ -77,6 +77,11 @@ export const api = {
   },
   task: (taskId: string) => request<PipelineTask>(`/api/tasks/${encodeURIComponent(taskId)}`),
   tasks: () => request<{ items: PipelineTask[]; total: number }>('/api/tasks'),
+  taskSummary: (taskId: string) => request<TaskSummary>(`/api/tasks/${encodeURIComponent(taskId)}/summary`),
+  taskResults: (taskId: string) => request<{ items: ExtractionResult[]; total: number; dataset_id: string; scope: 'single_upload' }>(`/api/tasks/${encodeURIComponent(taskId)}/results`),
+  taskPreaudit: (taskId: string) => request<TaskPreaudit>(`/api/tasks/${encodeURIComponent(taskId)}/preaudit`),
+  taskPdfUrl: (taskId: string) => `/api/tasks/${encodeURIComponent(taskId)}/pdf`,
+  taskEvidenceUrl: (taskId: string, blockId: string) => `/api/tasks/${encodeURIComponent(taskId)}/evidence?block_id=${encodeURIComponent(blockId)}`,
   pdfUrl: (reportId: string) => `/api/pdf/${encodeURIComponent(reportId)}`,
   exportUrl: (reportId: string) => `/api/export/results.csv?report_id=${encodeURIComponent(reportId)}`,
   exportJsonUrl: (reportId: string) => `/api/export/results.json?report_id=${encodeURIComponent(reportId)}`,

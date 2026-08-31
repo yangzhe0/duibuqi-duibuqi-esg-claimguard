@@ -47,7 +47,8 @@ class ReviewSetTests(unittest.TestCase):
                 self.assertTrue(build_review_set.DEFAULT_RESULTS.is_absolute())
                 self.assertTrue(build_review_set.DEFAULT_POOL.is_absolute())
                 self.assertTrue(build_review_set.DEFAULT_OUT_DIR.is_absolute())
-                self.assertIn("contest_xiaoshumo", str(build_review_set.DEFAULT_RESULTS))
+                project_root = Path(build_review_set.__file__).resolve().parents[1]
+                self.assertTrue(build_review_set.DEFAULT_RESULTS.is_relative_to(project_root))
             finally:
                 os.chdir(old_cwd)
 

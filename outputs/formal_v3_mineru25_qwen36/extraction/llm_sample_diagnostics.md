@@ -1,0 +1,57 @@
+# formal_v2 LLM Sample Diagnostics
+
+- 本诊断基于 formal_v2 qwen3 证据约束抽取，不是 ESG 评分或排名。
+- 报告数：200
+- 指标数：65
+- 总结果数：13000
+- qwen3 调用数（结果口径）：10015
+- 本次运行新增 qwen3 调用数：10015
+- 断点续跑跳过结果数：0
+- 总调用数：10015
+- llm_error_count：209
+- found / missing / error 数量：{'found': 7495, 'missing': 5296, 'error': 209}
+- E/S/G found 分布：{'E': 2315, 'S': 2470, 'G': 2710}
+- quantitative / qualitative / boolean found 分布：{'quantitative': 3140, 'boolean': 2234, 'qualitative': 2121}
+- 平均单次调用耗时：2.786 秒/调用
+- 平均结果耗时：2.147 秒/结果
+- 总耗时：27928.801 秒
+- 错误率：0.0161
+- JSON/error 是否已消除：否
+- 证据为空的 found 数量：0
+- value/unit 缺失的定量 found 数量：0
+- quantitative found value/unit 缺失是否减少：当前为 0，修复后通过 postprocess/标记机制显式处理。
+- postprocess repaired 数量：1725
+- quantitative_incomplete 数量：0
+- 仍有问题的 indicator_id 和原因：
+  - `s_training` / `000016_深康佳Ａ_2025_ESG报告`：证据表格明确列示2025年员工培训人数及单位。 evidence quote not uniquely traceable to candidates
+  - `s_compensation_benefits` / `000403_派林生物_2025_ESG报告`：证据详细描述了薪酬福利体系、五险一金、年金及津贴等内容，符合定性指标要求。 evidence quote not uniquely traceable to candidates
+  - `s_supplier` / `000403_派林生物_2025_ESG报告`：证据明确披露了供应商管理制度及规程，符合布尔型指标要求。 evidence quote not uniquely traceable to candidates
+  - `s_research_development` / `000526_学大教育_2025_ESG报告`：表格明确披露2025年研发投入金额及单位 evidence quote not uniquely traceable to candidates
+  - `s_supplier` / `000537_绿发电力_2025_ESG报告`：证据明确披露了供应商管理制度及全生命周期管理措施。 evidence quote not uniquely traceable to candidates
+  - `s_human_rights` / `000557_西部创业_2025_可持续发展报告`：证据明确披露了反歧视、反强迫劳动及禁止童工的政策与措施。 evidence quote not uniquely traceable to candidates
+  - `e_renewable_energy` / `000598_兴蓉环境_2025_ESG报告`：证据明确披露光伏发电量，属于可再生能源。 evidence quote not uniquely traceable to candidates
+  - `g_board_diversity` / `000720_新能泰山_2025_ESG报告`：证据明确披露了2025年女性董事数量为0人。 evidence quote not uniquely traceable to candidates
+  - `g_board_meetings` / `000720_新能泰山_2025_ESG报告`：表格明确列出2025年董事会召开次数为9次。 evidence quote not uniquely traceable to candidates
+  - `g_shareholder_meetings` / `000720_新能泰山_2025_ESG报告`：证据表格明确披露2025年股东会召开次数为5次。 evidence quote not uniquely traceable to candidates
+  - `s_rural_revitalization` / `000881_中广核技_2025_ESG报告`：证据明确列出了乡村振兴的具体举措和成果，支持定性提取。 evidence quote not uniquely traceable to candidates
+  - `g_board_diversity` / `000881_中广核技_2025_ESG报告`：证据明确披露女性董事人数，符合多元化指标要求。 evidence quote not uniquely traceable to candidates
+  - `e_renewable_energy` / `000881_中广核技_2025_ESG报告`：表格明确披露2025年自产可再生能源用量数值及单位。 evidence quote not uniquely traceable to candidates
+  - `e_air_pollutants` / `000923_河钢资源_2025_ESG报告`：证据明确披露了2025年大气污染物排放数值。 evidence quote not uniquely traceable to candidates
+  - `e_energy_total` / `000998_隆平高科_2025_ESG报告`：表格明确列出综合能源消耗总量数值及单位。 evidence quote not uniquely traceable to candidates
+  - `s_rural_revitalization` / `000998_隆平高科_2025_ESG报告`：证据明确提及以数字新质生产力助力乡村振兴。 evidence quote not uniquely traceable to candidates
+  - `e_electricity_total` / `001322_箭牌家居_2025_ESG报告`：表格明确披露2025年传统电力消耗总量及单位。 evidence quote not uniquely traceable to candidates
+  - `g_cybersecurity_governance` / `002011_盾安环境_2025_ESG报告`：证据明确披露了网络安全相关的内部管理制度及治理措施。 evidence quote not uniquely traceable to candidates
+  - `s_employee_rights` / `002035_华帝股份_2025_ESG报告`：证据明确列出员工权益保障的具体措施与沟通机制。 evidence quote not uniquely traceable to candidates
+  - `s_data_security` / `002048_宁波华翔_2025_ESG报告`：证据明确披露了数据安全与隐私保护的绩效指标及培训情况。 evidence quote not uniquely traceable to candidates
+- 最慢的 10 个 report-indicator：
+  - `06810_商米科技-Ｗ_2025_ESG报告` / `g_stakeholder_communication`：7.670 秒，status=error
+  - `688400_凌云光_2025_ESG报告` / `g_stakeholder_communication`：7.020 秒，status=found
+  - `688261_东微半导_2026_ESG报告` / `g_stakeholder_communication`：6.936 秒，status=found
+  - `300261_雅本化学_2025_ESG报告` / `g_cybersecurity_governance`：5.985 秒，status=found
+  - `603369_今世缘_2025_可持续发展报告` / `s_training`：5.757 秒，status=found
+  - `600331_宏达股份_2025_ESG报告` / `g_board_size`：5.657 秒，status=found
+  - `600874_创业环保_2025_可持续发展报告` / `e_air_pollutants`：5.605 秒，status=found
+  - `002203_海亮股份_2025_ESG报告` / `e_fuel_consumption`：5.575 秒，status=found
+  - `600516_方大炭素_2025_ESG报告` / `g_stakeholder_communication`：5.476 秒，status=found
+  - `300972_万辰集团_2025_ESG报告` / `s_safety`：5.334 秒，status=found
+- 下一阶段建议：建议进入下一阶段 100 份扩展抽取。

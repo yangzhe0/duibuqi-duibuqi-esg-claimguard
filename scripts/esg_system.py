@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.run_esg_formal_v2 import DEFAULT_POOL, run_sample
+from src.esg_demo.formal_extraction import DEFAULT_POOL, run_sample
 from src.esg_demo.runner import DEFAULT_MODEL, DEFAULT_OLLAMA_URL
 
 
@@ -25,18 +25,19 @@ def main() -> int:
     parser.add_argument("--mode", choices=sorted(PRESET_LIMITS), default="sample")
     parser.add_argument("--input-json", nargs="*", default=[], help="Explicit content_list_v2.json paths for new reports.")
     parser.add_argument("--reports", nargs="*", default=[], help="Report code/name filters when using parsed report library.")
-    parser.add_argument("--out-dir", default="", help="Output directory. Defaults to outputs/formal_v2/llm_<mode>.")
+    parser.add_argument("--out-dir", default="", help="Output directory. Defaults to the isolated current-run task area.")
     parser.add_argument("--indicator-pool", default=str(DEFAULT_POOL))
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--ollama-url", default=DEFAULT_OLLAMA_URL)
+    parser.add_argument("--llm-api", choices=["ollama", "openai"], default="ollama")
     parser.add_argument("--max-blocks-per-indicator", type=int, default=5)
     parser.add_argument("--resume", action="store_true", help="Skip already completed report-indicator pairs.")
     args = parser.parse_args()
 
     input_paths = [Path(path) for path in args.input_json]
-    out_dir = Path(args.out_dir) if args.out_dir else Path(f"outputs/formal_v2/llm_{args.mode}")
+    out_dir = Path(args.out_dir) if args.out_dir else DEFAULT_POOL.parent / "new_reports" / args.mode
     if input_paths and not args.out_dir:
-        out_dir = Path("outputs/formal_v2/new_reports")
+        out_dir = DEFAULT_POOL.parent / "new_reports"
 
     summary = run_sample(
         project_root=Path("."),
@@ -49,6 +50,7 @@ def main() -> int:
         report_filters=args.reports,
         report_paths=input_paths or None,
         resume=args.resume,
+        llm_api=args.llm_api,
     )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0

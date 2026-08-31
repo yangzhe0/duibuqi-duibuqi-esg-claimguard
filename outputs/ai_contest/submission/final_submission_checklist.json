@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-08-31T10:09:23+00:00",
+  "team": "队不起队不起",
+  "project": "ESG ClaimGuard",
+  "date": "2026-08-31",
+  "files": {
+    "introduction_pdf": {
+      "name": "队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+      "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+      "exists": true,
+      "bytes": 40160,
+      "sha256": "2c24d52dde084cc3af99024acd1393e85bca9943b036514fe165f1c56926e2cf",
+      "under_200_mib": true,
+      "pages": 1,
+      "a4_portrait": true,
+      "searchable": true,
+      "blank_pages": [],
+      "page_non_whitespace_characters": [
+        277
+      ],
+      "creator": "LaTeX with hyperref",
+      "producer": "xdvipdfmx (20210609)",
+      "latex_generated": true
+    },
+    "project_pdf": {
+      "name": "队不起队不起_ESG ClaimGuard_项目文档.pdf",
+      "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+      "exists": true,
+      "bytes": 858171,
+      "sha256": "465e5ca62cc43764e1e2cd511117595672ada330fc0531cc07f99e9c2fcacea1",
+      "under_200_mib": true,
+      "pages": 12,
+      "a4_portrait": true,
+      "searchable": true,
+      "blank_pages": [],
+      "page_non_whitespace_characters": [
+        97,
+        858,
+        73,
+        969,
+        948,
+        1025,
+        1064,
+        980,
+        341,
+        340,
+        319,
+        1217
+      ],
+      "creator": "LaTeX with hyperref",
+      "producer": "xdvipdfmx (20210609)",
+      "latex_generated": true
+    },
+    "project_video": {
+      "name": "队不起队不起_ESG ClaimGuard_项目视频.mp4",
+      "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4",
+      "exists": true,
+      "bytes": 47134245,
+      "sha256": "eb98136aa9b46a4aed14f63a94da22620da40e7cab652db7d71f436492ed8fda",
+      "under_200_mib": true,
+      "duration_seconds": 275.2,
+      "under_5_minutes": true,
+      "video_codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "audio_codec": "aac",
+      "stream_count": 2,
+      "full_decode_ok": true,
+      "subtitle_stream_count": 0,
+      "no_subtitle_stream": true
+    },
+    "auxiliary_zip": {
+      "name": "队不起队不起_ESG ClaimGuard_其他.zip",
+      "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
+      "exists": true,
+      "bytes": 3432109,
+      "sha256": "5f8d3e3bb0f78f9337cc6a195e61b1fa0b98b636f9f62615cc3c7c305b4f1564",
+      "under_200_mib": true,
+      "entries": 121,
+      "zip_integrity": true,
+      "unsafe_paths": [],
+      "symlinks": [],
+      "sensitive_names": [],
+      "sensitive_content": [],
+      "forbidden_large_asset_paths": [],
+      "required_entries_missing": [],
+      "submission_manifest_valid": true,
+      "submission_manifest_errors": []
+    }
+  },
+  "official_files_ready": 4,
+  "official_files_total": 4,
+  "introduction_han_characters": 176,
+  "introduction_source_matches_pdf": true,
+  "project_template_sections_complete": true,
+  "latex_build": {
+    "report_exists": true,
+    "passed": true,
+    "report": {
+      "renderer": "XeLaTeX",
+      "passed": true,
+      "documents": [
+        {
+          "job": "project_document",
+          "tex": "latex/submission/ESG_ClaimGuard_项目文档.tex",
+          "pdf": "outputs/ai_contest/submission/latex_stage/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+          "pdf_sha256": "465e5ca62cc43764e1e2cd511117595672ada330fc0531cc07f99e9c2fcacea1",
+          "overfull_boxes": 0,
+          "log": "outputs/ai_contest/submission/latex_stage/latex-build/project_document/project_document.log"
+        },
+        {
+          "job": "project_introduction",
+          "tex": "latex/submission/ESG_ClaimGuard_参赛作品简介.tex",
+          "pdf": "outputs/ai_contest/submission/latex_stage/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+          "pdf_sha256": "2c24d52dde084cc3af99024acd1393e85bca9943b036514fe165f1c56926e2cf",
+          "overfull_boxes": 0,
+          "log": "outputs/ai_contest/submission/latex_stage/latex-build/project_introduction/project_introduction.log"
+        },
+        {
+          "job": "technical_paper",
+          "tex": "latex/submission/ESG_ClaimGuard_技术论文.tex",
+          "pdf": "outputs/ai_contest/submission/latex_stage/ESG_ClaimGuard_技术论文.pdf",
+          "pdf_sha256": "2428765ecb138418f09deff1891275b34dc9bf73cedb2c64647cf7431481845b",
+          "overfull_boxes": 0,
+          "log": "outputs/ai_contest/submission/latex_stage/latex-build/technical_paper/technical_paper.log"
+        }
+      ]
+    }
+  },
+  "final_directory_exact_four": true,
+  "official_sha256_match": true,
+  "submission_ready": true,
+  "blocker": null,
+  "metric_boundary": "The submission does not claim Precision, Recall or F1 without independent human evaluation."
+}

@@ -1,0 +1,4 @@
+# Dashboard API runtime uses the Python 3.11+ standard library only.
+# Frontend dependencies are pinned separately in dashboard_web/package-lock.json.
+# MinerU, Qwen3.6 and document/video build tools are deployment assets and are
+# intentionally not vendored into the <=200 MiB competition review package.

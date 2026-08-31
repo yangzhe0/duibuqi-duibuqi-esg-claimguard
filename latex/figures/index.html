@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8"><title>ESG ClaimGuard 图表</title><style>body{font-family:sans-serif;background:#eef4f1;margin:30px}article{background:white;padding:24px;margin:20px auto;max-width:1100px}img{width:100%;height:auto}</style><article><h2>fig_pipeline</h2><p>顺序部署把文档感知、语义抽取和确定性证据门分离，并保留人工处置出口。</p><img src="fig_pipeline.png" alt="fig_pipeline"></article>
+<article><h2>fig_scale_status</h2><p>正式链路完整覆盖 200×65 网格，结果只含 found/missing。</p><img src="fig_scale_status.png" alt="fig_scale_status"></article>
+<article><h2>fig_dimension_coverage</h2><p>found 分布在 E/S/G 三个维度间存在差异，但这里只表示语料披露覆盖。</p><img src="fig_dimension_coverage.png" alt="fig_dimension_coverage"></article>
+<article><h2>fig_report_distribution</h2><p>不同报告的 ESG-65 found 数量呈现明显离散分布。</p><img src="fig_report_distribution.png" alt="fig_report_distribution"></article>
+<article><h2>fig_inference</h2><p>Qwen3.6 全量生成调用在单卡顺序链路中完成且 error=0；耗时直方图仅统计具有 elapsed_seconds 的结果行。</p><img src="fig_inference.png" alt="fig_inference"></article>
+<article><h2>fig_evidence_gate</h2><p>完成门分别呈现数值来源与单位来源，并把 found 结果绑定到严格原串证据。</p><img src="fig_evidence_gate.png" alt="fig_evidence_gate"></article>

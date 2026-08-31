@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import csv
 import hashlib
 import json
 import os
@@ -16,17 +15,21 @@ from pathlib import Path
 from typing import BinaryIO
 
 from dashboard_api import repository
+from dashboard_api.model_runtime import QWEN_ALIAS, qwen_runtime
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-TASK_ROOT = PROJECT_ROOT / "outputs/dashboard/tasks"
-RAW_PDF_ROOT = PROJECT_ROOT / "data/raw_pdfs"
-PARSED_ROOT = PROJECT_ROOT / "data/parsed_reports_v1/reports"
-REPORT_INDEX = PROJECT_ROOT / "data/report_index.csv"
-DOWNLOAD_LOG = PROJECT_ROOT / "data/download_log.csv"
-MINERU_BIN = Path(os.environ.get("ESG_MINERU_BIN", "/home/sues01/.conda/envs/mineru/bin/mineru"))
+TASK_ROOT = Path(os.environ.get("ESG_TASK_ROOT", PROJECT_ROOT / "outputs/dashboard/tasks"))
+MINERU_BIN = Path(os.environ.get("ESG_MINERU_BIN", shutil.which("mineru") or "mineru"))
 OLLAMA_URL = os.environ.get("ESG_OLLAMA_URL", "http://127.0.0.1:11434/api/generate")
-MODEL = os.environ.get("ESG_MODEL", "qwen3:30b")
+PIPELINE_PROFILE = os.environ.get("ESG_PIPELINE_PROFILE", "claimguard").strip().lower()
+if PIPELINE_PROFILE not in {"claimguard", "legacy"}:
+    raise ValueError("ESG_PIPELINE_PROFILE must be claimguard or legacy")
+MINERU_BACKEND = os.environ.get("ESG_MINERU_BACKEND", "vlm-engine" if PIPELINE_PROFILE == "claimguard" else "pipeline")
+LLM_API = os.environ.get("ESG_LLM_API", "openai" if PIPELINE_PROFILE == "claimguard" else "ollama")
+if LLM_API not in {"openai", "ollama"}:
+    raise ValueError("ESG_LLM_API must be openai or ollama")
+MODEL = os.environ.get("ESG_MODEL", QWEN_ALIAS if PIPELINE_PROFILE == "claimguard" else "qwen3:30b")
 MAX_UPLOAD_BYTES = 200 * 1024 * 1024
 TERMINAL_STATES = {"completed", "failed"}
 
@@ -131,44 +134,52 @@ class TaskManager:
             raw_pdf = self._register_pdf(task, staged)
             task = self._update(task, "running", "mineru", 15, "正在执行 MinerU 版面解析")
             parsed_json = self._parse_pdf(task, raw_pdf, task_dir)
-            task = self._update(task, "running", "extracting", 65, "正在执行 ESG-65 候选召回与 Qwen3 抽取")
+            task = self._update(task, "running", "extracting", 65, "文档解析模型已释放，正在启动 Qwen3.6 并执行 ESG-65 抽取")
             extraction_dir = task_dir / "extraction"
             self._extract(parsed_json, extraction_dir, task_dir / "extraction.log")
-            repository.clear_caches()
-            self._update(task, "completed", "completed", 100, "解析、抽取和结果入库均已完成")
+            self._update(task, "completed", "completed", 100, "解析、抽取和任务结果已生成")
         except Exception as exc:  # task error must be persisted for the browser
             self._update(task, "failed", "failed", task.get("progress", 0), "处理失败", str(exc))
 
     def _register_pdf(self, task: dict, staged: Path) -> Path:
-        RAW_PDF_ROOT.mkdir(parents=True, exist_ok=True)
-        target = RAW_PDF_ROOT / task["filename"]
-        if target.exists():
-            if _sha256(target) != task["sha256"]:
-                raise ValueError("原始报告目录中已存在同名但内容不同的 PDF，请调整文件名后重试")
-        else:
-            shutil.copy2(staged, target)
-        self._append_ledgers(task, target)
-        self._update(task, "running", "registered", 8, "PDF 已校验并登记到原始报告库")
-        return target
+        metadata = {
+            **report_metadata(task["filename"], task["sha256"]),
+            "task_id": task["task_id"],
+            "source": "user_upload",
+            "original_pdf_filename": task["filename"],
+            "local_path": "upload.pdf",
+            "file_sha256": task["sha256"],
+            "file_size_bytes": task["size"],
+            "created_at": task["created_at"],
+        }
+        self._write_json(self.task_root / task["task_id"] / "report_metadata.json", metadata)
+        self._update(task, "running", "registered", 8, "PDF 已校验并登记到隔离任务目录")
+        return staged
 
     def _parse_pdf(self, task: dict, raw_pdf: Path, task_dir: Path) -> Path:
         report_id = task["report_id"]
-        existing = PARSED_ROOT / report_id / f"{report_id}_content_list_v2.json"
-        if existing.is_file():
-            return existing
         output = task_dir / "mineru"
         log_path = task_dir / "mineru.log"
-        env = {**os.environ, "MINERU_MODEL_SOURCE": os.environ.get("MINERU_MODEL_SOURCE", "modelscope")}
-        command = [str(MINERU_BIN), "-p", str(raw_pdf), "-o", str(output), "-b", "pipeline", "-l", "ch"]
+        mineru_bin_dir = str(MINERU_BIN.parent)
+        current_path = os.environ.get("PATH", "")
+        env = {
+            **os.environ,
+            "MINERU_MODEL_SOURCE": os.environ.get("MINERU_MODEL_SOURCE", "modelscope"),
+            "PATH": mineru_bin_dir + (os.pathsep + current_path if current_path else ""),
+        }
+        command = [str(MINERU_BIN), "-p", str(raw_pdf), "-o", str(output), "-b", MINERU_BACKEND]
+        if MINERU_BACKEND == "pipeline":
+            command.extend(["-l", "ch"])
         self._run_command(command, log_path, env)
         matches = list(output.rglob("*content_list_v2.json"))
         if len(matches) != 1:
             raise RuntimeError(f"MinerU 输出异常：找到 {len(matches)} 个 content_list_v2.json")
         source_dir = matches[0].parent
-        target_dir = PARSED_ROOT / report_id
+        target_dir = task_dir / "parsed" / report_id
         if target_dir.exists():
             raise RuntimeError(f"解析目录已存在但缺少目标 JSON：{target_dir}")
-        temp_dir = PARSED_ROOT / f".{report_id}.{task['task_id']}.tmp"
+        target_dir.parent.mkdir(parents=True, exist_ok=True)
+        temp_dir = target_dir.parent / f".{report_id}.{task['task_id']}.tmp"
         shutil.copytree(source_dir, temp_dir)
         for path in list(temp_dir.iterdir()):
             if path.name.startswith(raw_pdf.stem):
@@ -180,6 +191,21 @@ class TaskManager:
         return parsed
 
     def _extract(self, parsed_json: Path, output: Path, log_path: Path) -> None:
+        if LLM_API == "openai":
+            with qwen_runtime(log_path.parent / "qwen_runtime.log") as inference_url:
+                self._run_extraction_command(parsed_json, output, log_path, inference_url)
+        elif LLM_API == "ollama":
+            self._run_extraction_command(parsed_json, output, log_path, OLLAMA_URL)
+        else:
+            raise RuntimeError(f"不支持的 LLM API：{LLM_API}")
+        summary_path = output / "run_summary.json"
+        if not (output / "extraction_results.csv").is_file() or not summary_path.is_file():
+            raise RuntimeError("Qwen3 抽取未生成完整结果")
+        summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        if int(summary.get("llm_error_count", 0)):
+            raise RuntimeError(f"Qwen3 抽取包含 {summary['llm_error_count']} 个模型调用错误")
+
+    def _run_extraction_command(self, parsed_json: Path, output: Path, log_path: Path, inference_url: str) -> None:
         command = [
             sys.executable,
             str(PROJECT_ROOT / "scripts/esg_system.py"),
@@ -190,12 +216,12 @@ class TaskManager:
             "--model",
             MODEL,
             "--ollama-url",
-            OLLAMA_URL,
+            inference_url,
+            "--llm-api",
+            LLM_API,
             "--resume",
         ]
         self._run_command(command, log_path, os.environ.copy())
-        if not (output / "extraction_results.csv").is_file():
-            raise RuntimeError("Qwen3 抽取未生成 extraction_results.csv")
 
     @staticmethod
     def _run_command(command: list[str], log_path: Path, env: dict[str, str]) -> None:
@@ -206,34 +232,120 @@ class TaskManager:
             tail = "\n".join(log_path.read_text(encoding="utf-8", errors="replace").splitlines()[-12:])
             raise RuntimeError(f"命令执行失败（退出码 {completed.returncode}）：{tail}")
 
-    def _append_ledgers(self, task: dict, target: Path) -> None:
-        metadata = report_metadata(task["filename"], task["sha256"])
-        index_row = {
-            **metadata,
-            "announcement_date": "",
-            "source": "user_upload",
-            "source_url": "",
-            "original_title": metadata["title"],
-            "original_adjunct_url": "",
-            "pdf_url": "",
-            "original_pdf_filename": task["filename"],
-            "normalized_filename": task["filename"],
-            "local_path": str(target.relative_to(PROJECT_ROOT)),
-            "file_sha256": task["sha256"],
-            "file_size_bytes": str(task["size"]),
-            "error": "",
+    def summary(self, task_id: str) -> dict | None:
+        task = self._completed_task(task_id)
+        if not task:
+            return None
+        rows = self.results(task_id)
+        assert rows is not None
+        status = {name: sum(row.get("status") == name for row in rows) for name in ("found", "missing", "error")}
+        return {
+            "task_id": task_id,
+            "dataset_id": f"task:{task_id}",
+            "scope": "single_upload",
+            "report_id": task["report_id"],
+            "total_results": len(rows),
+            "found_count": status["found"],
+            "missing_count": status["missing"],
+            "error_count": status["error"],
+            "completed_at": task.get("updated_at", ""),
         }
-        log_row = {
-            "id": metadata["id"],
-            "stock_code": metadata["stock_code"],
-            "company": metadata["company"],
-            "title": metadata["title"],
-            "status": "uploaded",
-            "error": "",
+
+    def results(self, task_id: str) -> list[dict] | None:
+        task = self._completed_task(task_id)
+        if not task:
+            return None
+        path = self.task_root / task_id / "extraction/extraction_results.csv"
+        if not path.is_file():
+            return None
+        import csv
+
+        with path.open(encoding="utf-8-sig", newline="") as stream:
+            return [
+                {**row, "task_id": task_id, "dataset_id": f"task:{task_id}", "dataset_scope": "single_upload"}
+                for row in csv.DictReader(stream)
+            ]
+
+    def preaudit(self, task_id: str) -> dict | None:
+        task = self._completed_task(task_id)
+        rows = self.results(task_id)
+        if not task or rows is None:
+            return None
+        issues = []
+        for row in rows:
+            issue_type = ""
+            severity = "attention"
+            finding = ""
+            if row.get("status") == "error":
+                issue_type, severity, finding = "pipeline_error", "blocking", "该指标处理失败，需要重新处理或人工检查。"
+            elif row.get("status") == "found" and not (row.get("evidence_quote") and row.get("block_id")):
+                issue_type, severity, finding = "evidence_integrity", "blocking", "结构化声明缺少可回溯原文证据。"
+            elif row.get("status") == "found" and row.get("indicator_type") == "quantitative" and not (row.get("value") and row.get("unit")):
+                issue_type, severity, finding = "field_completeness", "important", "定量声明缺少数值或单位。"
+            elif row.get("status") == "missing":
+                issue_type, severity, finding = "disclosure_gap", "attention", "当前候选证据不足；missing 不等同于违规或人工真值。"
+            if issue_type:
+                issues.append({
+                    "issue_id": f"{task_id}:{row.get('indicator_id', '')}:{issue_type}",
+                    "task_id": task_id,
+                    "report_id": task["report_id"],
+                    "indicator_id": row.get("indicator_id", ""),
+                    "indicator_name": row.get("indicator_name", ""),
+                    "issue_type": issue_type,
+                    "severity": severity,
+                    "finding": finding,
+                    "evidence_quote": row.get("evidence_quote", ""),
+                    "page_no": row.get("page_no", ""),
+                    "block_id": row.get("block_id", ""),
+                })
+        return {
+            "task_id": task_id,
+            "dataset_id": f"task:{task_id}",
+            "scope": "single_upload",
+            "report_id": task["report_id"],
+            "items": issues,
+            "total": len(issues),
         }
-        with self._lock:
-            _append_unique_csv(REPORT_INDEX, index_row, "file_sha256")
-            _append_unique_csv(DOWNLOAD_LOG, log_row, "id")
+
+    def evidence(self, task_id: str, block_id: str) -> dict | None:
+        task = self._completed_task(task_id)
+        if not task:
+            return None
+        match = re.fullmatch(r".+:p(\d+):b(\d+)", block_id)
+        if not match:
+            return None
+        page_no, block_index = map(int, match.groups())
+        path = self.task_root / task_id / "parsed" / task["report_id"] / f"{task['report_id']}_content_list_v2.json"
+        if not path.is_file():
+            return None
+        pages = json.loads(path.read_text(encoding="utf-8"))
+        if page_no < 1 or page_no > len(pages) or block_index < 0 or block_index >= len(pages[page_no - 1]):
+            return None
+        block = pages[page_no - 1][block_index]
+        return {
+            "task_id": task_id,
+            "dataset_id": f"task:{task_id}",
+            "scope": "single_upload",
+            "report_id": task["report_id"],
+            "block_id": block_id,
+            "page_no": page_no,
+            "block_index": block_index,
+            "block_type": block.get("type", ""),
+            "bbox": block.get("bbox", []),
+            "coordinate_space": [0, 0, 1000, 1000],
+            "text": repository._block_text(block),
+        }
+
+    def pdf_path(self, task_id: str) -> Path | None:
+        task = self._completed_task(task_id)
+        if not task:
+            return None
+        path = self.task_root / task_id / "upload.pdf"
+        return path if path.is_file() else None
+
+    def _completed_task(self, task_id: str) -> dict | None:
+        task = self.get(task_id)
+        return task if task and task.get("status") == "completed" else None
 
     def _update(self, task: dict, status: str, stage: str, progress: int, message: str, error: str = "") -> dict:
         updated = {**task, "status": status, "stage": stage, "progress": progress, "message": message, "error": error, "updated_at": utc_now()}
@@ -245,6 +357,12 @@ class TaskManager:
         temporary = path.with_suffix(".tmp")
         with self._lock:
             temporary.write_text(json.dumps(task, ensure_ascii=False, indent=2), encoding="utf-8")
+            temporary.replace(path)
+
+    def _write_json(self, path: Path, payload: dict) -> None:
+        temporary = path.with_suffix(path.suffix + ".tmp")
+        with self._lock:
+            temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
             temporary.replace(path)
 
     def _mark_interrupted_tasks(self) -> None:
@@ -261,27 +379,3 @@ class TaskManager:
         if len(filename.encode("utf-8")) > 240 or stem in {".", ".."}:
             raise ValueError("文件名过长或无效")
         return filename
-
-
-def _sha256(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as stream:
-        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def _append_unique_csv(path: Path, row: dict[str, str], unique_key: str) -> None:
-    with path.open(encoding="utf-8-sig", newline="") as stream:
-        reader = csv.DictReader(stream)
-        fields = list(reader.fieldnames or row.keys())
-        rows = list(reader)
-    if any(existing.get(unique_key) == row.get(unique_key) for existing in rows):
-        return
-    rows.append({key: row.get(key, "") for key in fields})
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    with temporary.open("w", encoding="utf-8-sig", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
-    temporary.replace(path)

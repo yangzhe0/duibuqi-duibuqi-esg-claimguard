@@ -1,0 +1,23 @@
+{
+  "name": "claimguard-remotion-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --no-open",
+    "still": "remotion still src/index.ts ClaimGuardSilent",
+    "render": "remotion render src/index.ts ClaimGuardSilent"
+  },
+  "dependencies": {
+    "@remotion/media": "4.0.518",
+    "@remotion/transitions": "4.0.518",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.518"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.518",
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "typescript": "5.9.2"
+  }
+}

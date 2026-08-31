@@ -28,8 +28,14 @@ ISSUE_LABELS = {
 }
 
 
-def audit_summary(review_rows: list[dict[str, Any]], report_id: str = "") -> dict[str, Any]:
-    all_rows = repository.results()
+def audit_summary(
+    review_rows: list[dict[str, Any]],
+    report_id: str = "",
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
+) -> dict[str, Any]:
+    metadata = repository.dataset_metadata(dataset_id)
+    review_rows = _scoped_reviews(review_rows, dataset_id)
+    all_rows = repository.results(dataset_id)
     peer_stats = _peer_stats(all_rows)
     selected_rows = [row for row in all_rows if not report_id or row.get("report_id") == report_id]
     review_map = _review_map(review_rows)
@@ -44,6 +50,9 @@ def audit_summary(review_rows: list[dict[str, Any]], report_id: str = "") -> dic
     suggested = unreviewed[0]["report_id"] if unreviewed else (selected_rows[0].get("report_id", "") if selected_rows else "")
     dimension = Counter(item.get("dimension", "") for item in scored if item.get("status") == "found")
     return {
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "dataset_scope": metadata["scope"],
         "scope": report_id or "all_reports",
         "report_id": report_id,
         "suggested_report_id": suggested,
@@ -70,8 +79,11 @@ def audit_queue(
     report_id: str = "",
     limit: int = 65,
     include_reviewed: bool = False,
+    dataset_id: str = repository.DEFAULT_DATASET_ID,
 ) -> dict[str, Any]:
-    all_rows = repository.results()
+    metadata = repository.dataset_metadata(dataset_id)
+    review_rows = _scoped_reviews(review_rows, dataset_id)
+    all_rows = repository.results(dataset_id)
     peer_stats = _peer_stats(all_rows)
     review_map = _review_map(review_rows)
     selected = [row for row in all_rows if not report_id or row.get("report_id") == report_id]
@@ -83,7 +95,14 @@ def audit_queue(
     examples_by_indicator = _peer_examples(all_rows, {item["indicator_id"] for item in limited if item["category"] == "gap"})
     for item in limited:
         item["peer_examples"] = examples_by_indicator.get(item["indicator_id"], []) if item["category"] == "gap" else []
-    return {"items": limited, "total": len(items), "report_id": report_id}
+    return {
+        "items": limited,
+        "total": len(items),
+        "report_id": report_id,
+        "dataset_id": metadata["dataset_id"],
+        "run_id": metadata["run_id"],
+        "scope": metadata["scope"],
+    }
 
 
 def _score_row(
@@ -229,6 +248,13 @@ def _peer_examples(rows: list[dict[str, Any]], indicator_ids: set[str]) -> dict[
 
 def _review_map(rows: list[dict[str, Any]]) -> dict[tuple[str, str], dict[str, Any]]:
     return {(str(row.get("report_id", "")), str(row.get("indicator_id", ""))): row for row in rows}
+
+
+def _scoped_reviews(rows: list[dict[str, Any]], dataset_id: str) -> list[dict[str, Any]]:
+    """Legacy unscoped reviews belong only to the historical baseline."""
+    if dataset_id == repository.CURRENT_DATASET_ID:
+        return [row for row in rows if row.get("dataset_id", dataset_id) == dataset_id]
+    return [row for row in rows if row.get("dataset_id") == dataset_id]
 
 
 def _queue_key(item: dict[str, Any]) -> tuple[float, str, str]:

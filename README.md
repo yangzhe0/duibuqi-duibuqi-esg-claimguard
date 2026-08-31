@@ -1,133 +1,113 @@
-# ESG 报告数据智能提取与分析
+# ESG ClaimGuard
 
-本项目对应 B 题“ESG 报告数据智能提取与分析：基于大模型的定量与定性指标识别”，并扩展为面向人工智能创新大赛的 **ESG ClaimGuard｜可持续披露一致性预审系统**。项目以 200 份上市公司 ESG 类 PDF 报告为数据基础，将结构化声明、原文证据、数值约束和官方披露条款组织为可查询的声明—证据约束图，帮助报告编制复核人员在发布前发现证据失配和口径差异，并导出预审工作底稿。
+ESG ClaimGuard 是面向上市公司可持续发展报告编制与内部复核人员的披露一致性预审系统。系统对 ESG PDF 报告执行版面解析、ESG-65 指标抽取、逐字证据追溯和一致性检查，最终输出可定位到页码与内容块的结构化结果和问题底稿。
 
-项目不做 ESG 评分、企业排名或投资建议。系统输出保留 evidence_quote、page_no、block_id 和 risk_tag，便于逐条复核。
+项目不做企业 ESG 评分、排名、投资建议或法定审计结论。`found`、`missing` 和系统风险提示也不等于人工真值；本作品不把未经独立人工评测的 Precision、Recall 或 F1 作为成果声明。
 
-## 目录结构
+## 当前正式链路
 
 ```text
-data/                 原始 PDF、解析结果和数据索引
-docs/                 赛题、格式要求和项目台账
-latex/                最终论文工程与 PDF
-outputs/              正式抽取结果、质量复核结果和系统数据
-scripts/              数据构建、抽取、质量分析和系统数据脚本
-src/esg_demo/         核心抽取模块
-dashboard_api/        声明—证据约束图、问题台账和预审 API
-dashboard_web/        React 比赛展示与人工处置工作台
-tests/                单元测试
-streamlit_app.py      Streamlit 复核系统
+冻结 manifest 选取的 200 份 ESG PDF（10,528 页）
+  → MinerU2.5-Pro-2605-1.2B / vlm-engine
+  → 带页码、block、表格和版面信息的 canonical parsed 数据
+  → Qwen3.6-27B Q4_K_M / 8,192 token context
+  → ESG-65 证据约束抽取
+  → 确定性数值、单位、引用和 lineage 校验
+  → 13,000 条 report × indicator 结果
+  → 声明—证据约束图与人工处置工作台
 ```
 
-## 关键产物
+两个模型顺序运行，不同时驻留。MinerU 负责文档视觉解析；Qwen 只处理召回后的候选证据，不承担逐页 OCR。证据引用必须能回到同一报告、页码和 block 的原文。
 
-- 最终论文：`latex/MathModel.pdf`
-- 论文源码：`latex/MathModel.tex`
-- 图表契约：`latex/figure_contracts.md`
-- 图表面板：`latex/figure_gallery.html`
-- 自查记录：`latex/SELF_CHECK.md`
-- 正式结果：`outputs/formal_v2/llm_200/extraction_results.csv`
-- 指标池：`outputs/formal_v2/indicator_pool_v2.csv`
-- 质量诊断：`outputs/review/quality_metrics.json`
-- 风险样本：`outputs/review/risk_cases.csv`
-- 重构模型合同：`docs/ai_contest/题目分析.md`
-- MVP 合同与覆盖验证：`outputs/ai_contest/preaudit_mvp_validation.md`
-- Natural-Gold 协议：`docs/ai_contest/NATURAL_GOLD_PROTOCOL.md`
-- Natural-Gold 冻结清单：`data/evaluation/natural_gold/v1/manifest.csv`
-- Pilot-30 双路 Silver 汇总：`outputs/ai_contest/natural_gold_pilot30/summary.md`
-- Pilot-30 人工核查队列：`outputs/ai_contest/natural_gold_pilot30/human_review_queue.csv`
-- Pilot-30 图表预览：`outputs/ai_contest/natural_gold_pilot30/figures/index.html`
+## 当前状态
 
-## 数据规模
+- MinerU 全量解析完成：200/200，10,528/10,528 页。
+- Qwen 全量结果完成：13,000/13,000 个唯一 report × indicator 键。
+- 最终分布：found 7,688，missing 5,312，error 0。
+- 7,688 条 found 全部通过 canonical block 逐字证据追溯；3,214 条定量 found 全部具有值和来源单位。
+- 首次抽取的 209 条证据引用失败已由三个 Codex Agent 模拟人工核验，形成 `manual_reconciliation.csv/json`；193 条为严格可追溯 found，16 条保守判为 missing。
+- `validation.json` 全部通过，`CHECKSUMS.sha256` 复核成功，`COMPLETE.json` 已生成。
+- 冻结产物仍保留可复验的运行 ID 路径 `outputs/formal_v3_mineru25_qwen36/`；产品与 dashboard 统一使用中性数据集名 `formal_current`。数据已自包含，历史桥接依赖已移至系统回收站。
 
-| 项目 | 数值 |
-|---|---:|
-| 原始 ESG 类 PDF | 200 |
-| 公司数（文件名口径） | 198 |
-| ESG 指标 | 65 |
-| E/S/G 指标 | 25 / 20 / 20 |
-| 定量/定性/机制性指标 | 35 / 15 / 15 |
-| report-indicator 任务 | 13000 |
-| found / missing / error | 7777 / 5223 / 0 |
-| 具体风险样本 | 164 |
-
-found/missing/error 是结构化抽取运行结果分布，不是人工标注评价结论。
-
-## 运行方式
-
-重新生成论文图表并编译 PDF：
+实时检查必须使用 CSV 解析器，不能用 `wc -l` 统计数据行，因为字段可能包含换行：
 
 ```bash
-bash latex/build.sh
+cd <project-root>
+tmux list-sessions
+pgrep -af 'run_esg_formal_v3.py|llama-server'
+nvidia-smi --query-compute-apps=pid,used_memory --format=csv,noheader
+/opt/miniconda3/bin/conda run -n paperagent python - <<'PY'
+import csv
+from collections import Counter
+from pathlib import Path
+p = Path('outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv')
+rows = list(csv.DictReader(p.open(encoding='utf-8-sig'))) if p.is_file() else []
+print('rows=', len(rows), 'reports=', len(rows) / 65 if rows else 0)
+print('status=', Counter(row['status'] for row in rows))
+PY
 ```
 
-运行 Streamlit 复核系统：
+## 唯一结果口径
+
+项目只交付 MinerU2.5 Pro + Qwen3.6-27B 对 200 份报告运行的这一套全量结果。部分冻结文件名带版本字符，仅用于保持运行证据和校验和，不代表多套产品。运行时不再依赖旧版目录或桥接文件。
+
+## 项目结构
+
+```text
+data/raw_pdfs/                         源 PDF 存放目录（正式队列以 input_manifest.csv 的 200 份为准）
+outputs/formal_v3_mineru25_qwen36/     自包含、带校验和的冻结正式数据
+dashboard_api/                         API、约束图、处置记录和任务编排
+dashboard_web/                         React + TypeScript + Vite 工作台
+src/esg_demo/                          中性命名的抽取核心
+scripts/                               当前运行、验收、展示和提交构建工具
+docs/ai_contest/HANDOFF.md             当前唯一项目交接基准
+docs/ai_contest/FULL_RUN.md            全量运行与完成门手册
+latex/                                 技术论文、正式图表和图表契约
+video/claimguard-remotion/              Remotion 无声视频工程
+tests/                                 当前保留功能的测试
+```
+
+旧困难页 A/B、Pilot-30、旧 dashboard 探针、旧 quality/review 输出、旧提交草案和基于 V2 的 PDF/ZIP/视频已经删除，不能作为当前证据引用。
+
+## 快速审阅
+
+后端 API 使用 Python 3.11+ 标准库。前端依赖由 `dashboard_web/package-lock.json` 固定：
 
 ```bash
-streamlit run streamlit_app.py
+python -m dashboard_api.server
+cd dashboard_web
+npm ci
+npm run dev
 ```
 
-运行独立的比赛展示前端：
+默认访问地址为 `http://127.0.0.1:5173`；生产脚本见 `scripts/run_dashboard.sh`。完整 PDF 解析和 Qwen 推理需要额外配置 MinerU、模型权重与 GPU，轻量数据审阅不需要这些大体积资产。
+
+## 本机环境
+
+运行 Python 前先检查 Conda：
 
 ```bash
-bash scripts/run_dashboard.sh
+/opt/miniconda3/bin/conda env list
 ```
 
-浏览器访问 `http://127.0.0.1:8765`。该版本提供声明—证据约束图、问题台账、PDF 证据高亮、人工处置和工作底稿导出；网页上传会自动调用本机 MinerU Conda 环境和 Ollama `qwen3:30b`，完成解析、ESG-65 抽取及结果入库。详细说明见 `dashboard_web/README.md`。
+- Conda 环境 `paperagent`：项目 Python、测试、API 和编排。
+- Conda 环境 `mineru`：MinerU 文档解析。
+- Conda 环境 `catalog`：图表与可视化。
+- `/opt/miniconda3`：Conda base。
 
-建议演示路径：
+不要重复安装已有依赖，不要假定当前 shell 的 PATH 已激活环境。
 
-1. 在“披露预审”选择系统推荐报告；
-2. 打开“结构化数值无法在证据中定位”，对照声明值与表格原文；
-3. 打开总量—分项口径差异候选，查看三段证据和可复算公式；
-4. 跳转 PDF 页码与 bbox，选择确认、修正、待补材料、接受风险或排除；
-5. 关闭问题后导出 CSV 工作底稿，检查问题 ID、证据、依据、责任人和状态；
-6. 在“接入报告”上传新 PDF，等待 MinerU 与 Qwen3 完成后进入该报告预审。
+## 复验与交付顺序
 
-Natural-Gold 数据建设路径：
+1. 验证 13,000 个唯一 `report_id × indicator_id`，每份报告恰好 65 条，error 为 0。
+2. 只读取已冻结的 209 条 Codex Agent 模拟人工工程复核，不重新执行模型或核验。
+3. 运行 `scripts/run_esg_formal_v3.py --stage validate`，检查 `validation.json`、差异报告、校验和和 `COMPLETE.json`。
+4. 核验 dashboard 只读取 `formal_current`，历史桥接目录保持不存在。
+5. 构建项目文档、300 字简介、技术论文、图表、实机视频和最终 ZIP。
+6. 运行完整测试、dashboard smoke、readiness 和 final submission validator。
 
-1. 进入“金标准”，选择标注员 A，独立完成报告—指标任务；
-2. 切换标注员 B，在看不到 A 与模型答案的条件下独立标注；
-3. 切换分歧仲裁员，只处理 A/B 不一致的任务；
-4. 300 条全部形成共识或完成仲裁后，系统才开放正式准确率计算。
+详细交接信息和强制边界见 [HANDOFF.md](docs/ai_contest/HANDOFF.md)。
 
-为了先估计人工工作量，可运行冻结的 Pilot-30。Silver-A 使用严格块级检索，Silver-B 使用较宽的同页上下文检索；二者均由本机模型生成，只负责产生人工候选，不会写入 Natural-Gold。当前结果为 30/30 成对完成、11 条存在字段分歧、其中 3 条存在披露状态分歧，建议先人工核查这 11 条并抽查 4 条一致样本。
+公开上传时不要直接包含当前 `.git` 历史、原始报告、解析目录、模型、日志或缓存。使用 `scripts/build_public_repository.py` 生成经过白名单和敏感信息检查的干净快照，边界说明见 [PUBLIC_REPOSITORY.md](docs/PUBLIC_REPOSITORY.md)。
 
-```bash
-/opt/miniconda3/bin/conda run -n paperagent python scripts/run_natural_gold_pilot.py --stage all
-/opt/miniconda3/bin/conda run -n catalog python scripts/plot_natural_gold_pilot.py
-```
-
-重新生成 MVP 合同与覆盖验证：
-
-```bash
-/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_preaudit_mvp.py
-```
-
-重新生成同一规则的 Natural-Gold 清单并检查当前评测开关：
-
-```bash
-/opt/miniconda3/bin/conda run -n paperagent python scripts/build_natural_gold.py
-/opt/miniconda3/bin/conda run -n paperagent python scripts/evaluate_natural_gold.py
-```
-
-运行测试：
-
-```bash
-/opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
-```
-
-## 方法概述
-
-1. 将 PDF 解析为 Markdown、图片资源和块级 JSON。
-2. 将每份报告表示为带页码、块号、类型和文本的内容块序列。
-3. 构建 ESG-65 指标体系，区分 quantitative、qualitative 和 boolean 三类指标。
-4. 对每个 report-indicator 任务召回候选证据。
-5. 仅在候选证据范围内调用大语言模型，输出固定 JSON schema。
-6. 对 value/unit、evidence_quote、page_no、block_id 和 risk_tag 做后处理与质量诊断。
-7. 将声明、原文证据、计算约束和披露条款组织为可查询约束图，生成可复核问题而非企业评分。
-8. 在问题级工作台完成人工确认、修正、待补材料、接受风险或排除，并导出可追溯底稿。
-
-## 清理状态
-
-当前提交版已移除旧论文、旧实验输出、外部参考工程克隆、临时编译文件、缓存文件和零散说明文档。最终论文工程统一位于 `latex/`，不再保留 `latex_final/`。
+第三方资产与再分发边界见 [NOTICE.md](NOTICE.md)；当前快照用于赛事评审，并未对整个项目授予统一开源许可证。

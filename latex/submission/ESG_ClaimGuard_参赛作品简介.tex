@@ -1,0 +1,45 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage[a4paper,top=22mm,bottom=20mm,left=20mm,right=20mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\setmainfont{Noto Serif CJK SC}
+\setsansfont{Noto Sans CJK SC}
+\setmonofont{DejaVu Sans Mono}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\definecolor{brand}{HTML}{185B46}
+\definecolor{branddark}{HTML}{173F33}
+\definecolor{brandpale}{HTML}{E5F0EB}
+\definecolor{brandgray}{HTML}{566B62}
+\hypersetup{unicode=true,colorlinks=true,linkcolor=brand,urlcolor=brand,pdftitle={ESG ClaimGuard 参赛作品简介}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.35em}
+\renewcommand{\arraystretch}{1.35}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setlist{leftmargin=2.2em,itemsep=0.25em,topsep=0.35em}
+\ctexset{
+  section={format=\Large\bfseries\color{branddark},beforeskip=1.4em,afterskip=0.7em},
+  subsection={format=\large\bfseries\color{brand},beforeskip=1.1em,afterskip=0.5em},
+  subsubsection={format=\normalsize\bfseries\color{brand},beforeskip=0.9em,afterskip=0.4em}
+}
+\emergencystretch=3em
+\raggedbottom
+\begin{document}
+\begin{center}
+{\fontsize{23}{30}\selectfont\bfseries\sffamily\color{branddark} ESG ClaimGuard\par}
+\vspace{6mm}{\Large\color{brand} 可持续披露一致性预审系统\par}
+\vspace{10mm}
+\end{center}
+ESG ClaimGuard 面向可持续发展报告编制、合规与审阅场景，利用 MinerU 解析复杂版面，以 Qwen3.6 按 65 项指标抽取声明，并把结果绑定到页码、区块和原文证据。系统已在 200 份报告、10,528 页上形成 13,000 条唯一结果，其中 7,688 条为有证据披露、5,312 条为缺失候选、错误为 0；全部有证据结果通过原文精确匹配，定量结果同时记录直接值或推导过程。网页工作台支持总览、披露预审、证据复核、质量评测、金标准和报告接入。系统只提供可追溯的预审线索，不作企业评分，不替代人工审阅或法定鉴证。\par
+\end{document}

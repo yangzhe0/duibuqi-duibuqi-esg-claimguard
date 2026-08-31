@@ -57,7 +57,10 @@ def build_manifest(
     """Build a deterministic, model-output-blind Natural-Gold manifest."""
     if sample_size < 3 or sample_size % 3:
         raise ValueError("sample_size must be divisible by 3 so E/S/G quotas are equal")
-    reports = [item["report_id"] for item in repository.report_index() if item.get("has_pdf")]
+    report_items = repository.report_index()
+    reports = [item["report_id"] for item in report_items if item.get("has_pdf")]
+    if not reports:
+        reports = [item["report_id"] for item in report_items]
     indicators = repository.indicator_index()
     if not reports or not indicators:
         raise ValueError("reports and indicators are required")
@@ -261,7 +264,7 @@ def natural_gold_summary(
             "unique_indicators": len({row.get("indicator_id", "") for row in manifest_rows}),
             "model_output_blinded": True,
         },
-        "note": "Natural-Gold 完成前只报告数据建设进度与标注一致性，不报告模型 Precision、Recall 或 F1。",
+        "note": "该独立评测组件不属于本次参赛交付范围；当前作品不报告模型 Precision、Recall 或 F1。",
     }
 
 

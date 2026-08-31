@@ -1,0 +1,129 @@
+{
+  "audit": "ESG ClaimGuard independent revalidation",
+  "phase": "C_final_revalidation_complete",
+  "generated_at": "2026-08-25T00:00:00Z",
+  "authority": "disk artifacts, official contest PDFs, independent recomputation and rendered-media inspection",
+  "issues": [
+    {
+      "id": "DATA-001",
+      "severity": "critical",
+      "status": "resolved",
+      "artifacts": [
+        "outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv",
+        "outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.json"
+      ],
+      "summary": "Four g_board_diversity rows have an incomplete or wrong quantitative evidence chain.",
+      "evidence": [
+        "002011 has value 2 but cites only a greater-than-20-percent statement; canonical p8:b9 directly states female=2.",
+        "603918 has value 1 but cites only professional diversity; canonical p38:b1 directly states female directors=1.",
+        "603990 has value 1 but its cited block stops before the count; canonical p47:b1 directly states female=1.",
+        "02651 returns total board size 7 although the same canonical sentence states three female directors."
+      ],
+      "required_fix": "Apply auditable deterministic corrections from canonical blocks, preserve before/after provenance, strengthen validation, and rebuild all hashes and downstream statistics."
+    },
+    {
+      "id": "CODE-001",
+      "severity": "critical",
+      "status": "resolved",
+      "artifacts": ["dashboard_api/tasks.py", "dashboard_api/repository.py", "dashboard_web/src/pages/UploadPage.tsx"],
+      "summary": "A completed upload redirects to formal_current, so its task result appears as a misleading zero-issue formal report.",
+      "required_fix": "Expose task-scoped results/PDF/evidence through explicit task APIs and reject unknown formal report IDs."
+    },
+    {
+      "id": "CODE-002",
+      "severity": "critical",
+      "status": "resolved",
+      "artifacts": ["dashboard_api/tasks.py", "data/report_index.csv", "data/download_log.csv"],
+      "summary": "Upload registration writes into frozen source ledgers even though the PDF remains in the isolated task directory.",
+      "required_fix": "Keep upload metadata wholly task-scoped and add a regression test proving frozen ledgers remain byte-identical."
+    },
+    {
+      "id": "DOC-001",
+      "severity": "critical",
+      "status": "resolved",
+      "artifacts": ["outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf"],
+      "summary": "All six figures are vertically compressed or internally clipped; most chart labels are unreadable.",
+      "required_fix": "Render from aspect-preserving PNG assets, reflow the document, and visually inspect every page."
+    },
+    {
+      "id": "DOC-002",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md"],
+      "summary": "The required body sections exist, but the official template front matter is missing and the title wraps incorrectly.",
+      "required_fix": "Add cover/version/team/group/date, contents, and change history before the template body."
+    },
+    {
+      "id": "FIG-001",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["scripts/build_final_figures.py", "latex/figures/fig_inference.png"],
+      "summary": "The histogram uses 11,280 nonzero row timings but is labeled as 10,015 generation-call timings.",
+      "required_fix": "Label the row-timing population exactly or replace it with run-level evidence; do not conflate rows and calls."
+    },
+    {
+      "id": "FIG-002",
+      "severity": "medium",
+      "status": "resolved",
+      "artifacts": ["latex/figures/fig_evidence_gate.png"],
+      "summary": "Value origins and unit origins overlap but are plotted as if they were three mutually exclusive categories.",
+      "required_fix": "Separate value lineage from unit lineage into distinct panels."
+    },
+    {
+      "id": "PAPER-001",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["outputs/ai_contest/submission/supporting/ESG_ClaimGuard_技术论文.pdf"],
+      "summary": "The PDF prints a source image path and raw Markdown/LaTeX formulas instead of rendering them.",
+      "required_fix": "Use actual embedded figures and renderer-safe mathematical prose, then inspect the rebuilt PDF."
+    },
+    {
+      "id": "PAPER-002",
+      "severity": "medium",
+      "status": "resolved",
+      "artifacts": ["latex/ESG_ClaimGuard_技术论文.md", "docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md"],
+      "summary": "Qwen3.6-27B is supported only by a Qwen3 report citation and prose lacks inline citations.",
+      "required_fix": "Add the official Qwen3.6-27B model-card citation and inline references."
+    },
+    {
+      "id": "STALE-001",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["docs/ai_contest/题目分析.md", "docs/ai_contest/HANDOFF.md", "docs/ai_contest/FULL_RUN.md"],
+      "summary": "Current documentation still says extraction is running or migration is pending and lists bridge files that are absent.",
+      "required_fix": "Rewrite these sections to the verified completed, self-contained current state."
+    },
+    {
+      "id": "PATH-001",
+      "severity": "low",
+      "status": "resolved",
+      "artifacts": ["outputs/ai_contest/submission/supporting/*.html"],
+      "summary": "Generated HTML retained a machine-local absolute base path.",
+      "required_fix": "Make HTML conversion intermediate-only and remove generated HTML after successful conversion."
+    },
+    {
+      "id": "VIDEO-001",
+      "severity": "critical",
+      "status": "resolved",
+      "artifacts": ["outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4", "scripts/build_captioned_project_video.py"],
+      "summary": "The video claims to have captions but contains only slide bullets and no timed sentence-level captions.",
+      "required_fix": "Generate timed SRT/ASS from narration and burn readable captions over both slides and dashboard footage."
+    },
+    {
+      "id": "ZIP-001",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip", "scripts/build_ai_contest_submission.py"],
+      "summary": "The ZIP omits run_manifest.json required by repository.dataset_snapshot(), so formal_current is unavailable after extraction; it also omits parsed/raw PDF evidence, dependency metadata, and the HANDOFF/FULL_RUN files linked by README.",
+      "required_fix": "Make the package startable with an explicit compact-mode contract, include every small required manifest and package documentation, make unavailable full-evidence assets explicit, exclude stale experiments, and rebuild manifest/CRC/hash."
+    },
+    {
+      "id": "VALIDATOR-001",
+      "severity": "high",
+      "status": "resolved",
+      "artifacts": ["scripts/validate_final_submission.py"],
+      "summary": "The final validator checks existence/basic metadata but not PDF searchability/blank pages, full video decode/caption provenance, final-directory exactness, ZIP sensitive text, or official hash consistency.",
+      "required_fix": "Expand the validator to enforce the actual final acceptance gates and fail on these defects."
+    }
+  ]
+}

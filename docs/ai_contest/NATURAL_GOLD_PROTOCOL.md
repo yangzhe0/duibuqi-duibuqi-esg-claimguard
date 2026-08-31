@@ -49,22 +49,11 @@ Natural-Gold 用于评价系统在真实 ESG 报告上的声明发现、字段�
 
 当前生产结果尚未结构化输出 subject、period、scope，评测结果必须把这些字段标记为 unavailable，不能用空值伪装成高分。
 
-## Pilot-30 与 Silver 草稿边界
-
-- Pilot-30 是从冻结清单中按固定种子抽取的 30 条不同指标任务，E/S/G 各 10 条；清单位于 `data/evaluation/natural_gold/v1/pilot30/manifest.csv`。
-- Silver-A 使用严格块级关键词召回，Silver-B 使用原始词与同页相邻块召回。两路不读取彼此答案。
-- 候选召回不是全文检索；未召回时必须标记 `uncertain` 并进入人工全文检查，不能推断 `missing`。
-- 机器草稿通过 JSON Schema、候选页和逐字证据校验后，仍然只是辅助材料；两路一致不代表事实正确。
-- Silver 数据只写入 `outputs/ai_contest/natural_gold_pilot30/`，自动晋级 Natural-Gold 的数量固定为 0。
-- 当前 Pilot 结果：30/30 成对完成，11 条至少存在一个字段分歧，3 条存在披露状态分歧；优先人工核查 11 条，并从一致任务中抽查 4 条。
-
 ## 执行命令
 
 ```bash
 /opt/miniconda3/bin/conda run -n paperagent python scripts/build_natural_gold.py
 /opt/miniconda3/bin/conda run -n paperagent python scripts/evaluate_natural_gold.py
-/opt/miniconda3/bin/conda run -n paperagent python scripts/run_natural_gold_pilot.py --stage all
-/opt/miniconda3/bin/conda run -n catalog python scripts/plot_natural_gold_pilot.py
 ```
 
 标注工作台通过 `bash scripts/run_dashboard.sh` 启动，在“金标准”页面选择 A、B 或仲裁员角色。离线清单也可从 `/api/natural-gold/manifest.csv` 导出。

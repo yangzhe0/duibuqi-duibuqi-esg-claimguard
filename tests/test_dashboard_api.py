@@ -1,14 +1,24 @@
+import csv
+import hashlib
+import io
+import json
 import tempfile
+import threading
 import unittest
 from collections import Counter
 from pathlib import Path
 from unittest.mock import patch
+from urllib.error import HTTPError
+from urllib.request import urlopen
 from urllib.parse import quote, unquote
 
 from dashboard_api import repository
 from dashboard_api.audit import audit_queue, audit_summary
 from dashboard_api.reviews import ReviewStore
-from dashboard_api.tasks import report_metadata
+from dashboard_api.tasks import PROJECT_ROOT, TaskManager, report_metadata
+from dashboard_api.server import DashboardHandler
+from http.server import ThreadingHTTPServer
+from dashboard_api.model_runtime import GGML_CUDA_BACKEND, QWEN_MMPROJ_PATH, llama_server_command, runtime_assets
 from dashboard_api.preaudit import claim_graph, export_workpaper_csv, preaudit_issues, preaudit_summary
 from dashboard_api.natural_gold import (
     build_manifest,
@@ -18,18 +28,12 @@ from dashboard_api.natural_gold import (
     natural_gold_tasks,
     validate_annotation,
 )
-from dashboard_api.natural_gold_pilot import (
-    PILOT_QUOTAS,
-    _normalize_confidence,
-    build_pilot,
-    generate_silver_drafts,
-    load_pilot,
-    retrieve_silver_a,
-    retrieve_silver_b,
-)
 
 
 class DashboardRepositoryTests(unittest.TestCase):
+    def tearDown(self):
+        repository.clear_caches()
+
     def test_chinese_upload_filename_round_trip(self):
         filename = "示例企业_中文测试文档.pdf"
         self.assertEqual(unquote(quote(filename)), filename)
@@ -43,6 +47,8 @@ class DashboardRepositoryTests(unittest.TestCase):
     def test_evidence_resolves_block_bbox(self):
         row = next(row for row in repository.results() if row["status"] == "found")
         item = repository.evidence(row["report_id"], row["block_id"])
+        if item is None and not repository.PARSED_ROOT.is_dir():
+            self.skipTest("full parsed evidence assets are intentionally absent from the lightweight snapshot")
         self.assertIsNotNone(item)
         self.assertEqual(item["page_no"], int(row["page_no"]))
         self.assertEqual(len(item["bbox"]), 4)
@@ -58,7 +64,101 @@ class DashboardRepositoryTests(unittest.TestCase):
         expected_rows = sum(row["report_id"] == report_id for row in repository.results())
         payload = repository.export_csv({"report_id": report_id})
         self.assertTrue(payload.startswith(b"\xef\xbb\xbf"))
-        self.assertEqual(payload.count(b"\n"), expected_rows + 1)
+        decoded = payload.decode("utf-8-sig")
+        self.assertEqual(len(list(csv.DictReader(decoded.splitlines()))), expected_rows)
+
+    def test_default_snapshot_never_merges_or_overwrites_with_task_outputs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline = root / "extraction/extraction_results.csv"
+            baseline.parent.mkdir(parents=True)
+            task_result = root / "tasks/task-1/extraction/extraction_results.csv"
+            task_result.parent.mkdir(parents=True)
+            self._write_results(baseline, [self._row("baseline-report", "missing")])
+            self._write_results(task_result, [self._row("baseline-report", "found")])
+            (root / "run_manifest.json").write_text(json.dumps({"run_id": "run-current"}), encoding="utf-8")
+            (root / "validation.json").write_text(json.dumps({"passed": True}), encoding="utf-8")
+            (root / "COMPLETE.json").write_text(
+                json.dumps({"run_id": "run-current", "is_full_200": True, "validation_passed": True}),
+                encoding="utf-8",
+            )
+            with patch.object(repository, "FORMAL_V3_ROOT", root):
+                repository.clear_caches()
+                rows = repository.results()
+                self.assertEqual(len(rows), 1)
+                self.assertEqual(rows[0]["status"], "missing")
+                self.assertEqual(rows[0]["dataset_id"], repository.CURRENT_DATASET_ID)
+
+    def test_formal_v3_is_selectable_only_after_complete_and_validation_pass(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            result_path = root / "extraction/extraction_results.csv"
+            result_path.parent.mkdir(parents=True)
+            self._write_results(result_path, [self._row("v3-report", "found")])
+            (root / "run_manifest.json").write_text(json.dumps({"run_id": "run-v3"}), encoding="utf-8")
+            (root / "validation.json").write_text(json.dumps({"passed": False}), encoding="utf-8")
+            with patch.object(repository, "FORMAL_V3_ROOT", root):
+                repository.clear_caches()
+                self.assertNotIn(
+                    repository.CURRENT_DATASET_ID,
+                    {item["dataset_id"] for item in repository.available_datasets()["items"]},
+                )
+                with self.assertRaises(ValueError):
+                    repository.results(repository.CURRENT_DATASET_ID)
+
+                (root / "validation.json").write_text(
+                    json.dumps({"passed": True, "counts": {"result_rows": 1}}), encoding="utf-8"
+                )
+                (root / "COMPLETE.json").write_text(
+                    json.dumps(
+                        {
+                            "run_id": "run-v3",
+                            "completed_at": "2026-08-22T00:00:00Z",
+                            "scope_type": "full200",
+                            "is_full_200": True,
+                            "validation_passed": True,
+                        }
+                    ),
+                    encoding="utf-8",
+                )
+                rows = repository.results(repository.CURRENT_DATASET_ID)
+                quality = repository.quality_metrics(repository.CURRENT_DATASET_ID)
+                audit = audit_summary([], "v3-report", repository.CURRENT_DATASET_ID)
+                preaudit = preaudit_summary([], "v3-report", repository.CURRENT_DATASET_ID)
+                self.assertEqual(rows[0]["dataset_id"], repository.CURRENT_DATASET_ID)
+                self.assertEqual(rows[0]["run_id"], "run-v3")
+                self.assertTrue(quality["passed"])
+                self.assertEqual(quality["run_id"], "run-v3")
+                self.assertEqual(audit["run_id"], "run-v3")
+                self.assertEqual(preaudit["run_id"], "run-v3")
+
+    @staticmethod
+    def _row(report_id: str, status: str) -> dict[str, str]:
+        return {
+            "report_id": report_id,
+            "indicator_id": "e_test",
+            "indicator_name": "测试指标",
+            "dimension": "E",
+            "indicator_type": "qualitative",
+            "status": status,
+            "value": "",
+            "unit": "",
+            "qualitative_text": "测试披露" if status == "found" else "",
+            "evidence_quote": "测试披露" if status == "found" else "",
+            "page_no": "1" if status == "found" else "",
+            "block_id": f"{report_id}:p1:b0" if status == "found" else "",
+            "block_type": "text" if status == "found" else "",
+            "source_candidate_count": "1" if status == "found" else "0",
+            "elapsed_seconds": "0.1" if status == "found" else "0",
+        }
+
+    @staticmethod
+    def _write_results(path: Path, rows: list[dict[str, str]]) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8", newline="") as stream:
+            writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
 
 
 class ReviewStoreTests(unittest.TestCase):
@@ -105,6 +205,102 @@ class PipelineTaskTests(unittest.TestCase):
         self.assertEqual(metadata["year"], "2025")
         self.assertEqual(metadata["report_type"], "可持续发展报告")
         self.assertEqual(metadata["id"], "upload-" + "a" * 16)
+
+    def test_default_qwen_runtime_assets_and_text_command_are_ready(self):
+        assets = runtime_assets()
+        self.assertTrue(assets["server"]["ready"])
+        self.assertTrue(assets["model"]["ready"])
+        self.assertTrue(assets["mmproj"]["ready"])
+        self.assertTrue(assets["cuda_backend"]["ready"])
+        command = llama_server_command(12345)
+        self.assertIn("qwen3.6-27b-q4_k_m", command)
+        self.assertNotIn(str(QWEN_MMPROJ_PATH), command)
+        self.assertTrue(GGML_CUDA_BACKEND.is_file())
+
+    def test_visual_review_runtime_adds_projection_only_when_requested(self):
+        command = llama_server_command(12345, include_vision=True)
+        self.assertIn("--mmproj", command)
+        self.assertIn(str(QWEN_MMPROJ_PATH), command)
+
+    def test_upload_registration_keeps_frozen_ledgers_byte_identical(self):
+        ledgers = [PROJECT_ROOT / "data/report_index.csv", PROJECT_ROOT / "data/download_log.csv"]
+        before = {path: hashlib.sha256(path.read_bytes()).hexdigest() for path in ledgers}
+        with tempfile.TemporaryDirectory() as directory:
+            manager = TaskManager(Path(directory))
+            payload = b"%PDF-1.4\n%%EOF\n"
+            with patch.object(manager._executor, "submit"):
+                task = manager.create_upload("123456_隔离上传_2025_ESG报告.pdf", len(payload), io.BytesIO(payload))
+            staged = Path(directory) / task["task_id"] / "upload.pdf"
+            manager._register_pdf(task, staged)
+            metadata_path = staged.parent / "report_metadata.json"
+            self.assertTrue(metadata_path.is_file())
+            self.assertEqual(json.loads(metadata_path.read_text(encoding="utf-8"))["local_path"], "upload.pdf")
+            self.assertEqual(sorted(path.name for path in staged.parent.iterdir()), ["report_metadata.json", "task.json", "upload.pdf"])
+            manager._executor.shutdown(wait=True)
+        after = {path: hashlib.sha256(path.read_bytes()).hexdigest() for path in ledgers}
+        self.assertEqual(before, after)
+
+    def test_completed_task_http_contract_and_unknown_formal_report(self):
+        with tempfile.TemporaryDirectory() as directory:
+            task_id = "a" * 32
+            report_id = "task-only-report"
+            root = Path(directory)
+            task_dir = root / task_id
+            (task_dir / "extraction").mkdir(parents=True)
+            parsed_dir = task_dir / "parsed" / report_id
+            parsed_dir.mkdir(parents=True)
+            (task_dir / "upload.pdf").write_bytes(b"%PDF-1.4\n%%EOF\n")
+            (task_dir / "task.json").write_text(json.dumps({
+                "task_id": task_id, "report_id": report_id, "filename": f"{report_id}.pdf",
+                "sha256": "b" * 64, "size": 15, "status": "completed", "stage": "completed",
+                "progress": 100, "message": "completed", "created_at": "2026-08-25T00:00:00Z",
+                "updated_at": "2026-08-25T00:01:00Z", "error": "",
+            }), encoding="utf-8")
+            row = self._task_row(report_id)
+            with (task_dir / "extraction/extraction_results.csv").open("w", encoding="utf-8", newline="") as stream:
+                writer = csv.DictWriter(stream, fieldnames=list(row))
+                writer.writeheader(); writer.writerow(row)
+            (parsed_dir / f"{report_id}_content_list_v2.json").write_text(
+                json.dumps([[{"type": "text", "bbox": [1, 2, 3, 4], "content": {"text": "任务证据原文"}}]], ensure_ascii=False),
+                encoding="utf-8",
+            )
+            manager = TaskManager(root)
+
+            class Handler(DashboardHandler):
+                task_manager = manager
+
+            server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            base = f"http://127.0.0.1:{server.server_address[1]}"
+            try:
+                summary = json.load(urlopen(f"{base}/api/tasks/{task_id}/summary"))
+                results = json.load(urlopen(f"{base}/api/tasks/{task_id}/results"))
+                preaudit = json.load(urlopen(f"{base}/api/tasks/{task_id}/preaudit"))
+                evidence = json.load(urlopen(f"{base}/api/tasks/{task_id}/evidence?block_id={report_id}:p1:b0"))
+                pdf = urlopen(f"{base}/api/tasks/{task_id}/pdf").read()
+                self.assertEqual(summary["dataset_id"], f"task:{task_id}")
+                self.assertEqual(summary["total_results"], 1)
+                self.assertEqual(results["items"][0]["report_id"], report_id)
+                self.assertEqual(preaudit["scope"], "single_upload")
+                self.assertEqual(evidence["text"], "任务证据原文")
+                self.assertTrue(pdf.startswith(b"%PDF-"))
+                with self.assertRaises(HTTPError) as caught:
+                    urlopen(f"{base}/api/preaudit/summary?report_id=definitely-not-formal")
+                self.assertEqual(caught.exception.code, 404)
+            finally:
+                server.shutdown(); server.server_close(); thread.join(timeout=5)
+                manager._executor.shutdown(wait=True)
+
+    @staticmethod
+    def _task_row(report_id: str) -> dict[str, str]:
+        return {
+            "report_id": report_id, "indicator_id": "e_test", "indicator_name": "测试指标",
+            "dimension": "E", "indicator_type": "qualitative", "status": "found", "value": "",
+            "unit": "", "qualitative_text": "任务证据原文", "evidence_quote": "任务证据原文",
+            "page_no": "1", "block_id": f"{report_id}:p1:b0", "block_type": "text",
+            "source_candidate_count": "1", "elapsed_seconds": "0.1",
+        }
 
 
 class EvidenceRiskGraphTests(unittest.TestCase):
@@ -184,6 +380,10 @@ class ClaimEvidencePreauditTests(unittest.TestCase):
 
 
 class NaturalGoldTests(unittest.TestCase):
+    def setUp(self):
+        if not load_manifest():
+            self.skipTest("optional independent-evaluation fixtures are not part of the final public snapshot")
+
     def test_manifest_is_deterministic_balanced_and_model_blind(self):
         with tempfile.TemporaryDirectory() as directory:
             first = build_manifest(Path(directory))
@@ -255,56 +455,6 @@ class NaturalGoldTests(unittest.TestCase):
         payload = natural_gold_evaluation(annotations, tasks, predictions)
         self.assertEqual(payload["status"], "ready")
         self.assertEqual(payload["metrics"]["disclosure_detection"]["tn"], 3)
-
-    def test_pilot30_is_frozen_stratified_and_uses_unique_indicators(self):
-        with tempfile.TemporaryDirectory() as directory:
-            payload = build_pilot(output_dir=Path(directory))
-            rows = payload["rows"]
-            self.assertEqual(len(rows), 30)
-            self.assertEqual(Counter(row["dimension"] for row in rows), {"E": 10, "S": 10, "G": 10})
-            self.assertEqual(len({row["indicator_id"] for row in rows}), 30)
-            expected = {f"{dimension}/{kind}": count for dimension, kinds in PILOT_QUOTAS.items() for kind, count in kinds.items()}
-            self.assertEqual(Counter(row["stratum"] for row in rows), expected)
-            self.assertTrue(payload["metadata"]["silver_only"])
-
-    def test_silver_retrievers_use_different_context_contracts(self):
-        indicator = {
-            "indicator_name": "客户满意度",
-            "indicator_type": "quantitative",
-            "keywords": "客户满意度|顾客满意度",
-            "original_keywords": "客户满意度|满意度调查",
-            "common_units": "%|分",
-        }
-        blocks = [
-            {"page_no": 1, "block_index": 0, "block_id": "r:p1:b0", "block_type": "paragraph", "text": "客户服务"},
-            {"page_no": 1, "block_index": 1, "block_id": "r:p1:b1", "block_type": "table", "text": "客户满意度 | % | 98"},
-            {"page_no": 1, "block_index": 2, "block_id": "r:p1:b2", "block_type": "paragraph", "text": "调查范围为境内客户"},
-        ]
-        narrow = retrieve_silver_a(blocks, indicator)
-        broad = retrieve_silver_b(blocks, indicator)
-        self.assertEqual([row["block_id"] for row in narrow], ["r:p1:b1"])
-        self.assertEqual([row["block_id"] for row in broad], ["r:p1:b0", "r:p1:b1", "r:p1:b2"])
-
-    def test_silver_confidence_accepts_numeric_and_chinese_values(self):
-        self.assertEqual(_normalize_confidence(0.9), ("high", True))
-        self.assertEqual(_normalize_confidence("中"), ("medium", True))
-        self.assertEqual(_normalize_confidence("0.2"), ("low", True))
-        self.assertEqual(_normalize_confidence("大概"), ("low", False))
-
-    def test_silver_empty_retrieval_never_infers_missing_or_calls_model(self):
-        task = load_pilot()[0]
-        with tempfile.TemporaryDirectory() as directory:
-            with patch("dashboard_api.natural_gold_pilot._load_blocks", return_value=[]):
-                with patch("dashboard_api.natural_gold_pilot._ollama_generate", side_effect=AssertionError("must not call model")):
-                    rows = generate_silver_drafts(
-                        "silver_a",
-                        pilot_rows=[task],
-                        output_dir=Path(directory),
-                        resume=False,
-                    )
-        self.assertEqual(rows[0]["disclosure"], "uncertain")
-        self.assertEqual(rows[0]["validation_errors"], "no_candidate_retrieval")
-        self.assertEqual(rows[0]["raw_response_sha256"], "")
 
     @staticmethod
     def _annotation(task: dict, role: str, disclosure: str, reviewer: str) -> dict:

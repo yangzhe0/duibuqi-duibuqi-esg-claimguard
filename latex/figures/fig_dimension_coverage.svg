@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="475.13pt" height="301.364pt" viewBox="0 0 475.13 301.364" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-25T08:13:53.498072</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 301.364 
+L 475.13 301.364 
+L 475.13 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 43.85 279.664 
+L 467.93 279.664 
+L 467.93 24.64 
+L 43.85 24.64 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 63.126364 279.664 
+L 173.277013 279.664 
+L 173.277013 164.878912 
+L 63.126364 164.878912 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 200.814675 279.664 
+L 310.965325 279.664 
+L 310.965325 155.7952 
+L 200.814675 155.7952 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 338.502987 279.664 
+L 448.653636 279.664 
+L 448.653636 144.8656 
+L 338.502987 144.8656 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 63.126364 164.878912 
+L 173.277013 164.878912 
+L 173.277013 36.784 
+L 63.126364 36.784 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #cfcece"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 200.814675 155.7952 
+L 310.965325 155.7952 
+L 310.965325 85.36 
+L 200.814675 85.36 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #cfcece"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 338.502987 144.8656 
+L 448.653636 144.8656 
+L 448.653636 85.36 
+L 338.502987 85.36 
+z
+" clip-path="url(#pd2d6205b25)" style="fill: #cfcece"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m14fd7a7fac" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m14fd7a7fac" x="118.201688" y="279.664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: middle" x="118.201688" y="293.264" transform="rotate(-0 118.201688 293.264)">环境 E（25项）</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m14fd7a7fac" x="255.89" y="279.664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: middle" x="255.89" y="293.264" transform="rotate(-0 255.89 293.264)">社会 S（20项）</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m14fd7a7fac" x="393.578312" y="279.664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: middle" x="393.578312" y="293.264" transform="rotate(-0 393.578312 293.264)">治理 G（20项）</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m1be5df479b" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="279.664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="282.964" transform="rotate(-0 36.85 282.964)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="231.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="234.388" transform="rotate(-0 36.85 234.388)">1000</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="182.512" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="185.812" transform="rotate(-0 36.85 185.812)">2000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="133.936" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="137.236" transform="rotate(-0 36.85 137.236)">3000</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="85.36" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="88.66" transform="rotate(-0 36.85 88.66)">4000</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m1be5df479b" x="43.85" y="36.784" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 7.5px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: end" x="36.85" y="40.084" transform="rotate(-0 36.85 40.084)">5000</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 9px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: middle" x="15.12" y="152.152" transform="rotate(-90 15.12 152.152)">结果行数</text>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 43.85 279.664 
+L 43.85 24.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 43.85 279.664 
+L 467.93 279.664 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(107.461688 220.935206)">2,363</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(105.969813 229.687706)">47.3%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(245.15 216.39335)">2,550</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(243.658125 225.14585)">63.7%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(382.838312 210.92855)">2,775</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(381.346437 219.68105)">69.4%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: middle" x="255.89" y="18.64" transform="rotate(-0 255.89 18.64)">三维度披露覆盖分布（非准确率）</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 409.6425 38.88 
+L 425.6425 38.88 
+L 425.6425 33.28 
+L 409.6425 33.28 
+z
+" style="fill: #0f4d92"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: start" x="432.0425" y="38.88" transform="rotate(-0 432.0425 38.88)">found</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 409.6425 50.88 
+L 425.6425 50.88 
+L 425.6425 45.28 
+L 409.6425 45.28 
+z
+" style="fill: #cfcece"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 8px; font-family: 'Noto Sans CJK SC', 'Droid Sans Fallback', 'DejaVu Sans', sans-serif; text-anchor: start" x="432.0425" y="50.88" transform="rotate(-0 432.0425 50.88)">missing</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd2d6205b25">
+   <rect x="43.85" y="24.64" width="424.08" height="255.024"/>
+  </clipPath>
+ </defs>
+</svg>

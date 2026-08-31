@@ -7,7 +7,7 @@
 终端一：
 
 ```bash
-/home/sues01/.conda/envs/paperagent/bin/python -m dashboard_api.server
+/opt/miniconda3/bin/conda run -n paperagent python -m dashboard_api.server
 ```
 
 终端二：
@@ -35,7 +35,7 @@ bash scripts/run_dashboard.sh
 - PDF 原文渲染和 bbox 证据高亮；
 - 结构化结果、置信度、耗时和风险信息；
 - 人工复核与 SQLite 本地持久化；
-- 数据覆盖、工作流记录与 Natural-Gold 评测协议展示（正式准确率待冻结金标准后计算）；
+- 数据覆盖、工程完成门与人工复核工作流展示；
 - 当前报告结果 CSV 导出；
 - 新 PDF 上传、后台任务进度和失败原因展示；
 - 上传后自动完成 PDF 校验登记、MinerU 解析、ESG-65 召回、Qwen3 抽取和结果入库。
@@ -44,8 +44,7 @@ bash scripts/run_dashboard.sh
 - 声明—证据失配与总量—分项口径差异候选；
 - issue-level 确认、修正、待补材料、接受风险和排除记录；
 - 预审工作底稿 CSV 导出。
-- Natural-Gold v1 的 300 条固定分层样本、双人盲标和第三人分歧仲裁；
-- 金标准完成前锁住模型 Precision、Recall 和 F1，防止把工作流标签冒充测试集；
+- 明确区分自动运行状态与人工真值，不把工作流标签冒充准确率评测；
 
 ## 产品定位
 
@@ -53,6 +52,16 @@ bash scripts/run_dashboard.sh
 
 ## 上传流水线
 
-服务默认复用本机 `/home/sues01/.conda/envs/mineru/bin/mineru` 和 Ollama 的 `qwen3:30b`，不依赖公司项目。可通过 `ESG_MINERU_BIN`、`ESG_MODEL`、`ESG_OLLAMA_URL` 覆盖。
+默认 `claimguard` 配置顺序执行两个本地进程：MinerU 3.4 的 `vlm-engine` 使用 MinerU2.5-Pro-2605-1.2B 完成版面与 OCR，进程退出并释放显存后，再临时启动 `llama-server` 运行 Qwen3.6-27B Q4_K_M。文本抽取不加载视觉投影；视觉投影仅为后续困难页面复核保留。每项任务结束都会关闭 27B 服务，因此两个模型不会同时驻留。
 
-新 PDF 通过 SHA-256 去重后登记到 `data/raw_pdfs`、`data/report_index.csv` 和 `data/download_log.csv`；MinerU 结构化结果进入 `data/parsed_reports_v1/reports`；每项任务的抽取产物和日志保存在 `outputs/dashboard/tasks/<task_id>`。任务结果自动合并到仪表盘查询，不修改已有 200 份正式基线结果。
+运行参数可通过 `ESG_MINERU_BACKEND`、`ESG_LLM_API`、`ESG_MODEL`、`ESG_LLAMA_SERVER_BIN`、`ESG_QWEN_MODEL_PATH`、`ESG_QWEN_MMPROJ_PATH` 和 `ESG_GGML_CUDA_BACKEND` 显式配置；测试或多实例运行可通过 `ESG_TASK_ROOT` 和 `ESG_REVIEW_DB` 隔离任务状态与复核数据库。模型权重位于系统模型目录，不属于项目或提交包。正式环境不启用 V1/V2 静默回退。
+
+新 PDF 计算 SHA-256 并登记到隔离任务目录，随后进入与正式 V3 相同的 canonical 解析、ESG-65 抽取和证据门禁。上传任务不覆盖冻结 manifest 中的 200 份正式结果；全量 V3 完成门通过后，网站只以 `formal_current` 为默认正式数据集。
+
+## 生产验收
+
+以下命令会使用临时任务目录和临时 SQLite 启动完整生产服务，检查前端入口、核心 API、PDF 证据与工作底稿后自动关闭，不会改动正式复核或金标准数据：
+
+```bash
+/opt/miniconda3/bin/conda run -n paperagent python scripts/smoke_dashboard.py
+```

@@ -1,0 +1,4324 @@
+{
+  "schema_version": "formal-v3-table-backfill-1",
+  "updated_at": "2026-08-22T02:58:54+00:00",
+  "method": "same MinerU model.json table HTML matched by exact page and normalized bbox distance <= 20",
+  "reports_scanned": 200,
+  "reports_repaired_this_run": 0,
+  "tables_repaired_this_run": 0,
+  "unresolved_count": 0,
+  "unresolved": [],
+  "reports": [
+    {
+      "report_id": "000503_国新健康_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "31f5261fc1266f6a58468a7ea3d4e3ebfcc8e316842fa0aeda9c2c4899253840",
+      "after_sha256": "5f15da60a57b1570e90060565c9177f8c9036a1d2812e60f610ff60ac9882bda",
+      "repairs": [
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "42e5db759240fafc597c69571695d23d5fc84c68532cf3c0adf97c0fc9b9810f"
+        }
+      ]
+    },
+    {
+      "report_id": "000526_学大教育_2025_ESG报告",
+      "tables_repaired": 7,
+      "before_sha256": "2f85ff92669e9ea61d180343f4ebd1f3f0ab8a707c28ca2da17303a69182a74c",
+      "after_sha256": "7f1c86291850e86a2f0d90e6ebbffd7b742842fe58c63d6911ed5cf2cc9ed878",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "318bcdf68cfb262ccb0d06e3323330add1a6653f519558632439831c163670aa"
+        },
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8b46d1cf652f8534f756efd732dc4e58fd4c1e00bed80fc276537ed42519cd81"
+        },
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "244f412c2d294edc7f960ed6eaa309bfb620e35fc9a28a7d6461521898cdd9d8"
+        },
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "807e968496b8e7c04b3303df0c37b330472e46e5352a347063bcec53c36131e3"
+        },
+        {
+          "page_no": 46,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "28657eddb448ee9eee7105bb315147cf5a1428d02d20aaa0777ff589a32e637b"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "53e874754a966ce97de521ed1d417a88b33b46a2e66d051241e809ed8655f770"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "0d946e2124ce4da89c562504d4efd459a7774c853d78d0924d271734fa90e99a"
+        }
+      ]
+    },
+    {
+      "report_id": "000537_绿发电力_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "e00acf1958343b5ec335354817ed05fe40404d7ae43e8fa85fa731c1abdd61f2",
+      "after_sha256": "a90dfe44d81e485889fb8b9cf5e938ccb0ca890fbaabbe0b4916818e35a4e711",
+      "repairs": [
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "019bd9a44ac087dbb70c26b6a49e42a58364ee3982781e781e8a2bf07fdb4b93"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "470dac56c00d8277a466c6b3ce3d0e0d3b3bbaafe726c8faed7ba49cd7aa5079"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "280ef72a32f054149b67f97fa4e4e30c7f3fdf6a9ac1322586f0735c53d79389"
+        }
+      ]
+    },
+    {
+      "report_id": "000557_西部创业_2025_可持续发展报告",
+      "tables_repaired": 3,
+      "before_sha256": "a55a6b0a57abd8fc1501fe0116868e714d632b2e7358108605f73d27b0a056bf",
+      "after_sha256": "322a9f42443e87e4cfd4efd545e170618571df4945c3b3937dbd4d51e6f51a44",
+      "repairs": [
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "6c9240c4c2dfb24411424c48295957a771b8c91b6cc33e0080304b5324c1e648"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8bcb236a7de08e8204dbab891913d0e495b66a0490925336e902b05a90e30a1e"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8e0e2a295c9e01694a72b81cfddc3ab5eee244004a88cf7b7522a4b2b7b534ae"
+        }
+      ]
+    },
+    {
+      "report_id": "000598_兴蓉环境_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "aa81ff8d692631f020ca903d6724eb6163d6857559560852eb3d5b710e19788a",
+      "after_sha256": "d832620d8013ccb93004df0f8e2f57192b715d4d9dd6a8fe81185f01390db1a4",
+      "repairs": [
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "be29233a7615c4a33da4b4315c030489df21865831626faa22d8d4ca3b1ac175"
+        }
+      ]
+    },
+    {
+      "report_id": "000628_高新发展_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "c9b90f6d298f30b20699448fc76ef70652ccd7d7b5c465d401fd0b36ad0b5a55",
+      "after_sha256": "d32c2894f0731a317e1c130f5343638481a4c33979eb1b05f4c22a6181d6d326",
+      "repairs": [
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1370d82a4ed9cf7da66bf511b0058d8f0aa3780855544858a1f2dc41c1635385"
+        },
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "0140da3993f6e5ed0470d34e6bf791eb95859c3f3ef779a4fb2d1178a0c5b5ae"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "cd7961cb893f7a008994e3b2f945a35782fa646cbbb83fd50eade7dab37dae2d"
+        },
+        {
+          "page_no": 64,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "2c37240e36c02071f1c9287c0b80fbef504bbda99295271fdf4a1be50227e1a3"
+        },
+        {
+          "page_no": 65,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dc90a98600d912f3bf52953f7f26c2806515e652c0eb16204793dd80cd4f6d8b"
+        },
+        {
+          "page_no": 66,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9b934312441f0605adcdee9fa80c84d3780e54665fc274e924aac37e85dd312f"
+        }
+      ]
+    },
+    {
+      "report_id": "000720_新能泰山_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "435f6e1f3ebc2663e1e50d77aad8552d45afb2b3c6daf3bef54db3708d71b8ed",
+      "after_sha256": "9fdcfc2e9ae293df53dabb9b4453218605acdb6cdc1d69aa6b76dd2d2b21eb1f",
+      "repairs": [
+        {
+          "page_no": 14,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ae122c2ea1c3ef492581d3fcec3abe8621e3772d11fb99cd901e300846f382b9"
+        }
+      ]
+    },
+    {
+      "report_id": "000758_中色股份_2025_ESG暨社会责任报告",
+      "tables_repaired": 2,
+      "before_sha256": "7ac139a21d7599374a443cf6f69e67356da4a4255f672b87b989b24fd331a61a",
+      "after_sha256": "49cd51c6b67dc137d53f1c91e564fe20e09010f5d0a3c8569ddaad206931daf5",
+      "repairs": [
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "26d2947425f2e671efde55d751880cac9ccd5735771ab6db910bc752540f5176"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b8b3cae10cbaf1dc8636b7c1d11d0bf4ad2818222dcec842c13316f034b2e1ee"
+        }
+      ]
+    },
+    {
+      "report_id": "000777_中核科技_2025_ESG暨社会责任报告",
+      "tables_repaired": 8,
+      "before_sha256": "8091c45af4a546501892fab66ddf26dcc0d27ff7a5df681210597f2b4934569d",
+      "after_sha256": "40a8946f0e946da9f6e5fc2a85da1526e3aabde9691357b6a4f22b259681e7f8",
+      "repairs": [
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f6c1ed805016b54da10e5a5cf7e7c804d21acf2d60d378d587af820f47b9863e"
+        },
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "445df0faf75270d3b241dc231545e079087f279a2ed7bbfb8587783559894164"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e7e66cd39634c6ca6a8b7e766a232afba98b163b39d680977478cf2dbbbec4bf"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "70b6452881638cdc5c3ef8a8e7f42ee175f1fc1856023c5ce8732de5f6173d3e"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "bc0fd3e87e39cc769e755eb85e1cfc7c074df47937b2d8adca75cdc20db1f4b2"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b134b688347f4000232548181a100903f28cd50570f7a8fb01ea41e7ea0198a8"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "cd251a65950f72f145e878f96a5e7a0a6a4830a5fc87ae176cf75efd97d4ec5c"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e7a0d32aacfbfa1906262f6e9854b760958bcf232fb9056f1dac1cdc4b59c8db"
+        }
+      ]
+    },
+    {
+      "report_id": "000810_创维数字_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "da773f1019bfa42b8df1e9ae9e99f51768ce20d56ecb0cc16e52e88068a98a51",
+      "after_sha256": "361b08262cdec99f064a4c7c7eb61a4de21a8ab857b02f1af177eb87745ee390",
+      "repairs": [
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ae13c65d02df8cae03f4009fd0d5a1007271eaa31fe684b024de324968e66afb"
+        }
+      ]
+    },
+    {
+      "report_id": "000825_太钢不锈_2025_可持续发展报告",
+      "tables_repaired": 2,
+      "before_sha256": "18a17fa268517d69bdada3537ff89ed50058a1903a6590251a378410d3489bfc",
+      "after_sha256": "f0483efd100f478fa437d212f1b9bd9d25bc41860d4252d8c78b2cfed0bb1060",
+      "repairs": [
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "961755457fba1761d84f3fca3161887377e5301a5672064551996c503392dcad"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0789be3b52a5b81a8229a3f15c0a9b5db3b775fe5c1415e66957b5eeaea55bd9"
+        }
+      ]
+    },
+    {
+      "report_id": "000881_中广核技_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "0006fd7f00b4186db2386c6f15d9d876b7f613d80dbda1e80aec9a4c554b597f",
+      "after_sha256": "a5b45afe8d4ff72c18258d2d32cbd0c547588e2c4fadf3c2c90830c4d4bcfe55",
+      "repairs": [
+        {
+          "page_no": 32,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "97cf2d370d60f8adc6b2065db8fd02831c4dcd69d44e6a0217558eaf7f470931"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e786d3ff0a7785dd8243a3138a9aceae98a933cd5d3c348a8663ce5177782159"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0f23514f50a0438b3d0eec5074086bc259725079f07e8c47e23c73826703a86f"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0595f1c5f5a011c3e6916938ce56772de226c2d7e5ce74dfeb7a7e722485be29"
+        }
+      ]
+    },
+    {
+      "report_id": "000923_河钢资源_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "cdc47be0b7a1624168b3d3adc4d68e05284e773a28737d9b2b725d045bbb48b3",
+      "after_sha256": "80b3954242cd160962c1d3617e590b5d547c7dd06dd02272da94ea4486f92186",
+      "repairs": [
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "83854ac77a425bb7ae2ed699bc0cf4925a24fdb59a984db00b9076b2b17a7e52"
+        }
+      ]
+    },
+    {
+      "report_id": "000968_蓝焰控股_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "2e3c6c1724545f9b1e5aea9a3197fb6259f72ac3445c5110c8db2fc3bc8cdae0",
+      "after_sha256": "db13e5e513230db765c3e41088efe451bb51eefadca8dd2e4b19cee1e5574aac",
+      "repairs": [
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "4d8a223efcbfc1819a724f8f754c6bb28d6575e5c1efa47df8da2138c4a1f4ab"
+        },
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "eaad2f7d31867fbad5bd3614b692518b48ff3dacaf743ad07018e2c2a5214aeb"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "cac41a611db035f83c414d4e7dc45ffc057d2ae835cd092d7f5ba0ef7df34244"
+        }
+      ]
+    },
+    {
+      "report_id": "000998_隆平高科_2025_ESG报告",
+      "tables_repaired": 13,
+      "before_sha256": "369984fc2ccaebe6b427028c2bb8afb0d2d1d68937f792b30b6ccaa34c87d479",
+      "after_sha256": "08a816e0ae11e979dc21675865a0da37acb76579674665b37583b1bf06a3e434",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "18328d11956d332d76b35251651acf7596f7c5d8db0ac266b2be41ed2fbddf9b"
+        },
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "60c01d2aabdb091853fc54f4bd65afc84a1fdcb601c771fbde3c28250aea3440"
+        },
+        {
+          "page_no": 16,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d4ab35ddb46c66d77b9a14beaa1b83f11f2c41d4ff794504acafe30ff8cda909"
+        },
+        {
+          "page_no": 61,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "05bf56b4693dbe715b21dbdb002e8adba69c2c429fe1e6d751a9d3108c49e6db"
+        },
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "63574f3a43fe83082c563b5147b65b32224e55e42da20cae5c72e7978ee1b3cc"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "7ba69e28d515997b3e5095104e6adc9c88e88dd6cee103a389d8cdbc63353c7f"
+        },
+        {
+          "page_no": 88,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "34f41317e417be977112ae5d74eff1e67258dcc5d3ddbf5103bef08da1c6a36a"
+        },
+        {
+          "page_no": 89,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "b147a821668c53f58ae9642597e78b64de66a8b335acc2ede9bdf094d68cfe12"
+        },
+        {
+          "page_no": 91,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6c8b77977db37e0ed30ac6caadf2aa3ffffdd4199f304dfdb32fe285ba761403"
+        },
+        {
+          "page_no": 92,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0f1358d37775589b266c95cc73686dd9fef5b487329bac76806c4c8130d5406d"
+        },
+        {
+          "page_no": 96,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dcb3349c8d3b412f2171b5f728b4fd41133d3f94798025bb9b5e6de6750df152"
+        },
+        {
+          "page_no": 99,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "a529576a0dad016827394df03b7dbec340e00bafe2950f522d9c0c43a1cc6061"
+        },
+        {
+          "page_no": 101,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "fda91635f895556fd5831eabd7836908294c5ee8afd42f59c5304583348c1c5a"
+        }
+      ]
+    },
+    {
+      "report_id": "001287_中电港_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "c644d6648f60d747f2997eabc96f4d17d68b09dab162c42de8a321ae0bbb23f7",
+      "after_sha256": "08943fd3a3629dc1d72bc8d5b0674f6652a12592af7935516d4fb51172065dcf",
+      "repairs": [
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a19ff5c5529c42174c2dba888cac602989372c57b81cc98f50ae7e6e1f040e62"
+        }
+      ]
+    },
+    {
+      "report_id": "001322_箭牌家居_2025_ESG报告",
+      "tables_repaired": 10,
+      "before_sha256": "55beb57ff45f0593c9f75d8509d170407b22484243cb44a65d5a6607d8035110",
+      "after_sha256": "0c42d572e4da316de886430914679f39a6a6b0680bd79f21ab40acb357536f96",
+      "repairs": [
+        {
+          "page_no": 8,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8076efca56b2fe97bdc79144f83d3e8e7115b42b5b0eb44afdb054e3695f185d"
+        },
+        {
+          "page_no": 9,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "0eea9c404c207fa1250fd7c5f7c12f98cbbc3c7e057752e70e5f6dd830618c2c"
+        },
+        {
+          "page_no": 14,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "063c8733980843289038ced611ada4ebce196fc1a08a5157c2d105a5ef77c2be"
+        },
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9ee4e40c0037620de4e4ab39a24b7c061b17d3933358edc8016fcb976870587a"
+        },
+        {
+          "page_no": 22,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f62898430aaf4d1a6bd04895da36869a27add91342e42f1eda11a237000a6e1e"
+        },
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "500597beded700ab20939548f897ef9486fbb6c21f58e77a4fa7703d00295451"
+        },
+        {
+          "page_no": 32,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1bde9e4f44123c7f55345aa80fd453a1f95c6b24dbe9b5874f574bbd744129e0"
+        },
+        {
+          "page_no": 33,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "55cdcc6b31d9ea53a326cbd278cce28b648b5857364a2c319a7279aa94c4ffd8"
+        },
+        {
+          "page_no": 34,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "36f94f8ef39947d3a0ce088a96d806a12748d62dec9e933590ed2efae20dce94"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a7eaa7340b4aa17df77e9d4b27c6acd6c44266382281997b4586c81aa10fd385"
+        }
+      ]
+    },
+    {
+      "report_id": "001390_古麒绒材_2025_可持续发展报告",
+      "tables_repaired": 7,
+      "before_sha256": "acd71bf8e4479063c7216e368a314c226a9e00cc0683e72bb821177fa960b528",
+      "after_sha256": "42fcc5772f6b5267dc3b0458443640f2ae01868a6c2b18c5ce64f353b1803e9b",
+      "repairs": [
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7f1a1c374d6bc24f48326f44807d3f492759255f10bfa73e3cd164859836c4bd"
+        },
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "7e2605a50d9122091300cb1dee0926509162d45ffcb86d298260cd67a3f4436a"
+        },
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ba3b98ce9d95031488ebd9747ad515c4d3fb3afc91a36e33680a85bab3f79b5c"
+        },
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f7393a1e3fe9d9e528f7be84063d12e695eb1fbb96b1aca05a1b1f341883a816"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "aba0db9fb5d740debd43e31fe80a58aa5965402d9a0f16e4eae9dff507d2fe77"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "dda3bf3da071818bfd66dd0a0e2b91c604f58ee436e4be18b77ba9373c326f7a"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "be6f5f3229cc64759415e8c028a66436ef798f4e02dfdbffe73314b798965383"
+        }
+      ]
+    },
+    {
+      "report_id": "002011_盾安环境_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "f84d013b24a00527432ea164b1419a3d714b4eaadfef6642010b58a066d45782",
+      "after_sha256": "244ba8ba5e3326bfeae1bbce3867fa0a004e17cefb9067dfcb72d3c878a6c1a9",
+      "repairs": [
+        {
+          "page_no": 17,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a261da2d19ca9108527d45054dc1e5358a5e45bb3c628aadd8d33b4a7b76d260"
+        }
+      ]
+    },
+    {
+      "report_id": "002035_华帝股份_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "52e74be562791e40688732bd39bfc1139e53975551ca666a91f7333d721b8225",
+      "after_sha256": "8fb1ade207d0cede78263b8efb6cee062a874f50245629b977be231c051f313b",
+      "repairs": [
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1cc4627d2eed4398b7831389acad8ec763f76eeceb3c9eb59d776ec8a781db99"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a750f729002f1655539c81dcf8950a69208501bd93dcd3ac774d61af9b47c261"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6e42751ae75680ad7ed334f846134da1473388f348f0ed60388bd6f9233cd675"
+        }
+      ]
+    },
+    {
+      "report_id": "002048_宁波华翔_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "5416dddcb3cf287cdbe84a2c680d15a9bd1fea5aab3b114283989c074007786c",
+      "after_sha256": "cc99a4cfadbdf17d3dea5fb7029d1d5ab73197339c68df2e41e9df4d378b4d4f",
+      "repairs": [
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6707abc0d175393a1d3a513c6e69c4b5af006857492d8cc5911547044856da62"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e93dbe0f283b1365cb9f7eed7cf1da495b74ad97e1930df2369d2908504d2347"
+        }
+      ]
+    },
+    {
+      "report_id": "002079_苏州固锝_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "431362bac13c1c0e5b8911f1bb95782f986cfbbd805aeb2326f2f14b9967e309",
+      "after_sha256": "1f2281140458ee18668f23cd99a0e9536af29fdc8b54609ee8a95c7bd8185574",
+      "repairs": [
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "30371c9627ab109c250c98cf789616d312433108da2f8a87a9ed2a31262290de"
+        }
+      ]
+    },
+    {
+      "report_id": "002203_海亮股份_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "402eb291202757ded7fae36c8fc2cda9eb9150fcb9da9bbdb4db521426246198",
+      "after_sha256": "6d75da5a55fb8759b6f170fdc02f2be4e6c12dc904f1e784400c97c7887fbaf1",
+      "repairs": [
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2d844ac3c14e61e190b97536edf1ff2f247b2dc92929e7328e2906a270b4443b"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "75b16cc4292d68cbc61bb5e72c38d665efe8aa7046e3c13b0d6a38b431677983"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b367037a628cb9b1101167464b8d39b34624754e90c37aa37d9c980e7e0e814d"
+        }
+      ]
+    },
+    {
+      "report_id": "002326_永太科技_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "125c9dd675d7ac832e1cbc7cd87d800c7aaa3e7bcde87c303ec76b55093279c2",
+      "after_sha256": "6cb6bfd629726c5ee4ec15569f9f3d8523a7dd4832be1aa625b84ab13e608b92",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "fb9e6606feee2c6a3e9381b86b34ee69213e3e898b67c183a4e796b9f0a9e9a1"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "59d6c15c363de19645c68c69d2e40a04ceff93c5bd994bf09738a24cd8a35202"
+        }
+      ]
+    },
+    {
+      "report_id": "002444_巨星科技_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "5223a8d4355a40ebe3ec3efc0bbc8842d87eebb012b1c3eef9cbeede266e6cb1",
+      "after_sha256": "3252f30f566f7c01d302c0c36285a8498e57fcaf538c5b36e1b166278f190102",
+      "repairs": [
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "521bd0f55e33461dabc3670b5d2140260a3f5ab5ca8612c6320f68a9a906f524"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5b61858f2a8ec15ceacf67b28ab4c47dd66e2334e24614c9ee6abbe3447347cd"
+        }
+      ]
+    },
+    {
+      "report_id": "002490_山东墨龙_2025_ESG报告",
+      "tables_repaired": 21,
+      "before_sha256": "8c641926a1fa8c03d0de64ed017614bc1fc5f3580c121341acc92b46801720af",
+      "after_sha256": "56206572a948f97a52fe36872a02bbed39fd0d7e4bffd4305653a67672450591",
+      "repairs": [
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "2255ad84ca07e35b8bf4a9a966fe61f67669a2a4dba48cb56485630731d16532"
+        },
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "7bf733648d67233cd5418315f14e17000e5a3d47b91b2614da82945842164519"
+        },
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "a440838f2bd83d3b3b62d91c7d64af64e23e0db66b52519513908ff7850cb1f3"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "144c85134670d77145ab8bb002fbf2e9a97fed19761caf2cebda335c4ceb037f"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "d4123d2b797f215cd8f49c57dd2afede6079eca6c94739d022ce4319937ac39d"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "9b353e321b726575053234b618749625b7287948d158eac2ccce438121e2cd08"
+        },
+        {
+          "page_no": 69,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "1c10d2e8711479df3dc952e7ed67e9b3df74a9860696c19132126e5c2e850c69"
+        },
+        {
+          "page_no": 72,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "3324440a0d405ebce9ceb2fbb4e153d4d995fef3202016793d40d36a7714132c"
+        },
+        {
+          "page_no": 73,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d6a56a8931380977c31d7aaa44f79b277791fe5a505de4cd496eed666d471b88"
+        },
+        {
+          "page_no": 74,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "2b9c03aca14dd4e3d82c13a45ea57e0dc8ae905560795a8946c28f53fd44170c"
+        },
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b27cf871a98c7c0092b28806cf52d2002c27df2a462f7f83465eaf5c593c10bc"
+        },
+        {
+          "page_no": 79,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "5c361e06fe7e6f2cca6f6401c62940ef826422af52881f550c082364d9bf91c6"
+        },
+        {
+          "page_no": 80,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "1218c80c34d40af8be993bcc116e03dfddaeaa3136ad0179e4d4c03deff10588"
+        },
+        {
+          "page_no": 81,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "e11634c57a16c4716363f79163db912dc3f0e748eb924ee5a15d4037dd6615e1"
+        },
+        {
+          "page_no": 82,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "6d663662cf7efabacc2eb167b383f917125c7e8c2f06d5a9d0715056efb26918"
+        },
+        {
+          "page_no": 83,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f48fb9c0bf1749dabafe884fa20256580c2bbc1660d101680d5e642c79086f0a"
+        },
+        {
+          "page_no": 84,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "e806c1b4bcf5aeae2f7d26b69d472428f046d35eb604b7a1081d289950424ea6"
+        },
+        {
+          "page_no": 85,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "43cf9d1904bc985d29c2c25ea2302a702422839e27d555400647a5492fde2f87"
+        },
+        {
+          "page_no": 86,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "1e40a5c9250e0ee5e607c6d7f2596f23c44bdb129f9ee9926d530c3be8bd1a50"
+        },
+        {
+          "page_no": 87,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "604479143fb5bc5d5f2751ce65a4ac76e064fae112babf66e051c143237ab5de"
+        },
+        {
+          "page_no": 88,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "50489489aed00a68767bc89958e7b05ae89a53aa31ad2e35669f7cd7fc685bf0"
+        }
+      ]
+    },
+    {
+      "report_id": "002533_金杯电工_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "6c52cc2437bba72e8b80890a548c94173a93f9f7cbb81c0444d2c912724bfc6f",
+      "after_sha256": "e5fc9e876233ed3460a71e448dd03c1845a331bd06a3d7748d1b5c673f20d056",
+      "repairs": [
+        {
+          "page_no": 10,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6e30a79153318daa061a61deb9a4eadb433a3023b6a6887ea234201105e68e38"
+        }
+      ]
+    },
+    {
+      "report_id": "002568_百润股份_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "c8c29a487e40e1e2caf6588cec9f91b8d67293f5fc826c146d94c39e3dd18a1d",
+      "after_sha256": "45a43c2349bcdd79321bd57743ac85bcfb69e5e6ea935bb89de45387e6a64153",
+      "repairs": [
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8c5a264822a998932dae96cb22feaa61eac60e902fe7ee90f7afa03527b0c205"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1972008c86e7c5eb0657f4a05ca601ff7d02bd23340c21b9d87c39b19a850925"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "ed8e6da587a405365a9b4f12e41e7e3f41a025aad4f33b0eb6ef86027cc5a0cd"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dcf7d07b8bf1488cab759d06bd395384e455f93b86d837b5bc63c7b359ccca2f"
+        }
+      ]
+    },
+    {
+      "report_id": "002649_博彦科技_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "204fcefaa546e17302539621f44ce40c4e902785075fe398370f8561a0b3f5d4",
+      "after_sha256": "163cfa37bdd4ad46c416921f81722114c8dbb8121edb063da73332d1b101de75",
+      "repairs": [
+        {
+          "page_no": 18,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "99043d5be2033ef527acc07c0294d9d6a54237231d176fdb60199b563dd061f5"
+        }
+      ]
+    },
+    {
+      "report_id": "002692_远程股份_2026_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "1b37030e35eefc019330d2e1ac72f9f22330d6eccac874abfcef60d988fa8b04",
+      "after_sha256": "4e4cd15224bb016cb216650e1fb1797c4441b2d654b48e862e59140b8bb2b755",
+      "repairs": [
+        {
+          "page_no": 21,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "22e346b430ff72277599cb7a76efa14ff2947ba97019d5e590e0aa698b4c4d22"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "aa55e6de13ef5945d2c1ce0220cb7185479d8081f2c44484e87802f6f7c505c8"
+        }
+      ]
+    },
+    {
+      "report_id": "002782_可立克_2025_可持续发展报告",
+      "tables_repaired": 3,
+      "before_sha256": "329f27b089615cd2ab97fb33e9bb8800fb733a7b6ea5ccc1fe91a39358235095",
+      "after_sha256": "a5b17d04db999ecbb94e664cc20dcea7c2360f633f8dcf0d2351b2db9225a7fe",
+      "repairs": [
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6c8fd36e6417e68fca07f06f074541f660d0316513c23fabe65a1f53b7059e51"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8122f6eca79eeec806c8dd9ad2783a4625e00dd094f9227205c8e96c57680f0a"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f33bcd6d6bab98e1e3945a75355d2b29a318d199620459c80d396b521d8f69c6"
+        }
+      ]
+    },
+    {
+      "report_id": "002807_江阴银行_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "1fe8bd15234f5c3ce530c025c673a114c4432d1997cafd22ecd517a41c52ceb0",
+      "after_sha256": "74e1d8b6214ab03c24b65e469802632dc8a1cd940101250b350a3f25f3baabbe",
+      "repairs": [
+        {
+          "page_no": 10,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "85aaf9fc4c0b77ababb604d12a685b0a9edfb2ed56ffa4d9626644812173db66"
+        },
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9e92d0e8251aa4cc1dca10fdc0ac7659644fa1c356d5ab2af32f0c30653fe8fd"
+        },
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ebe3cccb4b333c24d95a83e881efab731029580fbb848fa8c857c5e6da1a083e"
+        }
+      ]
+    },
+    {
+      "report_id": "002849_威星智能_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "47ef04cfeb3e1f3d64017a1e8889ac7ecb77138d25cc699d8d956def7f4c3d0c",
+      "after_sha256": "37c52a92fd834a2b66d0d06f87efb0f9e95e8bbdfd07e9812d5474e1c9a13a02",
+      "repairs": [
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e320b8258f055097cc5b5cd9f444195ed23cdb5d6439e257d66f1bd92a09e142"
+        }
+      ]
+    },
+    {
+      "report_id": "002851_麦格米特_2025_ESG暨社会责任报告",
+      "tables_repaired": 2,
+      "before_sha256": "389889e028b39dfe75a971f0050cd89c9261db97461dc872b52d356db6d049d7",
+      "after_sha256": "4eb6d605e36677fd0b8ac5749e6c0e18a585926a5a5a60deb97596004e44e3fa",
+      "repairs": [
+        {
+          "page_no": 19,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3d5d30c98ff18c05ffca83a1458766ad2c2b32dd4e465dd562223cfa56a55fd9"
+        },
+        {
+          "page_no": 20,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9325f84df26e2663ef728e0a7328b1a14c4374b2f0a61525858d21319756c93c"
+        }
+      ]
+    },
+    {
+      "report_id": "002958_青农商行_2025_可持续发展报告",
+      "tables_repaired": 7,
+      "before_sha256": "34354b79b7471c9e22ef67d5f790a83becf0e902ebbc8edae731b04b3e233b3c",
+      "after_sha256": "3b741c11dd83ec166af6a9c49b80f38f0c255759605bc92c25f7e640df6ddc11",
+      "repairs": [
+        {
+          "page_no": 29,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "5c538d79b93caf8765f6a2010a5368fc309b3b339c3c24e527cb1bacf31bd08d"
+        },
+        {
+          "page_no": 34,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "340d240934a310921dfebdd7cbc122489dcdb8abcb55101a5cdc81e8e7ad687f"
+        },
+        {
+          "page_no": 46,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "afc5f77a121023761da407d178000b0b12a7408ee2fee8dba6ff6a6858c91388"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "43d67d14621124c2426508a8c8264ac35bafdae27ef191322f33791cf73e0139"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "061b4e543c7187ed69f892cb3060615d83a8ee5da62971350f0a2cd67b100a3a"
+        },
+        {
+          "page_no": 76,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8ad69eae947d5a121538f2ce3c589a1ae18c89a0d33f0dea708f349b2b280084"
+        },
+        {
+          "page_no": 77,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "da621c16b4289e08445b0deff026ac05f5b10ed75929793a19d2dd671781d159"
+        }
+      ]
+    },
+    {
+      "report_id": "002999_天禾股份_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "a973d5d32d4269b5fdae29a4f0f9d2c424c5a72a2b64142d36e69c366446bc1b",
+      "after_sha256": "ee0a3d2ab2654914b9057bb65779bb3be3f692bd89c2bf66d25badfc56d254b2",
+      "repairs": [
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "aefcf6fa7932f5a61c89bb79b9fc1c6f3c7226a2d97a9d7bcb28621745f7c81b"
+        }
+      ]
+    },
+    {
+      "report_id": "003030_祖名股份_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "74f8000aa9a25d67f8a490f7dbeb04fd1e67e964121adc90a840a17e4e2e6e52",
+      "after_sha256": "5a7e9c294814fe61a487c75cac837b14bd9c6f6e2599602f04dc85049c13ef28",
+      "repairs": [
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "eb7347edc20f29423498909179250369f00012ecf4d25ae7ecdabed88858e181"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b4d833af004c867688733e336dcdde2248f66dfd57001023d446ce4e9cf665b9"
+        }
+      ]
+    },
+    {
+      "report_id": "00553_南京熊猫电子股份_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "8c414f86d84d0e2a01ae2befb3a1d5e441c689614aff1a858c182decdc9402c0",
+      "after_sha256": "1d298f6e26cdf88153278ebaeb735a6aaae9b5d49f2f1be9e88451e04b0c9937",
+      "repairs": [
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f9d811f09ee249e3f8653f231405c282e6cd99247ee993db49dbbbdf03c8eb5a"
+        }
+      ]
+    },
+    {
+      "report_id": "00568_山东墨龙_2025_ESG报告",
+      "tables_repaired": 22,
+      "before_sha256": "fc2b99dc0f82412f2558a2ee7f3ab26246134dc04eaa7e7110560c723d4ffe79",
+      "after_sha256": "1ef8c182767e25f21f0574cb3127b6f83fb2ba9d9e052acd7298e6c913cb9d9e",
+      "repairs": [
+        {
+          "page_no": 10,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "eb3ac4f53f27a026344c2eae8007169b2743ab46dccc76fd34a53a478dcf842a"
+        },
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "42638002ec687d30457325dbef52b7c16d3ed02eba93ab7dfc233ec0afa52506"
+        },
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dad429b0dfffffdb8953474579d71d93af38137e6cb1828771cd4bfe2d17349b"
+        },
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "9c38b257e75c97e7ae99418420c7e5264f053d80c11d50ce7e32e3e1fa86d80b"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "47f02bfea552dae875a9ee3a1e75a3dc3a77709e9c8957d2f6685a9a674ee899"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "d24d11b20e0bb8881f33f8d91ce1615a03dde7283a57ad3164d2fdb5e915f39f"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "0c8043243d5d6c716d732900ec8e3488fdf2921fb92167f1f6ff537426c8dbf1"
+        },
+        {
+          "page_no": 69,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "4b51eaf68ff597774e596e88af887c83f0ad8936a58c06522200c7c79ef18878"
+        },
+        {
+          "page_no": 72,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "67cdcc4596e80362a57f3b46c4fcdb9a61deadfcd27b9cf691017ea4567a331c"
+        },
+        {
+          "page_no": 73,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "47cd129359e224eb6f4e2250d1e4747febbf964abcb3a6163a0cfc3c1db13796"
+        },
+        {
+          "page_no": 74,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "89302665baee6c4690699b20213e858ad24c07e1cc864b60d4e1c540d7f2d62b"
+        },
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "a9e7dbeaf577d1624548cebf63bae933e30ddbcfccff2607ef212e4b9fcd86b7"
+        },
+        {
+          "page_no": 79,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "3f5b5bd49628b95e3212b3bd3a56ecc3c42edc114bc2fd6ccd1427ee7174ad71"
+        },
+        {
+          "page_no": 80,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "02f28e543f7434e14bfbc9c02ec93adfb8f20c9207359132bf527f1a4672dce4"
+        },
+        {
+          "page_no": 81,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "c45611ad562c0afd69a461f65ea519c249f0a47e5b929fa6943e9036fb0ae9c0"
+        },
+        {
+          "page_no": 82,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "4f8dc13fc1500660d8837614fd4c5784de9c4b240756e54126e43fc964402b59"
+        },
+        {
+          "page_no": 83,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "b0fbdf1665a8995974fb54173b428a2663a55dc5e6f1422b99088859fa607ca4"
+        },
+        {
+          "page_no": 84,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "c363538ecd6ced99314e70eb31b11b3adf1410d9897c74578c3cc9abc6f9a9d6"
+        },
+        {
+          "page_no": 85,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "efcabd1621eea1c97c20997a392eeaf90fcd32ccdfe58d538d1bc79714954dc3"
+        },
+        {
+          "page_no": 86,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "7762fb0bb4e130766ab4a3923b669515e8f0c82dd48357a71def3bfc9b9d9a89"
+        },
+        {
+          "page_no": 87,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "34fcee4b01d22d7e6c9eaa4fff7b6dafbeb91ef6d159677d9db6d464dfbe82b0"
+        },
+        {
+          "page_no": 88,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "cc702b45900755e0b455b0b2abc3aa2835a703ae8cb17f349b910c03adff858e"
+        }
+      ]
+    },
+    {
+      "report_id": "00588_北京北辰实业股份_2025_可持续发展报告",
+      "tables_repaired": 2,
+      "before_sha256": "b556cb6f1f02ea8c5b8c5dc692d250c28e0fd7201cd96ecca74ad631d90e0ecb",
+      "after_sha256": "df5692d43a63a36d6f7cde037dddd4b2b2f4d32197d4a5e940c2e5ef37c15f82",
+      "repairs": [
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b5de251253461cc08fb9e491512543e0f1fbe7e876ab4eab26d3478382c70719"
+        },
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b553c3c3320afc2952372f0c6f88771246f5497ed0c0b4aa9293926b2aa0ec4c"
+        }
+      ]
+    },
+    {
+      "report_id": "00966_中国太平_2025_ESG暨社会责任报告",
+      "tables_repaired": 8,
+      "before_sha256": "09ba0f3bdb10da27cb3319ec84425288cbecf206cb4abb15b5b9fb030d1c1df2",
+      "after_sha256": "726e9943040970fd8f239076b528ca2e9f71463c5c5833625b90dacc5cc686b3",
+      "repairs": [
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "18d20c049ebfb59047cecc561ef28797ee4d692e054a55892361c549be62c905"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "884ae3f2120ec95faf6d175408ea0058cdcd3b89e6e220ddc73982a0e0c22c10"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8d613bd1218fa494ce0e5f7edcd795bc52ab4667a8b3b810cafb9edf09e5a6d6"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6094ded301c6a6ac1dff2ff645d071daa524960f1671eb71508d8ef0fee6ce8a"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "98cc4d7e9e60ff61da771db9f6fe88aed132ec910495f3298f0cb1df7af881d2"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "97d8890184e2f9658ffc04a66101c6c28b20562196441c58188d7c02ad47772f"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "513c892f8b199cb6252d3792dabff56c3af6bdef1193241e38829a9ccaee4cac"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "613c63ac2f66df9c88f5d97bb8f8e9f22061902fc3653f68e1ba3fe7ccc653c0"
+        }
+      ]
+    },
+    {
+      "report_id": "01216_中原银行_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "cdf5293483d9b1462938e92faea25457ba40e12cf7c65a9df9b1730d0b80086e",
+      "after_sha256": "617d6e4761d7458e101709c8be43aa5d8b12d7cef63f46f526425058ae787b67",
+      "repairs": [
+        {
+          "page_no": 37,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4d9c99ec0848fdc04b83e3a3f516378a3c76a73a0974f3fe38bff9c228b259b7"
+        },
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "304d4d11efdcbf9e63517896b5397c91c230f0639ec01cba5142d92f2ec2c7d3"
+        },
+        {
+          "page_no": 39,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "31370039ea7c5cdb050b4425782b7983cd8beb3f3b37877852694877a6371990"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2792e4c471545fb3a253ba4b713655b6cf2827a876a8c1bb6a41fd38eab3eb04"
+        }
+      ]
+    },
+    {
+      "report_id": "01359_中国信达_2025_ESG暨社会责任报告",
+      "tables_repaired": 5,
+      "before_sha256": "aa86c795d5c1e1705973e5535fec2d3df52a1ca474b024687384126092eb16fb",
+      "after_sha256": "07c0fc28d73612c0946888711ef66806bec672248f9735132048d8280d269207",
+      "repairs": [
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "2ee061774f7b5b6d7df1df22f8c6b5e8ca2019100f8eee61261b5e1c9991cf9a"
+        },
+        {
+          "page_no": 65,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4e7322e195b82320307ab8e0946d26753a853b755f66c7ad61b5c6a6fec9b4f0"
+        },
+        {
+          "page_no": 73,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "5fe0a502512fa73515948a9cb6fec51f8f4202960ef2c0d25c246154a672dd3f"
+        },
+        {
+          "page_no": 74,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "ea3eb3702f4af7f149866b37442f069d103dc13f1b8fb0fce6452922ce6368c1"
+        },
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "444fd27b35b7eef840af1e98924175aed48c5966cc8313b64987614bcd7e4c0f"
+        }
+      ]
+    },
+    {
+      "report_id": "01432_中国圣牧_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "1deb5411eca47d493e69d2d6762e6eeda603b2bc1c07788c21173c91dea73d42",
+      "after_sha256": "ad221a2be1de31b53b1fa548dd13f6e27911d7e837364e7b27b3aa072d5dfa04",
+      "repairs": [
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b907571422a7f596dc8f8458b07de41775a64def117c649711d4b2131bf3ca86"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9e43b27bac46a627d9289eb1fdd1b1c20767ea95918db82dce3daa33d8978772"
+        },
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b4d9f53c78c010b6ffd36ee5d972bbd32ec4595bbb3be19bc47ef5e1f80d150d"
+        }
+      ]
+    },
+    {
+      "report_id": "01950_帝王实业控股_2026_ESG报告",
+      "tables_repaired": 5,
+      "before_sha256": "d430c4460b0146e38ee533973ac9a70c72a827b446314a074b5ab3db582e07ba",
+      "after_sha256": "948f4593acec932765fad7b599dbe5a08c93558964d7fc96b1a023bf8f0281c1",
+      "repairs": [
+        {
+          "page_no": 16,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "61325e0102150e76f3f9e84c25e5d4bb7da1286756b36015f2069a7045b01c26"
+        },
+        {
+          "page_no": 26,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "54b6ccd03d048ce5eb25857c81799423230adf2d8745528526bdbccb9fbaa6b5"
+        },
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b8512e7ea01011b5586a6f194f527f9d0d503c63eeb7109c2fb92b75a040c718"
+        },
+        {
+          "page_no": 46,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "8293a91a91d17f0f38f48873f784c51b27bf09b569117a1ccede6f8ddb829eba"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "bc1ae0596322cf69b2a5555d6ef03a9e6556033143c251bcbc2a29b6e1608780"
+        }
+      ]
+    },
+    {
+      "report_id": "02402_亿华通_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "40777f94f56d99a1ecf4c3ae9c081a0b43b356e4c6bdfbbc9e113b3e883ae15f",
+      "after_sha256": "b40d9f5fc442d14b11f4f736fe4942464f57034d46e93966e77ae037272c5e63",
+      "repairs": [
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "6fa30226e12ce097cebb3df6e5a9ffd2d157794d848c1094891a68764d7052f3"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f7f357f4ab37133640fd3e6063f034c52a41dcc03fa3abe89cea51cda57d4003"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b38f1d9ce3ebcc9170658ed346ccf456bc7ae35da172fe53dc03f9762fbc995c"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1502a9514faae74caf617c3750e67839d8a91e730407d45bded1805f6244adef"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d20f8b74af3cffbaa0e8460f5dbb86dd1e98c8384b178a88af5133523736ead5"
+        },
+        {
+          "page_no": 61,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1d9a4cdba48b46be14af0ba15b35a03b683debd395c31b5d5e7daad00cafe962"
+        }
+      ]
+    },
+    {
+      "report_id": "02651_大众口腔_2025_ESG报告",
+      "tables_repaired": 10,
+      "before_sha256": "689674af51c2f4ca606739563ed5c3684393a4f8b227ce0701defaf8f9588f6a",
+      "after_sha256": "5a49926fb873813e5edb91a03e1a7d9d86b1e5063eeb7b06752d3ec6f93af02e",
+      "repairs": [
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "417f5b57e4199e5a67fed25a5a2f542bed6e1b44d3549476280bf91f76ba8c4e"
+        },
+        {
+          "page_no": 29,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "61b36dcf2e31b0b05764a859a13aadbb940c2cd1c2a1e51acb3986a85b2d2fd5"
+        },
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "aaac1d31b11a73426902ddca69b0197f6aea1826343ad060a82f933a5fdfc119"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b12c1d2b4e9602c9dfb19761b084f2a74c54668e70b12f1a70d3b193a9c00a82"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "4c6d95b7380e8975a818313506e22a14049be1d4ed9df9573467963dd62ad945"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "cb8f58cebf6a42aba53d8ad28937779176e68e5a74bc505b2332b37641607292"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9eec0f4c8749f6ffbceb32b1450c442330ffe417522a4b38e21a3248caf522f3"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "c9dbc0f5ff1f557d2ed62e69975102d6fbe991ea0190b69fbeb57243f91838de"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "bb5b6681bdb3b75de87df92cdb9072cc8e2f01104f05ba9f13459e31bdf8aacb"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "9e13e9e1f1e2140463a79f7369904fc19ef270eb11de3ca00999836d56cea8d2"
+        }
+      ]
+    },
+    {
+      "report_id": "02676_纳芯微_2025_ESG报告",
+      "tables_repaired": 5,
+      "before_sha256": "d161a089a80a89059a3111309ba6cac860e2f88da1b524bf71ead6bd770e14b8",
+      "after_sha256": "1f646b6dd1b99cff4f343074e5875110d28a2d659011378c9887e7897e573096",
+      "repairs": [
+        {
+          "page_no": 71,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f2686c33973b28d00e1a947ab45f0d631d882616a9f7e7605477c537c933228d"
+        },
+        {
+          "page_no": 72,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "df1cae94a4fdebb8edd7c920442c747efe0c206f80ae9ed6bed50a53d99b74bb"
+        },
+        {
+          "page_no": 73,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "b42e31fa3bd619cb52d0d5845f6d57d87e5046709251bdfe87bdc2e5139a48af"
+        },
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "1c03ea7214d6d4070997cc7e84659db0a7b5b9d22229d155103c258de3175b75"
+        },
+        {
+          "page_no": 76,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "09d875d29568be2935b259609461f188a13e30b8ce33c22495dee6c9bb9de76a"
+        }
+      ]
+    },
+    {
+      "report_id": "02768_国恩科技_2025_可持续发展报告",
+      "tables_repaired": 1,
+      "before_sha256": "fc2ac3962748230a5cbeca9ae2a4356c140367cad803b83fbffa293a252e071d",
+      "after_sha256": "2913e92063bbeae706675bf649cf2a8d096009e126ee9d0f4361184aa2113cb7",
+      "repairs": [
+        {
+          "page_no": 37,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6510a0f0f1fa7bff96a9945f79f79b782daafcf478d2b5d824dd2158fe22b5d9"
+        }
+      ]
+    },
+    {
+      "report_id": "06198_青岛港_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "7a716fa2f2a82015dff03738f244223a059309a2d9708fdd574b5ddc7b7957ae",
+      "after_sha256": "55a9fc66d4e62ff77884a31c0e12daa115460cc1ed15ab171d2414a6fc5231ae",
+      "repairs": [
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "196bdaf2d2bb27b8ab8466c38a00b660fb845cc9e799775b0e6f16910b446fd6"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "0240c95def0b02fc0ef9e61dac16e1a5d678b88e0e8cca6edc9ef76ae345d627"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4c5825363adc5cb2796cab67994275c329384da84d1dde58753514be962356fe"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "15336aba9a8729d7534df61aa4cf85d3097a54770e81ea33ada5813fe75030cb"
+        }
+      ]
+    },
+    {
+      "report_id": "06656_思格新能_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "dd22554c41b65e904a57a383b1f0dcc158dd26f83e2a456efb4fc554da773d2c",
+      "after_sha256": "06a6eb4519309be8b7d5864dff608e4ebceb7dd9758c44b226b62751c1df3f18",
+      "repairs": [
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "391736881ee7ebdb12e3ffd862b67e20297cf6e4379ebecec4808f81157f2679"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "0b353082536fd61b682a8c51a4604f8414ef70d21c50847669d62d804c68ec84"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "aab66756d84cd7b26840a93f72a8ca5c54a160345927e4d0b0b8c65bc8db1b07"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "96138fcaa5b5685beb27dfd66e0e5fb93a7ae87e6da9417acedb9943068a7411"
+        },
+        {
+          "page_no": 65,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "476e4b6c004d34a169605f10380a0843a00310bd991b2a9453e981303906dc9e"
+        },
+        {
+          "page_no": 67,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b1b0512e3e04338280cb12fcc602801ccee46c876422b375fceba54e007262ac"
+        }
+      ]
+    },
+    {
+      "report_id": "06810_商米科技-Ｗ_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "ca7a4a53f217bf69098fd49c21ad6c558dd1546e3f5b654336cfecc17a4452e0",
+      "after_sha256": "b5157521de253c5b36dae5172ca8985f1bfb9e5857a04478670982ba3de3a869",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1d64c4e6c77e6edfbe2c58f3d595dd6479b7f584f6647a6d07bbe3a479288343"
+        },
+        {
+          "page_no": 67,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e69fdd4c29d86d9d5632c80df902b5b2bca28a9bb26bbb9e3e80be7f4338df52"
+        },
+        {
+          "page_no": 71,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e9604d8b490b35ebb8867e0f9ae9a10edbe7907d1be9f8018dc6095a365b953c"
+        },
+        {
+          "page_no": 72,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0431c972ee028e0585017f444dd5084f4546f33a4adc679f6f0b410cc7e4e69a"
+        },
+        {
+          "page_no": 73,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f68892ce272d495d56c8d9020ffbb8685e68e14e730ebd6e4bd8d0aada93a49d"
+        },
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3a1998279ea4ea2f3eb5d23768a1d9e2b008b9e642a76ad40e7eb5a444c8143b"
+        }
+      ]
+    },
+    {
+      "report_id": "09668_渤海银行_2025_ESG暨社会责任报告",
+      "tables_repaired": 14,
+      "before_sha256": "c2e732b8d31c354ddb28e7a8560ebb654bf5c8a3ebd482d40e606a824d076628",
+      "after_sha256": "74bca8ef088740c72ac3a7d89317a92bf411731c2e4dc932a6a93eed448d0fbd",
+      "repairs": [
+        {
+          "page_no": 19,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "f37badd419fa769d4c99b0f122f0524c8d83c084f865fa8e97552912ed1899a2"
+        },
+        {
+          "page_no": 21,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "57f314e48e1f3595602617ab6b6b313a4daccbc3b43e3ff266cb185a758795bc"
+        },
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8ce3b79bd1c0b9b36bb5b197fb48120bc07b9709fd49c1809b9a917bd08222f9"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "93bc74c593f70fa704d2bc262ed833836b1caab4691874ea3fd1e752d73f1a92"
+        },
+        {
+          "page_no": 111,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f4204810d09fdabd3dfc43afe2a02a453f0986c734aaacf453a996d4157b1625"
+        },
+        {
+          "page_no": 113,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "913157b19c96db867c1cfd156af12ae252fda41645144daf1832f9c2733aff4c"
+        },
+        {
+          "page_no": 116,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "c23a710f4ca6da44dd9069216ce3d4923bfe5d3b3ca5418d52f531eb860afe36"
+        },
+        {
+          "page_no": 117,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "503c1ee40c431fdd22062c4f6fd2c074a55f99201e3a4a1867453c6e23ab44c8"
+        },
+        {
+          "page_no": 120,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3e51fef8eeabe10bf5f49864f1bdd1e13eec8f5522411b4239ac8d7c1bbe9532"
+        },
+        {
+          "page_no": 122,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f08cf87f70a47a09fd1630b15ac18c5adbd1b642309ba7f18662247caae3926f"
+        },
+        {
+          "page_no": 124,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1c4b60a3a2d177193cc5d12d4a7057042941d9959cea12004f9f0313f378fe89"
+        },
+        {
+          "page_no": 126,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "caa5535ec2d5e3b7c437d72c8a593665a1b7925c42c7eb5a24aa25c5fa306f6a"
+        },
+        {
+          "page_no": 127,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "24687795cdc1d311394f767256c918ca13d04eb1e8d34ce613f6a5d294140a38"
+        },
+        {
+          "page_no": 128,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "556221c26a018bc16abc56f2964628408dd5e6e34f4ec8581901882c8b0e9ea2"
+        }
+      ]
+    },
+    {
+      "report_id": "300035_中科电气_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "af0f0334e73b0fe05f080544236e16e525323f0909d3baeaab8b9a57e0ce165d",
+      "after_sha256": "777e48b657ff8b350c322ab29ea3e7aca50cd82b7530e06fe7d56b65cf1dd10b",
+      "repairs": [
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e1c2ac0f8f07b6c20d18d7e1b2e4b9994a6d3771376bec472e973c7cc33e253f"
+        },
+        {
+          "page_no": 67,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "170e788b0161fc675a5224b418d580e0f928d1935230c764b980e835b00ede90"
+        }
+      ]
+    },
+    {
+      "report_id": "300100_双林股份_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "c48c10ae66cea4dcab969f3b434a4b0716255fe5f52cb9fbdd413a3c360c82bf",
+      "after_sha256": "dbae582f1cb5eb0f4603c2596a363213c7befff1ed01a6efb21fb50e40882ca2",
+      "repairs": [
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7e59e5b99ccb9bbc8156eed4451324fa4846d0ec31a5b575198e3f5bdf0fce2d"
+        },
+        {
+          "page_no": 39,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9c844a3a1eb733c079067a1814820f68d668e28945f5850b9bd3c589e213bf06"
+        }
+      ]
+    },
+    {
+      "report_id": "300261_雅本化学_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "644e6bcb08ccaf7cdadb169b254ae419d1e90babcb3a97017a41762fb17da53a",
+      "after_sha256": "5a4b8cd361c0cb80926a2825f91b6ea2942216363c21fc5b90befdeab1ebb766",
+      "repairs": [
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "11f50f172f202c47727b8e8f1a60c2c5b53986b7d146834c3312729dc19f8cc4"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f7c05fbf5d0aa4dd3cf39d370081d33106c60fd9b9146c3bf64c320ab5085906"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dba4d672c5740576923315efba835c5d28ccfdf7c1e76d0494f78425e4f75b8f"
+        }
+      ]
+    },
+    {
+      "report_id": "300376_易事特_2025_可持续发展报告",
+      "tables_repaired": 6,
+      "before_sha256": "fa3540ba6033886a1b7c4d5ff8cebc42e34aa32262cd7fc6b91e1e0783f78b9d",
+      "after_sha256": "3e017dce7f2233fe79853db650d445f0d01e8004d743a7574967188ad89e23c9",
+      "repairs": [
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9bfb71590419da53ff15243cfdc716d3d1b6dcb2a25b6418fbcbc86b935666da"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f84f3f4fe722a1cd9c3d513d3b47f06a83e7b359e879b64e84850c66d9c6806c"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "7c70f964093e219dfb9100c4c5681d4a93845f84915cc6e44883aec33edc9971"
+        },
+        {
+          "page_no": 61,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "275f4a8642d69fdaf2306f58162af778419ace714abe37ba7ca05796abaff9f8"
+        },
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d790ddca7b80aa9182cf697c4d4ec96e3dc97f585cb4328c3d81a0244407bdd7"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d7d3c5e6e6a534d915fc442bbceccc79d01cf67709e407dc31a582fac6b40861"
+        }
+      ]
+    },
+    {
+      "report_id": "300459_汤姆猫_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "8feac3a1d88dc72983720436b3ddc173fb1a052713c868ea1c17ca1148ce5569",
+      "after_sha256": "5e8b57539fcb681f675fbcd79f6a70dc820cafa9a7fc0cb665bb023e3ee8e4f3",
+      "repairs": [
+        {
+          "page_no": 31,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "fd509858f3a1a999b4c23467e013bf380eb4d78a7372847fbd0996bc266f6f53"
+        },
+        {
+          "page_no": 32,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "082661470c8f212f35b26c0a42217d06ba6ba26813123a2cc412b2bff809158b"
+        },
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "eda12e3b4f5f77e21423a98f51def582a8ff91509dec553d5fed3151b740824b"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 11.0,
+          "html_sha256": "0b130c0b1687dcbf8b940f9c9b72b51d72ac52af7028e7c4613f6bd846a84385"
+        }
+      ]
+    },
+    {
+      "report_id": "300832_新产业_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "7aefa7dee62f2c939e7b084f0b692bda32f7c0957b17182e9f0888bf76dcbb03",
+      "after_sha256": "743ba15029ba7021bae078b6ce2d74ef246d9bb2af9a0347fd87ac1bcc75dae0",
+      "repairs": [
+        {
+          "page_no": 29,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "edfa4e1ad75ba8c58e4563674b950f302e6717ea3b19a6c1c0d61054651d345b"
+        },
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "c33c60459bcc7a38decef0c1ab38b3259898d4dbcd1c2fd8023570034b2bc7ce"
+        }
+      ]
+    },
+    {
+      "report_id": "301019_宁波色母_2025_可持续发展报告",
+      "tables_repaired": 17,
+      "before_sha256": "ab9bb942225d7589a8369ab298a7ce49316ff77d11256f342eb6418420c0c84e",
+      "after_sha256": "2fa41bf9b4edc8b8cf0ae43048c5237286946e06371b3de67bc1abfb96a6fcc2",
+      "repairs": [
+        {
+          "page_no": 11,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "072ab2b8fd3d9751f1fc7c59341c18590798d95ad8cd6aca60acafaddea9ca95"
+        },
+        {
+          "page_no": 14,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "c267e134215ae5828cd8f3bc4eedc645c5a215afe7713dec317af81a117863c2"
+        },
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "7cf7f7ac1db05e3ef30319736fca40f9a3606dab8573ca761d49791a46862635"
+        },
+        {
+          "page_no": 20,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "50b19e544192dd8fddb187570e29652f97bc66cecbcda316f715918ed64b66cd"
+        },
+        {
+          "page_no": 21,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "20b1d552423898320ddb45a92c994be63afa13ed495022c4b2840ec2644856dc"
+        },
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "7f04ef292089593e5f2038f877a8f2c3ece06a2ca69c70a58c37ffd4a9317320"
+        },
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f7f83eb65347c3a39f2cc1d1ee5d57ee980604732cf298b7e7b876761bfbec13"
+        },
+        {
+          "page_no": 26,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "aa3427fe1acfac0cefce44615cc05f8619adccf2e1bdccffaab544ddc1749bcf"
+        },
+        {
+          "page_no": 27,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "b410254b6f96c5ffd86fc593c85a3a719f8ec3db37e2910de7540426e9ddba26"
+        },
+        {
+          "page_no": 33,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "eed3c1c3f4b6fd8f933f7e7442c5b518b23eecdacd862429552268cd62a82070"
+        },
+        {
+          "page_no": 34,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "0935d1213525a38ed4818e22bc9e92896ca9ee44383de437fa8715146c9691b3"
+        },
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 7.0,
+          "html_sha256": "c537501cb14333847758e940078bb12429fe9168249775cdc080913b25b259a1"
+        },
+        {
+          "page_no": 39,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b0b735f0df170a48238a49bda99172070b964e9dcbc25267825b2f7ea3bee0d1"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "24255d020c80072645c7d6426cf22aa35a797282bfe799bd375ed3f9a9ff1bd3"
+        },
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "ffb5421608756e71a84b7554192d57670288b68c3688845cd125460df3727f11"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "788fc408bba8ee36a314569a8571e8d1112c6e38c4d14081df339f74b59c5cba"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "5979b73f74540bc6f5f212c1c2532e0e425c22a8a85624d0c6b31db16f7a240d"
+        }
+      ]
+    },
+    {
+      "report_id": "301073_君亭酒店_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "0ae6691b11270043b8720a2dee0fb84d426617f4e45f153357faf7d9678aa5fa",
+      "after_sha256": "362543e457b2b0644ab36af4908593a7660a3449f909fe81aab02316d5274904",
+      "repairs": [
+        {
+          "page_no": 65,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2f2e360ae405a2363e668fa6319e4f007144c59f408eb7f79076a1698595a40b"
+        },
+        {
+          "page_no": 66,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "047c23e252805bb329a36268f9afa0c77122c61a72a632d71a39bb0298feaea4"
+        },
+        {
+          "page_no": 67,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9f23f7170e2ff5b8199fcb42b68bde8278d8c16bb503073f635d38d2dd214c30"
+        }
+      ]
+    },
+    {
+      "report_id": "301185_鸥玛软件_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "ec0709d08cb27b5240968d82169f2a5cafda3f79845a0ba786f5922d9b8b3e83",
+      "after_sha256": "30bd7ffb6edf9d680bb14afcb1e2e30a82a5314377800e67ad1bf72cf212ebf9",
+      "repairs": [
+        {
+          "page_no": 17,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "81949269f9e066eb7406c3838f13bfb24792618998b98e57d5bbb908e3bc1d0d"
+        }
+      ]
+    },
+    {
+      "report_id": "301308_江波龙_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "293689cdbe2a8fc4ee7a36c716be095a092fd20a020a3de72de6b7dbba721688",
+      "after_sha256": "b93306b212bb583d5e446d849abfc032433c38532d8171c8bf625e7b685d08ca",
+      "repairs": [
+        {
+          "page_no": 77,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3070cfcd3f3b8c16cbd0b53848251ea4856283a1e3d89a09759f775416ef2d79"
+        }
+      ]
+    },
+    {
+      "report_id": "301370_国科恒泰_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "45863ae201c0b0f0b747d809f24e9e9696aefa26b3f8c1aecfedcd6520f2155a",
+      "after_sha256": "f2261161b62f5fa8f1fc3d4576dbd3d667efe3cf6f9d04c63ba9829eceb31aba",
+      "repairs": [
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f9a59cfa5a79c9063e274ca7ad68d204d611033a1058ae38fbca6cbcd6072f4c"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f5af9d17795ad9b845554655833c5d40f2337a31a43a18fea0f59ad37c9a7833"
+        }
+      ]
+    },
+    {
+      "report_id": "301522_上大股份_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "a363fc4905a3737723ec844ad0e9dda840d6cc5010c4ee0a9ff51567c4c0f82b",
+      "after_sha256": "1c03c08c373e61e1ffbb73e3ef6b0ef4c24a7355abc733cdcdb88cc88037450e",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "72a32d6deda04a2515efd0682f8b313b562cdec48794f8ea7c8286423fdee080"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "045cbfe0496cbbc7fd58808b9c38691e5c02a0256c095a8baba7263f8d6f4a67"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1f5f54f839a7718094106212c0a67b21de2357ab9262d01de6ab076ada151128"
+        }
+      ]
+    },
+    {
+      "report_id": "600009_上海机场_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "ec734c70093dc2620d24b7db06fbd97d849069b126a70140544b30f40fccedce",
+      "after_sha256": "614d428b02fb1a1a3419eb7e4d23d84de785fd3999152282d28f49deddf8b92c",
+      "repairs": [
+        {
+          "page_no": 7,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2276e6b3671350aa64849ff82eb1ff15b88bc7f0c494277bf65326e7e035454b"
+        },
+        {
+          "page_no": 67,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "5caf64e844d659c512bac22ec88c734916477a19d7387687fb3cc4c29e61e17f"
+        },
+        {
+          "page_no": 68,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "db09ae0ba98a68dc0d5df5cb2792bd3cc81293b856279491b221c940820a5d97"
+        }
+      ]
+    },
+    {
+      "report_id": "600021_上海电力_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "1888a721fc496f71d3e8ec1f21f244082f2f6ee348e33c8952d856c0f5b06539",
+      "after_sha256": "e36e74857c8e8c66259c9886c1d038adb28790e5a43afd22734ee5625e491cc4",
+      "repairs": [
+        {
+          "page_no": 15,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f9f2cc3d40d3ccaa4e3e948a99402db317897190d2005ce0f38fefe55927bbed"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5fdb8aaec11db2046eee1699de2ee3ed070b3561832b6539a61bc9d0f3d80fc9"
+        }
+      ]
+    },
+    {
+      "report_id": "600025_华能水电_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "933ca6b02ee27cef0654ed0f128fab520d011e0eba95b9581bc0d9dfea957b2d",
+      "after_sha256": "e152811684c456d4ac7590bd16b22cc1b727ba6c06c164a3fe44b834aca25029",
+      "repairs": [
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a1a0e7935f9435772622fd84f698abd08bee8cd5a9190435a19287ed684ef01f"
+        }
+      ]
+    },
+    {
+      "report_id": "600072_中船科技_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "adcec271f753bcea0c5461043aa65dc59b5dd0c09d50e520a77a35efde658558",
+      "after_sha256": "a0aab34b50bec6bfacb00eee111797b524ac72a1fe8226522de03ce22062df55",
+      "repairs": [
+        {
+          "page_no": 37,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5b3022c87e24c8880ba2cc1fc79d721de09c69541ee5a33055e8551dc1e921e2"
+        }
+      ]
+    },
+    {
+      "report_id": "600117_西宁特钢_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "729943f9dfd5227d98d9eb4d0730d00507b716db44630a50b35e9e5a11b391b7",
+      "after_sha256": "06dc0ed8ace8a5f856155928e4212ca57390ff35e89ece6634e700e0f256b375",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1983bd79231da9606ef7d65a5f4d9064bb9e5934204ca49f043c4326fc7e3e05"
+        },
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "97ed967ced2f25c3040452c827e6dddbb0b4d98b9fc46bb68cbfdfe8cd021ef9"
+        },
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b86e16518263ea998b19fdb183cb3115cd5f77375f66ec68e7ca9de4fdefac7d"
+        },
+        {
+          "page_no": 46,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "f022d6d49abbc60c1adb6f44f18ea0199780b65842f3d66e16f8a400a95312fd"
+        }
+      ]
+    },
+    {
+      "report_id": "600199_金种子酒_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "6fc5b5a86ee445034a83957f283df404b71f30362439d6e3ea159c28b51e5b09",
+      "after_sha256": "ea35d4c2378a6056fe3816c78d65dfe80d941a8fc464f93418f332c09dcd9fe4",
+      "repairs": [
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "660e7a21199447e060bd985a987d9ad54ad8dcc627cbefbcec5065cdfda735de"
+        }
+      ]
+    },
+    {
+      "report_id": "600259_中稀有色_2025_ESG报告",
+      "tables_repaired": 9,
+      "before_sha256": "1ff0c7e73d33ece764bb9e7a8cad5f1762fd27901db90664f09752a0279d90d1",
+      "after_sha256": "eb78583afe3a77deffbc658e0fa91dbd3e03ca7cc800914e19b58feb1950fdd9",
+      "repairs": [
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "71c179e130293c17c2c40670dce2b4e3ff67d4664aa5c1bbefd163c7d2017bd8"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8131d9ebd111516d83b33eba5964f3c7de54260a59e8ff698120d4864700d127"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "22259282ed22db452c2041bf420bf2c5e7c1c44aa58c31c63c52b345e67a2e50"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "be4ea03073525a2759df0b80df6cced1d89620b93046398fedd48dd60e5560a6"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "23771cc9c07ecb486d465029c8f969998d8db005a4be92a56678184d51194b01"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "ed0c3502c66cde15662962ed13a0eb1adce63d8cd843ea54c24bdfc0b4e3abe8"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "100e760be591f959a0394b270935e5caeeb5e8a86798b7cc5707ef289c2ab05d"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e138b7cc8f95046164b1fc671d3ad55b261d481547a8a8ca9381dba99af800f1"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f54bca8fea05d8604c1ab8d6efa2a43b9d09a173e2404df61af2f5285121aaac"
+        }
+      ]
+    },
+    {
+      "report_id": "600331_宏达股份_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "ada931b504048643f77b3461672908f92d7c2e822338e75e2dd5807045f1f488",
+      "after_sha256": "fff6093947951a8def8a0ea7d7aa361f293eb2b0efd59d3f282fc9c875a4e98a",
+      "repairs": [
+        {
+          "page_no": 17,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7720e72d0271d46d752d345d34360a16377699b91bb099aa457d7b5c8c16a6c1"
+        },
+        {
+          "page_no": 20,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2170a7ff171b5403865a52a7ca1f97e72a8349e7974bc518ca86ba6f066b2ed4"
+        },
+        {
+          "page_no": 22,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a32d3ad780091b0688c7cd5f838d45f93cc720ae0c7499797bd5343a45fdee88"
+        },
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "533c4652ae980772751782588b08d1315a0e55dc37990b577bd66ccc0c01977d"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2ef625bdc355a9c33fb50fafa5cfbea41b201c0f11762bb166c416565866a6f6"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "d8b92a9051561e3af21915bfe0036e0d147071c3004fae4ba36adf717253b7ff"
+        }
+      ]
+    },
+    {
+      "report_id": "600400_红豆股份_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "5a8a6edfd50f765a9194d9d845fef2249e849f3e1ce2ce72fd8297b30b5820e7",
+      "after_sha256": "1613e730842bec3cb0261215c3c5cf05734746eda4899253b30ff0981626af84",
+      "repairs": [
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "16780352eb479b757e64019999307a0fbc8091615762e89989e7a3525b22a30e"
+        }
+      ]
+    },
+    {
+      "report_id": "600406_国电南瑞_2025_ESG报告",
+      "tables_repaired": 7,
+      "before_sha256": "464fcc25d83851efc3093da720772dbe74bf62e01d1b28a004bc50d949e12502",
+      "after_sha256": "296d892ae057eb581c5d799a0cfcd7e91c8db8a86adb050b5ded082840dfb047",
+      "repairs": [
+        {
+          "page_no": 8,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f349b29fd6a2a09fd2557c49df3a6ac75932680c030f608f41627ada2c3aaca5"
+        },
+        {
+          "page_no": 33,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6ed56b111945d155f88797bb3b51cd147d05675d097d1967a79db3bbab99255f"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "876d8584e616879c54ca57f57230b07e5eae73d9f35339adfa73a01a541283c1"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "73e2255a06db7dabb7dea0258a611c6309452b8f4a90249965419a4ea2d4ff05"
+        },
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ffdde020be6a36eeb22b3d958ee9f1c32a02cbd680668715b23babb6759795bb"
+        },
+        {
+          "page_no": 65,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "cba1b4740bf2b6bf9a7d51793f013468ef9b2ff74819a0e60f87a04c9e2bf409"
+        },
+        {
+          "page_no": 71,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4532e5411e26ced33cf13e47602c2803bfcf62edc9fd755ab78b0f6646105810"
+        }
+      ]
+    },
+    {
+      "report_id": "600475_华光环能_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "7dff78ed2896ac0dc301899cbf8b077bc2a92c3c84def22cffa8583797ff8902",
+      "after_sha256": "9f48f2ad713d238179bcb9bdb736cd902ed26aefb9dcbd0e41575368676b3e5c",
+      "repairs": [
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "543dfc654b0c987ed9157f7ca7e8849707aa47f37510ce82479f5b0278955719"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "30d289e9b4e0c163102b98849382761c0aa467d29d380b5ac5deaaa945be7407"
+        }
+      ]
+    },
+    {
+      "report_id": "600516_方大炭素_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "b0c3127d20e37fc6cb46f205622af857c03987f1a56d9e8fd76164c8eb8c7b6b",
+      "after_sha256": "584a057e55f92b61c3fd256ed07b43ef4622dfef3cf44658cd56169663438a75",
+      "repairs": [
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ff49d08b8596a75e32f21fad63f939b17b9267674777fbf46e91b9e11e74a48e"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2c1836e318c5016ed15a6f62fcf5fffb55450c9a1a0baecdbed5ba133c4d0467"
+        },
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f315dd73711399105ccb01f1bdbeb26514b0cffecea961049e3d26d015d01b38"
+        }
+      ]
+    },
+    {
+      "report_id": "600587_新华医疗_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "5c4becbd21f695c4fa3678f05de2fa0a85005df97352904e3f47db59be3fe81a",
+      "after_sha256": "676aedffb7356ddee5466e373fb57f8771026d7a8711161b97270dbc8e9577d8",
+      "repairs": [
+        {
+          "page_no": 87,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "c4b2a7a28f4cf43640e13ccf2b6e5d65456b770816871d85d9305aa2648ee09a"
+        },
+        {
+          "page_no": 88,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "be231495cd6e5b3e5327c6014de51052562aebc5d06aee3da4e31beda8a04f67"
+        },
+        {
+          "page_no": 89,
+          "block_index": 0,
+          "bbox_distance": 3.0,
+          "html_sha256": "52cbe68ac2f083bdfeace9503d027e24a9050e561ac61b68895176ca2e03c2d5"
+        }
+      ]
+    },
+    {
+      "report_id": "600651_飞乐音响_2025_可持续发展报告",
+      "tables_repaired": 1,
+      "before_sha256": "512d709a10013116789ccce87ee9873bc1813c95faf31fa2b2777066dad3fbeb",
+      "after_sha256": "b6e9201cf04e237b15338b7396e965bea19b1e3f75bff36fa190392e29aaece2",
+      "repairs": [
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "17abd0f77157402734a0013df43a18e06af3adb9182e3829caa650e49fb15107"
+        }
+      ]
+    },
+    {
+      "report_id": "600713_南京医药_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "50a53a3f69ed149e9929666d5f4e8cc0380824cbf62e82e5c573baf83cec7550",
+      "after_sha256": "6342c0d3fca5a1993d5e8a520d3949d633be5bda5c0b744738905119916d3876",
+      "repairs": [
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "16f016dd45b007e7f03f62162fbe940c38b5c6490ae7ae95186772c9c8cf2537"
+        }
+      ]
+    },
+    {
+      "report_id": "600737_中粮糖业_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "fcd33919e24a1a4be5256e6bed6335cc2d389922eb68d9b6a9b7f458251045e4",
+      "after_sha256": "fbe49eff400c73619b7eaeaee188c7e0f65968585d3b3aab7e74a70da79660c9",
+      "repairs": [
+        {
+          "page_no": 66,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f6ddee62e38e8b33b641a80537df86e6515dbbb8034d10aa197f0d1183925f78"
+        }
+      ]
+    },
+    {
+      "report_id": "600759_ST洲际_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "b1b376788004847217e9ee565cacf624ce56a1b1c817493bd68a890bb0ada900",
+      "after_sha256": "0403722e471c179b72769adc661ac6a956133ed202bc7f4bf37231d96c7fe97c",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8d01eb752573a6af2c7f47266fb781aa2f7039d215f482d75d74cdfb8fad4467"
+        },
+        {
+          "page_no": 27,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e5f20281fbf93f052e3e5440e484a904f0a7e1c9617f17a85c9a2217153af916"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3f0f81b27fdffe2b56da6bd4a6f4460511199f80ea0b20f3150464b3b01fc1d4"
+        },
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "d0b2f81688062c53c3392af09c9f2c42808bfc2e841a6c174d2682be2bd4879e"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b73b7778527b289c4f56352c0c591fb4823067118b78db267d39ca9f91ead8a3"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8116340aeee02127787b048bc1511d5b245f01991538fe038bd7bb5909429a54"
+        }
+      ]
+    },
+    {
+      "report_id": "600779_水井坊_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "bd0ed9895be9470946b8426a261f1d076d783ce4e7e3c9a83a40c25f5d28d5ad",
+      "after_sha256": "9d85be230f8b603557712123aeb7b28f8d9b333ef0ede93d1021647cdc2b6254",
+      "repairs": [
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e60d38ffb286a7185c1d8e1e76df9c326bdca87da4c7c89261624224e11b594b"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9b79526b2b5965299ea2379071d53c17bcf6a893675d22395cb7deb2ba751fd4"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1b5d8b47d7d8dad4afa5063aab9e61aa4a048c6710955d911d9849ab3c0d9add"
+        }
+      ]
+    },
+    {
+      "report_id": "600783_鲁信创投_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "ac15ca10dc9eedbedcf43417f1ce4604e59c4b17b7cb069e49f4d9972ccb316d",
+      "after_sha256": "5ece5ea5196ff9789b3030fc0543b371a21dc52e50f91d8204f651c554eacd4e",
+      "repairs": [
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5c120b960fb386489b3128dc4fe9ed7222b0ba1d6fea9e2f170c1896f824f355"
+        }
+      ]
+    },
+    {
+      "report_id": "600805_悦达投资_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "81a9fd937b4e75cb43b2381ac3a0e295ec4c6bfc8634578983dcc2fc697dd12c",
+      "after_sha256": "b011616286d11dcc1a5c7c665d8499f73c5d7eee982130865dad5074f33a7a2a",
+      "repairs": [
+        {
+          "page_no": 22,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d441d66b872818bd721afdc47ecaa7c5fe9468639e74947976ae3f3f3045ed38"
+        }
+      ]
+    },
+    {
+      "report_id": "600846_同济科技_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "096ec90b5d5f3b862f6277d1b6ee9dfa6ef3ca07fe02495256991d00344627e1",
+      "after_sha256": "92f69fa009600fdd3f44eac80c8e73212e28f418b21fc2bd99569b91cf786b6b",
+      "repairs": [
+        {
+          "page_no": 19,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "3d7a64c5849788ca33bed878f8de42f5bd4462bf2d48f407cee5c6cdb14c8279"
+        },
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "645a4c2c665ec8989818ba1a317f0b32b8d89032af1202c73c8fbc502528a573"
+        },
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1fa4389371d96118b850ce62aa35d2dbf46abdd5c73356ce9f3d40647e5194c9"
+        }
+      ]
+    },
+    {
+      "report_id": "600850_电科数字_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "0c24247d3f9aade41d52ca0f15386334d4deffdb84696d606d9b42200c4f9263",
+      "after_sha256": "50829ea1362f31fa42af82986c37f3f6548387e18470426bfb0797ab77db6eed",
+      "repairs": [
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e90a96a4ad79ecec8472f9a1da40f9d27644e37dd2d4056682c60ecc728f7147"
+        }
+      ]
+    },
+    {
+      "report_id": "600855_航天长峰_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "65972ef8df389ed1c79bec6efb6fe5519da6be060187a42af8588a5298f1250f",
+      "after_sha256": "7c60c43d904010091694b05cc784399714b32cfdcc3d732fa126b285e37afb87",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "69078d455d10bea647655d587426d1c055e91158505e4dfb63f178f9711dbb0f"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f67494c36b83accbce305d4732c3d27fe1141a15c72c206081a39270ba95f7b8"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "752c05a4789d34f51b89804591827c63b4ac8d3879e8ced45fae18371dcab60a"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "04d0feef9b11c377bb1479c612e5910ea9495b6cc0e4d5a97604f927d7060162"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "aea74734309d6cf663513b5de7a0aba77860cc5a1232369d6e2c00f9f7ab286c"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "23824e38cd6e7ec7f9021dcc7ed35de0157f73bfa1bf9074f981655bd85b9747"
+        }
+      ]
+    },
+    {
+      "report_id": "600874_创业环保_2025_可持续发展报告",
+      "tables_repaired": 2,
+      "before_sha256": "ed7984bfb2452d7486275985328dc07043a3f19aa32eed44a6d79b17953512c6",
+      "after_sha256": "278f3031539f50b74cb94c639d78715198f4c03f0ba9a7175aa75e7be407b183",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "700ef9372ef4715c74ce03c437232259f0e817167e2183530b16bbe42167efb5"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "cb959996e06a0644c7f5cbc3796618250b8a526c9acd20acbbf31b8c83f0e3ec"
+        }
+      ]
+    },
+    {
+      "report_id": "600884_杉杉股份_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "f102265d6f956c0af3ca1b61782a87f842dde68a391429d0f2e52d3742dde8ea",
+      "after_sha256": "ddc1a9cd016fbab6c648e033cd220c6ced3ddd5e2dd3ed454f6b43aef525c3f0",
+      "repairs": [
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ba9be5dae96c5bbc2a46f0651cc5ada4ac3885188410126f5acd8c7c665a5887"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "db4fbbd1be3a3b93870f3b8056c15459d816437420dddfe9e94425eec23c6902"
+        },
+        {
+          "page_no": 61,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "aeea7762bdec83d6245533452b2ea45da0a2b0fd8090f9a2f57ef0e2ec7fa1f2"
+        },
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "c18fa3a30e559cc8b258d00861ef355d54108b53a88a7cc50491d6d01c622069"
+        }
+      ]
+    },
+    {
+      "report_id": "600919_江苏银行_2025_可持续发展报告",
+      "tables_repaired": 1,
+      "before_sha256": "510fc4fdc4fecab2e7ab2bdd510cfa512226352491f479e5a9b3b2c9723cf387",
+      "after_sha256": "e4129406e40cada0bb8cb006cb0429ab043bb889c779c79697953d6e18440388",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "0724357760c813d6af22ac5bc0abd9a9fbcd670150fc0ca2b21d012476ee801a"
+        }
+      ]
+    },
+    {
+      "report_id": "600963_岳阳林纸_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "cecda1fa4692175484fb2c286e541a1d2a28a910ac768bc611e9aaa1240654c6",
+      "after_sha256": "65254e7c625ed6042607be9bf4437aa160c91e74a4d3f6677a0576a622cb218f",
+      "repairs": [
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "86f4c0e9f8c456d678c54663b6f84611d225a10735368f9d9e19f31ebe209690"
+        }
+      ]
+    },
+    {
+      "report_id": "601106_中国一重_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "7b4032684bcde325183b7e6f1c17f063e5a766e76d1c2965d65d00beb55963bf",
+      "after_sha256": "dc3c552663e34c9b7fd9a5b126a7870aef1d88469f3f74e0f595f82eb05ef611",
+      "repairs": [
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f115bb6d2cce25e14cd53a7687967e740f481b9b10eedcbf666906a52ac45f62"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "bbc1c044fc0f2fb0c5239e038130f364c26c78e4338732e5010225d09aa095b1"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "1e0171737e1d4a3a35a91a098393d898036379026cf3a5f6d7b65e56d543bf15"
+        }
+      ]
+    },
+    {
+      "report_id": "601118_海南橡胶_2025_ESG报告",
+      "tables_repaired": 7,
+      "before_sha256": "9efe9cb2ddda1a6177671f3b4c037b8355f13a383dae4445a64373c342ac2d47",
+      "after_sha256": "2f8888891758a84581a5f1bc30ca3847d6c4681cf56f1351899eb18ca37fd8da",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b93f566776dcac79e17f0f6eb9ae6967ada117981405ed065877afec7549447e"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6f52ee36f7cb63a4a183c208babba999059fcddca694c0b990a4e7e8ebf06bad"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1387097552eff902c29d27a2441e1e1515577661848ecd4d91adc6777f2504b2"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "bb2b3c9680d93034345fbf33720e5f2c445b79f630e24c26acc6ca7da8b6a80e"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "8758b716904d694ea888fd6ec0311ecf2c911173f779715341fdd101e02d7f32"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "2a3a44a5e4ca76b4d7d3a1210a23224aa0ca62483bd679b7c220382b465d9c05"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "2a65df9ddc6474ff1954b6d00d4a50c02dd07ef868a691d355d0656c49467a94"
+        }
+      ]
+    },
+    {
+      "report_id": "601298_青岛港_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "8bb03561e953820f034b6670548af76fa64a2d9322547e5bc783ed1fdefa4e6e",
+      "after_sha256": "b0c7e21f99c6c1ca33d56f7e2c489d9f4d167cab165404c913f143ab3b6f88fa",
+      "repairs": [
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "c833347f82420f3fae2d0637ecc20dcfdc698f892cb690e8e0b7038a09018925"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "215577fc8e4a73c083a3fa3834d922d4c5a273dabcab4ba0151b0739dd753da2"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "50171a1682f78801f20ac9e6041dc4e797a0e5f6aed59d79529a37210586e59f"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b563546734e1e73b118142823fbe8e90df710e05d8fe500afc596f98e0f432b7"
+        }
+      ]
+    },
+    {
+      "report_id": "601360_三六零_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "5756d13d687bdf1ea1fb66754ee274cfbabe305497bee4a00e8bea32f8deecc1",
+      "after_sha256": "710b8ced9faffaef22e491976679140d11af1a7cd447ca2225df3723cd64b942",
+      "repairs": [
+        {
+          "page_no": 33,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f3b80c9f42db6145d5944d773a94494107ae7d88fe7a684319ec140528ee1f29"
+        },
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "280d562f02247ae961684fd0a39b921cac83dbb679e52b970b0db6b0a8d7736e"
+        }
+      ]
+    },
+    {
+      "report_id": "601555_东吴证券_2025_可持续发展报告",
+      "tables_repaired": 4,
+      "before_sha256": "1ab59f4c72a13cff8af8c8f841ebbd1ed68bee0aa85749f4919c2389cbc7cb59",
+      "after_sha256": "905857d4048da6e2d7ab8e5cb5f395073514fb18bfd183342bdf8b0fb75fa95f",
+      "repairs": [
+        {
+          "page_no": 10,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "27e15fe060a8af85cf5b2ccfed89bd82444af7945312e58bd9f3ea1f938fc823"
+        },
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f92d6b83510904a33203e84b46641547c15fb59c2ac4acfc1b209def4d8cd9e5"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "0eacfdf2a9d67190bf090deb73fccbb0f163a5e49d7665f5f36f39141773bd4e"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "cea5ebaedd9b0c722a503eac34e369b3a01100acd1ad502b5a9352c727902603"
+        }
+      ]
+    },
+    {
+      "report_id": "601577_长沙银行_2025_可持续发展报告",
+      "tables_repaired": 2,
+      "before_sha256": "4da78a9d61cea2ca5d78c56d8aee273efc7c6c1461db1d68497e31f0c8cc171d",
+      "after_sha256": "97f34eb21a4877308b29f42b9689331391738da1b7aebd4f9b9a2ba0c1be0f73",
+      "repairs": [
+        {
+          "page_no": 14,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9dc05e56109f59f7cbf7a728c55420c104104cf5d580415f78dbdb9cf5f1f30d"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b40f1d62903e426716323c6e53f46bdf5a343bbf6a8221c40cde4ac1c8b2ba9c"
+        }
+      ]
+    },
+    {
+      "report_id": "601956_东贝集团_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "2120c0c302c41eab9509fe100ecdc21abf2d1f18ce658d249c71acdb3416e1eb",
+      "after_sha256": "fe139eb67b516e367c501cbab8d8b98f1a917075db0c07d8d9cc243dc6a06918",
+      "repairs": [
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6d42d746db041b71f07525c38a3b2bfa801c94b93b84cc1b4070629d11caf42e"
+        },
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "4eddfa6e8c42697d32e108b8e44cf18be57aa2ee80a9eb8409930ebc7af8741c"
+        }
+      ]
+    },
+    {
+      "report_id": "601975_招商南油_2025_ESG报告",
+      "tables_repaired": 5,
+      "before_sha256": "6a4ad533df15ca15c2ce59e5534414461bd453368dc50b30e1af9cba6a3ed6c7",
+      "after_sha256": "b56413b07c1e3189a91c279fbb8fd2e510859fc76770ec3533c3f4a6c3572dc1",
+      "repairs": [
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "d302a2a088f30e4759105582cd9aefda3d9085830f688b8fe0cc3ac1a985bd5a"
+        },
+        {
+          "page_no": 35,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3351020aa5bb574482dacdfac88c4528d39c98fb0d3b78a3c01fdde38bc474d7"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "2a938c8cd9db64c35f1d102b31c1d29fec22012b729e164b93700f715e310706"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8b5fe8112122aefd30469b7ece210fd9876b13ae82a1a5d1fcbae5b3cd8c881f"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "fbd41c39de912057be7e152dd8a1242e3cce02783f072dba23f29e49f3cb5c36"
+        }
+      ]
+    },
+    {
+      "report_id": "603013_亚普股份_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "df367789a47537643b5afecec8116188f13242db1eb9f4e45a6c384c98aa2f26",
+      "after_sha256": "171dec31591acc7437c86949e3e021a90743bf36c1c4df7ce1f33e5aeb7ea1dd",
+      "repairs": [
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3273dce7a389fe662af101d2852d2c6c9b95d66c68cb08807e5bfb178cbf891c"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "22629233bf3c809dbd3be3be4fdf43a852cd836055d4eed30ceb030ca9edc7dd"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2f90ee7dc4a37801ae70ef5b2619e89479ebbbdc59812b54a8c2aa621076418f"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3c62cbfc6555614bd3eaf73b7db2f3c025eef8dfcbcfdf29e3e40beb5c82d661"
+        }
+      ]
+    },
+    {
+      "report_id": "603051_鹿山新材_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "0f182ad8038e5f01c91c89eb9ddfd4fa706a9fe47e3bf1842006fd6f47552951",
+      "after_sha256": "4ffc51baec90dd31ab9c79598daf5f754cdc11f3e881107b9b111f5bdda75a86",
+      "repairs": [
+        {
+          "page_no": 75,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "64942cfa3b83fc3ed6256eb43217428280823131ececa897697f033af5594965"
+        },
+        {
+          "page_no": 76,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "9ff5841c095d98c07d2d12d314eb565d2614c38aca237c0e5a5c05a428814ca3"
+        }
+      ]
+    },
+    {
+      "report_id": "603082_北自科技_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "97d14c149804c60a99281caf04cc82acca1890f2a462d822157b3a8c642586fa",
+      "after_sha256": "b2c583138bc624671268040fee40b0f935d623bad875f9a1ee18182592ae3092",
+      "repairs": [
+        {
+          "page_no": 27,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b252e03193e99aca4ecb2da5e66a08f91f5f59ec729e9fe25623ef7aa57868fb"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "28258e97fcd9eee6b41819b78827645823573319cb05aeee62461398b0b783aa"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e818058c7e23d95a48e967a0f8e9973c85af1f18f87d226c1b607b2fa120fc4c"
+        },
+        {
+          "page_no": 69,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e5ccf5ed13f441ceb98724e125349f387de665c3f116bfd4ffbb4fbf632c0b8b"
+        }
+      ]
+    },
+    {
+      "report_id": "603128_华贸物流_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "01b7e54038a53c42154435bd8d634924b967c796cdda3715e3cd669e9412d850",
+      "after_sha256": "eee849cee1f03eb4f99d075be6463d7b04bc7794977e1b9d93728f188769881c",
+      "repairs": [
+        {
+          "page_no": 6,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "54cc57e75ae187f2dfe8e230b85cfe950a6fe3d438863bf904eee74f311575e5"
+        },
+        {
+          "page_no": 10,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3b8ada7c7510719c7e9f4f1ec504daf5f0b7b70313bf19b09b6a453eb68633f3"
+        }
+      ]
+    },
+    {
+      "report_id": "603257_中国瑞林_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "42e3fa503e8dec05b3c58d0397110199ed67a9ef1bc15c230d11602cefcfd1f4",
+      "after_sha256": "f3f5ce3e3ddb4d966e88c2dfbb1263c16a6753d2bdf46e1b9a3489ca7b325ca5",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "41ec9ff0d8cb8cefa256728b7ffb12d767b6ce9eb031d98bf3aeca2817d5c636"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "fe2faa93e5a1967981060b09030e191cd8237a14433c251b026ea293479c3460"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ea40b09f9efda562940813c4d02b690864db54ad114593850fcd4ef42fdeb0d0"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b365667ec9bafdbf0ab4385c94e5b6c523bd07913f14a804ac5edc91d94e8829"
+        }
+      ]
+    },
+    {
+      "report_id": "603291_联合水务_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "5938b153c964a885945cea52210f5158003907e0a14f33c061e1c730b6f2bd7e",
+      "after_sha256": "cc781dbd11712bb4309ea5b4c5df472039650bb71e8e723cdc9f1770587758a0",
+      "repairs": [
+        {
+          "page_no": 79,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "ff200bb83943ca7d7ad2112fdb9d5f11a3a9b5204dd2ff039487ff90c98bb621"
+        },
+        {
+          "page_no": 80,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ad655c43efa0326c9735483f438c4bec2e172815bf601e1bed398b59dac3f35a"
+        }
+      ]
+    },
+    {
+      "report_id": "603329_上海雅仕_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "319d3b443d3fe4160a3bcfbf3f349df6e6e2ffd0eacb94651c7a54700916de19",
+      "after_sha256": "0b6a6bb120632bd64775ce5aad4b1e3b26e99db7b5afcf57148673bfc943de69",
+      "repairs": [
+        {
+          "page_no": 27,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5ab8cde6006d5c88f9ce8b2f3edbd35bbee70e89e888d26eab78ab63a3df5a08"
+        },
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b34c03d7b2056338bee143ae03d2aa5d7b3fcd3b23e550654781c07fcfc74e5e"
+        }
+      ]
+    },
+    {
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "tables_repaired": 7,
+      "before_sha256": "19c8de523f7b741e23d45a580300107a6fcdfbca5dbf5b4f8288bd347850df68",
+      "after_sha256": "32fd86e5a5c453692ade6acc716c23d9c8249ccdaf62ca1914b77e9925b4d5bd",
+      "repairs": [
+        {
+          "page_no": 97,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "9dc4277f71f5fafcfa4889bb135f5b5f21cece73541e44201dcd6720229fb410"
+        },
+        {
+          "page_no": 100,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3e079e017885a1dab734fd17f809df312354a35e4269b087c8b448cc468dc5e8"
+        },
+        {
+          "page_no": 101,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "4284a5eb3eff3fd5b4eadbf11f4ca156e0c8167e94a0741985a6ebd9a9ced6ac"
+        },
+        {
+          "page_no": 102,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9ddaef6fb88234d649090caaf418706701e634c67b11199291923254df259d9e"
+        },
+        {
+          "page_no": 103,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "da4767f4edde1c3efedd299b83fffb9516fe5b5e33ff7d7f49a4070a71d43840"
+        },
+        {
+          "page_no": 107,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e3191e21f46093bde1ec0e811a0612a4cbeb0f560027b4219c6b6babbafa3b94"
+        },
+        {
+          "page_no": 108,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b947f2328083352a01a6dd88af44452f8d1d0dde45bccb76589bbf6cac133551"
+        }
+      ]
+    },
+    {
+      "report_id": "603373_安邦护卫_2025_ESG暨社会责任报告",
+      "tables_repaired": 1,
+      "before_sha256": "115e6e821a1dac2de2a60ff7e479a9f23c41868186e273a3adaed129782a3094",
+      "after_sha256": "8c97e8905faef645cac807dce805d3657760a4383f578b5f77a9dd9f6d3fdcb5",
+      "repairs": [
+        {
+          "page_no": 34,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d99b0c39df3ed6062c2dc293f058c042a3b1af56aa52e7ba097ae1c69c881d44"
+        }
+      ]
+    },
+    {
+      "report_id": "603399_永杉锂业_2025_可持续发展报告",
+      "tables_repaired": 2,
+      "before_sha256": "f53f20776cd5901a6af18464496a979b13ab9c9674e23368c74e5ef7a2ed5f31",
+      "after_sha256": "ccecc575275122b011dfd0b2421a572b6ddc3b3373977829de11624d2ef7b69b",
+      "repairs": [
+        {
+          "page_no": 20,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3b56510504db4019dd0cac98bf2754e046573a149b19c276b25a36345ae43083"
+        },
+        {
+          "page_no": 62,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "d6df2d142a8306dd7177bf0aa06c7c01b16938b5849f3e3af634f484cdaca907"
+        }
+      ]
+    },
+    {
+      "report_id": "603577_汇金通_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "1da46f604fa38185166b370b4c8a7cdcf2c69e54deb1dd213483ff2f6ef84c26",
+      "after_sha256": "2497ba1d352ca686c48259e86d97f19a68434ee5c6fa089ebf2b0f4eb506f316",
+      "repairs": [
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "bb8fb6d8af60d152fa2123e8057bf1b71e2763b16c887bf4d906581ea36ab2c1"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2b0389023366624c11f4784996a628e9090a6b3f73a8e063d0d8ffb22e0740e6"
+        }
+      ]
+    },
+    {
+      "report_id": "603660_苏州科达_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "2bf8addf3dafe3a2527fd7e931034e2fcdbfc1aadc045affb2ad4051925268b5",
+      "after_sha256": "ca24eec50b406fba5ca8b42e4377e73097558d4990aeacc463d4f68cee8117ca",
+      "repairs": [
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3394355245449d2ca2c10042db6fc6597cd2f9ebe103f57b5d8f82cdc79a41e1"
+        },
+        {
+          "page_no": 79,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "6d618d4d83ee6e6ef430c804873406d15b53139944a0a9d389cb3ffd844cb7b5"
+        },
+        {
+          "page_no": 80,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "6a4c5fe0f4629c6adfc61f14fce87d1a040dd481be684fb19fcb78704a0dc12c"
+        },
+        {
+          "page_no": 81,
+          "block_index": 0,
+          "bbox_distance": 6.0,
+          "html_sha256": "7272624bf4aa17506c488d91306f66b769316aebd13683e69d93edf5c90d113d"
+        }
+      ]
+    },
+    {
+      "report_id": "603683_晶华新材_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "aa83799ec0d209047ffcbb289d4b10ed038f0ddbe69af369299c07ed9c6acf7c",
+      "after_sha256": "c94792ff3224a9992e65ff09a0ecc39447a39e457fa127fce67e872ff2e289b1",
+      "repairs": [
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "a07e8745df1ac6a593f97bdbf740f7f338709f4ad2a15ff3a97d7f2c2f9e45f3"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ceb029196b2491b8836d7859a13485493ae98e83edf088b841c7e8c8910c6e74"
+        }
+      ]
+    },
+    {
+      "report_id": "603808_歌力思_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "9270a99058cf7f23da7ac2c8216c8913d74e666dbd705fbf878bb105c8433e68",
+      "after_sha256": "4d24e895017af65512a3020893c13bc507668e9b4cdaa585153f5b8176962c25",
+      "repairs": [
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f9363a61cdb7210f61c8c5a86542b78a6c94debe86c5afb9b97888a495c98378"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a551316ab978a68e5d86975a35a24b2a907114c5d02c1be1640c3f50d25a5e0c"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ce948d8dac6339afc6259808953f3d2882fdf3e92762c4d30d01467c1054dba7"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ca6c10f57e9b6d7d015a6951275ed0199775ca14be5268cc36fd30d3ac8921fc"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "bf8f30d25a6d8f03a297a6d70a70c4bba27ad67ff73f56213e9e5fa463e49141"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2ce8582c245a928065c76d23180222000e02e20afd29835139dcfb1b1503a5ea"
+        }
+      ]
+    },
+    {
+      "report_id": "603868_飞科电器_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "2a168efa46440199dc6b7a125e7dbe20ae238764491b1031b31678d7746a2b7c",
+      "after_sha256": "83ed44911c8680ebf8fef45b34c79318eab15c3729a382abb02d454723980b30",
+      "repairs": [
+        {
+          "page_no": 71,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "11e50fabb2ceb261c4248e01dafe4c33919c28d4e74f703df90224c8aaa0d09c"
+        }
+      ]
+    },
+    {
+      "report_id": "603990_麦迪科技_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "05e0114e2fb78fa7ae673d5a77ef250dbc7d52aafa09d3ae0615b7d54ed1e348",
+      "after_sha256": "d69d15ee5304e853e90059bd3835bf4b69a1bea0c3c4d17949b76c0b293e386c",
+      "repairs": [
+        {
+          "page_no": 26,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6071946d3266729337c38b53c08870c7780c99e552b803b8d42a1655894b4326"
+        },
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2a79f8c03aadffacb1f9d96306b684044022ef590896d64e4bd2d3c673f848b1"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "540cfd5f296f6d39fe2479859cb805e183f0547f29bfe99b102cb53e42fe3e82"
+        }
+      ]
+    },
+    {
+      "report_id": "605199_ST葫芦娃_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "011182113fd49adc3036d87c64a873c1698a41843469aaf6a2b94e2f8fc5c95b",
+      "after_sha256": "e58b54fa16336ac28012ce124fdd6baef571091ba3323dd89bbbeb4d342a4629",
+      "repairs": [
+        {
+          "page_no": 9,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "17ff43eab46ce822e1c163b0659df6537ba3d84cdce622478be46b3115839483"
+        }
+      ]
+    },
+    {
+      "report_id": "605377_华旺科技_2025_ESG报告",
+      "tables_repaired": 6,
+      "before_sha256": "bc78240b785595673632bec1dea3a22afa958411d26443fb02a41ce9b73d2681",
+      "after_sha256": "e275cc423fad3dd32f577e997cd843c72b917d05808a62ea7757ca9252fb9a73",
+      "repairs": [
+        {
+          "page_no": 21,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5f60d55584b8a108b0ffa431c390eec31fe41c014e2e77ee3e22f7bd8cbb7000"
+        },
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "af8aec59718fbffc9b20c60d1fafce6c2603b5025c9e2ecd46f1557eb478a85a"
+        },
+        {
+          "page_no": 39,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "08b6486af15c76a7dca5a5c38f8e17d32035957c5ecc9a7ea575e6da99ce6927"
+        },
+        {
+          "page_no": 48,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "a62e3631a556cb85c5ca32dcba7e19283684a27453959c7521d701ef8dd24076"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4b92d2c795991aad9b5f3315c06b888078a1fd1be7c2cb96035bb0c88b7f0b27"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7d54f0f2d12f86f1e322bbd69943cfb9ec3764fcd9378871c52d6b844e9c274b"
+        }
+      ]
+    },
+    {
+      "report_id": "605399_晨光新材_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "4c8833e5fb07a7c3ef2745c740ac6d3e55b08eb8238c4939022233c8b650c809",
+      "after_sha256": "be9e6f9cf8f041bc7f06992ca9235287f82e0904e3d911254f8684f3ab2f0d14",
+      "repairs": [
+        {
+          "page_no": 28,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "fdbb66b9a51aaf07f47158508125c99bc663c627e5c176815538861dfa7e8abe"
+        }
+      ]
+    },
+    {
+      "report_id": "605599_菜百股份_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "2de906de5d300538c1645349f50d51c4807b61b93571505a14448c5d10d4776c",
+      "after_sha256": "78c9ad502c67cac6e70f801f4167bf5b5365959864171313d3fac6583adbd552",
+      "repairs": [
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "775eebfb58ee8bf71979d604e9920dafeadeff3695c78cc80843eca7111c877b"
+        }
+      ]
+    },
+    {
+      "report_id": "688051_佳华科技_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "ac9fc22e657e82ed035ef3d8166b619b9bbdb96e8a3916e489640bb6e51023a8",
+      "after_sha256": "41292e3520bcfd605a3750684e448ee9d7617bf49f567b39172b226e1dc1ba05",
+      "repairs": [
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "bd8581c0982e968a436d3af78cbd6182be5a1d05c85ab5640af18223e85be21b"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3668b98e93a8c3cb401ed6d639b76a80a85bf4b8f7922935a53d13f959e2452c"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "0641d79acf40aee35cd178e4b20a741a74af9714b6841f706fc68a6f8be92294"
+        }
+      ]
+    },
+    {
+      "report_id": "688128_中国电研_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "3def44ff7125c4c49a21f6247f971e607032bf597732dbbb96c9ca778f573059",
+      "after_sha256": "68a1808a646882f937725a1fb0be3a2813eb53bb798a126e43994c82b4e3c098",
+      "repairs": [
+        {
+          "page_no": 9,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3a2805b6802b7e827919cd2ec738f4a862a634dcbc49d73ddc2ddf23a951920c"
+        },
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "22de8d8d2361140ef385c57f994725a8bf8026ac85f04bcf03f66b391deb530d"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "17dbc45b12cfad720b3a96eb21abf183a222d3f18ade38492042f3118619c822"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f53baac56eae57568a9d39b6d75e53abbb060bfa177c47790d7f2cb5f014da5d"
+        }
+      ]
+    },
+    {
+      "report_id": "688147_微导纳米_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "9cea2ed286727b45178be812d4f7d82db2ff794e6d92182be14a899e717bbf12",
+      "after_sha256": "b3893b3d44c25b1dccb6bba40392b1f9e995f595a55d18a865af021db479cc29",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "3c55a9af24c5340e9fd3723bfaedf53904fda55d9f7cf090acff96c6613d9638"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "32ab8f75ec3e0c02b7d883a8068b77f9e5ef520c6ed5a6e11d6a0c8161b9bd95"
+        }
+      ]
+    },
+    {
+      "report_id": "688226_威腾电气_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "dd070d857e708000390af18e71c96466a79241cf4ccd3c548f213f4406c3e982",
+      "after_sha256": "61f29a5ed94db87d3a22a46e0e0b491acace47acb3ae47a01614446c22b0f5bf",
+      "repairs": [
+        {
+          "page_no": 8,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5994cfa7ba7964c90cc28509ec09e39601b7ec8debc23e620f99188667ce8726"
+        },
+        {
+          "page_no": 61,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "0e463d95680b02eaa1290b338fc5d1572cf87aa91922198c775d6027739c3573"
+        },
+        {
+          "page_no": 63,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "b96e8ef041a4a18410888b2cda7a049c3dd1ea88094bfebd1a2ead91164ee206"
+        }
+      ]
+    },
+    {
+      "report_id": "688261_东微半导_2026_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "b278cffcdb745ef08a935ea6c23462ab6ea1c34d4ea181602211e083d8dfb9c0",
+      "after_sha256": "42b7fd56cf390689ba435b7722de0cbdda8db843e30ba7b7ab5146d20f558057",
+      "repairs": [
+        {
+          "page_no": 7,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "ede590bba442091421d7275fbabfb8d2cbb068d409d0cd14a6f985bbb52ea3f0"
+        },
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "293451fbda17f5fb715952a83e95e80e0bdf603c51569aafae10fff48efecc9a"
+        }
+      ]
+    },
+    {
+      "report_id": "688279_峰岹科技_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "5f5480d7a365972483f06437fdb945ab9451ebe6e2468551acc91c3ae0e2342a",
+      "after_sha256": "d3f18e88c1e209c27a73c5e99ce8852797d67be465b4181643406dfde9e12ce4",
+      "repairs": [
+        {
+          "page_no": 23,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6650fb30a85b15c9e8a73e99aade678d65010df1ffa188829c67e03862475395"
+        },
+        {
+          "page_no": 24,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "078a3d69de49b5803933f8b2884be7e16a2adce27a96807f5e40a2dadfbddd18"
+        },
+        {
+          "page_no": 25,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d5a05ad1dd190c687fac6dd64f63013aaddc1938bb90b165a6f03d09d36a37a1"
+        },
+        {
+          "page_no": 30,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6ff019fdbb54783b5d2648dd455d8514dd3d04afc6a2482b712d15a073ce398e"
+        }
+      ]
+    },
+    {
+      "report_id": "688348_昱能科技_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "1abcb55cdd4835920656116b6f63f4d4016c0993c8ae652f3ea04db6b1595c9d",
+      "after_sha256": "5f81d02f39d2e989108d8986a25d3cb915881b747bb2faea97dd3e8a6c29bbfb",
+      "repairs": [
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "8ff0ae7b0d918ddab215e47c4a8e5ae73701437e819ce561cec3d8b98d41317e"
+        }
+      ]
+    },
+    {
+      "report_id": "688400_凌云光_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "dc6c8d2777b84c8349cb76330bb062adde3a809d6432b0463313aaa014e36a4f",
+      "after_sha256": "3b0e920c5f21cd82b359e8036a7001188951f787201a99ea6875f5aa80f3dcf2",
+      "repairs": [
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "b225697d4fe03257a62740dd0c9151843d27b441a2dd861ba0747e202aa6cd6e"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7f088db8b6e8556a2a57cedfcb9f0aad390b4c568bde2f9fd8077a6049874ab7"
+        }
+      ]
+    },
+    {
+      "report_id": "688409_富创精密_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "a6446614903d71988c6713330c698c397fd6e982b8df2b70dcdf2f17ff4d7138",
+      "after_sha256": "310db94e715f1a466da9b8f23b141b381351c9faeb12725d6c4d19544cfb4e25",
+      "repairs": [
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "64d64354a33f9f2c4b772f370f5aed9bf29c3e4bb1da91c8a7594fe12f984507"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f19d5a9f2c2c5440e2be3e486f51945a96ae7ef7a3339da42c323cfb66481ab7"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d11b1776d56cb9868b4c95c78bd47d0246d28754340d46a749f2639ebdf79c66"
+        }
+      ]
+    },
+    {
+      "report_id": "688439_振华风光_2025_ESG报告",
+      "tables_repaired": 7,
+      "before_sha256": "3bb9e0885ff094e532dd085a5099b9138cb31562ea6f63da02cd2b65260fde46",
+      "after_sha256": "b8e4816917ec3fc6be1d3949a0ad4d73fa46de0e6fb9e6455f2f47d8b50a94a7",
+      "repairs": [
+        {
+          "page_no": 17,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f8619edbee85bc3b3a6c316a251e0883b32783d4db486fe2c79c4aaec55a08bd"
+        },
+        {
+          "page_no": 27,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "856fb00986ec62f907eff2e449b8516e16d233650204e4d7ec68942dc8d94a46"
+        },
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "47169ab3eb048ae0adec944dda6a73e53a8f1c79fe9f5203fdc309e70c5b7d6e"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f286085cfc327c124f87659649731ef59102fa0b5c48b07b614037e6c5195993"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "dcd7c133c263dff92fb69035fdc0e71ebdf968fbdd8e9ef2c8f6b0d61fd5118a"
+        },
+        {
+          "page_no": 44,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "dbf6447075ca0a199c41a87fd96941fff29433505b658cd995335a3f40602932"
+        },
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "94a28a439ffe4450bb598b005ed5a3c77eaffccd445acd4559834f47df781a40"
+        }
+      ]
+    },
+    {
+      "report_id": "688515_裕太微_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "b523385f28d16047e0c83d2802bd44a29c9245b305cf755a54351d828a5e2eb5",
+      "after_sha256": "189aa7d9ae0b66432e3ec8656f82a6c7f926bc17b7a0bc8eee5d1a4f55076071",
+      "repairs": [
+        {
+          "page_no": 37,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "fff313b70a128ffb2bac89ba56bde4caa168e27bc966c7e82ecc56214ee21de4"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "238ea46f28b091545837a8fde80c3c5fbf97d79295400975de34885b614eefd8"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "6d97870cc0d0fe5f5d648d13cd8617d2ffd7c22da70aae06be8544343fc27007"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d1d5ea4f9c6daeca1036206e6339c9395ef0c0cdb9a532a89ed12a888caf7bc3"
+        }
+      ]
+    },
+    {
+      "report_id": "688560_明冠新材_2025_ESG报告",
+      "tables_repaired": 3,
+      "before_sha256": "70351032f68142db3d189123ee9163fa4e9a12c7593ec631243cf53cd1dae7ad",
+      "after_sha256": "5e922fcc4258cfc1801cfb33183a171aaa9bdb8358b3ecec273bf597b052f10d",
+      "repairs": [
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "8f9d71e98d73c8b69c77a8c91d911329446b1ea35aca3d59212927a1402b3e2f"
+        },
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3d026a5f4c4eb814a8a26c1fd29462c81c396a7016ac49bfa1d623ccd09d7b5a"
+        },
+        {
+          "page_no": 43,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9f06daba3bdc61d724848457c2591154f4c0cf98d643a33b6530c66cbfd85e76"
+        }
+      ]
+    },
+    {
+      "report_id": "688598_金博股份_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "1f021df2c1023dac75f5dfa0c109ae3a9ae8d26723d87dbb3b415de0a6363c4e",
+      "after_sha256": "754981ca047bb828cc94d0051fa2800fe67c346b72a3311d74ed52a703abb2d5",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d29a8a9e891a027fe8d7cbee44105c5f1eada72cfe65f5eebc9fd37dc45e111a"
+        },
+        {
+          "page_no": 52,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "f7fa5531ff6bbef41baddfa3cce19e00dc3ad5af9ee8c3496f6fc81a13090e64"
+        }
+      ]
+    },
+    {
+      "report_id": "688613_奥精医疗_2025_ESG报告",
+      "tables_repaired": 2,
+      "before_sha256": "956a475fa862832fb58d52a0c91f7c53a6bf179c07d310949d8620b89399fab1",
+      "after_sha256": "a59d115dce427c0322b9cbc13434afc740a466885b686dae3aeb82d83383f296",
+      "repairs": [
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "d3149d513aad4ddf5398f4f05209117875a51693487289dbf634430237bd0f04"
+        },
+        {
+          "page_no": 37,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5e5356e66956b25f1246872e7cfb6f0a7820318d152d331fa521bfdacf746a57"
+        }
+      ]
+    },
+    {
+      "report_id": "688618_三旺通信_2025_ESG报告",
+      "tables_repaired": 7,
+      "before_sha256": "8d815424efcd4ba30b49f2bcf7ed069a2f6460452d8bbc3929dfc038bf863e78",
+      "after_sha256": "b0dd5ecffb388b3b4b80d1f859fbcf3a93370f983eff6acfd2fa83f9a2dd445d",
+      "repairs": [
+        {
+          "page_no": 17,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e160bc7802b2faf09ce2e7e62348afa0047dd19ad172c825c8d016c616925ebd"
+        },
+        {
+          "page_no": 38,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "41ea69b1b8ee80dddff62bf0722461174092408f2b23c123af78f99468fddb5a"
+        },
+        {
+          "page_no": 41,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "93e191a8f2a4da0b8429c74d5a2240fb63827aebd2ace4ed1c1c356de6fb8190"
+        },
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "84b11db0029ea0b4b964fcc0606b4a54e754b62952b14753ad89eb73d6c41e41"
+        },
+        {
+          "page_no": 46,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "dc83f2f8f920a1bfca8282bc9a0671a64bbce21e9cdb2467178313fb75bf7166"
+        },
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "e0479e21cc65296e95f3e95e309f35682b62ba63555d44b7a4fc9be38aac7551"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "35826b4ab240121b4c2ccf00a7267734fa468bd0c5cbaaaba4ea3bb454ccc3cf"
+        }
+      ]
+    },
+    {
+      "report_id": "688690_纳微科技_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "3334866f3f8fb9887099f639f190bc9d3611036916cdf9c6f94fad424c5f915f",
+      "after_sha256": "3cb7659656f7bf69e7fe975de9f8a768b1910cb775cdcdae876a1cd849563a02",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "7f04eb55350df2711c39bb7655b6aebdd432ab8ffed003f855a3f6bfcefc6bed"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "40f5c932df27e0ee0d7947d15e2f192f1cdf214be3b48d009555049cde691c20"
+        },
+        {
+          "page_no": 50,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "c6cd90a77c1901a129e2d2caca202417c8e6ee4d45a48b996ad6d0aa7421cc75"
+        },
+        {
+          "page_no": 51,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "91b1620306b427078c99453d56c19b1cc6b697c4e74e51a0f1752893834471ad"
+        }
+      ]
+    },
+    {
+      "report_id": "688728_格科微_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "f1c9ff9f96c2b9290a50b6ba7382de07d24c864525bae9bde2fef9e149d1c743",
+      "after_sha256": "f9729b1f2f00ec0b5e03a66df35ce6df6574a6cec8076e5263e5a1ffc5afeb4e",
+      "repairs": [
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3bf8252da9643b56da75910859c9c5f459ecfd8a9837be4ab441c85b5ba5f08b"
+        }
+      ]
+    },
+    {
+      "report_id": "688818_电科蓝天_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "b16887b2dae0574fae92bd8b3c5549b5bc190749376d9ca40178b43bbec158d4",
+      "after_sha256": "5d8fb9334d6b57d80e5e94688c7060fc4311be5b7455d2966f2ef693e4a9afaf",
+      "repairs": [
+        {
+          "page_no": 45,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "f785fed46f2324e29d71e5fc521c4f40b1d79c8ca6caa10d608ccb5d6f8806c3"
+        }
+      ]
+    },
+    {
+      "report_id": "920001_纬达光电_2025_ESG报告",
+      "tables_repaired": 8,
+      "before_sha256": "54170715c7b35155f8d7dc4c26058c583365daf1875a6a39e5125e5e4d62a8f0",
+      "after_sha256": "2bd0758cbf31fa2c6892f70f6b12f0ea98cdb6c74651582613c060c320339f3f",
+      "repairs": [
+        {
+          "page_no": 19,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "9b39ca85c609cdddef7e69fa85771f968e012f1cdbb8dc3ee458db82eb13808c"
+        },
+        {
+          "page_no": 36,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "4397c0adfc9ab58907b00aac0b7c6bc0ae6c57d4937f04c3ac9c1e96a8c9aee0"
+        },
+        {
+          "page_no": 40,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "3aced6457610193fbdabef0db04923219053e46702b2434fea3ca7f954ccd520"
+        },
+        {
+          "page_no": 49,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "71eea6ca2a8c486a27f91ba062b53449519b8cbb21114dee87b8bf5976321a6b"
+        },
+        {
+          "page_no": 53,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1c7ca3de0e1bf21f40d7ce72f03cebbb8ae1af705bdb8f40f66820f1dee569f2"
+        },
+        {
+          "page_no": 54,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d2320482745872a19a793e60780271ece07d62f7d014e4d627c2e64c614a1c77"
+        },
+        {
+          "page_no": 55,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "db2f7a033cf66ab281561246472b8f142754fabd6f4ec5a0c31227223af43a60"
+        },
+        {
+          "page_no": 56,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "28e7c1191992d98bfdf2a93bd549b60411ea63ab3350a8b3d0c873ed056eb741"
+        }
+      ]
+    },
+    {
+      "report_id": "920019_铜冠矿建_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "19ab31d6f16bd13327b78aab4016ddafe9b7196a709c05f71e09b486209f26a0",
+      "after_sha256": "3737c40feb80d3e034c36b528db402c0d1dfe8ef6af9ffcaaedb1e04e4f7ca04",
+      "repairs": [
+        {
+          "page_no": 19,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "6304105d8d5e8cbb4d4935455f203000504b6c4c2b1e02fcf6514c69921f7cb9"
+        }
+      ]
+    },
+    {
+      "report_id": "920029_开发科技_2025_ESG报告",
+      "tables_repaired": 4,
+      "before_sha256": "87e5b0bb42832e4ae0960c0a34b4e8d16036f0ba90501a90e17e5a0b231d76a9",
+      "after_sha256": "c900e4dc80792537d98f90fe306cad2c5034e5d55a2e66e3883c0efe5972aebb",
+      "repairs": [
+        {
+          "page_no": 77,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "29068c1eda351b0e957911dd2138d55289ed34a3d4b23e89b17145667f63f48b"
+        },
+        {
+          "page_no": 79,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "5d967812eac29758c6e7b98bd3baf553e2efe16d82ab408bbe7fe36e416a8e35"
+        },
+        {
+          "page_no": 80,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "75a21d473269ad0c82ae48e7475b60ea374934873429209ef6cd1d23cc1c1958"
+        },
+        {
+          "page_no": 81,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "31dc4f6ce028c367514e14abcf66f55c6b62a328af3d44b550bc54d9d27aa3ce"
+        }
+      ]
+    },
+    {
+      "report_id": "920039_国义招标_2025_ESG报告",
+      "tables_repaired": 5,
+      "before_sha256": "66281f3f21bcbe4e08ab98da6824cef945c4099f1ba7a7db62255c9bb2185d9e",
+      "after_sha256": "a4ed4969e4bc115330bf065f43d0585cf8e4b6994ab0bf22c8588a6d9b7fbba0",
+      "repairs": [
+        {
+          "page_no": 13,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "d8b35eb6a8d99e558fb4749aca586d6ac863326a5e4ab6e14a940789722d150e"
+        },
+        {
+          "page_no": 14,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2f370d1ee4f47d7ddc70e847d62b4a3945deaa3aac0cd598e9df82dd643864e3"
+        },
+        {
+          "page_no": 58,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "2d3ddd81f9bac48f2174f5c30d7cef4ec852bdcc8f454d3ce49ec3826aca7bad"
+        },
+        {
+          "page_no": 59,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "59ce211e2d3a4e71c9b37cee7f994cb295a98e211f1d56e6fb4d25d16d76ad07"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "139f39f5ed1ef4f4eca67608fdae717517197d7c1b9ba056ee49739d5b8f50eb"
+        }
+      ]
+    },
+    {
+      "report_id": "920167_同享科技_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "0cf6dc5e91cb487fc3a42a699e248ffab0451d64ea5ab92cfdae7153c6b95139",
+      "after_sha256": "f9d016bf770128b3a0be029657d0c31812c3e16398c9adfc9aa78b53b2b348d0",
+      "repairs": [
+        {
+          "page_no": 12,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "e3fa133f3c6f2ccbc778f6ac2eb92c999b9d3e9af71c4b27f8280e219511a3cd"
+        }
+      ]
+    },
+    {
+      "report_id": "920299_灿能电力_2025_可持续发展报告",
+      "tables_repaired": 5,
+      "before_sha256": "18742c9fedad6a03e90f5462eadb21b681540d853dbc8d7581f46deace641f57",
+      "after_sha256": "bc7703299e0a2d1a07200fef15df0bebae019696c3409790f6019e5fd61812f9",
+      "repairs": [
+        {
+          "page_no": 33,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "11bf6cdc0dde69ee67c322f49bd25980d46beae73643450fbdbed7ffddea0a82"
+        },
+        {
+          "page_no": 47,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "a7872011025369ee54e78b5673554dd3c9bdcee26ec47450bce8949f0edc5fd1"
+        },
+        {
+          "page_no": 57,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "38de3606e806fe77e90fd7f2ccbc13c5e3c2044c698afb78a5afbb94ee6c0f62"
+        },
+        {
+          "page_no": 60,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "1e7e11c6667ca1b8af32ad741cf6edc4cd0bbdc6ddd337aceef61cbc12533bed"
+        },
+        {
+          "page_no": 76,
+          "block_index": 0,
+          "bbox_distance": 4.0,
+          "html_sha256": "aa26c5de8bbc110aabc21e7e68d17c39f8ea9e8c5a546c019df5c6bb9321095f"
+        }
+      ]
+    },
+    {
+      "report_id": "920665_科强股份_2025_ESG报告",
+      "tables_repaired": 1,
+      "before_sha256": "59fd54d40e3411e19d11aaaebaca38b43bc2207c425037fabfb2d781ed96da9f",
+      "after_sha256": "cbb654dbd5ae1f47369b6e7bb514b8740cdc49bf0e843555c407c856040b6f03",
+      "repairs": [
+        {
+          "page_no": 42,
+          "block_index": 0,
+          "bbox_distance": 5.0,
+          "html_sha256": "abc4b5bbe1babf1e2d39290b45b98c1af7c1c9ebb0a577bcc958deca018d7baf"
+        }
+      ]
+    }
+  ],
+  "reports_repaired_total": 145,
+  "tables_repaired_total": 525
+}
