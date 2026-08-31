@@ -5,8 +5,8 @@ import {Background, Brand, C, Footer, SceneTitle} from '../theme';
 const badges = [
   ['10,015', '生成调用'],
   ['0', '调用错误'],
-  ['68 / 68', 'Python 测试'],
-  ['18 / 18', '生产 Smoke'],
+  ['63 / 63', 'Python 测试'],
+  ['16 / 16', '生产 Smoke'],
   ['SHA-256', '冻结文件校验'],
 ];
 

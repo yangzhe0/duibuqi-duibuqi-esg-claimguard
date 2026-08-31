@@ -72,8 +72,6 @@ def main() -> int:
         pause(page, 9)
         page.mouse.wheel(0, 440)
         pause(page, 4)
-        nav(page, "金标准")
-        pause(page, 10)
         nav(page, "接入报告")
         pause(page, 8)
         nav(page, "系统总览")

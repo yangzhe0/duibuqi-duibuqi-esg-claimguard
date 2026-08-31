@@ -5,7 +5,6 @@ import json
 import tempfile
 import threading
 import unittest
-from collections import Counter
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -20,14 +19,6 @@ from dashboard_api.server import DashboardHandler
 from http.server import ThreadingHTTPServer
 from dashboard_api.model_runtime import GGML_CUDA_BACKEND, QWEN_MMPROJ_PATH, llama_server_command, runtime_assets
 from dashboard_api.preaudit import claim_graph, export_workpaper_csv, preaudit_issues, preaudit_summary
-from dashboard_api.natural_gold import (
-    build_manifest,
-    load_manifest,
-    natural_gold_evaluation,
-    natural_gold_summary,
-    natural_gold_tasks,
-    validate_annotation,
-)
 
 
 class DashboardRepositoryTests(unittest.TestCase):
@@ -377,102 +368,6 @@ class ClaimEvidencePreauditTests(unittest.TestCase):
         workpaper = export_workpaper_csv([action], self.report_id)
         self.assertTrue(workpaper.startswith(b"\xef\xbb\xbf"))
         self.assertIn("测试处置".encode("utf-8"), workpaper)
-
-
-class NaturalGoldTests(unittest.TestCase):
-    def setUp(self):
-        if not load_manifest():
-            self.skipTest("optional independent-evaluation fixtures are not part of the final public snapshot")
-
-    def test_manifest_is_deterministic_balanced_and_model_blind(self):
-        with tempfile.TemporaryDirectory() as directory:
-            first = build_manifest(Path(directory))
-            second = build_manifest(Path(directory))
-            rows = first["rows"]
-            self.assertEqual(first["metadata"]["manifest_sha256"], second["metadata"]["manifest_sha256"])
-            self.assertEqual(len(rows), 300)
-            self.assertEqual(Counter(row["dimension"] for row in rows), {"E": 100, "S": 100, "G": 100})
-            self.assertEqual(len({row["indicator_id"] for row in rows}), 65)
-            self.assertFalse(any("status" in row or "value" in row or "evidence_quote" in row for row in rows))
-
-    def test_blind_roles_do_not_receive_peer_or_model_output(self):
-        task = load_manifest()[0]
-        annotations = [self._annotation(task, "annotator_a", "missing", "Alice")]
-        item = natural_gold_tasks(annotations, "annotator_a", manifest_rows=[task])["items"][0]
-        self.assertTrue(item["blinded"])
-        self.assertFalse(item["model_output_visible"])
-        self.assertNotIn("annotations", item)
-        self.assertEqual(item["annotation"]["reviewer"], "Alice")
-
-    def test_double_annotation_disagreement_and_third_person_adjudication(self):
-        task = load_manifest()[0]
-        with tempfile.TemporaryDirectory() as directory:
-            store = ReviewStore(Path(directory) / "reviews.sqlite3")
-            a = validate_annotation(self._annotation(task, "annotator_a", "missing", "Alice"), task, [])
-            store.upsert_natural_gold_annotation(a)
-            with self.assertRaises(ValueError):
-                validate_annotation(self._annotation(task, "annotator_b", "found", "Alice"), task, store.natural_gold_annotations(task["task_id"]))
-            b_payload = self._annotation(task, "annotator_b", "found", "Bob")
-            b_payload.update({"value": "100", "evidence_pages": "2", "evidence_text": "原文证据"})
-            b = validate_annotation(b_payload, task, store.natural_gold_annotations(task["task_id"]))
-            store.upsert_natural_gold_annotation(b)
-            summary = natural_gold_summary(store.natural_gold_annotations(), [task], {"manifest_state": "frozen"})
-            self.assertEqual(summary["disagreements"], 1)
-            self.assertEqual(summary["gold_count"], 0)
-            adjudication = validate_annotation(
-                self._annotation(task, "adjudicator", "missing", "Carol"),
-                task,
-                store.natural_gold_annotations(task["task_id"]),
-            )
-            store.upsert_natural_gold_annotation(adjudication)
-            summary = natural_gold_summary(store.natural_gold_annotations(), [task], {"manifest_state": "frozen"})
-            self.assertEqual(summary["adjudicated"], 1)
-            self.assertEqual(summary["gold_count"], 1)
-            self.assertTrue(summary["ready_to_evaluate"])
-
-    def test_metrics_are_withheld_until_every_task_has_gold(self):
-        tasks = load_manifest()[:2]
-        annotations = [
-            self._annotation(tasks[0], "annotator_a", "missing", "Alice"),
-            self._annotation(tasks[0], "annotator_b", "missing", "Bob"),
-        ]
-        payload = natural_gold_evaluation(annotations, tasks, [])
-        self.assertEqual(payload["status"], "not_ready")
-        self.assertEqual(payload["metrics"], {})
-
-    def test_evaluation_unlocks_only_after_complete_consensus(self):
-        tasks = load_manifest()[:3]
-        annotations = []
-        predictions = []
-        for task in tasks:
-            annotations.extend(
-                [
-                    self._annotation(task, "annotator_a", "missing", "Alice"),
-                    self._annotation(task, "annotator_b", "missing", "Bob"),
-                ]
-            )
-            predictions.append({"report_id": task["report_id"], "indicator_id": task["indicator_id"], "status": "missing"})
-        payload = natural_gold_evaluation(annotations, tasks, predictions)
-        self.assertEqual(payload["status"], "ready")
-        self.assertEqual(payload["metrics"]["disclosure_detection"]["tn"], 3)
-
-    @staticmethod
-    def _annotation(task: dict, role: str, disclosure: str, reviewer: str) -> dict:
-        return {
-            "task_id": task["task_id"],
-            "role": role,
-            "disclosure": disclosure,
-            "subject": "",
-            "period": "",
-            "scope": "",
-            "value": "",
-            "unit": "",
-            "evidence_pages": "",
-            "evidence_text": "",
-            "confidence": "medium",
-            "note": "",
-            "reviewer": reviewer,
-        }
 
 
 if __name__ == "__main__":

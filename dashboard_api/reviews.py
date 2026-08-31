@@ -54,27 +54,6 @@ class ReviewStore:
                 )
                 """
             )
-            connection.execute(
-                """
-                CREATE TABLE IF NOT EXISTS natural_gold_annotations (
-                    task_id TEXT NOT NULL,
-                    role TEXT NOT NULL,
-                    disclosure TEXT NOT NULL,
-                    subject TEXT NOT NULL DEFAULT '',
-                    period TEXT NOT NULL DEFAULT '',
-                    scope TEXT NOT NULL DEFAULT '',
-                    value TEXT NOT NULL DEFAULT '',
-                    unit TEXT NOT NULL DEFAULT '',
-                    evidence_pages TEXT NOT NULL DEFAULT '',
-                    evidence_text TEXT NOT NULL DEFAULT '',
-                    confidence TEXT NOT NULL DEFAULT 'medium',
-                    note TEXT NOT NULL DEFAULT '',
-                    reviewer TEXT NOT NULL,
-                    updated_at TEXT NOT NULL,
-                    PRIMARY KEY (task_id, role)
-                )
-                """
-            )
 
     def upsert(self, payload: dict[str, Any]) -> dict[str, Any]:
         label = str(payload.get("label", ""))
@@ -141,7 +120,7 @@ class ReviewStore:
             "recall": None,
             "f1": None,
             "metrics_status": "workflow_labels_only",
-            "note": "普通复核记录不是冻结金标准，因此不计算 Precision、Recall 或 F1。",
+            "note": "普通复核记录不是独立人工测试数据，因此不计算 Precision、Recall 或 F1。",
         }
 
     def upsert_issue_action(self, payload: dict[str, Any]) -> dict[str, Any]:
@@ -186,52 +165,4 @@ class ReviewStore:
         query += " ORDER BY updated_at DESC"
         with self._connect() as connection:
             rows = connection.execute(query, params).fetchall()
-        return [dict(row) for row in rows]
-
-    def upsert_natural_gold_annotation(self, values: dict[str, Any]) -> dict[str, Any]:
-        saved = {
-            **values,
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-        }
-        with self._connect() as connection:
-            connection.execute(
-                """
-                INSERT INTO natural_gold_annotations VALUES (
-                    :task_id, :role, :disclosure, :subject, :period, :scope,
-                    :value, :unit, :evidence_pages, :evidence_text, :confidence,
-                    :note, :reviewer, :updated_at
-                )
-                ON CONFLICT(task_id, role) DO UPDATE SET
-                    disclosure=excluded.disclosure,
-                    subject=excluded.subject,
-                    period=excluded.period,
-                    scope=excluded.scope,
-                    value=excluded.value,
-                    unit=excluded.unit,
-                    evidence_pages=excluded.evidence_pages,
-                    evidence_text=excluded.evidence_text,
-                    confidence=excluded.confidence,
-                    note=excluded.note,
-                    reviewer=excluded.reviewer,
-                    updated_at=excluded.updated_at
-                """,
-                saved,
-            )
-        return saved
-
-    def natural_gold_annotations(self, task_id: str = "", role: str = "") -> list[dict[str, Any]]:
-        clauses: list[str] = []
-        params: list[str] = []
-        if task_id:
-            clauses.append("task_id = ?")
-            params.append(task_id)
-        if role:
-            clauses.append("role = ?")
-            params.append(role)
-        where = f" WHERE {' AND '.join(clauses)}" if clauses else ""
-        with self._connect() as connection:
-            rows = connection.execute(
-                f"SELECT * FROM natural_gold_annotations{where} ORDER BY updated_at DESC",
-                params,
-            ).fetchall()
         return [dict(row) for row in rows]

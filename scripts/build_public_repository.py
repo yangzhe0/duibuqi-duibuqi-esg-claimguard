@@ -27,6 +27,7 @@ EXTRA_FILES = [
     "NOTICE.md",
     "README.md",
     "docs/PUBLIC_REPOSITORY.md",
+    "data/README.md",
     "data/download_log.csv",
     "data/report_index.csv",
     "dashboard_web/index.html",
@@ -36,10 +37,7 @@ EXTRA_FILES = [
     "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
     "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf",
 ]
-EXCLUDED_PUBLIC_FILES = {
-    "dashboard_web/src/pages/NaturalGoldPage.tsx",
-    "scripts/build_natural_gold.py",
-}
+EXCLUDED_PUBLIC_FILES: set[str] = set()
 
 
 def sha256_bytes(payload: bytes) -> str:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T09:17:59+00:00",
+  "generated_at": "2026-08-31T13:26:06+00:00",
   "official_deadline": "2026-09-01T23:59:00+08:00",
   "scope": "第八届中国研究生人工智能创新大赛开放赛题初赛",
   "inference": {
@@ -9,9 +9,9 @@
     "llm_calls": 10015,
     "llm_error_count": 0,
     "result_error_count": 0,
-    "timed_final_candidate_rows": 9806,
-    "average_timed_final_row_seconds": 2.777,
-    "p95_timed_final_row_seconds": 3.718,
+    "timed_result_rows": 11280,
+    "median_timed_result_row_seconds": 2.765,
+    "p95_timed_result_row_seconds": 3.683,
     "last_run_wall_seconds": 27928.801,
     "evidence_quote_complete_rate": 1.0,
     "block_id_resolvable_rate": 1.0,
@@ -27,13 +27,13 @@
     {
       "requirement": "可运行的 AI 原型",
       "status": "ready",
-      "evidence": "生产 smoke test 18 个端点通过",
+      "evidence": "生产 smoke test 16 个端点通过",
       "next": "保持一键验收进入提交包"
     },
     {
       "requirement": "AI inference 效果与运行指标",
       "status": "ready",
-      "evidence": "V3：200 份报告、10015 次 Qwen3.6 生成、错误 0；9806 条保留候选行具有可用行级耗时",
+      "evidence": "V3：200 份报告、10015 次 Qwen3.6 生成、错误 0；11280 条结果具有正行级耗时",
       "next": "在项目文档中与准确率指标分栏呈现"
     },
     {
@@ -45,7 +45,7 @@
     {
       "requirement": "创新性论证",
       "status": "ready",
-      "evidence": "项目文档和创新矩阵已集中说明四项机制、现有证据、待验证增益与失败退化方案",
+      "evidence": "项目文档已用真实来源、数据格式、产品截图、典型正反案例和冻结结果说明四项机制",
       "next": "保持工程证据与效果指标边界"
     },
     {
@@ -74,9 +74,9 @@
     },
     {
       "requirement": "5 分钟以内项目视频",
-      "status": "ready",
-      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4",
-      "next": "无字幕画面、独立配音和真实工作台录屏均须通过最终抽帧复核"
+      "status": "partial",
+      "evidence": "现有 MP4 格式合格，但测试计数和已删除功能的口播已在源码中修正，尚未重渲染",
+      "next": "按当前音频与 Remotion 源码局部重渲染并抽帧复核"
     },
     {
       "requirement": "200 MB 内其他材料 ZIP",
@@ -86,7 +86,8 @@
     }
   ],
   "status_counts": {
-    "ready": 10
+    "ready": 9,
+    "partial": 1
   },
   "agent_can_complete_without_human_labels": [
     "提交文件自动复验与口径审计"

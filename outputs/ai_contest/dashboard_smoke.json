@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "generated_at": "2026-08-31T06:25:34+00:00",
+  "generated_at": "2026-08-31T13:17:57+00:00",
   "python": "conda:paperagent",
   "server_command": [
     "bash",
@@ -8,144 +8,150 @@
     "--host",
     "127.0.0.1",
     "--port",
-    "48037"
+    "56231"
   ],
   "isolated_state": true,
-  "base_url": "http://127.0.0.1:48037",
+  "base_url": "http://127.0.0.1:56231",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "content_type": "text/html",
       "bytes": 515,
-      "elapsed_ms": 3.8
+      "elapsed_ms": 4.26
     },
     {
       "path": "/api/health",
       "status": 200,
       "content_type": "application/json",
       "bytes": 821,
-      "elapsed_ms": 1.55
+      "elapsed_ms": 1.77
     },
     {
       "path": "/api/summary",
       "status": 200,
       "content_type": "application/json",
       "bytes": 528,
-      "elapsed_ms": 83.66
+      "elapsed_ms": 90.56
     },
     {
       "path": "/api/reports",
       "status": 200,
       "content_type": "application/json",
       "bytes": 60104,
-      "elapsed_ms": 2.37
+      "elapsed_ms": 2.62
     },
     {
       "path": "/api/indicators",
       "status": 200,
       "content_type": "application/json",
       "bytes": 22312,
-      "elapsed_ms": 3.08
+      "elapsed_ms": 1.74
     },
     {
       "path": "/api/review-metrics",
       "status": 200,
       "content_type": "application/json",
-      "bytes": 478,
-      "elapsed_ms": 3.28
+      "bytes": 487,
+      "elapsed_ms": 2.05
     },
     {
       "path": "/api/audit/summary",
       "status": 200,
       "content_type": "application/json",
       "bytes": 743,
-      "elapsed_ms": 165.8
+      "elapsed_ms": 162.0
     },
     {
       "path": "/api/preaudit/summary",
       "status": 200,
       "content_type": "application/json",
       "bytes": 334,
-      "elapsed_ms": 196.68
-    },
-    {
-      "path": "/api/natural-gold/summary",
-      "status": 200,
-      "content_type": "application/json",
-      "bytes": 838,
-      "elapsed_ms": 3.05
-    },
-    {
-      "path": "/api/natural-gold/evaluation",
-      "status": 200,
-      "content_type": "application/json",
-      "bytes": 204,
-      "elapsed_ms": 3.73
+      "elapsed_ms": 199.11
     },
     {
       "path": "/api/tasks",
       "status": 200,
       "content_type": "application/json",
       "bytes": 25,
-      "elapsed_ms": 1.75
+      "elapsed_ms": 1.79
     },
     {
       "path": "/api/results?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A&limit=65",
       "status": 200,
       "content_type": "application/json",
       "bytes": 112054,
-      "elapsed_ms": 5.25
+      "elapsed_ms": 5.03
     },
     {
       "path": "/api/result/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A/e_ghg_total",
       "status": 200,
       "content_type": "application/json",
       "bytes": 1683,
-      "elapsed_ms": 1.13
+      "elapsed_ms": 1.38
     },
     {
       "path": "/api/preaudit/issues?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A&include_closed=true",
       "status": 200,
       "content_type": "application/json",
       "bytes": 1180,
-      "elapsed_ms": 2.54
+      "elapsed_ms": 3.25
     },
     {
       "path": "/api/preaudit/graph?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
       "status": 200,
       "content_type": "application/json",
       "bytes": 31004,
-      "elapsed_ms": 2.22
+      "elapsed_ms": 4.15
     },
     {
       "path": "/api/evidence/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A?block_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A%3Ap43%3Ab0",
       "status": 200,
       "content_type": "application/json",
       "bytes": 1303,
-      "elapsed_ms": 5.58
+      "elapsed_ms": 5.66
     },
     {
       "path": "/api/pdf/000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
       "status": 200,
       "content_type": "application/pdf",
       "bytes": 18571555,
-      "elapsed_ms": 10.43
+      "elapsed_ms": 17.93
     },
     {
       "path": "/api/preaudit/workpaper.csv?report_id=000016_%E6%B7%B1%E5%BA%B7%E4%BD%B3%EF%BC%A1_2025_ESG%E6%8A%A5%E5%91%8A",
       "status": 200,
       "content_type": "text/csv",
       "bytes": 638,
-      "elapsed_ms": 2.0
+      "elapsed_ms": 2.83
     }
   ],
   "assertions": {
     "report_count_at_least_200": true,
     "indicator_count_is_65": true,
-    "result_count_matches_reports_times_indicators": true,
-    "natural_gold_metrics_remain_locked": true
+    "result_count_matches_reports_times_indicators": true
   },
-  "check_count": 18,
-  "server_log_tail": []
+  "check_count": 16,
+  "server_log_tail": [
+    "",
+    "12 packages are looking for funding",
+    "  run `npm fund` for details",
+    "",
+    "found 0 vulnerabilities",
+    "",
+    "> esg-evidence-dashboard@0.1.0 build",
+    "> tsc -b && vite build",
+    "",
+    "vite v6.4.3 building for production...",
+    "transforming...",
+    "✓ 40 modules transformed.",
+    "rendering chunks...",
+    "computing gzip size...",
+    "dist/index.html                              0.52 kB │ gzip:   0.36 kB",
+    "dist/assets/pdf.worker.min-r-TJsTTt.mjs  1,039.21 kB",
+    "dist/assets/index-DiYXWT6N.css              36.64 kB │ gzip:   8.09 kB",
+    "dist/assets/index-Bmy3f-8O.js              225.22 kB │ gzip:  70.74 kB",
+    "dist/assets/WorkbenchPage-OE5XYNa9.js      421.34 kB │ gzip: 124.46 kB",
+    "✓ built in 1.01s"
+  ]
 }

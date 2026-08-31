@@ -1,113 +1,138 @@
 # ESG ClaimGuard
 
-ESG ClaimGuard 是面向上市公司可持续发展报告编制与内部复核人员的披露一致性预审系统。系统对 ESG PDF 报告执行版面解析、ESG-65 指标抽取、逐字证据追溯和一致性检查，最终输出可定位到页码与内容块的结构化结果和问题底稿。
+ESG ClaimGuard 是面向上市公司可持续发展报告编制与内部复核人员的披露一致性预审系统。它把长篇 PDF 转换为按 ESG 指标组织的证据任务：每条候选结果都保存报告、页码、内容区块、逐字引文、数值与单位来源，并可在网页中回到原文、记录处置、导出底稿。
 
-项目不做企业 ESG 评分、排名、投资建议或法定审计结论。`found`、`missing` 和系统风险提示也不等于人工真值；本作品不把未经独立人工评测的 Precision、Recall 或 F1 作为成果声明。
+本项目参加第八届中国研究生人工智能创新大赛，赛题为“开放赛题—生成式大语言模型与智能体”，团队为“队不起队不起”。项目不提供企业 ESG 评分、投资建议、法定审计或违规认定。
 
-## 当前正式链路
+![ESG ClaimGuard 系统总览](docs/ai_contest/assets/product_overview.png)
+
+## 为什么做这个项目
+
+复核一份 ESG 报告时，真正耗时的是在段落、表格、脚注和附录中定位指标，再核对主体、期间、数值、单位与口径。关键词容易漏掉同义表达，整份 PDF 自由问答又难以稳定给出页码和逐字证据。
+
+ESG ClaimGuard 采用如下链路：
 
 ```text
-冻结 manifest 选取的 200 份 ESG PDF（10,528 页）
-  → MinerU2.5-Pro-2605-1.2B / vlm-engine
-  → 带页码、block、表格和版面信息的 canonical parsed 数据
-  → Qwen3.6-27B Q4_K_M / 8,192 token context
-  → ESG-65 证据约束抽取
-  → 确定性数值、单位、引用和 lineage 校验
-  → 13,000 条 report × indicator 结果
+巨潮资讯公开公告与 PDF
+  → 下载日志、来源 URL 与 SHA-256
+  → MinerU 版面解析（页码、block、表格、bbox）
+  → ESG-65 指标候选召回
+  → Qwen3.6-27B 受约束结构化抽取
+  → 页码、区块、逐字引文、数值与单位校验
   → 声明—证据约束图与人工处置工作台
 ```
 
-两个模型顺序运行，不同时驻留。MinerU 负责文档视觉解析；Qwen 只处理召回后的候选证据，不承担逐页 OCR。证据引用必须能回到同一报告、页码和 block 的原文。
+模型负责理解候选原文，程序负责验证证据，复核人员负责最终判断。`found` 表示结果通过内部证据合同，`missing` 表示当前解析与召回范围内没有找到合格候选；二者都不是人工真值。
 
-## 当前状态
+## 正式数据结果
 
-- MinerU 全量解析完成：200/200，10,528/10,528 页。
-- Qwen 全量结果完成：13,000/13,000 个唯一 report × indicator 键。
-- 最终分布：found 7,688，missing 5,312，error 0。
-- 7,688 条 found 全部通过 canonical block 逐字证据追溯；3,214 条定量 found 全部具有值和来源单位。
-- 首次抽取的 209 条证据引用失败已由三个 Codex Agent 模拟人工核验，形成 `manual_reconciliation.csv/json`；193 条为严格可追溯 found，16 条保守判为 missing。
-- `validation.json` 全部通过，`CHECKSUMS.sha256` 复核成功，`COMPLETE.json` 已生成。
-- 冻结产物仍保留可复验的运行 ID 路径 `outputs/formal_v3_mineru25_qwen36/`；产品与 dashboard 统一使用中性数据集名 `formal_current`。数据已自包含，历史桥接依赖已移至系统回收站。
+正式队列由 `outputs/formal_v3_mineru25_qwen36/input_manifest.csv` 冻结：
 
-实时检查必须使用 CSV 解析器，不能用 `wc -l` 统计数据行，因为字段可能包含换行：
+- 200 份公开 ESG、可持续发展或社会责任类报告；
+- 10,528 页规范解析结果；
+- 环境 25、社会 20、治理 20，共 65 项指标；
+- 13,000 个唯一 `report_id × indicator_id` 任务；
+- found 7,688、missing 5,312、error 0；
+- 7,688 条 found 均通过报告、页码、区块与逐字引文检查；
+- 3,214 条定量 found 均保存值、单位和来源字段。
 
-```bash
-cd <project-root>
-tmux list-sessions
-pgrep -af 'run_esg_formal_v3.py|llama-server'
-nvidia-smi --query-compute-apps=pid,used_memory --format=csv,noheader
-/opt/miniconda3/bin/conda run -n paperagent python - <<'PY'
-import csv
-from collections import Counter
-from pathlib import Path
-p = Path('outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv')
-rows = list(csv.DictReader(p.open(encoding='utf-8-sig'))) if p.is_file() else []
-print('rows=', len(rows), 'reports=', len(rows) / 65 if rows else 0)
-print('status=', Counter(row['status'] for row in rows))
-PY
-```
+这些数字证明正式任务网格完成、内部证据字段可追溯，不证明未经独立人工评测的语义准确率。
 
-## 唯一结果口径
+## 一条结果如何回到原文
 
-项目只交付 MinerU2.5 Pro + Qwen3.6-27B 对 200 份报告运行的这一套全量结果。部分冻结文件名带版本字符，仅用于保持运行证据和校验和，不代表多套产品。运行时不再依赖旧版目录或桥接文件。
+以深康佳 A 报告为例，正式结果把“温室气体排放总量”定位到第 43 页表格区块，抽取值为 113,126.46 吨二氧化碳当量。工作台同时显示 PDF 原页、结构化结果和逐字证据：
 
-## 项目结构
+![PDF 原文与抽取结果](docs/ai_contest/assets/product_evidence.png)
+
+结果行位于 `outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv`，原始 PDF 位于 `data/raw_pdfs/`，解析区块位于冻结结果的 `parsed/`。三者通过 `report_id`、文件哈希、`page_no` 和 `block_id` 连接。
+
+## 数据包说明
+
+数据形成过程不是黑箱，具体字段见 [data/README.md](data/README.md)。主要文件如下：
+
+| 文件或目录 | 内容 |
+|---|---|
+| `data/download_log.csv` | 检索条目的下载、跳过和失败记录 |
+| `data/report_index.csv` | 公告来源、附件 URL、本地文件、SHA-256 与大小 |
+| `data/raw_pdfs/` | 210 份已下载公开报告；正式队列只使用 manifest 中的 200 份 |
+| `outputs/formal_v3_mineru25_qwen36/input_manifest.csv` | 正式队列顺序、文件哈希、大小和页数 |
+| `.../indicator_pool.csv` | ESG-65 指标定义、类型和检索信息 |
+| `.../parsed/` | MinerU 规范页与区块数据 |
+| `.../extraction/extraction_results.csv/json` | 13,000 条正式抽取结果 |
+| `.../validation.json` | 任务、证据、来源字段和谱系验证结果 |
+| `.../CHECKSUMS.sha256` | 冻结轻量产物校验和 |
+
+## 仓库结构
 
 ```text
-data/raw_pdfs/                         源 PDF 存放目录（正式队列以 input_manifest.csv 的 200 份为准）
-outputs/formal_v3_mineru25_qwen36/     自包含、带校验和的冻结正式数据
-dashboard_api/                         API、约束图、处置记录和任务编排
-dashboard_web/                         React + TypeScript + Vite 工作台
-src/esg_demo/                          中性命名的抽取核心
-scripts/                               当前运行、验收、展示和提交构建工具
-docs/ai_contest/HANDOFF.md             当前唯一项目交接基准
-docs/ai_contest/FULL_RUN.md            全量运行与完成门手册
-latex/                                 技术论文、正式图表和图表契约
-video/claimguard-remotion/              Remotion 无声视频工程
-tests/                                 当前保留功能的测试
+contest_xiaoshumo/
+├── README.md                         项目入口与复验说明
+├── dashboard_api/                    查询、证据、预审、处置与任务 API
+├── dashboard_web/                    React + TypeScript 工作台
+├── src/esg_demo/                     解析后召回与结构化抽取核心
+├── scripts/                          数据获取、正式运行、验证与材料构建
+├── data/                             来源索引、下载日志与原始报告
+├── outputs/formal_v3_mineru25_qwen36 冻结正式运行数据
+├── docs/ai_contest/                  题目分析、运行说明和参赛材料源稿
+├── latex/                            XeLaTeX 源文件与正式图表
+├── video/claimguard-remotion/        无声视频工程与画面素材
+├── tests/                            当前产品与正式数据测试
+└── outputs/ai_contest/submission/    最终提交件与验收报告
 ```
 
-旧困难页 A/B、Pilot-30、旧 dashboard 探针、旧 quality/review 输出、旧提交草案和基于 V2 的 PDF/ZIP/视频已经删除，不能作为当前证据引用。
+评审建议先阅读：
 
-## 快速审阅
+1. 本 README；
+2. `docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md`；
+3. `data/README.md`；
+4. `docs/ai_contest/HANDOFF.md`；
+5. `outputs/formal_v3_mineru25_qwen36/validation.json`。
 
-后端 API 使用 Python 3.11+ 标准库。前端依赖由 `dashboard_web/package-lock.json` 固定：
+## 快速启动
 
-```bash
-python -m dashboard_api.server
-cd dashboard_web
-npm ci
-npm run dev
-```
-
-默认访问地址为 `http://127.0.0.1:5173`；生产脚本见 `scripts/run_dashboard.sh`。完整 PDF 解析和 Qwen 推理需要额外配置 MinerU、模型权重与 GPU，轻量数据审阅不需要这些大体积资产。
-
-## 本机环境
-
-运行 Python 前先检查 Conda：
+运行 Python 前先检查已有 Conda 环境：
 
 ```bash
 /opt/miniconda3/bin/conda env list
 ```
 
-- Conda 环境 `paperagent`：项目 Python、测试、API 和编排。
-- Conda 环境 `mineru`：MinerU 文档解析。
-- Conda 环境 `catalog`：图表与可视化。
-- `/opt/miniconda3`：Conda base。
+当前机器使用 `paperagent` 运行项目 API、测试和脚本，使用 `mineru` 执行 PDF 解析。启动冻结数据工作台：
 
-不要重复安装已有依赖，不要假定当前 shell 的 PATH 已激活环境。
+```bash
+cd <project-root>
+bash scripts/run_dashboard.sh --host 127.0.0.1 --port 8765
+```
 
-## 复验与交付顺序
+访问 `http://127.0.0.1:8765`。浏览冻结结果不需要重新运行 MinerU 或 Qwen；“接入报告”功能需要对应模型与 GPU 就绪。
 
-1. 验证 13,000 个唯一 `report_id × indicator_id`，每份报告恰好 65 条，error 为 0。
-2. 只读取已冻结的 209 条 Codex Agent 模拟人工工程复核，不重新执行模型或核验。
-3. 运行 `scripts/run_esg_formal_v3.py --stage validate`，检查 `validation.json`、差异报告、校验和和 `COMPLETE.json`。
-4. 核验 dashboard 只读取 `formal_current`，历史桥接目录保持不存在。
-5. 构建项目文档、300 字简介、技术论文、图表、实机视频和最终 ZIP。
-6. 运行完整测试、dashboard smoke、readiness 和 final submission validator。
+## 复验
 
-详细交接信息和强制边界见 [HANDOFF.md](docs/ai_contest/HANDOFF.md)。
+```bash
+cd <project-root>
+/opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
+/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
+/opt/miniconda3/bin/conda run -n paperagent python scripts/smoke_dashboard.py
+(cd outputs/formal_v3_mineru25_qwen36 && sha256sum -c CHECKSUMS.sha256)
+(cd dashboard_web && npm run build)
+git diff --check
+```
 
-公开上传时不要直接包含当前 `.git` 历史、原始报告、解析目录、模型、日志或缓存。使用 `scripts/build_public_repository.py` 生成经过白名单和敏感信息检查的干净快照，边界说明见 [PUBLIC_REPOSITORY.md](docs/PUBLIC_REPOSITORY.md)。
+完整重新解析 200 份报告还需要 MinerU、Qwen3.6 权重和 GPU，步骤见 `docs/ai_contest/FULL_RUN.md`。冻结结果不应通过重新推理覆盖；如果验证失败，应先定位数据、代码或材料之间的不一致。
 
-第三方资产与再分发边界见 [NOTICE.md](NOTICE.md)；当前快照用于赛事评审，并未对整个项目授予统一开源许可证。
+## 文档与提交件
+
+正式文档采用 Markdown → XeLaTeX → PDF，避免 Word 排版中的图表越界和样式漂移：
+
+```bash
+/opt/miniconda3/bin/conda run -n paperagent python scripts/render_submission_latex.py
+```
+
+官方提交目录 `outputs/ai_contest/submission/final/` 只保留四个文件：参赛作品简介 PDF、项目文档 PDF、项目视频 MP4、其他材料 ZIP。文件生成完成不等于已经上传到比赛平台。
+
+## 团队分工
+
+- 队长：杨哲——总体统筹、需求与方案设计、指标和业务流程、成果整合及参赛材料。
+- 队员1：邱宇强——报告数据、MinerU 解析、候选召回、大模型抽取与正式数据运行。
+- 队员2：王恒岳——前后端工作台、证据复核、问题处置、可视化、测试与交付整理。
+
+第三方依赖和许可证见 `docs/ai_contest/submission/ESG_ClaimGuard_第三方依赖与许可.md`；公开报告原文版权归发布主体，部署与再分发前应核对来源网站条款。

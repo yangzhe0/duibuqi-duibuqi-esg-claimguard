@@ -14,7 +14,7 @@ export const Results: React.FC = () => {
   return (
     <Background>
       <Brand section="冻结正式结果" />
-      <SceneTitle eyebrow="REPRODUCIBLE RESULTS" title="完整运行，不等于准确率" subtitle="规模、覆盖与工程状态可以复算；准确率必须等待独立金标准。" />
+      <SceneTitle eyebrow="REPRODUCIBLE RESULTS" title="完整运行，不等于准确率" subtitle="规模、覆盖与工程状态可以复算；准确率必须由独立人工测试支持。" />
       <div style={{position: 'absolute', left: 90, top: 500, display: 'flex', flexDirection: 'column', gap: 14, zIndex: 8, scale: 0.82, transformOrigin: 'top left'}}>
         <Metric value="13,000" label="唯一 report × indicator 结果" delay={fps * 1.0} />
         <Metric value="7,688" label="found｜严格原串证据" delay={fps * 1.25} accent={C.green2} />

@@ -8,7 +8,7 @@
   "parser": {
     "name": "MinerU2.5-Pro-2605-1.2B",
     "backend": "vlm-engine",
-    "binary": "/home/sues01/.conda/envs/mineru/bin/mineru",
+    "binary": "mineru",
     "version": "mineru, version 3.4.0",
     "model_source": "modelscope"
   },

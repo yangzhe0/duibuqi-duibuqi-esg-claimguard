@@ -199,7 +199,7 @@ def render_markdown(markdown: str) -> str:
         elif kind == "bullet_list_close":
             output.append(r"\end{itemize}")
         elif kind == "list_item_open":
-            output.append(r"\item ")
+            output.append(r"\item")
         elif kind == "blockquote_open":
             output.append(r"\begin{quote}\color{brandgray}")
         elif kind == "blockquote_close":

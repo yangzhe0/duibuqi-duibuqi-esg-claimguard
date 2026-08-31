@@ -160,11 +160,6 @@ def _command_text(command: list[str]) -> str:
     return completed.stdout.strip()
 
 
-def _natural_gold_files() -> list[Path]:
-    root = PROJECT_ROOT / "data/evaluation/natural_gold/v1"
-    return sorted(path for path in root.rglob("*") if path.is_file())
-
-
 def _file_hashes(paths: list[Path]) -> dict[str, str]:
     return {str(path.relative_to(PROJECT_ROOT)): sha256(path) for path in paths}
 
@@ -197,14 +192,12 @@ def enrich_manifest(root: Path, manifest: dict) -> dict:
             "cohort_id": "esg-claimguard-formal-200",
             "is_full_200": True,
             "evaluation_kind": "engineering_run_not_accuracy_evaluation",
-            "natural_gold_unlocked": False,
             "promotion": "not_promoted",
             "input_manifest": {
                 "path": str(input_manifest.relative_to(PROJECT_ROOT)),
                 "sha256": sha256(input_manifest),
             },
-            "protected_input_hashes": manifest.get("protected_input_hashes")
-            or {"natural_gold": _file_hashes(_natural_gold_files())},
+            "protected_input_hashes": manifest.get("protected_input_hashes") or {},
             "source_control": manifest.get("source_control")
             or {
                 "commit": _command_text(["git", "rev-parse", "HEAD"]),
@@ -251,14 +244,6 @@ def enrich_manifest(root: Path, manifest: dict) -> dict:
 def verify_protected_inputs(manifest: dict) -> None:
     if sha256(INDICATOR_POOL) != manifest["indicator_pool"]["sha256"]:
         raise RuntimeError("Indicator pool changed after the v3 cohort was frozen")
-    expected = manifest["protected_input_hashes"]
-    for group in ("natural_gold",):
-        for relative, digest in expected.get(group, {}).items():
-            path = PROJECT_ROOT / relative
-            if "pilot30" in relative and not path.exists():
-                continue
-            if not path.is_file() or sha256(path) != digest:
-                raise RuntimeError(f"Protected {group} input changed: {relative}")
     for row in manifest["reports"]:
         path = PROJECT_ROOT / row["pdf"]
         if (
@@ -330,7 +315,6 @@ def build_manifest(root: Path) -> dict:
             "write_root": str(root.relative_to(PROJECT_ROOT)),
             "protected": [
                 "data/raw_pdfs",
-                "data/evaluation/natural_gold_v1",
                 "dashboard formal database",
             ],
         },
@@ -1361,7 +1345,7 @@ def compare_legacy(root: Path) -> dict:
     existing = root / "legacy_comparison.json"
     if existing.is_file():
         return read_json(existing)
-    return {"comparison_only_not_accuracy": True, "natural_gold_used": False, "legacy_removed": True}
+    return {"comparison_only_not_accuracy": True, "independent_benchmark_used": False, "legacy_removed": True}
 
 
 def write_checksums(root: Path) -> dict[str, str]:
@@ -1473,7 +1457,6 @@ def main() -> int:
             "result_rows": EXPECTED_RESULTS,
             "validation_passed": validation["passed"],
             "evaluation_kind": "engineering_run_not_accuracy_evaluation",
-            "natural_gold_unlocked": False,
             "promotion": "not_promoted",
             "checksums_sha256": sha256(root / "CHECKSUMS.sha256"),
             "artifact_count": len(checksums),

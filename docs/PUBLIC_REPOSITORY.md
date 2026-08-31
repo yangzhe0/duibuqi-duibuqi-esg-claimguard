@@ -1,37 +1,35 @@
-# ESG ClaimGuard 公开仓库说明
+# 仓库发布与数据边界
 
-## 上传边界
+本项目有两种对外形式，作用不同：
 
-公开仓库应使用构建脚本生成的干净快照，不应直接上传当前工作目录，也不应携带原 `.git` 历史。当前工程的完整运行资产包含公开报告 PDF、MinerU 解析产物、模型运行日志和本地模型文件，体积大且可能受上游再分发条款约束，因此不属于公开代码快照。
+1. **Git 仓库**：保存完整开发历史、当前代码、210 份原始 PDF、正式抽取结果、文档源稿和提交材料；清理前状态由标签 `archive/pre-cleanup-20260831` 与提交 `a274286d` 保留。
+2. **轻量公开 ZIP**：由 `scripts/build_public_repository.py` 生成，面向 200 MiB 限制的附件上传；不包含 `.git`、原始 PDF、完整 MinerU 解析目录、模型权重、日志和缓存。
 
-公开快照包含：
+两者不是两套产品。Git 仓库用于追溯和完整交接，轻量 ZIP 用于受文件大小与分发边界限制的评审附件。
 
-- Dashboard API、React 前端、抽取核心、测试与当前维护脚本；
-- 项目文档源稿、XeLaTeX 源文件、图表和依赖许可清单；
-- 冻结正式运行的轻量 manifest、汇总、验证报告、抽取结果和校验和；
-- Remotion 视频工程源文件及演示所需的项目自有素材；
-- 逐文件大小与 SHA-256 清单。
+## 当前 Git 仓库包含什么
 
-公开快照不包含：
+- Dashboard API、React 前端、抽取核心、测试和维护脚本；
+- 数据来源索引、下载日志和 210 份公开报告 PDF；
+- 200 份正式队列的 manifest、13,000 条抽取结果、验证报告与校验和；
+- 项目文档 Markdown、XeLaTeX 源文件、图表与真实产品截图；
+- Remotion 视频工程与现有视频材料；
+- 比赛四项最终提交件。
 
-- 原始 ESG 报告 PDF 和 MinerU `parsed/` 目录；
-- Qwen、MinerU 或其他模型权重；
-- `node_modules`、构建缓存、日志、临时文件和本机软链接；
-- `.git` 历史、密钥、令牌、环境变量文件和个人绝对路径；
-- 比赛最终视频、独立配音等大体积上传件，它们仍在比赛正式提交目录单独管理。
+完整 MinerU `parsed/` 目录约 9.8 GiB，当前工作区保留但由 `.gitignore` 排除；清理前远端历史中仍可回溯旧解析数据。模型权重、`node_modules`、缓存、日志、环境变量和本地 SQLite 不进入 Git。
 
-## 构建与验证
+## 轻量 ZIP
 
 ```bash
 cd <project-root>
 /opt/miniconda3/bin/conda env list
-/opt/miniconda3/bin/conda run -n base python scripts/build_public_repository.py
+/opt/miniconda3/bin/conda run -n paperagent python scripts/build_public_repository.py
 ```
 
-输出位于 `outputs/public_repository/`。构建过程采用白名单收集文件，检查路径安全、敏感文件名、本机绝对路径、私钥头和 Bearer Token，并生成 `PUBLIC_REPOSITORY_MANIFEST.json`。
+输出位于 `outputs/public_repository/`。构建采用白名单收集，检查路径安全、敏感文件名、本机绝对路径、私钥头和令牌，并生成逐文件大小与 SHA-256 清单。
 
-如需上传到 Git 托管网站，建议解压公开快照后在新目录执行 `git init`，不要复用当前项目的历史 `.git` 目录。
+轻量 ZIP 可以直接复验抽取结果、API、前端构建和文档生成。完整重跑还需要从 Git 仓库或合法来源准备原始 PDF，并配置 MinerU、Qwen3.6 权重与 GPU。
 
-## 复现层级
+## 版权与敏感信息
 
-公开快照可以直接复验轻量数据、API、前端构建和文档生成。重新执行 200 份报告的完整解析与推理，还需要自行准备有权使用的报告文件、MinerU 运行环境、Qwen3.6 模型权重及相应 GPU 资源。
+公开报告原文版权归发布主体。仓库中的 PDF 用于竞赛研究与复验，对外再分发或商用前需重新核对来源网站条款。推送前必须继续执行敏感路径与内容扫描，不得提交 `.env`、密钥、令牌、个人数据库或模型权重。

@@ -18,6 +18,7 @@ PROJECT_NAME = "ESG ClaimGuard"
 INCLUDE_FILES = [
     "docs/ai_contest/submission/ESG_ClaimGuard_其他材料说明.md",
     "docs/ai_contest/submission/requirements-submission.txt",
+    "data/README.md",
     "dashboard_web/README.md",
     "dashboard_web/package.json",
     "dashboard_web/package-lock.json",
@@ -47,9 +48,8 @@ INCLUDE_FILES = [
     "outputs/ai_contest/competition_readiness.md",
     "outputs/ai_contest/dashboard_smoke.md",
     "outputs/ai_contest/frontend_dependency_licenses.md",
-    "outputs/ai_contest/independent_revalidation_issues.json",
-    "outputs/ai_contest/submission/ESG_ClaimGuard_视频重制与最终复验报告_20260831.md",
     "outputs/ai_contest/submission/latex_build_report.json",
+    "outputs/ai_contest/submission/ESG_ClaimGuard_仓库整理与交付报告_20260831.md",
     "docs/ai_contest/术语表格.md",
     "docs/ai_contest/题目分析.md",
     "docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md",
@@ -69,15 +69,12 @@ INCLUDE_TREES = [
     "tests",
     "latex/figures",
     "latex/submission",
+    "docs/ai_contest/assets",
 ]
 ALLOWED_SUFFIXES = {".py", ".ts", ".tsx", ".css", ".html", ".sh", ".md", ".txt", ".srt", ".tex", ".json", ".csv", ".svg", ".png", ".pdf"}
 TEXT_SUFFIXES = {".py", ".ts", ".tsx", ".css", ".html", ".sh", ".md", ".txt", ".srt", ".tex", ".json", ".csv", ".svg"}
 EXCLUDED_PARTS = {"__pycache__", "node_modules", ".git", "dist", "tasks"}
-EXCLUDED_FILES = {
-    "scripts/evaluate_audit_priority.py",
-    "scripts/build_captioned_project_video.py",
-    "scripts/render_submission_documents.py",
-}
+EXCLUDED_FILES: set[str] = set()
 ARCHIVE_ALIASES = {
     "docs/ai_contest/submission/ESG_ClaimGuard_其他材料说明.md": "README.md",
     "docs/ai_contest/submission/requirements-submission.txt": "requirements-submission.txt",

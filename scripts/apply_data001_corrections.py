@@ -2,7 +2,7 @@
 """Apply the four evidence-backed DATA-001 board-diversity corrections.
 
 This is a deterministic data correction over the frozen extraction results.  It
-does not invoke MinerU, Qwen, or regenerate the Codex Agent review sample.
+does not invoke MinerU or Qwen, and does not regenerate the frozen correction records.
 """
 
 from __future__ import annotations

@@ -4,6 +4,7 @@ from __future__ import annotations
 import csv
 import json
 import platform
+import statistics
 import subprocess
 from collections import Counter
 from datetime import datetime, timezone
@@ -90,22 +91,31 @@ def build_report() -> dict[str, Any]:
     smoke_path = OUTPUT_DIR / "dashboard_smoke.json"
     smoke = _json(smoke_path) if smoke_path.is_file() else {}
     submission = _submission_files()
+    final_video = PROJECT_ROOT / "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4"
+    video_sources = [
+        PROJECT_ROOT / "scripts/build_project_video_v2_audio.py",
+        PROJECT_ROOT / "video/claimguard-remotion/src/scenes/Engineering.tsx",
+        PROJECT_ROOT / "video/claimguard-remotion/src/scenes/Results.tsx",
+    ]
+    video_needs_refresh = final_video.is_file() and any(
+        path.is_file() and path.stat().st_mtime_ns > final_video.stat().st_mtime_ns for path in video_sources
+    )
 
-    call_elapsed = [
+    timed_rows = [
         float(row.get("elapsed_seconds") or 0)
         for row in extraction_rows
-        if int(row.get("source_candidate_count") or 0) > 0
+        if float(row.get("elapsed_seconds") or 0) > 0
     ]
     inference = {
         "reports": int(run_summary.get("reports", 0)),
         "indicators": int(run_summary.get("indicators", 0)),
         "results": int(run_summary.get("results", 0)),
-        "llm_calls": int(run_summary.get("generation_calls", len(call_elapsed))),
+        "llm_calls": int(run_summary.get("generation_calls", len(timed_rows))),
         "llm_error_count": int(run_summary.get("llm_error_count", 0)),
         "result_error_count": sum(row.get("status") == "error" for row in extraction_rows),
-        "timed_final_candidate_rows": len(call_elapsed),
-        "average_timed_final_row_seconds": round(sum(call_elapsed) / len(call_elapsed), 3) if call_elapsed else None,
-        "p95_timed_final_row_seconds": round(sorted(call_elapsed)[int((len(call_elapsed) - 1) * 0.95)], 3) if call_elapsed else None,
+        "timed_result_rows": len(timed_rows),
+        "median_timed_result_row_seconds": round(statistics.median(timed_rows), 3) if timed_rows else None,
+        "p95_timed_result_row_seconds": round(sorted(timed_rows)[int((len(timed_rows) - 1) * 0.95)], 3) if timed_rows else None,
         "last_run_wall_seconds": float(run_summary.get("elapsed_seconds", 0)),
         "evidence_quote_complete_rate": round(
             sum(row.get("status") == "found" and bool(row.get("evidence_quote", "").strip()) for row in extraction_rows)
@@ -127,7 +137,7 @@ def build_report() -> dict[str, Any]:
         {
             "requirement": "AI inference 效果与运行指标",
             "status": "ready" if inference["v3_complete"] else "partial",
-            "evidence": f"V3：{inference['reports']} 份报告、{inference['llm_calls']} 次 Qwen3.6 生成、错误 {inference['llm_error_count']}；{inference['timed_final_candidate_rows']} 条保留候选行具有可用行级耗时",
+            "evidence": f"V3：{inference['reports']} 份报告、{inference['llm_calls']} 次 Qwen3.6 生成、错误 {inference['llm_error_count']}；{inference['timed_result_rows']} 条结果具有正行级耗时",
             "next": "在项目文档中与准确率指标分栏呈现",
         },
         {
@@ -139,7 +149,7 @@ def build_report() -> dict[str, Any]:
         {
             "requirement": "创新性论证",
             "status": "ready",
-            "evidence": "项目文档和创新矩阵已集中说明四项机制、现有证据、待验证增益与失败退化方案",
+            "evidence": "项目文档已用真实来源、数据格式、产品截图、典型正反案例和冻结结果说明四项机制",
             "next": "保持工程证据与效果指标边界",
         },
         {
@@ -168,9 +178,9 @@ def build_report() -> dict[str, Any]:
         },
         {
             "requirement": "5 分钟以内项目视频",
-            "status": "ready" if submission["video_mp4"] else "missing",
-            "evidence": "、".join(submission["video_mp4"]) or "未发现 MP4",
-            "next": "无字幕画面、独立配音和真实工作台录屏均须通过最终抽帧复核" if submission["video_mp4"] else "按现有分镜生成 MP4",
+            "status": "partial" if video_needs_refresh else "ready" if submission["video_mp4"] else "missing",
+            "evidence": ("现有 MP4 格式合格，但测试计数和已删除功能的口播已在源码中修正，尚未重渲染" if video_needs_refresh else "、".join(submission["video_mp4"])) or "未发现 MP4",
+            "next": "按当前音频与 Remotion 源码局部重渲染并抽帧复核" if video_needs_refresh else "保持当前成片与源码一致" if submission["video_mp4"] else "按现有分镜生成 MP4",
         },
         {
             "requirement": "200 MB 内其他材料 ZIP",
@@ -207,8 +217,15 @@ def write_report(payload: dict[str, Any]) -> None:
     inference = payload["inference"]
     hardware = payload["hardware"]
     missing_count = payload["status_counts"].get("missing", 0)
-    if missing_count == 0:
+    partial_count = payload["status_counts"].get("partial", 0)
+    if missing_count == 0 and partial_count == 0:
         submission_summary = "技术原型和官方四项提交文件均已生成；上传前只需做文件名、可打开性与平台上传终检。"
+    elif missing_count == 0:
+        partial_requirements = [item["requirement"] for item in payload["criteria"] if item["status"] == "partial"]
+        submission_summary = (
+            "官方四项文件均已存在，但仍有内容一致性待整理："
+            f"**{'、'.join(partial_requirements)}**。"
+        )
     else:
         missing_requirements = [item["requirement"] for item in payload["criteria"] if item["status"] == "missing"]
         submission_summary = (
@@ -240,8 +257,8 @@ def write_report(payload: dict[str, Any]) -> None:
 - 数据规模：{inference['reports']} 份报告、{inference['indicators']} 个指标、{inference['results']} 个 report-indicator 结果
 - Qwen3 实际调用：{inference['llm_calls']} 次
 - LLM / 结果错误：{inference['llm_error_count']} / {inference['result_error_count']}
-- 有候选且保留计时的最终结果行：{inference['timed_final_candidate_rows']} 条
-- 这些行的平均 / P95 耗时：{inference['average_timed_final_row_seconds']} / {inference['p95_timed_final_row_seconds']} 秒
+- 具有正耗时记录的最终结果行：{inference['timed_result_rows']} 条
+- 这些行的中位数 / P95 耗时：{inference['median_timed_result_row_seconds']} / {inference['p95_timed_result_row_seconds']} 秒
 - 最近一次续跑墙钟耗时：{inference['last_run_wall_seconds']} 秒
 - 运行硬件：{hardware['gpu']}；{hardware['cpu']}；内存 {hardware['memory_gib']} GiB
 

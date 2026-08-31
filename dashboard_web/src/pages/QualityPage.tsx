@@ -10,7 +10,7 @@ export function QualityPage({ metrics, summary }: { metrics: ReviewMetrics; summ
   return <main className="page quality-page">
     <section className="page-title"><div><span className="kicker">VALIDATION & GOVERNANCE</span><h1>验证与数据治理</h1><p>展示数据覆盖、工程完成门和人工复核工作流，不把自动运行状态解释为准确率。</p></div><span className="review-count">工作流记录 <strong>{metrics.reviewed_count}</strong> 条</span></section>
     <section className="metric-grid quality-metrics">
-      <MetricCard eyebrow="人工工作流记录" value={metrics.reviewed_count.toLocaleString()} detail="用于产品闭环，不冒充金标准" />
+      <MetricCard eyebrow="人工工作流记录" value={metrics.reviewed_count.toLocaleString()} detail="用于处置留痕，不作为独立测试" />
       <MetricCard eyebrow="结构化 FOUND" value={summary.found_count.toLocaleString()} detail="自动运行状态，不等同正确" accent="green" />
       <MetricCard eyebrow="结构化 MISSING" value={summary.missing_count.toLocaleString()} detail="待复核状态，不等同遗漏" accent="gold" />
       <MetricCard eyebrow="平均推理耗时" value={`${summary.avg_inference_seconds.toFixed(3)}s`} detail={`${summary.model_call_count.toLocaleString()} 次候选证据判断`} accent="red" />

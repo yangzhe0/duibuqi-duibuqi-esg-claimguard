@@ -19,7 +19,7 @@
 - `parse_summary.json`：解析范围与页数；
 - `extraction/run_summary.json`：运行级调用、墙钟和恢复说明；
 - `extraction/extraction_results.csv`：13,000 条正式结果；
-- `extraction/manual_reconciliation.csv`：209 条 Codex Agent 模拟人工工程复核；
+- `extraction/manual_reconciliation.csv`：209 条证据字段异常的内部工程纠错记录；
 - `validation.json`：严格完成门及定量来源计数；
 - `CHECKSUMS.sha256`：冻结产物哈希；
 - `COMPLETE.json`：工程完成标志。
@@ -56,7 +56,7 @@ cd <project-root>
 git diff --check
 ```
 
-不得重跑 MinerU、Qwen、209 条模拟人工工程复核或新的全量抽取。若验证失败，应先定位数据、代码或材料之间的不一致，不得通过重新推理覆盖冻结结果。
+不得重跑 MinerU、Qwen、209 条内部纠错或新的全量抽取。若验证失败，应先定位数据、代码或材料之间的不一致，不得通过重新推理覆盖冻结结果。
 
 ## 结论边界
 

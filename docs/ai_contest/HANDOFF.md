@@ -10,7 +10,7 @@ ESG ClaimGuard 的冻结正式链路已经完成，不存在仍在运行的 Mine
 - 200 份报告，共 10,528 页；
 - ESG-65 指标池，形成 13,000 个唯一 `report_id × indicator_id` 结果；
 - found 7,688、missing 5,312、error 0；
-- 209 条记录已完成 Codex Agent 模拟人工工程复核，其中 found 193、missing 16；这不是独立真人金标准；
+- 209 条证据字段异常记录已完成内部工程纠错，其中 193 条重新截取为严格可追溯 found，16 条保守改为 missing；该过程不是独立人工测试；
 - `validation.json`、`CHECKSUMS.sha256` 与 `COMPLETE.json` 已生成；
 - 正式数据根已自包含，dashboard 只使用当前正式数据，不依赖已删除的历史目录或静默 fallback。
 
@@ -51,11 +51,11 @@ outputs/formal_v3_mineru25_qwen36/
 - `elapsed_seconds` 只存在于部分结果行，图表必须把“有耗时记录的结果行”与“运行级生成调用”分开；
 - 定量 value origin 与 unit origin 的最新计数以 `validation.json` 为唯一来源，文档和图表不得硬编码历史分类数。
 
-209 条模拟人工工程复核源于熔断后保留记录的保守处置。不得将其改称真人专家盲审、金标准或准确率评测。
+209 条内部工程纠错源于熔断后保留记录的保守处置。它用于修复正式数据的证据字段，不得改称专家盲审、独立人工测试或准确率评测。
 
 ## 5. 复验入口
 
-禁止重跑 MinerU、Qwen、209 条模拟人工工程复核或新的全量抽取。只执行只读/验证命令：
+禁止重跑 MinerU、Qwen、209 条内部纠错或新的全量抽取。只执行只读/验证命令：
 
 ```bash
 cd <project-root>

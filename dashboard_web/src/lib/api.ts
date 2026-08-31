@@ -1,4 +1,4 @@
-import type { AuditItem, AuditSummary, ClaimGraph, Evidence, ExtractionResult, NaturalGoldAnnotation, NaturalGoldRole, NaturalGoldSummary, NaturalGoldTask, PipelineTask, PreauditIssue, PreauditSummary, ReportItem, ReviewMetrics, Summary, SystemHealth, TaskPreaudit, TaskSummary } from '../types'
+import type { AuditItem, AuditSummary, ClaimGraph, Evidence, ExtractionResult, PipelineTask, PreauditIssue, PreauditSummary, ReportItem, ReviewMetrics, Summary, SystemHealth, TaskPreaudit, TaskSummary } from '../types'
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
   const response = await fetch(url, options)
@@ -44,18 +44,6 @@ export const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
     }),
-  naturalGoldSummary: () => request<NaturalGoldSummary>('/api/natural-gold/summary'),
-  naturalGoldTasks: (role: NaturalGoldRole, status = 'all') =>
-    request<{ items: NaturalGoldTask[]; total: number; role: NaturalGoldRole; status: string }>(
-      `/api/natural-gold/tasks?role=${encodeURIComponent(role)}&status=${encodeURIComponent(status)}`,
-    ),
-  saveNaturalGoldAnnotation: (payload: NaturalGoldAnnotation) =>
-    request<NaturalGoldAnnotation>('/api/natural-gold/annotations', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    }),
-  naturalGoldManifestUrl: () => '/api/natural-gold/manifest.csv',
   reviews: (reportId = '', indicatorId = '') =>
     request<{ items: Record<string, string>[]; metrics: ReviewMetrics }>(
       `/api/reviews?report_id=${encodeURIComponent(reportId)}&indicator_id=${encodeURIComponent(indicatorId)}`,

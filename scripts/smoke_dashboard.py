@@ -104,8 +104,6 @@ def run_smoke(port: int = 0) -> dict[str, Any]:
             "/api/review-metrics",
             "/api/audit/summary",
             "/api/preaudit/summary",
-            "/api/natural-gold/summary",
-            "/api/natural-gold/evaluation",
             "/api/tasks",
         ):
             _, record = _json_request(base_url, path)
@@ -113,16 +111,11 @@ def run_smoke(port: int = 0) -> dict[str, Any]:
 
         summary, _ = _json_request(base_url, "/api/summary")
         reports, _ = _json_request(base_url, "/api/reports")
-        gold, _ = _json_request(base_url, "/api/natural-gold/summary")
-        evaluation, _ = _json_request(base_url, "/api/natural-gold/evaluation")
         assertions = {
             "report_count_at_least_200": int(summary.get("report_count", 0)) >= 200,
             "indicator_count_is_65": int(summary.get("indicator_count", 0)) == 65,
             "result_count_matches_reports_times_indicators": int(summary.get("total_results", 0))
             == int(summary.get("report_count", 0)) * int(summary.get("indicator_count", 0)),
-            "natural_gold_metrics_remain_locked": not bool(gold.get("ready_to_evaluate"))
-            and evaluation.get("status") == "not_ready"
-            and not evaluation.get("metrics"),
         }
         failed = [name for name, passed in assertions.items() if not passed]
         if failed:
@@ -198,7 +191,7 @@ def _write_report(payload: dict[str, Any], json_path: Path, markdown_path: Path)
     markdown_path.write_text(
         f"""# ESG ClaimGuard 生产链路 Smoke Test
 
-> 状态：**通过**。该检查启动真实生产后端，验证前端入口、核心 API、PDF 证据与工作底稿导出；不会写入复核或金标准数据。
+> 状态：**通过**。该检查启动真实生产后端，验证前端入口、核心 API、PDF 证据与工作底稿导出；不会写入业务处置数据。
 
 ## 验收摘要
 

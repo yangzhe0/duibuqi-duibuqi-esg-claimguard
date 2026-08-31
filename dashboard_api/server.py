@@ -31,14 +31,6 @@ from dashboard_api.reviews import ReviewStore
 from dashboard_api.tasks import MAX_UPLOAD_BYTES, TaskManager
 from dashboard_api.audit import audit_queue, audit_summary
 from dashboard_api.preaudit import claim_graph, export_workpaper_csv, preaudit_issues, preaudit_summary
-from dashboard_api.natural_gold import (
-    export_manifest_csv,
-    load_manifest,
-    natural_gold_evaluation,
-    natural_gold_summary,
-    natural_gold_tasks,
-    validate_annotation,
-)
 from dashboard_api.system import system_health
 
 
@@ -151,20 +143,6 @@ class DashboardHandler(BaseHTTPRequestHandler):
                     return self._error(HTTPStatus.NOT_FOUND, "formal report not found")
                 body = export_workpaper_csv(self._issue_actions(dataset_id, report_id), report_id, dataset_id)
                 return self._bytes(body, "text/csv; charset=utf-8", "esg_claimguard_workpaper.csv")
-            if path == "/api/natural-gold/summary":
-                return self._json(natural_gold_summary(self.review_store.natural_gold_annotations()))
-            if path == "/api/natural-gold/tasks":
-                return self._json(
-                    natural_gold_tasks(
-                        self.review_store.natural_gold_annotations(),
-                        params.get("role", "annotator_a"),
-                        params.get("status", "all"),
-                    )
-                )
-            if path == "/api/natural-gold/evaluation":
-                return self._json(natural_gold_evaluation(self.review_store.natural_gold_annotations()))
-            if path == "/api/natural-gold/manifest.csv":
-                return self._bytes(export_manifest_csv(), "text/csv; charset=utf-8", "natural_gold_v1_manifest.csv")
             if path == "/api/tasks":
                 items = self.task_manager.list()
                 return self._json({"items": items, "total": len(items)})
@@ -234,15 +212,6 @@ class DashboardHandler(BaseHTTPRequestHandler):
                 dataset_id = self._payload_dataset_id(payload)
                 saved = self.review_store.upsert_issue_action(payload)
                 return self._json({**saved, **dataset_metadata(dataset_id)}, HTTPStatus.CREATED)
-            if parsed.path == "/api/natural-gold/annotations":
-                payload = self._read_json()
-                task_id = str(payload.get("task_id", "")).strip()
-                task = next((item for item in load_manifest() if item["task_id"] == task_id), None)
-                if not task:
-                    raise ValueError("Natural-Gold task not found")
-                existing = self.review_store.natural_gold_annotations(task_id)
-                values = validate_annotation(payload, task, existing)
-                return self._json(self.review_store.upsert_natural_gold_annotation(values), HTTPStatus.CREATED)
             if parsed.path == "/api/uploads":
                 return self._upload()
             return self._error(HTTPStatus.NOT_FOUND, "endpoint not found")

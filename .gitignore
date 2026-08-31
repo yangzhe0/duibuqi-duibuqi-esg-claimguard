@@ -1,5 +1,6 @@
 *.out
 *.log
+**/.run.lock
 *.fls
 *.aux
 *.blg
