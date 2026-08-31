@@ -4,12 +4,12 @@
 
 ## 结论
 
-- 已具备：9 项
-- 待整理：1 项
+- 已具备：10 项
+- 待整理：0 项
 - 缺失：0 项
 - 需要人工：0 项
 
-官方四项文件均已存在，但仍有内容一致性待整理：**5 分钟以内项目视频**。 本作品不把未经独立人工评测的准确率作为成果声明，也不把额外人工标注列为本次交付任务。
+技术原型和官方四项提交文件均已生成；上传前只需做文件名、可打开性与平台上传终检。 本作品不把未经独立人工评测的准确率作为成果声明，也不把额外人工标注列为本次交付任务。
 
 ## 官方要求逐项核验
 
@@ -23,7 +23,7 @@
 | 数据、行业知识、算法和硬件来源 | 已具备 | 来源与借鉴台账已区分公开数据、标准、模型工具、学术借鉴与项目原创工程 | 部署或再分发前按上游许可证复核 |
 | 300 字作品简介 PDF | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf | 提交前再次核对文件可打开且正文不超过 300 字 |
 | 模板项目文档 PDF | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf | 提交前再次核对文件可打开 |
-| 5 分钟以内项目视频 | 待整理 | 现有 MP4 格式合格，但测试计数和已删除功能的口播已在源码中修正，尚未重渲染 | 按当前音频与 Remotion 源码局部重渲染并抽帧复核 |
+| 5 分钟以内项目视频 | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4 | 保持当前成片与源码一致 |
 | 200 MB 内其他材料 ZIP | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip | 提交前再次核对 SHA-256 和 200 MB 限制 |
 
 ## 已有 Inference 证据

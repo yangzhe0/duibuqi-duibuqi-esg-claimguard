@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:26:06+00:00",
+  "generated_at": "2026-08-31T14:57:32+00:00",
   "official_deadline": "2026-09-01T23:59:00+08:00",
   "scope": "第八届中国研究生人工智能创新大赛开放赛题初赛",
   "inference": {
@@ -74,9 +74,9 @@
     },
     {
       "requirement": "5 分钟以内项目视频",
-      "status": "partial",
-      "evidence": "现有 MP4 格式合格，但测试计数和已删除功能的口播已在源码中修正，尚未重渲染",
-      "next": "按当前音频与 Remotion 源码局部重渲染并抽帧复核"
+      "status": "ready",
+      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4",
+      "next": "保持当前成片与源码一致"
     },
     {
       "requirement": "200 MB 内其他材料 ZIP",
@@ -86,8 +86,7 @@
     }
   ],
   "status_counts": {
-    "ready": 9,
-    "partial": 1
+    "ready": 10
   },
   "agent_can_complete_without_human_labels": [
     "提交文件自动复验与口径审计"

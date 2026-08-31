@@ -1,9 +1,9 @@
 {
   "output": "outputs/public_repository/ESG_ClaimGuard_公开代码仓库.zip",
   "files": 171,
-  "bytes": 15875595,
-  "mib": 15.14,
-  "sha256": "b124d550f713aa22f6c2a3f156b6d3016ec6eb448fdb0fa4872c05f5798c88aa",
+  "bytes": 15876110,
+  "mib": 15.141,
+  "sha256": "5813f64ae90cd0e5a5c2dcf67c7f6ece9fd8ca6c349817fc84b9c60cc3f5e8b3",
   "under_200_mib": true,
   "sensitive_scan_passed": true,
   "zip_integrity": true
