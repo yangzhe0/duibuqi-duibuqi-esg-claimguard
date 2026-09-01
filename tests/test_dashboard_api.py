@@ -73,22 +73,22 @@ class DashboardRepositoryTests(unittest.TestCase):
                 json.dumps({"run_id": "run-current", "is_full_200": True, "validation_passed": True}),
                 encoding="utf-8",
             )
-            with patch.object(repository, "FORMAL_V3_ROOT", root):
+            with patch.object(repository, "FINAL_RESULTS_ROOT", root):
                 repository.clear_caches()
                 rows = repository.results()
                 self.assertEqual(len(rows), 1)
                 self.assertEqual(rows[0]["status"], "missing")
                 self.assertEqual(rows[0]["dataset_id"], repository.CURRENT_DATASET_ID)
 
-    def test_formal_v3_is_selectable_only_after_complete_and_validation_pass(self):
+    def test_formal_results_are_selectable_only_after_complete_and_validation_pass(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             result_path = root / "extraction/extraction_results.csv"
             result_path.parent.mkdir(parents=True)
-            self._write_results(result_path, [self._row("v3-report", "found")])
-            (root / "run_manifest.json").write_text(json.dumps({"run_id": "run-v3"}), encoding="utf-8")
+            self._write_results(result_path, [self._row("formal-report", "found")])
+            (root / "run_manifest.json").write_text(json.dumps({"run_id": "run-formal"}), encoding="utf-8")
             (root / "validation.json").write_text(json.dumps({"passed": False}), encoding="utf-8")
-            with patch.object(repository, "FORMAL_V3_ROOT", root):
+            with patch.object(repository, "FINAL_RESULTS_ROOT", root):
                 repository.clear_caches()
                 self.assertNotIn(
                     repository.CURRENT_DATASET_ID,
@@ -103,7 +103,7 @@ class DashboardRepositoryTests(unittest.TestCase):
                 (root / "COMPLETE.json").write_text(
                     json.dumps(
                         {
-                            "run_id": "run-v3",
+                            "run_id": "run-formal",
                             "completed_at": "2026-08-22T00:00:00Z",
                             "scope_type": "full200",
                             "is_full_200": True,
@@ -114,14 +114,14 @@ class DashboardRepositoryTests(unittest.TestCase):
                 )
                 rows = repository.results(repository.CURRENT_DATASET_ID)
                 quality = repository.quality_metrics(repository.CURRENT_DATASET_ID)
-                audit = audit_summary([], "v3-report", repository.CURRENT_DATASET_ID)
-                preaudit = preaudit_summary([], "v3-report", repository.CURRENT_DATASET_ID)
+                audit = audit_summary([], "formal-report", repository.CURRENT_DATASET_ID)
+                preaudit = preaudit_summary([], "formal-report", repository.CURRENT_DATASET_ID)
                 self.assertEqual(rows[0]["dataset_id"], repository.CURRENT_DATASET_ID)
-                self.assertEqual(rows[0]["run_id"], "run-v3")
+                self.assertEqual(rows[0]["run_id"], "run-formal")
                 self.assertTrue(quality["passed"])
-                self.assertEqual(quality["run_id"], "run-v3")
-                self.assertEqual(audit["run_id"], "run-v3")
-                self.assertEqual(preaudit["run_id"], "run-v3")
+                self.assertEqual(quality["run_id"], "run-formal")
+                self.assertEqual(audit["run_id"], "run-formal")
+                self.assertEqual(preaudit["run_id"], "run-formal")
 
     @staticmethod
     def _row(report_id: str, status: str) -> dict[str, str]:

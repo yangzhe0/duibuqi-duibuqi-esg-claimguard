@@ -9,7 +9,7 @@ from pathlib import Path
 
 class FormalExtractionTests(unittest.TestCase):
     def test_joined_evidence_quote_is_repaired_to_verbatim_source_excerpt(self):
-        from src.esg_demo.formal_extraction import Indicator, _normalize_v2_result
+        from src.esg_demo.formal_extraction import Indicator, _normalize_result
 
         source = "成立 EHSQ 委员会，设置环保与碳排放专业组，制定节能降碳管理规定，推动节能降碳项目。"
         candidate = {
@@ -31,7 +31,7 @@ class FormalExtractionTests(unittest.TestCase):
             },
             ensure_ascii=False,
         )
-        result = _normalize_v2_result(
+        result = _normalize_result(
             "r1",
             Indicator("e_carbon_management", "碳排放管理措施", "E", "boolean", (), (), True),
             raw,
@@ -106,7 +106,7 @@ class FormalExtractionTests(unittest.TestCase):
             self.assertEqual(len(set(keys)), 10)
 
     def test_current_formal_pool_is_submission_ready(self):
-        base = Path(__file__).resolve().parents[1] / "outputs/formal_v3_mineru25_qwen36"
+        base = Path(__file__).resolve().parents[1] / "outputs/final_results"
         pool_path = base / "indicator_pool.csv"
         self.assertTrue(pool_path.is_file())
 
@@ -143,7 +143,7 @@ class FormalExtractionTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            report_dir = root / "outputs/formal_v3_mineru25_qwen36/parsed/000001_测试公司_2025_ESG报告"
+            report_dir = root / "outputs/final_results/parsed/000001_测试公司_2025_ESG报告"
             report_dir.mkdir(parents=True)
             (report_dir / "000001_测试公司_2025_ESG报告_content_list_v2.json").write_text(
                 json.dumps(
@@ -216,7 +216,7 @@ class FormalExtractionTests(unittest.TestCase):
             self.assertIn("raw_response", error_fields)
 
     def test_formal_parser_handles_fenced_json_and_repairs_quantitative_unit(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator(
@@ -244,7 +244,7 @@ class FormalExtractionTests(unittest.TestCase):
 ```
 结束"""
 
-        row = _normalize_v2_result("r1", indicator, raw, 2, 0.1)
+        row = _normalize_result("r1", indicator, raw, 2, 0.1)
 
         self.assertEqual(row["status"], "found")
         self.assertEqual(row["value"], "2755")
@@ -254,7 +254,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "regex_unit_from_evidence")
 
     def test_formal_quantitative_found_without_number_is_downgraded_to_missing(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("e_cod", "化学需氧量排放量", "E", "quantitative", ("COD",), ("吨", "千克"))
@@ -273,7 +273,7 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "missing")
         self.assertEqual(row["postprocess_repaired"], "false")
@@ -281,7 +281,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "conservative_missing")
 
     def test_zero_event_normalization_repairs_known_count_indicator(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("s_work_injury", "工伤事故", "S", "quantitative", ("工伤事故",), ("起", "人", "小时"))
@@ -300,7 +300,7 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["value"], "0")
         self.assertEqual(row["unit"], "起")
@@ -309,7 +309,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "zero_event_normalization")
 
     def test_zero_event_unknown_unit_does_not_fabricate_unit(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("custom_count", "自定义次数", "S", "quantitative", ("自定义次数",), ())
@@ -326,7 +326,7 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["value"], "")
         self.assertEqual(row["unit"], "")
@@ -336,7 +336,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "conservative_missing")
 
     def test_zero_event_phrase_does_not_override_complete_quantitative_result(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("e_fuel_consumption", "燃料消耗量", "E", "quantitative", ("燃料",), ("吨",))
@@ -353,7 +353,7 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["value"], "54.98")
         self.assertEqual(row["unit"], "吨")
@@ -362,7 +362,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "none")
 
     def test_customer_complaint_count_overrides_adjacent_zero_event_text(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("s_customer_complaints", "客户投诉", "S", "quantitative", ("客户投诉",), ("起", "件"))
@@ -379,7 +379,7 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "found")
         self.assertEqual(row["value"], "10")
@@ -387,7 +387,7 @@ class FormalExtractionTests(unittest.TestCase):
         self.assertEqual(row["repair_method"], "customer_complaint_count_override")
 
     def test_work_injury_insurance_amount_is_conservatively_missing(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("s_work_injury", "工伤事故", "S", "quantitative", ("工伤",), ("起",))
@@ -404,14 +404,14 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "missing")
         self.assertEqual(row["value"], "")
         self.assertEqual(row["repair_method"], "conservative_missing")
 
     def test_customer_satisfaction_year_is_not_treated_as_metric_value(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("s_customer_satisfaction", "客户满意度", "S", "quantitative", ("满意度", "NPS"), ("%","分"))
@@ -428,13 +428,13 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "missing")
         self.assertEqual(row["repair_method"], "conservative_missing")
 
     def test_customer_satisfaction_score_gets_unit_from_evidence(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("s_customer_satisfaction", "客户满意度", "S", "quantitative", ("满意度",), ("分", "%"))
@@ -451,14 +451,14 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "found")
         self.assertEqual(row["unit"], "分")
         self.assertEqual(row["quantitative_incomplete"], "false")
 
     def test_voc_percentage_change_is_not_emission_amount(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         indicator = Indicator("e_voc", "挥发性有机物排放量", "E", "quantitative", ("VOCs",), ("吨", "千克"))
@@ -475,24 +475,24 @@ class FormalExtractionTests(unittest.TestCase):
             ensure_ascii=False,
         )
 
-        row = _normalize_v2_result("r1", indicator, raw, 1, 0.1)
+        row = _normalize_result("r1", indicator, raw, 1, 0.1)
 
         self.assertEqual(row["status"], "missing")
         self.assertEqual(row["repair_method"], "conservative_missing")
 
     def test_employee_gender_and_patent_units_are_repaired_from_context(self):
-        from src.esg_demo.formal_extraction import _normalize_v2_result
+        from src.esg_demo.formal_extraction import _normalize_result
         from src.esg_demo.indicators import Indicator
 
         gender = Indicator("s_employee_gender", "女性员工人数或占比", "S", "quantitative", ("女性员工",), ("人", "%"))
         gender_raw = json.dumps({"status": "found", "value": "3515", "unit": "", "evidence_quote": "性别结构 | 女性员工 | 3,515"}, ensure_ascii=False)
-        gender_row = _normalize_v2_result("r1", gender, gender_raw, 1, 0.1)
+        gender_row = _normalize_result("r1", gender, gender_raw, 1, 0.1)
         self.assertEqual(gender_row["unit"], "人")
         self.assertEqual(gender_row["quantitative_incomplete"], "false")
 
         patent = Indicator("s_patents", "专利数量", "S", "quantitative", ("专利",), ("项", "件"))
         patent_raw = json.dumps({"status": "found", "value": "2", "unit": "", "evidence_quote": "发明专利 2"}, ensure_ascii=False)
-        patent_row = _normalize_v2_result("r1", patent, patent_raw, 1, 0.1)
+        patent_row = _normalize_result("r1", patent, patent_raw, 1, 0.1)
         self.assertEqual(patent_row["unit"], "项")
         self.assertEqual(patent_row["quantitative_incomplete"], "false")
 
@@ -524,7 +524,7 @@ class FormalExtractionTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            report_dir = root / "outputs/formal_v3_mineru25_qwen36/parsed/000001_测试公司_2025_ESG报告"
+            report_dir = root / "outputs/final_results/parsed/000001_测试公司_2025_ESG报告"
             report_dir.mkdir(parents=True)
             (report_dir / "000001_测试公司_2025_ESG报告_content_list_v2.json").write_text(
                 json.dumps([[{"type": "paragraph", "bbox": [0, 0, 1, 1], "content": {"content": "温室气体排放总量 20 吨二氧化碳当量"}}]], ensure_ascii=False),

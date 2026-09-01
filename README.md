@@ -26,7 +26,7 @@ ESG ClaimGuard 采用如下链路：
 
 ## 正式数据结果
 
-正式队列由 `outputs/formal_v3_mineru25_qwen36/input_manifest.csv` 冻结：
+正式队列由 `outputs/final_results/input_manifest.csv` 冻结：
 
 - 200 份公开 ESG、可持续发展或社会责任类报告；
 - 10,528 页规范解析结果；
@@ -44,7 +44,7 @@ ESG ClaimGuard 采用如下链路：
 
 ![PDF 原文与抽取结果](docs/ai_contest/assets/product_evidence.png)
 
-结果行位于 `outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv`，原始 PDF 位于 `data/raw_pdfs/`，解析区块位于冻结结果的 `parsed/`。三者通过 `report_id`、文件哈希、`page_no` 和 `block_id` 连接。
+结果行位于 `outputs/final_results/extraction/extraction_results.csv`，原始 PDF 位于 `data/raw_pdfs/`，解析区块位于冻结结果的 `parsed/`。三者通过 `report_id`、文件哈希、`page_no` 和 `block_id` 连接。
 
 ## 数据包说明
 
@@ -55,7 +55,7 @@ ESG ClaimGuard 采用如下链路：
 | `data/download_log.csv` | 检索条目的下载、跳过和失败记录 |
 | `data/report_index.csv` | 公告来源、附件 URL、本地文件、SHA-256 与大小 |
 | `data/raw_pdfs/` | 210 份已下载公开报告；正式队列只使用 manifest 中的 200 份 |
-| `outputs/formal_v3_mineru25_qwen36/input_manifest.csv` | 正式队列顺序、文件哈希、大小和页数 |
+| `outputs/final_results/input_manifest.csv` | 正式队列顺序、文件哈希、大小和页数 |
 | `.../indicator_pool.csv` | ESG-65 指标定义、类型和检索信息 |
 | `.../parsed/` | MinerU 规范页与区块数据 |
 | `.../extraction/extraction_results.csv/json` | 13,000 条正式抽取结果 |
@@ -72,7 +72,7 @@ contest_xiaoshumo/
 ├── src/esg_demo/                     解析后召回与结构化抽取核心
 ├── scripts/                          数据获取、正式运行、验证与材料构建
 ├── data/                             来源索引、下载日志与原始报告
-├── outputs/formal_v3_mineru25_qwen36 冻结正式运行数据
+├── outputs/final_results 冻结正式运行数据
 ├── docs/ai_contest/                  题目分析、运行说明和参赛材料源稿
 ├── latex/                            XeLaTeX 源文件与正式图表
 ├── video/claimguard-remotion/        无声视频工程与画面素材
@@ -86,7 +86,7 @@ contest_xiaoshumo/
 2. `docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md`；
 3. `data/README.md`；
 4. `docs/ai_contest/HANDOFF.md`；
-5. `outputs/formal_v3_mineru25_qwen36/validation.json`。
+5. `outputs/final_results/validation.json`。
 
 ## 快速启动
 
@@ -112,7 +112,7 @@ cd <project-root>
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
 /opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
 /opt/miniconda3/bin/conda run -n paperagent python scripts/smoke_dashboard.py
-(cd outputs/formal_v3_mineru25_qwen36 && sha256sum -c CHECKSUMS.sha256)
+(cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 (cd dashboard_web && npm run build)
 git diff --check
 ```

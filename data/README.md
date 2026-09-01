@@ -1,6 +1,6 @@
 # 数据包说明
 
-本目录保存 ESG ClaimGuard 的公开报告来源记录与原始 PDF。正式结果不按“目录里有什么就跑什么”，而由 `outputs/formal_v3_mineru25_qwen36/input_manifest.csv` 固定 200 份报告。
+本目录保存 ESG ClaimGuard 的公开报告来源记录与原始 PDF。正式结果不按“目录里有什么就跑什么”，而由 `outputs/final_results/input_manifest.csv` 固定 200 份报告。
 
 ## 数据来源与获取方式
 
@@ -46,11 +46,11 @@ report_index.csv.source_url / pdf_url
   ↕ announcement ID + normalized filename
 data/raw_pdfs/*.pdf
   ↕ report_id + pdf_sha256
-outputs/formal_v3_mineru25_qwen36/input_manifest.csv
+outputs/final_results/input_manifest.csv
   ↕ report_id + parsed_sha256
-outputs/formal_v3_mineru25_qwen36/parsed/*/*_content_list_v2.json
+outputs/final_results/parsed/*/*_content_list_v2.json
   ↕ report_id + page_no + block_id
-outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv
+outputs/final_results/extraction/extraction_results.csv
 ```
 
 解析 JSON 按页保存区块列表，区块含 `type`、`content` 和 `bbox`；表格同时保留 HTML。抽取结果的主要字段为 `status`、`value`、`unit`、`evidence_quote`、`page_no`、`block_id`、`value_origin`、`unit_origin` 和各级哈希。
@@ -59,7 +59,7 @@ outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv
 
 ```bash
 /opt/miniconda3/bin/conda run -n paperagent python scripts/validate_clean_dataset.py
-(cd outputs/formal_v3_mineru25_qwen36 && sha256sum -c CHECKSUMS.sha256)
+(cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 ```
 
 CSV 字段可能包含换行，统计行数时必须使用 CSV 解析器，不要使用 `wc -l`。

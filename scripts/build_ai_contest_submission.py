@@ -26,25 +26,24 @@ INCLUDE_FILES = [
     "dashboard_web/tsconfig.app.json",
     "dashboard_web/tsconfig.node.json",
     "dashboard_web/vite.config.ts",
-    "outputs/formal_v3_mineru25_qwen36/indicator_pool.csv",
-    "outputs/formal_v3_mineru25_qwen36/input_manifest.csv",
-    "outputs/formal_v3_mineru25_qwen36/cohort_manifest.csv",
-    "outputs/formal_v3_mineru25_qwen36/cohort_manifest.json",
-    "outputs/formal_v3_mineru25_qwen36/parse_summary.json",
-    "outputs/formal_v3_mineru25_qwen36/run_manifest.json",
-    "outputs/formal_v3_mineru25_qwen36/parser/table_backfill.json",
-    "outputs/formal_v3_mineru25_qwen36/parser/parse_attempts_summary.json",
-    "outputs/formal_v3_mineru25_qwen36/extraction/run_summary.json",
-    "outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv",
-    "outputs/formal_v3_mineru25_qwen36/extraction/evidence_hardening.json",
-    "outputs/formal_v3_mineru25_qwen36/extraction/manual_reconciliation.csv",
-    "outputs/formal_v3_mineru25_qwen36/extraction/audit_corrections.csv",
-    "outputs/formal_v3_mineru25_qwen36/extraction/audit_corrections.json",
-    "outputs/formal_v3_mineru25_qwen36/extraction/evidence_contract_failures.csv",
-    "outputs/formal_v3_mineru25_qwen36/validation.json",
-    "outputs/formal_v3_mineru25_qwen36/provenance/migration.json",
-    "outputs/formal_v3_mineru25_qwen36/CHECKSUMS.sha256",
-    "outputs/formal_v3_mineru25_qwen36/COMPLETE.json",
+    "outputs/final_results/indicator_pool.csv",
+    "outputs/final_results/input_manifest.csv",
+    "outputs/final_results/cohort_manifest.csv",
+    "outputs/final_results/cohort_manifest.json",
+    "outputs/final_results/parse_summary.json",
+    "outputs/final_results/run_manifest.json",
+    "outputs/final_results/parser/table_backfill.json",
+    "outputs/final_results/parser/parse_attempts_summary.json",
+    "outputs/final_results/extraction/run_summary.json",
+    "outputs/final_results/extraction/extraction_results.csv",
+    "outputs/final_results/extraction/evidence_hardening.json",
+    "outputs/final_results/extraction/manual_reconciliation.csv",
+    "outputs/final_results/extraction/audit_corrections.csv",
+    "outputs/final_results/extraction/audit_corrections.json",
+    "outputs/final_results/extraction/evidence_contract_failures.csv",
+    "outputs/final_results/validation.json",
+    "outputs/final_results/CHECKSUMS.sha256",
+    "outputs/final_results/COMPLETE.json",
     "outputs/ai_contest/competition_readiness.md",
     "outputs/ai_contest/dashboard_smoke.md",
     "outputs/ai_contest/frontend_dependency_licenses.md",
@@ -126,7 +125,7 @@ def archive_bytes(path: Path, identity: dict[str, str]) -> bytes:
     """Return portable archive content without mutating frozen source artifacts."""
     payload = path.read_bytes()
     relative = str(path.relative_to(PROJECT_ROOT))
-    if relative == "outputs/formal_v3_mineru25_qwen36/run_manifest.json":
+    if relative == "outputs/final_results/run_manifest.json":
         data = json.loads(payload.decode("utf-8"))
         if isinstance(data.get("parser"), dict) and "binary" in data["parser"]:
             data["parser"]["binary"] = "${MINERU_BIN}"
@@ -148,14 +147,12 @@ def main() -> int:
     parser.add_argument("--team", default="队不起队不起")
     parser.add_argument("--competition-group", default="开放赛题-生成式大语言模型与智能体")
     parser.add_argument("--submission-date", default="2026年8月31日")
-    parser.add_argument("--draft", action="store_true", help="Allow placeholder team name and mark output as draft.")
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_ROOT)
     args = parser.parse_args()
-    if not args.draft and any(marker in value for value in (args.team, args.competition_group, args.submission_date) for marker in ("待定", "待确认", "YYYY")):
-        parser.error("final package requires confirmed identity values; use --draft for placeholders")
+    if any(marker in value for value in (args.team, args.competition_group, args.submission_date) for marker in ("待定", "待确认", "YYYY")):
+        parser.error("final package requires confirmed identity values")
     team = safe_component(args.team)
-    suffix = "_草案" if args.draft else ""
-    output_name = f"{team}_ESG ClaimGuard_其他{suffix}.zip"
+    output_name = f"{team}_ESG ClaimGuard_其他.zip"
     args.output_dir.mkdir(parents=True, exist_ok=True)
     output = args.output_dir / output_name
     files = collect_files()
@@ -195,12 +192,11 @@ def main() -> int:
         raise RuntimeError("submission archive paths are not unique")
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "draft": args.draft,
         "team": args.team,
         "competition_group": args.competition_group,
         "submission_date": args.submission_date,
         "project": PROJECT_NAME,
-        "boundary": "The full V3 run proves engineering completeness and evidence traceability; the submission does not claim accuracy without independent human evaluation.",
+        "boundary": "The completed formal run proves engineering completeness and evidence traceability; the submission does not claim accuracy without independent human evaluation.",
         "package_kind": "lightweight_review_bundle_without_raw_pdf_parsed_or_models",
         "files": archive_entries,
     }
@@ -213,7 +209,7 @@ def main() -> int:
         output.unlink(missing_ok=True)
         raise RuntimeError(f"package exceeds 200 MiB: {size} bytes")
     result = {
-        "status": "draft" if args.draft else "final",
+        "status": "final",
         "output": str(output.relative_to(PROJECT_ROOT)),
         "files": len(files) + 1,
         "bytes": size,

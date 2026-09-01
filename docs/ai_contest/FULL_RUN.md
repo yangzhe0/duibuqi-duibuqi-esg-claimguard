@@ -10,7 +10,7 @@
 - 结果网格：13,000 个唯一 `report_id × indicator_id`；
 - 解析：MinerU2.5-Pro-2605-1.2B；
 - 抽取：Qwen3.6-27B Q4_K_M；
-- 正式输出：`outputs/formal_v3_mineru25_qwen36/`。
+- 正式输出：`outputs/final_results/`。
 
 ## 完成证据
 
@@ -50,7 +50,7 @@
 ```bash
 cd <project-root>
 /opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
-(cd outputs/formal_v3_mineru25_qwen36 && sha256sum -c CHECKSUMS.sha256)
+(cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
 (cd dashboard_web && npm run build)
 git diff --check

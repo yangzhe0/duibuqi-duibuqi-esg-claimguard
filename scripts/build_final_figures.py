@@ -13,7 +13,7 @@ import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RUN = ROOT / "outputs/formal_v3_mineru25_qwen36"
+RUN = ROOT / "outputs/final_results"
 OUT = ROOT / "latex/figures"
 
 PALETTE = {

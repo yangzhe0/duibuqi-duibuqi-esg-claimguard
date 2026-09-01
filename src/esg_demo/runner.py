@@ -180,7 +180,7 @@ def formal_main(argv: list[str] | None = None) -> int:
     parser.add_argument("--indicator-set", choices=["formal_current"], default="formal_current")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--ollama-url", default=DEFAULT_OLLAMA_URL)
-    parser.add_argument("--out-dir", default="outputs/formal_v3_mineru25_qwen36/new_reports")
+    parser.add_argument("--out-dir", default="outputs/final_results/new_reports")
     parser.add_argument("--max-blocks-per-indicator", type=int, default=5)
     parser.add_argument("--no-llm", action="store_true", help="Generate candidate evidence and coverage without calling Ollama.")
     args = parser.parse_args(argv)
@@ -269,7 +269,7 @@ def _quality_review_rows(results: list[dict], max_rows: int = 200) -> list[dict]
 
 
 def _find_report_jsons(project_root: Path, report_filters: list[str]) -> list[Path]:
-    reports_root = project_root / "outputs/formal_v3_mineru25_qwen36/parsed"
+    reports_root = project_root / "outputs/final_results/parsed"
     paths = []
     for report_dir in sorted(path for path in reports_root.iterdir() if path.is_dir()):
         if report_filters and not any(report_dir.name.startswith(value) or value in report_dir.name for value in report_filters):

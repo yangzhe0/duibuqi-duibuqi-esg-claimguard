@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_ROOT = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36"
+DEFAULT_ROOT = PROJECT_ROOT / "outputs/final_results"
 REVIEWER = "codex-independent-audit-data-001"
 
 SPECS = {

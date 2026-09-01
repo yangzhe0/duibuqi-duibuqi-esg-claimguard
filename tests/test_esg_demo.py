@@ -6,7 +6,7 @@ from pathlib import Path
 
 class EsgDemoTests(unittest.TestCase):
     def _write_report(self, root: Path, report_id: str, text: str) -> None:
-        report_dir = root / f"outputs/formal_v3_mineru25_qwen36/parsed/{report_id}"
+        report_dir = root / f"outputs/final_results/parsed/{report_id}"
         report_dir.mkdir(parents=True)
         json_path = report_dir / f"{report_id}_content_list_v2.json"
         json_path.write_text(
@@ -210,7 +210,7 @@ class EsgDemoTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            report_dir = root / "outputs/formal_v3_mineru25_qwen36/parsed/605377_华旺科技_2025_ESG报告"
+            report_dir = root / "outputs/final_results/parsed/605377_华旺科技_2025_ESG报告"
             report_dir.mkdir(parents=True)
             json_path = report_dir / "605377_华旺科技_2025_ESG报告_content_list_v2.json"
             json_path.write_text(
@@ -265,7 +265,7 @@ class EsgDemoTests(unittest.TestCase):
                 "000001_测试公司_2025_ESG报告",
                 "温室气体排放总量为 20 吨二氧化碳当量，员工总数为 100 人。",
             )
-            out_dir = root / "outputs/formal_v3_mineru25_qwen36/new_reports"
+            out_dir = root / "outputs/final_results/new_reports"
 
             summary = run_formal(
                 project_root=root,
@@ -309,7 +309,7 @@ class EsgDemoTests(unittest.TestCase):
                 project_root=root,
                 report_filters=[],
                 report_limit=1,
-                out_dir=root / "outputs/formal_v3_mineru25_qwen36/new_reports",
+                out_dir=root / "outputs/final_results/new_reports",
                 model="qwen3:30b",
                 ollama_url="http://127.0.0.1:11434/api/generate",
                 max_blocks_per_indicator=3,

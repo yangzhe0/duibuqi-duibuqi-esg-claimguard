@@ -120,10 +120,10 @@ def zip_checks(path: Path) -> dict[str, object]:
     required = {
         "README.md",
         "requirements-submission.txt",
-        "outputs/formal_v3_mineru25_qwen36/run_manifest.json",
-        "outputs/formal_v3_mineru25_qwen36/validation.json",
-        "outputs/formal_v3_mineru25_qwen36/COMPLETE.json",
-        "outputs/formal_v3_mineru25_qwen36/extraction/audit_corrections.json",
+        "outputs/final_results/run_manifest.json",
+        "outputs/final_results/validation.json",
+        "outputs/final_results/COMPLETE.json",
+        "outputs/final_results/extraction/audit_corrections.json",
         "docs/ai_contest/submission/ESG_ClaimGuard_5分钟视频分镜与口播.md",
         "SUBMISSION_MANIFEST.json",
     }

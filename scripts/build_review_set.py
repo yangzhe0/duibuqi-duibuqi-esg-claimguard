@@ -9,10 +9,10 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-V3_ROOT = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36"
-DEFAULT_RESULTS = V3_ROOT / "extraction/extraction_results.csv"
-DEFAULT_POOL = V3_ROOT / "indicator_pool.csv"
-DEFAULT_OUT_DIR = V3_ROOT / "review"
+FINAL_ROOT = PROJECT_ROOT / "outputs/final_results"
+DEFAULT_RESULTS = FINAL_ROOT / "extraction/extraction_results.csv"
+DEFAULT_POOL = FINAL_ROOT / "indicator_pool.csv"
+DEFAULT_OUT_DIR = FINAL_ROOT / "review"
 DEFAULT_SAMPLE_SIZE = 300
 
 REVIEW_FIELDS = [

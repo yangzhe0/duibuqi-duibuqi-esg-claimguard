@@ -16,7 +16,7 @@
 根据提交包白名单和 200 MiB 限制，本包不包含 200 份源 PDF、10,528 页 canonical parsed、MinerU/Qwen 模型、`node_modules`、运行日志或缓存。因此：
 
 - 总览、结果查询和工程统计可以离线审阅；
-- PDF 回原文、bbox 证据定位和新报告上传推理需要在完整部署中恢复 `data/raw_pdfs/`、`outputs/formal_v3_mineru25_qwen36/parsed/` 及模型运行时；
+- PDF 回原文、bbox 证据定位和新报告上传推理需要在完整部署中恢复 `data/raw_pdfs/`、`outputs/final_results/parsed/` 及模型运行时；
 - 包内 `CHECKSUMS.sha256` 是完整冻结数据集的 provenance 清单，部分被体积规则排除的文件不会在本轻量包中重复提供；包内完整性应以 `SUBMISSION_MANIFEST.json` 为准。
 
 完整工程数据在原项目中是自包含的；本 ZIP 只声明自身为轻量审阅包，不把未打包资产描述为可用。

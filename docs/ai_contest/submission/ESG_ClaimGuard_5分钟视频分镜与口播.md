@@ -24,4 +24,4 @@
 
 只报告 200 份报告、10,528 页、65 项指标、13,000 条唯一结果、found 7,688、missing 5,312、error 0、10,015 次调用和严格证据合同。209 条记录属于内部工程纠错，不作为独立人工测试，也不用于声明 Precision、Recall 或 F1。
 
-最终口播原文与分段时长保存在 `outputs/ai_contest/submission/drafts/video_v2_audio/narration.txt` 和 `narration_timing.json`。
+最终口播原文与分段时长保存在 `outputs/ai_contest/video_assets/项目视频口播.txt` 和 `项目视频口播时序.json`。

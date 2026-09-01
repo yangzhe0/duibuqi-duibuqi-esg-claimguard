@@ -26,7 +26,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from src.esg_demo.blocks import flatten_report, load_content_list
 
 
-RUN_ROOT = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36"
+RUN_ROOT = PROJECT_ROOT / "outputs/final_results"
 RESULTS = RUN_ROOT / "extraction/extraction_results.csv"
 AUDIT_CSV = RUN_ROOT / "extraction/evidence_hardening.csv"
 AUDIT_JSON = RUN_ROOT / "extraction/evidence_hardening.json"

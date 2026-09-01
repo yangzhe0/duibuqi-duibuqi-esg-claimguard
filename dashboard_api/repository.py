@@ -12,15 +12,15 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RESULTS_PATH = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36/extraction/extraction_results.csv"
+RESULTS_PATH = PROJECT_ROOT / "outputs/final_results/extraction/extraction_results.csv"
 # Kept as a compatibility constant for task management. Dashboard datasets must
 # never discover or merge task outputs implicitly.
 TASK_RESULTS_ROOT = PROJECT_ROOT / "outputs/dashboard/tasks"
-METRICS_PATH = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36/validation.json"
+METRICS_PATH = PROJECT_ROOT / "outputs/final_results/validation.json"
 RISK_CASES_PATH: Path | None = None
-PARSED_ROOT = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36/parsed"
+PARSED_ROOT = PROJECT_ROOT / "outputs/final_results/parsed"
 PDF_ROOT = PROJECT_ROOT / "data/raw_pdfs"
-FORMAL_V3_ROOT = PROJECT_ROOT / "outputs/formal_v3_mineru25_qwen36"
+FINAL_RESULTS_ROOT = PROJECT_ROOT / "outputs/final_results"
 
 CURRENT_DATASET_ID = "formal_current"
 DEFAULT_DATASET_ID = CURRENT_DATASET_ID
@@ -65,10 +65,10 @@ def dataset_snapshot(dataset_id: str = DEFAULT_DATASET_ID) -> DatasetSnapshot:
     if selected != CURRENT_DATASET_ID:
         raise ValueError(f"unknown dataset_id: {selected}")
 
-    complete = _read_json(FORMAL_V3_ROOT / "COMPLETE.json")
-    validation = _read_json(FORMAL_V3_ROOT / "validation.json")
-    manifest = _read_json(FORMAL_V3_ROOT / "run_manifest.json")
-    results_path = FORMAL_V3_ROOT / "extraction/extraction_results.csv"
+    complete = _read_json(FINAL_RESULTS_ROOT / "COMPLETE.json")
+    validation = _read_json(FINAL_RESULTS_ROOT / "validation.json")
+    manifest = _read_json(FINAL_RESULTS_ROOT / "run_manifest.json")
+    results_path = FINAL_RESULTS_ROOT / "extraction/extraction_results.csv"
     run_id = str(complete.get("run_id", "")) if isinstance(complete, dict) else ""
     ready = (
         isinstance(complete, dict)
@@ -90,8 +90,8 @@ def dataset_snapshot(dataset_id: str = DEFAULT_DATASET_ID) -> DatasetSnapshot:
         run_id=run_id,
         scope=str(complete.get("scope_type", "full200")),
         results_path=results_path,
-        parsed_root=FORMAL_V3_ROOT / "parsed",
-        quality_path=FORMAL_V3_ROOT / "validation.json",
+        parsed_root=FINAL_RESULTS_ROOT / "parsed",
+        quality_path=FINAL_RESULTS_ROOT / "validation.json",
         completed_at=str(complete.get("completed_at", "")),
     )
 

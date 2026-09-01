@@ -8,7 +8,7 @@ from playwright.sync_api import Page, sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = ROOT / "outputs/ai_contest/submission/drafts/dashboard_demo.webm"
+DEFAULT_OUTPUT = ROOT / "outputs/ai_contest/video_assets/dashboard_demo.webm"
 
 
 def pause(page: Page, seconds: float) -> None:

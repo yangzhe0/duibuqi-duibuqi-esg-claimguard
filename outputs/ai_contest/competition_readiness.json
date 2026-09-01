@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:57:32+00:00",
+  "generated_at": "2026-09-01T06:22:09+00:00",
   "official_deadline": "2026-09-01T23:59:00+08:00",
   "scope": "第八届中国研究生人工智能创新大赛开放赛题初赛",
   "inference": {
@@ -15,7 +15,7 @@
     "last_run_wall_seconds": 27928.801,
     "evidence_quote_complete_rate": 1.0,
     "block_id_resolvable_rate": 1.0,
-    "v3_complete": true
+    "results_complete": true
   },
   "hardware": {
     "cpu": "AMD Ryzen Threadripper PRO 9955WX 16-Cores",
@@ -33,7 +33,7 @@
     {
       "requirement": "AI inference 效果与运行指标",
       "status": "ready",
-      "evidence": "V3：200 份报告、10015 次 Qwen3.6 生成、错误 0；11280 条结果具有正行级耗时",
+      "evidence": "正式运行：200 份报告、10015 次 Qwen3.6 生成、错误 0；11280 条结果具有正行级耗时",
       "next": "在项目文档中与准确率指标分栏呈现"
     },
     {

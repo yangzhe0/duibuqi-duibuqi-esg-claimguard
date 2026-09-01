@@ -1,0 +1,106 @@
+{
+  "tested_at": "2026-08-22T02:43:42+00:00",
+  "config_sha256": "38b1fe9210e8d09cac634094ac9fbf15325b888758c0275b0d996ff38779893a",
+  "strategy": "five longest evidence prompts across the frozen full200 cohort",
+  "ranking": "llama-server /tokenize token count",
+  "prompts_scanned": 10015,
+  "max_input_tokens": 4143,
+  "p50_input_tokens": 1030,
+  "p95_input_tokens": 2237,
+  "max_prompt_report_id": "00966_中国太平_2025_ESG暨社会责任报告",
+  "max_prompt_indicator_id": "s_human_rights",
+  "input_token_hard_limit": 7152,
+  "template_boundary_margin_tokens": 16,
+  "cases": [
+    {
+      "report_id": "00966_中国太平_2025_ESG暨社会责任报告",
+      "indicator_id": "s_human_rights",
+      "prompt_chars": 6748,
+      "input_tokens": 4143,
+      "prompt_sha256": "fe6c1e93b917e540476b050a32089ca14633b1e5003b067adccbaf893ea20f8e",
+      "candidate_block_ids": [
+        "00966_中国太平_2025_ESG暨社会责任报告:p50:b2",
+        "00966_中国太平_2025_ESG暨社会责任报告:p51:b0",
+        "00966_中国太平_2025_ESG暨社会责任报告:p53:b1",
+        "00966_中国太平_2025_ESG暨社会责任报告:p54:b0",
+        "00966_中国太平_2025_ESG暨社会责任报告:p58:b1"
+      ],
+      "raw_response_sha256": "d2d03a9a01b16739c87cbbdfa1384ff790c61943df1d393d5f030269282a4136",
+      "status": "found",
+      "elapsed_seconds": "4.457",
+      "llm_reason": "证据明确披露了劳工准则层面的政策及合规情况。"
+    },
+    {
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "indicator_id": "e_waste_total",
+      "prompt_chars": 6014,
+      "input_tokens": 4060,
+      "prompt_sha256": "6ab32e53cc03f8efe4dc5afd062e7059fd454fc34e4562bc3342fa1989fe4ff9",
+      "candidate_block_ids": [
+        "603369_今世缘_2025_可持续发展报告:p96:b2",
+        "603369_今世缘_2025_可持续发展报告:p97:b0",
+        "603369_今世缘_2025_可持续发展报告:p105:b2",
+        "603369_今世缘_2025_可持续发展报告:p15:b0",
+        "603369_今世缘_2025_可持续发展报告:p98:b0"
+      ],
+      "raw_response_sha256": "39c677ad5400760d5452a75eeea2d68a2a98e75b84d5fbf691fba25ec1cb1d03",
+      "status": "found",
+      "elapsed_seconds": "3.723",
+      "llm_reason": "证据明确披露2025年总废弃物产生量数值及单位。"
+    },
+    {
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "indicator_id": "s_training",
+      "prompt_chars": 5904,
+      "input_tokens": 3949,
+      "prompt_sha256": "fe7bcda04faca5159125cc176b42f6ce1e1b97e6d83fbee8fc8acbfeb2350058",
+      "candidate_block_ids": [
+        "603369_今世缘_2025_可持续发展报告:p99:b0",
+        "603369_今世缘_2025_可持续发展报告:p101:b0",
+        "603369_今世缘_2025_可持续发展报告:p102:b1",
+        "603369_今世缘_2025_可持续发展报告:p103:b0"
+      ],
+      "raw_response_sha256": "881977855267fc687afb8761baaf7352341b6cfee2bac8d1aa61db5f247731c9",
+      "status": "found",
+      "elapsed_seconds": "5.732",
+      "llm_reason": "证据明确披露了2025年每名员工平均培训时间及费用，符合定量指标要求。"
+    },
+    {
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "indicator_id": "s_employee_gender",
+      "prompt_chars": 5911,
+      "input_tokens": 3920,
+      "prompt_sha256": "faf32d9f99814e90a1cae8f82c6a582a0c8ab997a8abd01c8cbc7a9ab9cc2165",
+      "candidate_block_ids": [
+        "603369_今世缘_2025_可持续发展报告:p99:b0",
+        "603369_今世缘_2025_可持续发展报告:p100:b0",
+        "603369_今世缘_2025_可持续发展报告:p15:b0",
+        "603369_今世缘_2025_可持续发展报告:p78:b0",
+        "603369_今世缘_2025_可持续发展报告:p101:b0"
+      ],
+      "raw_response_sha256": "4778bd9805d0cce0608c170561f6be0b77890a5e7389845d579939e7533638b9",
+      "status": "found",
+      "elapsed_seconds": "3.599",
+      "llm_reason": "证据明确披露2025年女性员工人数为731人。"
+    },
+    {
+      "report_id": "603369_今世缘_2025_可持续发展报告",
+      "indicator_id": "e_hazardous_waste",
+      "prompt_chars": 6020,
+      "input_tokens": 3801,
+      "prompt_sha256": "570fcf6efbaf682822f542426bf267f5002bab0375a330f1d5b781286dc8ee0c",
+      "candidate_block_ids": [
+        "603369_今世缘_2025_可持续发展报告:p96:b2",
+        "603369_今世缘_2025_可持续发展报告:p97:b0",
+        "603369_今世缘_2025_可持续发展报告:p13:b4",
+        "603369_今世缘_2025_可持续发展报告:p15:b0",
+        "603369_今世缘_2025_可持续发展报告:p105:b2"
+      ],
+      "raw_response_sha256": "6579f61764ba3211a5b5f5079b8ee53878f4706dd60f9f5f5c06b0bd54195b09",
+      "status": "missing",
+      "elapsed_seconds": "2.719",
+      "llm_reason": "候选证据中未包含危险废弃物产生量的具体数值，仅提及合规处置率或指标名称。"
+    }
+  ],
+  "passed": true
+}

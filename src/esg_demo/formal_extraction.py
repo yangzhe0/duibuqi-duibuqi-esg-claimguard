@@ -17,8 +17,8 @@ from src.esg_demo.ollama import build_llm_client
 from src.esg_demo.runner import DEFAULT_MODEL, DEFAULT_OLLAMA_URL, _find_report_jsons, _validate_model
 
 
-DEFAULT_POOL = Path("outputs/formal_v3_mineru25_qwen36/indicator_pool.csv")
-DEFAULT_OUT_DIR = Path("outputs/formal_v3_mineru25_qwen36/new_reports")
+DEFAULT_POOL = Path("outputs/final_results/indicator_pool.csv")
+DEFAULT_OUT_DIR = Path("outputs/final_results/new_reports")
 ALLOWED_STATUS = {"found", "missing", "error"}
 ZERO_EVENT_UNITS = {
     "s_work_injury": "起",
@@ -118,11 +118,11 @@ def run_sample(
                 continue
             executed_calls += 1
             try:
-                prompt = _build_v2_prompt(report_id, indicator, candidates)
+                prompt = _build_evidence_prompt(report_id, indicator, candidates)
                 generation_calls += 1
                 raw = llm.generate(prompt)
                 consecutive_transport_errors = 0
-                result = _normalize_v2_result(
+                result = _normalize_result(
                     report_id=report_id,
                     indicator=indicator,
                     raw_text=raw,
@@ -133,8 +133,8 @@ def run_sample(
                 if result["status"] == "error" and "invalid llm json" in result["llm_reason"]:
                     generation_calls += 1
                     retry_generation_calls += 1
-                    retry_raw = llm.generate(_build_v2_retry_prompt(prompt))
-                    retry_result = _normalize_v2_result(
+                    retry_raw = llm.generate(_build_evidence_retry_prompt(prompt))
+                    retry_result = _normalize_result(
                         report_id=report_id,
                         indicator=indicator,
                         raw_text=retry_raw,
@@ -267,7 +267,7 @@ def _valid_resume_row(row: dict) -> bool:
     return True
 
 
-def _build_v2_prompt(report_id: str, indicator: Indicator, candidates: list[dict]) -> str:
+def _build_evidence_prompt(report_id: str, indicator: Indicator, candidates: list[dict]) -> str:
     evidence = [
         {
             "block_id": row.get("block_id", ""),
@@ -295,7 +295,7 @@ def _build_v2_prompt(report_id: str, indicator: Indicator, candidates: list[dict
     )
 
 
-def _build_v2_retry_prompt(original_prompt: str) -> str:
+def _build_evidence_retry_prompt(original_prompt: str) -> str:
     return (
         original_prompt
         + "\n上一次回答不是合法 JSON。现在只输出一个完整 JSON 对象，不要解释，不要重复推理。"
@@ -303,7 +303,7 @@ def _build_v2_retry_prompt(original_prompt: str) -> str:
     )
 
 
-def _normalize_v2_result(
+def _normalize_result(
     report_id: str,
     indicator: Indicator,
     raw_text: str,

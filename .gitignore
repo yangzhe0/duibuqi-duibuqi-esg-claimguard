@@ -37,9 +37,8 @@ dashboard_web/vite.config.d.ts
 *.mp3
 video/claimguard-remotion/playwright-chrome
 data/raw_pdfs/
-outputs/formal_v3_mineru25_qwen36/parsed/
-outputs/formal_v3_mineru25_qwen36/logs/
-outputs/ai_contest/submission/drafts/
+outputs/final_results/parsed/
+outputs/final_results/logs/
 outputs/ai_contest/submission/archive/
 outputs/ai_contest/submission/latex_stage/
 outputs/ai_contest/submission/latex_review_*/

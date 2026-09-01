@@ -54,9 +54,9 @@ bash scripts/run_dashboard.sh
 
 默认 `claimguard` 配置顺序执行两个本地进程：MinerU 3.4 的 `vlm-engine` 使用 MinerU2.5-Pro-2605-1.2B 完成版面与 OCR，进程退出并释放显存后，再临时启动 `llama-server` 运行 Qwen3.6-27B Q4_K_M。文本抽取不加载视觉投影；视觉投影仅为后续困难页面复核保留。每项任务结束都会关闭 27B 服务，因此两个模型不会同时驻留。
 
-运行参数可通过 `ESG_MINERU_BACKEND`、`ESG_LLM_API`、`ESG_MODEL`、`ESG_LLAMA_SERVER_BIN`、`ESG_QWEN_MODEL_PATH`、`ESG_QWEN_MMPROJ_PATH` 和 `ESG_GGML_CUDA_BACKEND` 显式配置；测试或多实例运行可通过 `ESG_TASK_ROOT` 和 `ESG_REVIEW_DB` 隔离任务状态与复核数据库。模型权重位于系统模型目录，不属于项目或提交包。正式环境不启用 V1/V2 静默回退。
+运行参数可通过 `ESG_MINERU_BACKEND`、`ESG_LLM_API`、`ESG_MODEL`、`ESG_LLAMA_SERVER_BIN`、`ESG_QWEN_MODEL_PATH`、`ESG_QWEN_MMPROJ_PATH` 和 `ESG_GGML_CUDA_BACKEND` 显式配置；测试或多实例运行可通过 `ESG_TASK_ROOT` 和 `ESG_REVIEW_DB` 隔离任务状态与复核数据库。模型权重位于系统模型目录，不属于项目或提交包。正式环境不启用历史实现的静默回退。
 
-新 PDF 计算 SHA-256 并登记到隔离任务目录，随后进入与正式 V3 相同的 canonical 解析、ESG-65 抽取和证据门禁。上传任务不覆盖冻结 manifest 中的 200 份正式结果；全量 V3 完成门通过后，网站只以 `formal_current` 为默认正式数据集。
+新 PDF 计算 SHA-256 并登记到隔离任务目录，随后进入与正式运行相同的 canonical 解析、ESG-65 抽取和证据门禁。上传任务不覆盖冻结 manifest 中的 200 份正式结果；全量完成门通过后，网站只以 `formal_current` 为默认正式数据集。
 
 ## 生产验收
 

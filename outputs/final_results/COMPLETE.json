@@ -1,0 +1,14 @@
+{
+  "run_id": "cg-20260822T011339Z-full200-vlm25-qwen36",
+  "completed_at": "2026-08-27T16:49:42+00:00",
+  "scope_type": "full200",
+  "is_full_200": true,
+  "reports": 200,
+  "result_rows": 13000,
+  "validation_passed": true,
+  "evaluation_kind": "engineering_run_not_accuracy_evaluation",
+  "natural_gold_unlocked": false,
+  "promotion": "not_promoted",
+  "checksums_sha256": "22e51c7cafb40058fe01c2ba7111400fe552aa835f29b942cb46c0cf543c980e",
+  "artifact_count": 24
+}

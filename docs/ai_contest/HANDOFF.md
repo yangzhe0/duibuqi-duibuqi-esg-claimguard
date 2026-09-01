@@ -19,7 +19,7 @@ ESG ClaimGuard 的冻结正式链路已经完成，不存在仍在运行的 Mine
 ## 2. 唯一正式数据与模型
 
 ```text
-outputs/formal_v3_mineru25_qwen36/
+outputs/final_results/
 ├── input_manifest.csv
 ├── indicator_pool.csv
 ├── parsed/
@@ -62,7 +62,7 @@ cd <project-root>
 /opt/miniconda3/bin/conda env list
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
 /opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
-(cd outputs/formal_v3_mineru25_qwen36 && sha256sum -c CHECKSUMS.sha256)
+(cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 (cd dashboard_web && npm run build)
 git diff --check
 ```

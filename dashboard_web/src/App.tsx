@@ -39,7 +39,7 @@ export default function App() {
         <button className={page === 'quality' ? 'active' : ''} onClick={() => setPage('quality')}><span>⌁</span>质量评测</button>
         <button className={page === 'upload' ? 'active' : ''} onClick={() => setPage('upload')}><span>↥</span>接入报告</button>
       </nav>
-      <div className={`topbar-meta ${health && !health.pipeline_ready ? 'warning' : ''}`} title={health?.pipeline_ready ? `MinerU + ${health.model.requested} 已就绪` : '解析或模型服务未就绪'}><span className="system-dot" />{health?.pipeline_ready ? '离线流水线就绪' : '流水线未就绪'} <b>V3.1</b></div>
+      <div className={`topbar-meta ${health && !health.pipeline_ready ? 'warning' : ''}`} title={health?.pipeline_ready ? `MinerU + ${health.model.requested} 已就绪` : '解析或模型服务未就绪'}><span className="system-dot" />{health?.pipeline_ready ? '离线流水线就绪' : '流水线未就绪'} <b>正式版</b></div>
     </header>
     {error ? <div className="global-error">无法连接数据服务：{error}</div> : null}
     {!summary ? <div className="app-loading"><span /><strong>正在载入 ESG 证据空间</strong></div> : <>

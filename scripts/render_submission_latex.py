@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/ai_contest/submission"
 PAPER_SOURCE = ROOT / "latex/ESG_ClaimGuard_技术论文.md"
 TEX_SOURCE = ROOT / "latex/submission"
-VALIDATION = ROOT / "outputs/formal_v3_mineru25_qwen36/validation.json"
+VALIDATION = ROOT / "outputs/final_results/validation.json"
 DEFAULT_OUTPUT = ROOT / "outputs/ai_contest/submission/latex_stage"
 
 
@@ -270,7 +270,7 @@ def project_cover(team: str, competition_group: str, submission_date: str) -> st
 \vspace{{18mm}}
 {{\LARGE\bfseries\sffamily 项目文档\par}}
 \vspace{{5mm}}
-{{\large\sffamily 版本 v1.0\par}}
+{{\large\sffamily 正式版本\par}}
 \vfill
 \begin{{tabular}}{{rl}}
 日期： & {escape_latex(submission_date)} \\
