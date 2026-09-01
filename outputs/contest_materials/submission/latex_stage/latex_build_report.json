@@ -1,0 +1,30 @@
+{
+  "renderer": "XeLaTeX",
+  "passed": true,
+  "documents": [
+    {
+      "job": "project_document",
+      "tex": "latex/submission/ESG_ClaimGuard_项目文档.tex",
+      "pdf": "outputs/contest_materials/submission/latex_stage/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+      "pdf_sha256": "db0d072d7f16539850789752ebf2483c8d741a93f774529d81a21d5c24c71444",
+      "overfull_boxes": 0,
+      "log": "outputs/contest_materials/submission/latex_stage/latex-build/project_document/project_document.log"
+    },
+    {
+      "job": "project_introduction",
+      "tex": "latex/submission/ESG_ClaimGuard_参赛作品简介.tex",
+      "pdf": "outputs/contest_materials/submission/latex_stage/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+      "pdf_sha256": "6839f983d7ff8864844353e45ed8eac8ed5fb0b7e3de8b5ac62351a75512960a",
+      "overfull_boxes": 0,
+      "log": "outputs/contest_materials/submission/latex_stage/latex-build/project_introduction/project_introduction.log"
+    },
+    {
+      "job": "technical_paper",
+      "tex": "latex/submission/ESG_ClaimGuard_技术论文.tex",
+      "pdf": "outputs/contest_materials/submission/latex_stage/ESG_ClaimGuard_技术论文.pdf",
+      "pdf_sha256": "803b3ffec0b0128696b6488107e4e5889a355dacab2666500239b0f3a8ad8150",
+      "overfull_boxes": 0,
+      "log": "outputs/contest_materials/submission/latex_stage/latex-build/technical_paper/technical_paper.log"
+    }
+  ]
+}
