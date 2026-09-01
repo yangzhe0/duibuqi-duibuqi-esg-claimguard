@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCK = ROOT / "dashboard_web/package-lock.json"
-OUTPUT = ROOT / "outputs/ai_contest/frontend_dependency_licenses.md"
+OUTPUT = ROOT / "outputs/contest_materials/frontend_dependency_licenses.md"
 
 
 def main() -> int:

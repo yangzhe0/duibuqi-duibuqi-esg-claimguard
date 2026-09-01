@@ -61,7 +61,7 @@ outputs/final_results/
 cd <project-root>
 /opt/miniconda3/bin/conda env list
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
-/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
+/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_contest_readiness.py
 (cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 (cd dashboard_web && npm run build)
 git diff --check
@@ -71,7 +71,7 @@ git diff --check
 
 ## 6. 提交材料
 
-正式目录 `outputs/ai_contest/submission/final/` 最终只允许保留：
+正式目录 `outputs/contest_materials/submission/final/` 最终只允许保留：
 
 1. `队不起队不起_ESG ClaimGuard_参赛作品简介.pdf`
 2. `队不起队不起_ESG ClaimGuard_项目文档.pdf`

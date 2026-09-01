@@ -14,7 +14,7 @@ import edge_tts
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_ASSET_DIR = ROOT / "outputs/ai_contest/video_assets"
+DEFAULT_ASSET_DIR = ROOT / "outputs/contest_materials/video_assets"
 DEFAULT_OUTPUT = DEFAULT_ASSET_DIR / "队不起队不起_ESG ClaimGuard_项目配音母带.wav"
 DEFAULT_VOICE = "zh-CN-YunyangNeural"
 TOTAL_SECONDS = 275.2

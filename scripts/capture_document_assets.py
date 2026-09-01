@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = ROOT / "docs/ai_contest/assets"
+DEFAULT_OUTPUT = ROOT / "docs/contest_materials/assets"
 
 
 def main() -> int:

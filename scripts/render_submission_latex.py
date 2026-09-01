@@ -15,11 +15,11 @@ from markdown_it import MarkdownIt
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "docs/ai_contest/submission"
+SOURCE = ROOT / "docs/contest_materials/submission"
 PAPER_SOURCE = ROOT / "latex/ESG_ClaimGuard_技术论文.md"
 TEX_SOURCE = ROOT / "latex/submission"
 VALIDATION = ROOT / "outputs/final_results/validation.json"
-DEFAULT_OUTPUT = ROOT / "outputs/ai_contest/submission/latex_stage"
+DEFAULT_OUTPUT = ROOT / "outputs/contest_materials/submission/latex_stage"
 
 
 def sha256(path: Path) -> str:

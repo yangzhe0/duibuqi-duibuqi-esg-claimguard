@@ -21,10 +21,10 @@
 | 创新性论证 | 已具备 | 项目文档已用真实来源、数据格式、产品截图、典型正反案例和冻结结果说明四项机制 | 保持工程证据与效果指标边界 |
 | 与已有工作对比调研 | 已具备 | 已形成关键词/正则、整份 PDF 单次问答、普通 RAG 三类预注册基线及参考资料 | 保持可审计性对比，不声明未经验证的准确率优势 |
 | 数据、行业知识、算法和硬件来源 | 已具备 | 来源与借鉴台账已区分公开数据、标准、模型工具、学术借鉴与项目原创工程 | 部署或再分发前按上游许可证复核 |
-| 300 字作品简介 PDF | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf | 提交前再次核对文件可打开且正文不超过 300 字 |
-| 模板项目文档 PDF | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf | 提交前再次核对文件可打开 |
-| 5 分钟以内项目视频 | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4 | 保持当前成片与源码一致 |
-| 200 MB 内其他材料 ZIP | 已具备 | outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip | 提交前再次核对 SHA-256 和 200 MB 限制 |
+| 300 字作品简介 PDF | 已具备 | outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf | 提交前再次核对文件可打开且正文不超过 300 字 |
+| 模板项目文档 PDF | 已具备 | outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf | 提交前再次核对文件可打开 |
+| 5 分钟以内项目视频 | 已具备 | outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4 | 保持当前成片与源码一致 |
+| 200 MB 内其他材料 ZIP | 已具备 | outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_其他.zip | 提交前再次核对 SHA-256 和 200 MB 限制 |
 
 ## 已有 Inference 证据
 

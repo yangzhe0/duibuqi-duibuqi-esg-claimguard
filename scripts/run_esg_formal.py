@@ -115,7 +115,7 @@ def safe_output_root(path: Path) -> Path:
     resolved = path.resolve()
     protected = [
         (PROJECT_ROOT / "data").resolve(),
-        (PROJECT_ROOT / "outputs/ai_contest").resolve(),
+        (PROJECT_ROOT / "outputs/contest_materials").resolve(),
     ]
     if resolved == PROJECT_ROOT.resolve() or any(resolved == item or item in resolved.parents for item in protected):
         raise ValueError(f"Refusing unsafe formal output root: {resolved}")

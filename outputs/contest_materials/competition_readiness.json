@@ -63,25 +63,25 @@
     {
       "requirement": "300 字作品简介 PDF",
       "status": "ready",
-      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+      "evidence": "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
       "next": "提交前再次核对文件可打开且正文不超过 300 字"
     },
     {
       "requirement": "模板项目文档 PDF",
       "status": "ready",
-      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+      "evidence": "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf",
       "next": "提交前再次核对文件可打开"
     },
     {
       "requirement": "5 分钟以内项目视频",
       "status": "ready",
-      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4",
+      "evidence": "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4、outputs/contest_materials/submission/supporting/队不起队不起_ESG ClaimGuard_无声视频.mp4",
       "next": "保持当前成片与源码一致"
     },
     {
       "requirement": "200 MB 内其他材料 ZIP",
       "status": "ready",
-      "evidence": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
+      "evidence": "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
       "next": "提交前再次核对 SHA-256 和 200 MB 限制"
     }
   ],

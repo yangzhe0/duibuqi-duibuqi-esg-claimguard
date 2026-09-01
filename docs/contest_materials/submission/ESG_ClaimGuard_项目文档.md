@@ -60,7 +60,7 @@ ESG 报告的复核不是简单的全文搜索。以“温室气体排放总量�
 
 目标用户是企业报告编制人员、合规人员和内部审阅团队。一次典型预审从选择报告开始：系统列出需要关注的问题；复核人员查看冲突数值、计算式或缺失提示；点击证据后回到 PDF 原页；最后记录“确认问题、已修正、待补材料、接受风险或判定非问题”等动作，并导出工作底稿。
 
-![披露预审与问题处置界面](docs/ai_contest/assets/product_preaudit.png)
+![披露预审与问题处置界面](docs/contest_materials/assets/product_preaudit.png)
 
 图 2 是当前系统的实际页面。左侧是同一报告下的问题清单，中间给出问题事实、原文证据和可追溯路径，右侧记录处置。系统将原先散落在搜索、复制和表格登记中的步骤集中到同一界面，但不替代人员作最终判断。
 
@@ -118,7 +118,7 @@ ESG 报告的复核不是简单的全文搜索。以“温室气体排放总量�
 
 本项目的数据入口是巨潮资讯全文检索。下载脚本请求公开检索接口，关键词为“ESG报告”，按公告时间分页读取。每条公告先检查附件类型和标题，排除摘要、提示性公告、发布通知、英文重复件和明显非 ESG 报告，再从静态附件地址下载 PDF。文件写入临时 `.part` 后检查 `%PDF-` 文件头，成功后原子改名，并计算 SHA-256。
 
-![巨潮资讯 ESG 报告检索页](docs/ai_contest/assets/cninfo_search.png)
+![巨潮资讯 ESG 报告检索页](docs/contest_materials/assets/cninfo_search.png)
 
 图 3 是 2026 年 8 月 31 日重新截取的实际检索页。仓库中的 `download_cninfo_esg.py` 实现同一检索逻辑。`download_log.csv` 保存 518 条检索处置记录；`report_index.csv` 最终登记 210 份 PDF。正式运行没有直接使用目录中的全部文件，而由 `input_manifest.csv` 冻结其中 200 份，并保存顺序、路径、文件大小、页数和 SHA-256；其余 10 份不参与本文统计。
 
@@ -166,7 +166,7 @@ final_found = model_returns_found
 
 ### 3.2.6 产品工作流与工程验证
 
-![系统总览与正式数据规模](docs/ai_contest/assets/product_overview.png)
+![系统总览与正式数据规模](docs/contest_materials/assets/product_overview.png)
 
 图 4 是系统总览实际页面，展示冻结正式数据中的 200 份报告、13,000 个任务、59.1% 证据命中和 0 个 error。证据工作台把报告库、PDF 原页、抽取结果、逐字证据和修正表单放在同一屏；预审页则把约束问题与处置记录连接起来。
 
@@ -206,7 +206,7 @@ final_found = model_returns_found
 
 以深康佳 A 2025 年 ESG 报告为例，系统对“温室气体排放总量”返回 113,126.46 吨二氧化碳当量，定位到第 43 页表格区块 `p43:b0`。原文引文为“温室气体排放总量｜吨二氧化碳当量｜-｜117,319.54｜113,126.46”，value_origin 和 unit_origin 均为 direct。
 
-![PDF 原文、结构化结果与逐字证据同屏](docs/ai_contest/assets/product_evidence.png)
+![PDF 原文、结构化结果与逐字证据同屏](docs/contest_materials/assets/product_evidence.png)
 
 图 7 不是示意图，而是工作台读取正式数据后的实际页面。中间显示原报告第 43 页，右侧显示结构化值、单位、页码、区块类型和逐字证据。复核人员可以对照 2024/2025 年列判断数值是否取对，并在下方记录修正。
 

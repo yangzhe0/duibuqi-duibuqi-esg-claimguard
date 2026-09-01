@@ -49,7 +49,7 @@
 
 ```bash
 cd <project-root>
-/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
+/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_contest_readiness.py
 (cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
 (cd dashboard_web && npm run build)

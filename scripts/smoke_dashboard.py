@@ -18,8 +18,8 @@ from urllib.request import urlopen
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_JSON = PROJECT_ROOT / "outputs/ai_contest/dashboard_smoke.json"
-OUTPUT_MD = PROJECT_ROOT / "outputs/ai_contest/dashboard_smoke.md"
+OUTPUT_JSON = PROJECT_ROOT / "outputs/contest_materials/dashboard_smoke.json"
+OUTPUT_MD = PROJECT_ROOT / "outputs/contest_materials/dashboard_smoke.md"
 
 
 def _free_port() -> int:

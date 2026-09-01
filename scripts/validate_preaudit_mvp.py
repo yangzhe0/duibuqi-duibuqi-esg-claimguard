@@ -15,7 +15,7 @@ from dashboard_api.preaudit import claim_graph, preaudit_issues, preaudit_summar
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = PROJECT_ROOT / "outputs/ai_contest"
+DEFAULT_OUTPUT = PROJECT_ROOT / "outputs/contest_materials"
 
 
 def validate(output_dir: Path = DEFAULT_OUTPUT) -> dict:

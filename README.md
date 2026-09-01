@@ -6,7 +6,7 @@ ESG ClaimGuard 是面向上市公司可持续发展报告编制与内部复核�
 
 本项目参加第八届中国研究生人工智能创新大赛，赛题为“开放赛题—生成式大语言模型与智能体”，团队为“队不起队不起”。项目不提供企业 ESG 评分、投资建议、法定审计或违规认定。
 
-![ESG ClaimGuard 系统总览](docs/ai_contest/assets/product_overview.png)
+![ESG ClaimGuard 系统总览](docs/contest_materials/assets/product_overview.png)
 
 ## 为什么做这个项目
 
@@ -44,7 +44,7 @@ ESG ClaimGuard 采用如下链路：
 
 以深康佳 A 报告为例，正式结果把“温室气体排放总量”定位到第 43 页表格区块，抽取值为 113,126.46 吨二氧化碳当量。工作台同时显示 PDF 原页、结构化结果和逐字证据：
 
-![PDF 原文与抽取结果](docs/ai_contest/assets/product_evidence.png)
+![PDF 原文与抽取结果](docs/contest_materials/assets/product_evidence.png)
 
 结果行位于 `outputs/final_results/extraction/extraction_results.csv`，原始 PDF 位于 `data/raw_pdfs/`，解析区块位于冻结结果的 `parsed/`。三者通过 `report_id`、文件哈希、`page_no` 和 `block_id` 连接。
 
@@ -75,19 +75,19 @@ contest_xiaoshumo/
 ├── scripts/                          数据获取、正式运行、验证与材料构建
 ├── data/                             来源索引、下载日志与原始报告
 ├── outputs/final_results 冻结正式运行数据
-├── docs/ai_contest/                  题目分析、运行说明和参赛材料源稿
+├── docs/contest_materials/                  题目分析、运行说明和参赛材料源稿
 ├── latex/                            XeLaTeX 源文件与正式图表
 ├── video/claimguard-remotion/        无声视频工程与画面素材
 ├── tests/                            当前产品与正式数据测试
-└── outputs/ai_contest/submission/    最终提交件与验收报告
+└── outputs/contest_materials/submission/    最终提交件与验收报告
 ```
 
 评审建议先阅读：
 
 1. 本 README；
-2. `docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md`；
+2. `docs/contest_materials/submission/ESG_ClaimGuard_项目文档.md`；
 3. `data/README.md`；
-4. `docs/ai_contest/HANDOFF.md`；
+4. `docs/contest_materials/HANDOFF.md`；
 5. `outputs/final_results/validation.json`。
 
 ## 快速启动
@@ -112,14 +112,14 @@ bash scripts/run_dashboard.sh --host 127.0.0.1 --port 8765
 ```bash
 cd <project-root>
 /opt/miniconda3/bin/conda run -n paperagent python -m unittest discover -s tests
-/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_ai_contest_readiness.py
+/opt/miniconda3/bin/conda run -n paperagent python scripts/validate_contest_readiness.py
 /opt/miniconda3/bin/conda run -n paperagent python scripts/smoke_dashboard.py
 (cd outputs/final_results && sha256sum -c CHECKSUMS.sha256)
 (cd dashboard_web && npm run build)
 git diff --check
 ```
 
-完整重新解析 200 份报告还需要 MinerU、Qwen3.6 权重和 GPU，步骤见 `docs/ai_contest/FULL_RUN.md`。冻结结果不应通过重新推理覆盖；如果验证失败，应先定位数据、代码或材料之间的不一致。
+完整重新解析 200 份报告还需要 MinerU、Qwen3.6 权重和 GPU，步骤见 `docs/contest_materials/FULL_RUN.md`。冻结结果不应通过重新推理覆盖；如果验证失败，应先定位数据、代码或材料之间的不一致。
 
 ## 文档与提交件
 
@@ -129,7 +129,7 @@ git diff --check
 /opt/miniconda3/bin/conda run -n paperagent python scripts/render_submission_latex.py
 ```
 
-官方提交目录 `outputs/ai_contest/submission/final/` 只保留四个文件：参赛作品简介 PDF、项目文档 PDF、项目视频 MP4、其他材料 ZIP。文件生成完成不等于已经上传到比赛平台。
+官方提交目录 `outputs/contest_materials/submission/final/` 只保留四个文件：参赛作品简介 PDF、项目文档 PDF、项目视频 MP4、其他材料 ZIP。文件生成完成不等于已经上传到比赛平台。
 
 ## 团队分工
 
@@ -137,4 +137,4 @@ git diff --check
 - 队员1：邱宇强——报告数据、MinerU 解析、候选召回、大模型抽取与正式数据运行。
 - 队员2：王恒岳——前后端工作台、证据复核、问题处置、可视化、测试与交付整理。
 
-第三方依赖和许可证见 `docs/ai_contest/submission/ESG_ClaimGuard_第三方依赖与许可.md`；公开报告原文版权归发布主体，部署与再分发前应核对来源网站条款。
+第三方依赖和许可证见 `docs/contest_materials/submission/ESG_ClaimGuard_第三方依赖与许可.md`；公开报告原文版权归发布主体，部署与再分发前应核对来源网站条款。

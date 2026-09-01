@@ -11,13 +11,13 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_ROOT = PROJECT_ROOT / "outputs/ai_contest/submission/final"
+OUTPUT_ROOT = PROJECT_ROOT / "outputs/contest_materials/submission/final"
 MAX_BYTES = 200 * 1024 * 1024
 PROJECT_NAME = "ESG ClaimGuard"
 
 INCLUDE_FILES = [
-    "docs/ai_contest/submission/ESG_ClaimGuard_其他材料说明.md",
-    "docs/ai_contest/submission/requirements-submission.txt",
+    "docs/contest_materials/submission/ESG_ClaimGuard_其他材料说明.md",
+    "docs/contest_materials/submission/requirements-submission.txt",
     "data/README.md",
     "dashboard_web/README.md",
     "dashboard_web/package.json",
@@ -44,21 +44,21 @@ INCLUDE_FILES = [
     "outputs/final_results/validation.json",
     "outputs/final_results/CHECKSUMS.sha256",
     "outputs/final_results/COMPLETE.json",
-    "outputs/ai_contest/competition_readiness.md",
-    "outputs/ai_contest/dashboard_smoke.md",
-    "outputs/ai_contest/frontend_dependency_licenses.md",
-    "outputs/ai_contest/submission/latex_build_report.json",
-    "outputs/ai_contest/submission/ESG_ClaimGuard_仓库整理与交付报告_20260831.md",
-    "docs/ai_contest/术语表格.md",
-    "docs/ai_contest/题目分析.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_参赛作品简介_300字.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_5分钟视频分镜与口播.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_创新与基线对比矩阵.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_来源与借鉴台账.md",
-    "docs/ai_contest/submission/ESG_ClaimGuard_第三方依赖与许可.md",
+    "outputs/contest_materials/competition_readiness.md",
+    "outputs/contest_materials/dashboard_smoke.md",
+    "outputs/contest_materials/frontend_dependency_licenses.md",
+    "outputs/contest_materials/submission/latex_build_report.json",
+    "outputs/contest_materials/submission/ESG_ClaimGuard_仓库整理与交付报告_20260831.md",
+    "docs/contest_materials/术语表格.md",
+    "docs/contest_materials/题目分析.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_项目文档.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_参赛作品简介_300字.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_5分钟视频分镜与口播.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_创新与基线对比矩阵.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_来源与借鉴台账.md",
+    "docs/contest_materials/submission/ESG_ClaimGuard_第三方依赖与许可.md",
     "latex/ESG_ClaimGuard_技术论文.md",
-    "outputs/ai_contest/submission/supporting/ESG_ClaimGuard_技术论文.pdf",
+    "outputs/contest_materials/submission/supporting/ESG_ClaimGuard_技术论文.pdf",
 ]
 INCLUDE_TREES = [
     "dashboard_api",
@@ -68,15 +68,15 @@ INCLUDE_TREES = [
     "tests",
     "latex/figures",
     "latex/submission",
-    "docs/ai_contest/assets",
+    "docs/contest_materials/assets",
 ]
 ALLOWED_SUFFIXES = {".py", ".ts", ".tsx", ".css", ".html", ".sh", ".md", ".txt", ".srt", ".tex", ".json", ".csv", ".svg", ".png", ".pdf"}
 TEXT_SUFFIXES = {".py", ".ts", ".tsx", ".css", ".html", ".sh", ".md", ".txt", ".srt", ".tex", ".json", ".csv", ".svg"}
 EXCLUDED_PARTS = {"__pycache__", "node_modules", ".git", "dist", "tasks"}
 EXCLUDED_FILES: set[str] = set()
 ARCHIVE_ALIASES = {
-    "docs/ai_contest/submission/ESG_ClaimGuard_其他材料说明.md": "README.md",
-    "docs/ai_contest/submission/requirements-submission.txt": "requirements-submission.txt",
+    "docs/contest_materials/submission/ESG_ClaimGuard_其他材料说明.md": "README.md",
+    "docs/contest_materials/submission/requirements-submission.txt": "requirements-submission.txt",
 }
 
 
@@ -130,7 +130,7 @@ def archive_bytes(path: Path, identity: dict[str, str]) -> bytes:
         if isinstance(data.get("parser"), dict) and "binary" in data["parser"]:
             data["parser"]["binary"] = "${MINERU_BIN}"
         payload = (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-    if relative == "docs/ai_contest/submission/ESG_ClaimGuard_项目文档.md":
+    if relative == "docs/contest_materials/submission/ESG_ClaimGuard_项目文档.md":
         text = payload.decode("utf-8")
         for key, value in identity.items():
             text = text.replace("{{" + key + "}}", value)
@@ -169,7 +169,7 @@ def main() -> int:
         content = payload.decode("utf-8", errors="replace")
         markers = ["/data/" + "sues01", "/home/" + "sues01"]
         relative = str(path.relative_to(PROJECT_ROOT))
-        if relative.startswith("docs/ai_contest/submission/"):
+        if relative.startswith("docs/contest_materials/submission/"):
             markers.extend(["待定", "待确认", "YYYY"])
         found = [marker for marker in markers if marker in content]
         if found:
@@ -217,7 +217,7 @@ def main() -> int:
         "sha256": sha256(output),
         "under_200_mib": True,
     }
-    validation_path = PROJECT_ROOT / "outputs/ai_contest/submission/package_validation.json"
+    validation_path = PROJECT_ROOT / "outputs/contest_materials/submission/package_validation.json"
     validation_path.parent.mkdir(parents=True, exist_ok=True)
     validation_path.write_text(
         json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"

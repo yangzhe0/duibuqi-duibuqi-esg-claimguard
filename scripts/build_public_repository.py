@@ -11,7 +11,7 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-from build_ai_contest_submission import PROJECT_ROOT, archive_bytes, collect_files
+from build_contest_submission import PROJECT_ROOT, archive_bytes, collect_files
 
 
 DEFAULT_OUTPUT = PROJECT_ROOT / "outputs/public_repository/ESG_ClaimGuard_公开代码仓库.zip"
@@ -31,11 +31,11 @@ EXTRA_FILES = [
     "data/download_log.csv",
     "data/report_index.csv",
     "dashboard_web/index.html",
-    "outputs/ai_contest/submission/OFFICIAL_SHA256SUMS.txt",
-    "outputs/ai_contest/submission/final_submission_checklist.json",
-    "outputs/ai_contest/submission/final_submission_checklist.md",
-    "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
-    "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+    "outputs/contest_materials/submission/OFFICIAL_SHA256SUMS.txt",
+    "outputs/contest_materials/submission/final_submission_checklist.json",
+    "outputs/contest_materials/submission/final_submission_checklist.md",
+    "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+    "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf",
 ]
 EXCLUDED_PUBLIC_FILES: set[str] = set()
 

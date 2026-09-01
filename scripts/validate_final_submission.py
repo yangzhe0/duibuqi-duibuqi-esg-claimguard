@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SUBMISSION = ROOT / "outputs/ai_contest/submission"
+SUBMISSION = ROOT / "outputs/contest_materials/submission"
 FINAL = SUBMISSION / "final"
 TEAM = "队不起队不起"
 MAX_BYTES = 200 * 1024 * 1024
@@ -124,7 +124,7 @@ def zip_checks(path: Path) -> dict[str, object]:
         "outputs/final_results/validation.json",
         "outputs/final_results/COMPLETE.json",
         "outputs/final_results/extraction/audit_corrections.json",
-        "docs/ai_contest/submission/ESG_ClaimGuard_5分钟视频分镜与口播.md",
+        "docs/contest_materials/submission/ESG_ClaimGuard_5分钟视频分镜与口播.md",
         "SUBMISSION_MANIFEST.json",
     }
     with zipfile.ZipFile(path) as archive:
@@ -220,7 +220,7 @@ def main() -> int:
         "project_video": inspect(FINAL / f"{TEAM}_ESG ClaimGuard_项目视频.mp4", "video"),
         "auxiliary_zip": inspect(FINAL / f"{TEAM}_ESG ClaimGuard_其他.zip", "zip"),
     }
-    intro_source = (ROOT / "docs/ai_contest/submission/ESG_ClaimGuard_参赛作品简介_300字.md").read_text(encoding="utf-8")
+    intro_source = (ROOT / "docs/contest_materials/submission/ESG_ClaimGuard_参赛作品简介_300字.md").read_text(encoding="utf-8")
     intro_match = re.search(r"## 300 字以内正文\s+(.*?)(?:\n> 口径说明|\Z)", intro_source, flags=re.S)
     intro_han_chars = len(re.findall(r"[\u4e00-\u9fff]", intro_match.group(1))) if intro_match else None
     intro_pdf_text = pdf_text_checks(FINAL / f"{TEAM}_ESG ClaimGuard_参赛作品简介.pdf").get("text", "")

@@ -13,7 +13,7 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_DIR = PROJECT_ROOT / "outputs/ai_contest"
+OUTPUT_DIR = PROJECT_ROOT / "outputs/contest_materials"
 OUTPUT_JSON = OUTPUT_DIR / "competition_readiness.json"
 OUTPUT_MD = OUTPUT_DIR / "competition_readiness.md"
 
@@ -62,8 +62,8 @@ def _submission_files() -> dict[str, list[str]]:
     # Only current deliverable directories count. Historical files must never
     # make an incomplete current submission look ready.
     search_roots = [
-        PROJECT_ROOT / "outputs/ai_contest/submission/final",
-        PROJECT_ROOT / "outputs/ai_contest/submission/supporting",
+        PROJECT_ROOT / "outputs/contest_materials/submission/final",
+        PROJECT_ROOT / "outputs/contest_materials/submission/supporting",
     ]
     files = sorted(
         {
@@ -91,7 +91,7 @@ def build_report() -> dict[str, Any]:
     smoke_path = OUTPUT_DIR / "dashboard_smoke.json"
     smoke = _json(smoke_path) if smoke_path.is_file() else {}
     submission = _submission_files()
-    final_video = PROJECT_ROOT / "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4"
+    final_video = PROJECT_ROOT / "outputs/contest_materials/submission/final/队不起队不起_ESG ClaimGuard_项目视频.mp4"
     # The accepted MP4 is the current submission artifact; source changes do not
     # invalidate it unless the team explicitly requests a new render.
     video_needs_refresh = False
