@@ -1,0 +1,6688 @@
+[
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            114,
+            183,
+            416,
+            206
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2025",
+        "text_level": 1,
+        "bbox": [
+            85,
+            255,
+            561,
+            375
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "环境、社会及公司治理",
+        "text_level": 1,
+        "bbox": [
+            92,
+            403,
+            378,
+            491
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            712,
+            59,
+            766,
+            97
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "天域生物",
+        "bbox": [
+            774,
+            66,
+            897,
+            91
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "ESG REPORT",
+        "bbox": [
+            92,
+            916,
+            287,
+            941
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "bbox": [
+            44,
+            156,
+            104,
+            201
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Content",
+        "text_level": 1,
+        "bbox": [
+            46,
+            216,
+            104,
+            239
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/9e68801e979b50ca0c4446bff1ac10bed6800c1c12c615faa9eb9e8699d72d99.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Scenic landscape with rolling green fields, a winding river, and distant mountains under a clear sky (no text or symbols)",
+        "sub_type": "natural_image",
+        "bbox": [
+            184,
+            299,
+            318,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "公司治理 与风险管控",
+        "text_level": 1,
+        "bbox": [
+            200,
+            598,
+            273,
+            679
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/ffd3d2c706a8b8899a97f27be2ad29e15ad2546a7fb419f552afff1b9f06b2da.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Scenic rural landscape with terraced fields, winding river, and misty mountains in the background (no text or symbols)",
+        "sub_type": "natural_image",
+        "bbox": [
+            328,
+            301,
+            462,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "环境合规 与绿色低碳",
+        "text_level": 1,
+        "bbox": [
+            340,
+            623,
+            414,
+            679
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/830f428321d6092bcab0df6a07f7f53c25e994911816277a191a89f98d6bb73a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>董事长致辞</td><td>4</td></tr><tr><td>报告编制说明</td><td>6</td></tr><tr><td>关于天域生物</td><td>8</td></tr><tr><td>2025年度公司大事记</td><td>10</td></tr></table>",
+        "bbox": [
+            43,
+            706,
+            144,
+            821
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "公司治理 16",
+        "bbox": [
+            201,
+            706,
+            313,
+            722
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "风险管控 23",
+        "bbox": [
+            201,
+            739,
+            313,
+            755
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "商业道德 25",
+        "bbox": [
+            201,
+            771,
+            313,
+            788
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "应对气候变化 28",
+        "bbox": [
+            340,
+            706,
+            459,
+            722
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "环境管理 30",
+        "bbox": [
+            340,
+            739,
+            459,
+            755
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "循环经济 36",
+        "bbox": [
+            340,
+            771,
+            459,
+            788
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "生态系统与 37",
+        "bbox": [
+            340,
+            805,
+            459,
+            821
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "生物多样性保护",
+        "bbox": [
+            340,
+            827,
+            401,
+            843
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/1f2c885e61f4dbfc42558a43013d7340bff9cb9e1ed3c2e5d40972ee14fe10ec.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Modern industrial building with a large number '03' overlaid on it, against a clear sky (no other text or symbols visible)",
+        "sub_type": "natural_image",
+        "bbox": [
+            521,
+            301,
+            654,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "研发创新 与产品责任",
+        "text_level": 1,
+        "bbox": [
+            534,
+            624,
+            608,
+            679
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "创新驱动 40",
+        "bbox": [
+            534,
+            706,
+            645,
+            722
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "产品和服务 41",
+        "bbox": [
+            534,
+            739,
+            645,
+            755
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "安全与质量",
+        "bbox": [
+            534,
+            762,
+            579,
+            778
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/92d05e90df56fcabc7b50a3615abf527a72af559f6f16d8afecc723c997e8c12.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Close-up of two hands clasped together, no text or symbols visible",
+        "sub_type": "natural_image",
+        "bbox": [
+            667,
+            301,
+            801,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "04",
+        "bbox": [
+            680,
+            506,
+            739,
+            568
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "人才聚焦 与社会责任",
+        "text_level": 1,
+        "bbox": [
+            680,
+            624,
+            753,
+            679
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "员工 44",
+        "bbox": [
+            680,
+            706,
+            794,
+            722
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "社会责任 46",
+        "bbox": [
+            680,
+            739,
+            794,
+            755
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/f4c95275ad303d9b23b21950df0518fb6d1579358708116c2fc04971eeef1efb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Riverside view of a green field with grazing pigs under a blue sky, no text or symbols visible.",
+        "sub_type": "natural_image",
+        "bbox": [
+            813,
+            301,
+            946,
+            592
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "附录",
+        "text_level": 1,
+        "bbox": [
+            820,
+            624,
+            852,
+            649
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "附录 1 关键绩效指标表",
+        "bbox": [
+            820,
+            705,
+            903,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "2 天域生物科技股份有限公司",
+        "bbox": [
+            45,
+            50,
+            141,
+            63
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            49,
+            927,
+            63
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            50,
+            941,
+            61
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "48",
+        "bbox": [
+            936,
+            708,
+            946,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "董事长致辞",
+        "text_level": 1,
+        "bbox": [
+            45,
+            154,
+            202,
+            204
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Chairman's Address",
+        "text_level": 1,
+        "bbox": [
+            45,
+            215,
+            189,
+            240
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "“",
+        "text_level": 1,
+        "bbox": [
+            46,
+            280,
+            65,
+            304
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2025 年，是天域生物战略转型纵深推进、可持续发展根基持续夯实的关键之年。面对气候变化的严峻挑战与行业变革的深刻重塑，我们始终秉持 “生态优先，价值共生” 的核心理念，将 ESG 治理深度融入企业战略与运营的肌理之中。我们深知，企业的长远价值不仅体现在财务绩效，更在于对环境、社会及利益相关方所肩负的责任与贡献。本报告旨在系统回顾过去一年公司在生态农牧食品与生态能源两大业务板块于环境保护、社会责任和公司治理领域的实践进展与思考成果。",
+        "bbox": [
+            74,
+            277,
+            233,
+            540
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "以“生态”为基，构筑可持续业务发展模式",
+        "text_level": 1,
+        "bbox": [
+            262,
+            277,
+            378,
+            320
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/12bca5d2e4711f878325c1e9caad7dedbb2e14a98b865ce8ef258ba609572595.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            437,
+            281,
+            459,
+            314
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公司坚定以 “生态” 为核心经营理念，深耕生猪养殖业务，通过 “自繁自养一体化” 与 “公司 + 家庭农场” 模式保障农产品安全与供应链韧性，积极探索 “种养食结合” 的生态循环体系。公司坚定推行绿色养殖模式，致力于解决养殖过程中的环保问题，推动土壤改良与资源高效利用，将环境友好深植于现代农业实践，努力实现 “一个养殖场就是一个生态循环经济体” 的愿景。同时，公司持续优化饲料配方，从源头减少氮排放，为行业减排贡献力量。",
+        "bbox": [
+            261,
+            344,
+            465,
+            500
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "在生态能源板块，公司积极拥抱国家“双碳”战略，将分布式光伏业务作为推动能源结构转型的重要抓手。通过“自发自用，余电上网”模式，为工商业场景提供绿色电力解决方案的同时，将光伏电站的建设与农业、生态治理相结合，探索“光伏+”复合模式，提升土地资源利用效率，积极助力国家“双碳”目标。",
+        "bbox": [
+            261,
+            506,
+            465,
+            622
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "以“数智”为擎，驱动新质生产力赋能可持续发展",
+        "text_level": 1,
+        "bbox": [
+            532,
+            277,
+            678,
+            320
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb422c16ca02f301d5dbb3d58831a24c2cbd4d8617f0177807f38a080d76e514.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            703,
+            280,
+            726,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公司深刻认识到，科技是驱动可持续发展的核心引擎。报告期内，公司积极探索“数智化”转型升级，拥抱新质生产力，通过对生物资产的精细化、数字化管理，提升养殖效率，为绿色金融创新奠定基础。“数智”为擎的战略目标不仅是为了提高公司运营效率与决策水平，更希望通过此举以智慧透明的方式，管理企业环境足迹与社会影响，让公司可持续发展进度可衡量、可优化。",
+        "bbox": [
+            531,
+            346,
+            735,
+            483
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "以“责任”为念，与利益相关方共创共享价值",
+        "text_level": 1,
+        "bbox": [
+            750,
+            277,
+            875,
+            320
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/d8fe9add4b55b0f198650031961deaf63717e3c90f29ab20199d0fe9bc498d8b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            932,
+            283,
+            953,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "我们始终秉持“敬天爱人”的经营哲学。在乡村振兴的国家战略中，我们的“公司+农户”模式不仅提升了产业效能，更切实带动了合作农户增收，助力地方经济发展。我们坚持合规经营，积极维护员工权益，致力于构建和谐、平等、安全的工作环境。我们也将持续通过重点项目清欠、保障供应链合作伙伴权益等方式，积极履行对更广泛利益相关方的责任。",
+        "bbox": [
+            749,
+            346,
+            953,
+            462
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "展望未来，可持续发展已从“可选项”变为企业生存与竞争的“必答题”。天域生物将一如既往地将 ESG 理念深度融入公司战略、运营管理与企业文化，不断探索新质生产力创新路径，高效协同生态农牧食品与生态能源业务板块，以更高的标准要求自身，回应各方期待，携手共建绿色未来。",
+        "bbox": [
+            749,
+            469,
+            953,
+            565
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "以“治理”为锚， 夯实可持续发展的决策根基",
+        "text_level": 1,
+        "bbox": [
+            533,
+            525,
+            657,
+            566
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/dcc85a29f079664d2239ece7f9e3736d4495ecd2a4b7756b394d8223f849240d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            703,
+            530,
+            726,
+            563
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "健全的公司治理是践行 ESG 理念的根本保障。公司持续完善治理架构，确保科学、审慎决策。天域生物高度重视与所有股东，特别是中小股东的沟通，致力于建立稳定、透明的回报机制。同时，我们不断完善内部控制与风险管理体系，积极应对包括环境、社会、运营在内的各类风险，确保公司在追求增长的同时行稳致远。",
+        "bbox": [
+            531,
+            593,
+            735,
+            708
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            859,
+            615,
+            953,
+            631
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "董事长：梅晓阳",
+        "bbox": [
+            897,
+            636,
+            952,
+            651
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "4 天域生物科技股份有限公司",
+        "bbox": [
+            45,
+            50,
+            141,
+            63
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            844,
+            49,
+            927,
+            63
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            935,
+            50,
+            941,
+            61
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "报告编制说明",
+        "text_level": 1,
+        "bbox": [
+            45,
+            154,
+            233,
+            201
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "报告简介",
+        "text_level": 1,
+        "bbox": [
+            44,
+            251,
+            104,
+            275
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告是天域生物科技股份有限公司（以下简称“天域生物”“公司”或“我们”）发布的第四份环境、社会及公司治理（以下简称“ESG”）报告，旨在系统性阐述天域生物在可持续发展及社会责任等方面的实践及成果，回应利益相关方的期望和诉求。本报告经公司2026年4月29日召开的第五届董事会第十一次会议审议通过，并与公司2025年年度报告同时发布。公司董事会保证本报告内容不存在任何虚假记载或误导性陈述，并对其内容真实性和准确性负责。",
+        "bbox": [
+            43,
+            298,
+            446,
+            405
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "报告期间",
+        "text_level": 1,
+        "bbox": [
+            44,
+            439,
+            104,
+            463
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告为年度报告，披露时间范围为 2025 年 1 月 1 日至 2025 年 12 月 31 日，部分内容根据披露需要在时间范围上适度延伸。",
+        "bbox": [
+            43,
+            486,
+            445,
+            526
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "报告范围",
+        "text_level": 1,
+        "bbox": [
+            44,
+            560,
+            104,
+            584
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "除文中特别说明外，本报告披露的信息范围涵盖天域生物及其下属全资、控股子公司，与天域生物（603717.SH）年度财务报告合并报表范围一致。",
+        "bbox": [
+            43,
+            607,
+            445,
+            648
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "编制依据",
+        "text_level": 1,
+        "bbox": [
+            44,
+            681,
+            104,
+            705
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告遵循上海证券交易所《上市公司自律监管指引第14号——可持续发展报告（试行）》（以下简称“《14号指引》”）、《上市公司自律监管指南第4号——可持续发展报告编制（2026年1月修订）》（以下简称“《4号指南》”），并参照全球可持续发展标准委员会（GSSB）发布的《GRI可持续发展报告标准（GRI Standards 2021）》和联合国可持续发展目标（SDGs）进行信息披露。",
+        "bbox": [
+            43,
+            728,
+            446,
+            812
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告所涉及的财务数据按照中国企业会计准则编制。",
+        "bbox": [
+            44,
+            828,
+            244,
+            845
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "数据说明",
+        "text_level": 1,
+        "bbox": [
+            532,
+            251,
+            592,
+            275
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告的数据主要来源于本公司统计报告及相关文件，同时兼顾公司发展重点与利益相关方关注。报告中的财务数据摘自公司本年度财务报告，如与财务报告有出入之处，以公司年度财务报告为准。本报告所涉及的货币单位均为人民币。",
+        "bbox": [
+            530,
+            298,
+            934,
+            360
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "编制原则",
+        "text_level": 1,
+        "bbox": [
+            531,
+            394,
+            592,
+            418
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告遵循 “准确性”、“平衡性”、“可比性” 原则，在可持续发展背景下向利益相关方披露公司在经营中对于各项议题所秉持的理念、建立的管理办法、推行的工作以及取得的成果。报告编制过程中，数据收集分析信息化、数据引用注明来源、专业术语含义作通俗解释，增强 “量化性” 和 “清晰性”。",
+        "bbox": [
+            530,
+            442,
+            934,
+            504
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "报告获取",
+        "text_level": 1,
+        "bbox": [
+            531,
+            537,
+            592,
+            562
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本报告以印刷版和电子版两种形式发布，印刷版备置于公司董秘办。",
+        "bbox": [
+            531,
+            586,
+            782,
+            603
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "电子版发布平台包括：上海证券交易所网站（以下简称“上交所”）官方平台（http://www.sse.com.cn）、巨潮资讯网（http://www.cninfo.com.cn）等信息披露平台，亦可于公司官方网站（https://www.tygf.cn/）在线浏览或下载。",
+        "bbox": [
+            530,
+            618,
+            933,
+            679
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "联系方式与意见反馈",
+        "text_level": 1,
+        "bbox": [
+            531,
+            714,
+            664,
+            738
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司鼓励各利益相关方对公司 ESG 工作提出建议或意见。如有相关事宜，欢迎通过以下方式联系公司董秘办，帮助我们对报告进行持续改进：",
+        "bbox": [
+            531,
+            762,
+            933,
+            801
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/20d830d51a9d7080b9725201a9012ebc01b7e7f0b75c7861847ffbaf34c7f7ce.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            533,
+            841,
+            564,
+            857
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "021-65236319",
+        "bbox": [
+            546,
+            864,
+            592,
+            877
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/c9618319963dc13097f168fcb19de26afb2fffd1f605fb9f0cc1449793396749.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            533,
+            885,
+            564,
+            900
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "IR@tygf.cn",
+        "bbox": [
+            546,
+            908,
+            582,
+            921
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/521994c0cddba71a9ce322e98e11e1d4b2a7686230ca3583ebdb68857388bcea.jpg",
+        "image_caption": [
+            "意见反馈问卷"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            634,
+            838,
+            678,
+            902
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            59,
+            50,
+            141,
+            63
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            936,
+            50,
+            940,
+            61
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "关于天域生物",
+        "text_level": 1,
+        "bbox": [
+            42,
+            154,
+            230,
+            201
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司(证券代码:603717)，成立于2000年，2017年在上交所主板上市，公司总部位于上海市杨浦区。公司秉持“敬天爱人”的经营哲学，以“青山绿水好家园”为经营使命，聚焦“生态大农业”战略，协同生态农牧食品与生态能源业务，持续为客户提供美丽中国和城乡融合发展的整体解决方案，致力于成为城乡美好生活的创造者、守护者。",
+        "bbox": [
+            44,
+            260,
+            249,
+            395
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "企业文化",
+        "text_level": 1,
+        "bbox": [
+            47,
+            460,
+            107,
+            485
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/2b68620a429c21f03f1778b67039e02eb57ef7bfea5fda623cddca730acc2d67.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n  Center((\"企业文化\"))\n  \n  sub1[\"核心价值观\\n厚德、担当\\n简单、卓越\"]\n  sub2[\"经营哲学\\n敬天爱人\"]\n  sub3[\"企业愿景\\n城乡美好生活的\\n创造者、守护者\"]\n  sub4[\"企业使命\\n青山绿水\\n好家园\"]\n  \n  Center --> Sub1\n  Center --> Sub2\n  Center --> Sub3\n  Center --> Sub4\n  \n  Sub1 ==> Center\n  Sub2 ==> Center\n  Sub3 ==> Center\n  Sub4 ==> Center\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            46,
+            560,
+            241,
+            828
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/f2e11d4794365e82fc8d2e9451be19e89519a7afb140175e61b47e0691516dcd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Rural landscape with terraced fields, a winding river, and wind turbines in the distance (no text or symbols visible)",
+        "sub_type": "natural_image",
+        "bbox": [
+            316,
+            0,
+            702,
+            998
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "业务布局",
+        "text_level": 1,
+        "bbox": [
+            742,
+            211,
+            801,
+            236
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公司目前聚焦双板块业务协同，共同支撑可持续发展企业蓝图：生态农牧食品业务板块以生猪养殖业务为核心，营收占比超过70%，采用“自繁自养”与“公司+农户”相结合的模式，在湖北省进行区域化深耕，保障生猪稳产保供，助力地方农业经济。同时，公司积极向产业链上下游延伸，涉足基于生物科技的红曲系列产品及农副产品的研发与销售，探索“种、养、食”结合的生态循环农业模式，致力于提供健康、安全的食品。",
+        "bbox": [
+            739,
+            260,
+            953,
+            399
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/4e5e1df78213c76bd05d47766e172eda0c24196bfd2feeb82fc431aee7566d60.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n  A[\"Seedling\"] --> B[\"Human Labor\"]\n  B --> C[\"Livestock\"]\n  C --> D[\"Ecosystem Cycle Agriculture Model\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            756,
+            442,
+            926,
+            542
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "为应对气候变化，推动能源结构转型，公司积极布局以分布式光伏电站投资、建设与运营为主的生态能源业务。公司利用在工程项目管理方面的优势，将清洁能源技术与各类应用场景结合，向社会提供绿色电力，为公司践行低碳承诺、参与构建新型电力系统提供重要实践。",
+        "bbox": [
+            740,
+            592,
+            953,
+            687
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "天域生物将可持续发展理念融入公司战略，通过现代化、智能化的养殖管理，致力于提升养殖效率、加强疫病防控，稳健发展生态农牧食品业务的同时逐步探索生猪核心育种体系，与高校合作推动育种技术产业化，降低对外依存度，提升产业自主性与生物安全水平。面对行业周期与市场风险，公司高度重视财务健康与运营安全，不断完善内部治理结构，加强合规管理，推动公司向更加可持续、更具韧性的方向发展。",
+        "bbox": [
+            739,
+            693,
+            953,
+            830
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            59,
+            49,
+            141,
+            63
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            49,
+            927,
+            63
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            50,
+            941,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2025 年度公司大事记",
+        "text_level": 1,
+        "bbox": [
+            44,
+            143,
+            184,
+            168
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025 Company Milestones",
+        "text_level": 1,
+        "bbox": [
+            44,
+            177,
+            230,
+            204
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025年01月",
+        "text_level": 1,
+        "bbox": [
+            56,
+            381,
+            127,
+            401
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/929f33806a9db2ed168ab34267cc6cda4c634a0bc557deebe14fa603359fba49.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            206,
+            376,
+            227,
+            405
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "天域生物召开年度经营工作会议，全面总结2024年公司生产经营情况，制定2025年度公司战略规划，明确2025年生产经营工作重点与目标，开启年度新篇章。",
+        "bbox": [
+            55,
+            420,
+            227,
+            505
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025年03月",
+        "text_level": 1,
+        "bbox": [
+            287,
+            317,
+            357,
+            337
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/2b7362a7dee72861314f6e296efe3753aa15290f23f85893faae4ad8ba8d1b59.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            444,
+            309,
+            459,
+            338
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "天域生物生猪养殖板块的多个养殖基地同步启动改造计划，根据产能调控政策目标就技改与硬件升级、种猪繁育体系建设、生物安全检测等多方面作系统性升级。",
+        "bbox": [
+            286,
+            356,
+            460,
+            441
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025年10月",
+        "text_level": 1,
+        "bbox": [
+            543,
+            289,
+            613,
+            309
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/c2ddbbc4e71c23e1e8c5c1b8833b7d8605863a393ebe377e6896fcb0af522054.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            694,
+            283,
+            715,
+            312
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "天域生物作为首批核心单位签署“中农碳链”生态联盟链合作协议，助力发布我国首条农业可信碳资产联盟链。本次“中农碳链”的发布标志着我国在利用区块链技术赋能碳市场基础建设方面取得重要突破。",
+        "bbox": [
+            542,
+            328,
+            716,
+            434
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025年11月",
+        "text_level": 1,
+        "bbox": [
+            776,
+            376,
+            846,
+            396
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/0d1baa27a9afec7d0f2604c0c2be48ec907696d69ca9be65f20db90b73c22a18.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            926,
+            372,
+            949,
+            400
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "天域生物与中国农业科学院深圳农业基因组研究所孵化企业中农种源（深圳）科技有限公司达成生猪创新育种战略合作，以生物科技赋能种源升级，为公司生猪产业高质量发展注入新动能。",
+        "bbox": [
+            774,
+            415,
+            949,
+            522
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/16239c7b5943ae5720f96989e47337d35931cd12e0c81583fa2f00fa930b3e10.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Panoramic view of a lush green field with grazing pigs, a winding dirt path, and distant hills under a partly cloudy sky (no text or symbols visible)",
+        "sub_type": "natural_image",
+        "bbox": [
+            0,
+            563,
+            998,
+            998
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            49,
+            145,
+            63
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            855,
+            49,
+            937,
+            63
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            946,
+            50,
+            954,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2025 年度企业资质荣誉",
+        "text_level": 1,
+        "bbox": [
+            44,
+            144,
+            198,
+            169
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025 Enterprise Qualifications & Accolades",
+        "text_level": 1,
+        "bbox": [
+            44,
+            185,
+            343,
+            211
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/795c54295bad1efbb1d98a9ca996b35c6879e42f6c70bf4b908e9d91d3014f97.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            87,
+            330,
+            117,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年04月",
+        "bbox": [
+            87,
+            405,
+            157,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "武汉佳成生物制品有限公司：荣获“2025年度湖北省科学技术奖三等奖”",
+        "bbox": [
+            87,
+            444,
+            192,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公司控股子公司",
+        "bbox": [
+            87,
+            532,
+            144,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/ca85f10603bbac3b0ea990317a22937903c10a20cc5e4526689bc245dddaae3e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            227,
+            330,
+            246,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年07月",
+        "bbox": [
+            224,
+            405,
+            293,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司：荣获“2024年中国上市公司财务治理百强”",
+        "bbox": [
+            224,
+            444,
+            328,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "中国公司治理 50 人论坛",
+        "bbox": [
+            224,
+            532,
+            307,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/ae69f31c5a4063f850a2188ba72b976cec4134fc193c1e769a3507204bf47d42.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            361,
+            330,
+            381,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年12月",
+        "bbox": [
+            360,
+            405,
+            429,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司：荣获“2025年中国企业乡村振兴500强”",
+        "bbox": [
+            360,
+            444,
+            465,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "北京理工大学共同富裕与人力资源开发研究中心",
+        "bbox": [
+            359,
+            532,
+            464,
+            567
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/c339c4bda45085fcbc1a35f3b329157f14d6da75704bf7efd5beb246c9092ba6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            532,
+            330,
+            562,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年12月",
+        "bbox": [
+            532,
+            405,
+            602,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司：荣获“2025年度投关创新奖”",
+        "bbox": [
+            532,
+            444,
+            637,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "同花顺上市公司年度评选",
+        "bbox": [
+            533,
+            532,
+            619,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/c5be90837a13bca4b533406327e30c5bda20be241e64c6299926ff252f331b5b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            668,
+            330,
+            700,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年12月",
+        "bbox": [
+            669,
+            405,
+            738,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司：荣获“2025年度上市公司ESG价值传递奖”",
+        "bbox": [
+            669,
+            444,
+            773,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "易董 ESG 价值评级",
+        "bbox": [
+            669,
+            532,
+            735,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/cb28f7b2174cbda6d0c4e34f0a680b0d4003a61517cb3baa87b1c97000c9ba91.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            805,
+            330,
+            835,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025年12月",
+        "bbox": [
+            805,
+            405,
+            875,
+            426
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "天域生物科技股份有限公司：荣获“2025年度上市公司卓越投关建设奖”",
+        "bbox": [
+            805,
+            444,
+            910,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "易董价值在线",
+        "bbox": [
+            806,
+            532,
+            856,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            49,
+            146,
+            63
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            855,
+            49,
+            937,
+            63
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            946,
+            50,
+            955,
+            61
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Corporate Governance &",
+        "bbox": [
+            44,
+            128,
+            216,
+            156
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Risk Control",
+        "bbox": [
+            45,
+            157,
+            133,
+            179
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "01",
+        "text_level": 1,
+        "bbox": [
+            883,
+            391,
+            933,
+            454
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "公司治理与风险管控",
+        "text_level": 1,
+        "bbox": [
+            822,
+            532,
+            952,
+            620
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            872,
+            49,
+            954,
+            63
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "公司治理",
+        "text_level": 1,
+        "bbox": [
+            42,
+            154,
+            169,
+            201
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "治理架构",
+        "text_level": 1,
+        "bbox": [
+            44,
+            260,
+            105,
+            286
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "公司致力于建立并维护一个高效、透明、合规的公司治理架构，以保障所有股东的权益，确保公司的长期稳健运营与可持续发展。公司严格按照《中华人民共和国公司法》《中华人民共和国证券法》《上市公司治理准则》的要求，遵守商业道德，持续完善公司治理架构与风险管理体系，增强运营稳定性。",
+        "bbox": [
+            43,
+            301,
+            251,
+            397
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "天域生物治理架构由股东会、董事会和管理层组成，权责分明，主体清晰。股东会是公司的最高权力机构；董事会作为公司治理的核心，负责公司的战略制定和重大决策。董事会下设4个专门委员会，分别是战略与ESG委员会、审计委员会、提名委员会、薪酬与考核委员会，就公司各领域特定议题提供专业建议，有效提升决策科学性与准确性，对管理层形成有效监督。公司已建立独立董事专门会议机制，为独立董事提供履职平台，充分发挥其在关键领域参与决策、监督制衡、专业咨询的重要作用，客观评估重大事项，保障中小股东合法权益。",
+        "bbox": [
+            43,
+            403,
+            251,
+            599
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "报告期内，公司根据2024年7月1日起施行的《中华人民共和国公司法》（即“新《公司法》”）、中国证监会发布的《关于新〈公司法〉配套制度规则实施相关过渡期安排》以及《上市公司章程指引》等相关规定，完成对包括《天域生物科技股份有限公司公司章程》在内的多项治理文件修订工作，匹配上市公司最新治理框架；2025年10月，公司顺利有序的完成了董事会和管理层的换届选举工作，同步调整上市公司治理机制：取消监事会、由董事会审计委员会行使新《公司法》规定的监事会职权等内容。",
+        "bbox": [
+            258,
+            297,
+            466,
+            473
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/943de4c0eb107e5c7edd8045b2b36d0eecec8a2bb4eefc36ebcaac9f1263e9ec.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Exterior view of a modern glass skyscraper with faceted windows and geometric facades (no signage or text visible)",
+        "sub_type": "natural_image",
+        "bbox": [
+            0,
+            660,
+            500,
+            998
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "关键绩效",
+        "text_level": 1,
+        "bbox": [
+            533,
+            153,
+            581,
+            173
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/515c7509954c102e1526626abc50d7c9f308234bb72bed4e95f44663198abcb8.jpg",
+        "table_caption": [
+            "报告期内，公司共计召开"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>股东会</td><td>董事会</td><td>审计委员会</td><td>提名委员会</td></tr><tr><td>5次</td><td>15次</td><td>8次</td><td>2次</td></tr><tr><td>审议议案</td><td>审议议案</td><td>独立董事占比</td><td>独立董事占比</td></tr><tr><td>29项</td><td>69项</td><td>66.7%</td><td>66.7%</td></tr><tr><td>薪酬与考核委员会</td><td>战略与ESG委员会</td><td>独立董事专门会议</td><td></td></tr><tr><td>2次</td><td>0次</td><td>5次</td><td rowspan=\"3\"><img src=\"images/cd4e7b8f3f75b28c66497eb53d7b2274934ce328f5e195f8f28a603425bc4122.jpg\"/></td></tr><tr><td>独立董事占比</td><td>独立董事占比</td><td>独立董事占比</td></tr><tr><td>66.7%</td><td>33.3%</td><td>100%</td></tr></table>",
+        "bbox": [
+            555,
+            263,
+            928,
+            433
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/03d64284e41d071d82ce92398ac3aa374f96573538b8badc819c53c47b3d10b1.jpg",
+        "image_caption": [
+            "天域生物治理架构图"
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n  A[\"股东会\"] --> B[\"董事会\"]\n  B --> C[\"董事会秘书\"]\n  B --> D[\"总裁及管理层\"]\n  subgraph Left_Group [\"审计委员会\\n战略与ESG委员会\\n提名委员会\\n薪酬与考核委员会\"]\n    direction TB\n    A\n    B\n    D\n  end\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            534,
+            603,
+            941,
+            810
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            45,
+            50,
+            57,
+            61
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            49,
+            146,
+            63
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            844,
+            49,
+            927,
+            63
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "董事会成员多元化",
+        "text_level": 1,
+        "bbox": [
+            45,
+            153,
+            136,
+            173
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "为增强监督与治理效能、提升决策质量与创新能力，公司重视董事会成员多元化，在遴选过程中从性别、年龄、教育背景、专业经验、技能水平等多角度进行综合考量，确保选举过程公平公正。通过引入更广泛视角与经验，董事会成员多元化机制可有效避免“群体思维”偏误，帮助识别与应对复杂环境中的风险，增强企业韧性，提升核心竞争力。",
+        "bbox": [
+            43,
+            185,
+            379,
+            262
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "截止报告期末，天域生物董事会由7名董事组成，包含2名女性董事，董事会成员多元化分析如下：",
+        "bbox": [
+            44,
+            268,
+            375,
+            285
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/94a4e4050fb12e086ee399465448f0ed5574d3ee28d7cb67b94aec69dd28c421.jpg",
+        "content": "| Category | Sub-category | Value |\n| --- | --- | --- |\n| 性别 | 男 (5) | 5 |\n| 性别 | 女 (2) | 2 |\n| 年龄 | 45以下 (3) | 3 |\n| 年龄 | 45-54 (1) | 1 |\n| 年龄 | 54以上 (3) | 3 |\n| 学历 | 本科 (2) | 2 |\n| 学历 | 硕士 (3) | 3 |\n| 学历 | 博士 (2) | 2 |\n| 董事会服务期限 | 24个月以内 (2) | 2 |\n| 董事会服务期限 | 48个月及以上 (5) | 5 |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "bar_stacked",
+        "bbox": [
+            52,
+            371,
+            360,
+            661
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "报告期内，公司积极组织全体董事与高管成员参加上海证券交易所、上市公司协会等监管部门与机构开展的关于上市公司规范运作及独立董事合规履职等主题的相关培训，通过阅读培训材料、学习上市公司治理准则与 ESG 可持续发展相关的指引及管理办法，切实提高上市公司可持续发展治理的知识水平与履职能力。",
+        "bbox": [
+            43,
+            754,
+            380,
+            830
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "ESG 治理",
+        "text_level": 1,
+        "bbox": [
+            533,
+            154,
+            597,
+            178
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公司已建立权责清晰、层级分明、运行高效的可持续发展治理架构，确保从决策、监督到执行的全流程管理。",
+        "bbox": [
+            532,
+            195,
+            895,
+            211
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/bebb1077fe94c8e2d580e5649f89945ed67252c7263f5b312fc3aa52cec82945.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n  A[\"董事会\"] --> B[\"决策层\"]\n  B --> C[\"战略与ESG委员会\"]\n  C --> D[\"管理层\"]\n  D --> E[\"公司经营管理层\"]\n  E --> F[\"执行层\"]\n  F --> G[\"各职能部门\"]\n  F --> H[\"各事业部\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            544,
+            282,
+            944,
+            490
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "董事会作为公司 ESG 工作的最高领导和决策机构，负责审议并批准公司的可持续发展战略、目标及重大议题；审批 ESG 相关管理制度；监督 ESG 战略的执行与目标达成情况；最终审议批准年度《环境、社会及公司治理（ESG）报告》。董事会确保将可持续发展相关的重大风险与机遇纳入公司整体战略和重大决策考量。",
+        "bbox": [
+            531,
+            539,
+            954,
+            594
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "为提升专业决策与监督效能，董事会下设战略与 ESG 委员会，作为 ESG 工作的核心研究与指导机构。该委员会的主要职责是：深入研究国内外可持续发展工作的趋势与政策；指导制定公司 ESG 目标、管理策略与行动计划；审阅 ESG 报告草案并向董事会提交；指导公司识别、评估与管理 ESG 相关风险。",
+        "bbox": [
+            531,
+            602,
+            953,
+            657
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公司经营管理层负责组织推进 ESG 管理的全面实施。董秘办被指定为 ESG 工作的牵头部门，负责协调日常事务，其职责包括：拟定具体工作计划与方案；组织跨部门收集、整理 ESG 信息与数据；组织开展利益相关方沟通；编制年度 ESG 报告；跟踪 ESG 政策与评级动态。",
+        "bbox": [
+            531,
+            665,
+            954,
+            721
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公司各业务部门及子公司组织建立 ESG 专项工作组，负责落实其职责范围内的具体 ESG 管理实施工作。",
+        "bbox": [
+            531,
+            728,
+            878,
+            744
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "ESG 信息内部汇报机制",
+        "text_level": 1,
+        "bbox": [
+            533,
+            759,
+            623,
+            775
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公司建立了 ESG 信息内部汇报机制，确保董事会及战略与ESG委员会能够及时、全面地获取可持续发展相关的影响、风险、机遇及管理进展信息，保障了治理机构监督职能的有效履行。",
+        "bbox": [
+            531,
+            785,
+            975,
+            820
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "利益相关方沟通",
+        "text_level": 1,
+        "bbox": [
+            45,
+            125,
+            147,
+            149
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "本公司高度重视与利益相关方的双向沟通，将其视为完善 ESG 管理、提升披露质量的重要途径。我们的核心利益相关方包括：股东与投资者、政府与监管机构、员工、供应商、社区和非政府组织等。",
+        "bbox": [
+            43,
+            166,
+            460,
+            201
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/42190589e527e40e333bb35525d1e2dd83707ef9d1d2e958a9af867fbe493663.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>利益相关方</td><td>关注内容 &amp; 议题</td><td>我们的回应</td><td>沟通渠道</td><td>沟通频率</td></tr><tr><td>股东与投资者<img src=\"images/18e17d87feccb7248baff10fe5cea5ba3618e343bf9f6c56a1c2e670143e7f1e.jpg\"/></td><td>·股东权益·公司治理·经济效益与风险管理</td><td>·提升投资者回报和信息披露质量,合规治理、规范运作;·聚焦主业、优化运营效率;·细化内部控制体系、稳健发展</td><td>·定期报告·临时公告·股东会·业绩说明会·投资者沟通·机构调研</td><td>定期/不定期</td></tr><tr><td>政府与监管机构<img src=\"images/de3eb0653f0180153c5971335baf3528070e6a8815b7a5e785ad741c16138a86.jpg\"/></td><td>·合规经营·环境保护与管理·应对气候变化·税务合规·乡村振兴·公司治理</td><td>·健全内控合规管理体系·优化环境管理体系·严格管控三废管理·恪守商业道德</td><td>·政府及监管部门组织的行业会议·政府及监管部门监督检查·政策建议、监管沟通</td><td>定期/不定期</td></tr><tr><td>员工<img src=\"images/266677c8ea7ec16e110ef726eab230eb8f3f1ecc3fbe04a9b6924bd6d5ad321f.jpg\"/></td><td>·员工合法权益保护·职业健康与安全·员工培训与发展</td><td>·公平合理的薪酬体系·加强工作场所安全设施建设与维护·定期开展安全培训与应急演练·个性化员工培训计划,设立内部晋升通道</td><td>·职工满意度调查·员工培训</td><td>定期/不定期</td></tr><tr><td>供应商<img src=\"images/c3afa03323bd88754c3ed5eda39acba406181d38d0a7252a27d8668307a78c1a.jpg\"/></td><td>·反商业贿赂及反贪污</td><td>·供应商动态长效管理机制·统一质量和验收标准·践行商业行为准则</td><td>·定期供应商走访与沟通·准入认证·举报与监督</td><td>定期/不定期</td></tr><tr><td>社区和非政府组织<img src=\"images/82f60876fe42c4e6974d701163c52bb9fde7b944a601c79583b3fd6bb3e2c4dc.jpg\"/></td><td>·乡村振兴·社会贡献·环境保护与管理·生态系统与生物多样性保护</td><td>·环保型农牧生产运营,减少污染排放·参与社区教育、文化、环保等公益活动·社区走访与座谈</td><td>·志愿者·公益项目·环境信息披露</td><td>定期/不定期</td></tr></table>",
+        "bbox": [
+            40,
+            242,
+            461,
+            887
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "ESG 重要性议题分析",
+        "text_level": 1,
+        "bbox": [
+            533,
+            110,
+            668,
+            133
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "公司依据《14号指引》要求，建立了“双重重要性”分析流程，作为确定报告披露重点和管理优先级的核心依据。",
+        "bbox": [
+            532,
+            149,
+            911,
+            166
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1. 分析维度：",
+        "bbox": [
+            533,
+            174,
+            573,
+            187
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "a. 财务重要性：分析可持续发展议题是否预期在短期、中期或长期内对公司的商业模式、业务运营、财务状况、现金流及融资成本等产生重大影响。",
+        "bbox": [
+            539,
+            194,
+            952,
+            226
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "b. 影响重要性：分析公司在特定议题上的表现是否会对经济、社会和环境产生重大影响。",
+        "bbox": [
+            539,
+            236,
+            802,
+            250
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2. 执行流程：公司每年（或在业务模式发生重大变化时）组织跨部门团队，通过以下步骤开展分析：",
+        "bbox": [
+            532,
+            257,
+            828,
+            271
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "了解公司活动和业务关系背景",
+        "text_level": 1,
+        "bbox": [
+            692,
+            301,
+            792,
+            317
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "了解公司活动和业务关系",
+        "text_level": 1,
+        "bbox": [
+            553,
+            350,
+            629,
+            364
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "根据公司的主要业务活动分析公司与供应商、客户、合作伙伴之间的关系，了解供应链的各个环节。评估公司在市场中的竞争地位和市场份额。",
+        "bbox": [
+            539,
+            376,
+            651,
+            446
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "了解外部客观环境",
+        "text_level": 1,
+        "bbox": [
+            714,
+            350,
+            770,
+            364
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "分析中央和地方的农业政策和环保法规对公司业务的具体影响,全球气候变化、自然灾害等自然因素对行业趋势的变动影响。及时了解市场需求变化、消费者偏好等外部因素。",
+        "bbox": [
+            686,
+            376,
+            800,
+            464
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "了解主要受影响利益相关方",
+        "text_level": 1,
+        "bbox": [
+            846,
+            350,
+            928,
+            364
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "识别公司内部的主要利益相关方(如股东、管理层、员工等)，识别外部利益相关方(如农户、供应商、消费者、环保组织等)，尝试分析利益相关方的需求和期望，评估他们对公司的潜在影响。",
+        "bbox": [
+            831,
+            376,
+            944,
+            464
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "建立议题清单",
+        "text_level": 1,
+        "bbox": [
+            718,
+            501,
+            766,
+            517
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "议题重要性的评估与确认",
+        "text_level": 1,
+        "bbox": [
+            700,
+            540,
+            784,
+            555
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "影响重要性和财务重要性评估",
+        "text_level": 1,
+        "bbox": [
+            553,
+            589,
+            642,
+            603
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "结合公司生态农牧食品板块和生态能源板块的业务特点，识别每个议题是否预期在短期、中期和长期内对公司商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式及成本等产生重大影响（即“财务重要性”），以及在相应议题下是否会对经济、社会和环境产生重大影响（即“影响重要性”）。",
+        "bbox": [
+            539,
+            617,
+            780,
+            687
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "通过确定影响重要性评估因素和评分区间、利益相关方调研、设置各议题定性/定量的判定阈值等流程具体形成对各个议题的评估结论。",
+        "bbox": [
+            539,
+            695,
+            780,
+            728
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "了解外部客观环境",
+        "text_level": 1,
+        "bbox": [
+            846,
+            589,
+            902,
+            603
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "分析中央和地方的农业政策和环保法规对公司业务的具体影响,全球气候变化、自然灾害等自然因素对行业趋势的变动影响。及时了解市场需求变化、消费者偏好等外部因素。",
+        "bbox": [
+            831,
+            618,
+            944,
+            726
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "生成议题报告",
+        "text_level": 1,
+        "bbox": [
+            718,
+            769,
+            766,
+            784
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "汇总议题双重重要性分析的流程、方法及结论，披露相关内容。",
+        "bbox": [
+            650,
+            799,
+            833,
+            812
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "确认与审议",
+        "text_level": 1,
+        "bbox": [
+            723,
+            850,
+            764,
+            864
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "将重要性分析结果提交战略与ESG委员会及董事会确认与审议，最终确定本年度重要性议题，决定相应的披露深度与管理资源分配。",
+        "bbox": [
+            641,
+            881,
+            842,
+            910
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "议题清单 & 议题重要性评估结果:",
+        "text_level": 1,
+        "bbox": [
+            45,
+            146,
+            171,
+            162
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "报告期内 ESG 重要性议题分析结果如下:",
+        "bbox": [
+            45,
+            172,
+            181,
+            185
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/a3735dd0c75453bdc1fae51a514bd016edd2db8f3e51dae70233fe85c531b711.jpg",
+        "image_caption": [
+            "环境议题"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            46,
+            228,
+            76,
+            267
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/3cb1d46553e2275af621a522061afc3ecaed72989599a3d2b7da2ac4e6203e72.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>应对气候变化</td><td>污染物排放</td><td>废弃物处理</td><td>能源利用</td><td>水资源利用</td><td>环境合规管理</td></tr><tr><td>循环经济</td><td colspan=\"5\">生态系统与生物多样性保护</td></tr><tr><td>乡村振兴</td><td>社会贡献</td><td>创新驱动</td><td>员工</td><td colspan=\"2\">产品和服务安全与质量</td></tr><tr><td>公司治理</td><td>利益相关方沟通</td><td colspan=\"4\">反商业贿赂及反贪污</td></tr></table>",
+        "bbox": [
+            98,
+            232,
+            444,
+            449
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/56ece3ebefc1c9ef48a1ec3481b262f933f9cc3e2fea64d021a4bcef68a94434.jpg",
+        "image_caption": [
+            "社会议题"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            48,
+            308,
+            74,
+            345
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/bde68d8389615e7be6bae14b710dc9a4655241b70193f7de4ebdf9728b19d3b6.jpg",
+        "image_caption": [
+            "治理议题"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            46,
+            387,
+            76,
+            423
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/699f7eb36c1f65e0e059179841a19ea7bec6d52e645adfc37a081af5be9775b5.jpg",
+        "table_caption": [
+            "公司根据《14号指引》的21项议题清单，结合自身情况与外部环境综合分析后，共计识别出16项议题。其中，具有财务重要性的议题共有7项，财务重要性议题将依据《上市公司自律监管指引第14号—可持续发展报告（试行）》提出的“治理—战略—影响、风险和机遇管理—指标和目标”框架进行披露。",
+            "影响重要性",
+            "财务重要性"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>影响重要性</td><td></td><td>双重重要性</td><td></td></tr><tr><td>公司治理</td><td>乡村振兴</td><td>应对气候变化</td><td></td></tr><tr><td>利益相关方沟通</td><td>社会贡献</td><td></td><td></td></tr><tr><td>污染物排放</td><td></td><td></td><td></td></tr><tr><td>循环经济</td><td></td><td></td><td></td></tr><tr><td>生态系统和生物多样性保护</td><td></td><td></td><td></td></tr><tr><td rowspan=\"5\">反商业贿赂及反贪污</td><td rowspan=\"5\"></td><td>财务重要性</td><td></td></tr><tr><td>废弃物处理</td><td>创新驱动</td></tr><tr><td>能源利用</td><td>产品和服务安全与质量</td></tr><tr><td>水资源利用</td><td>员工</td></tr><tr><td>环境合规管理</td><td></td></tr></table>",
+        "bbox": [
+            84,
+            589,
+            450,
+            920
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "风险管控",
+        "text_level": 1,
+        "bbox": [
+            534,
+            146,
+            659,
+            193
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "风险管理架构",
+        "text_level": 1,
+        "bbox": [
+            536,
+            237,
+            624,
+            262
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "公司秉持“全面管理、重点防控、动态优化”的风险管理理念，构建了由董事会组织决策、管理层直接领导、各业务部门与职能单元具体执行的三层风险管理组织架构。",
+        "bbox": [
+            534,
+            278,
+            920,
+            315
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/67585420fbc303d251f9dc7baea1ade09bfc16dac65db5814aad4719fcc79bb3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            546,
+            369,
+            569,
+            399
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "董事会",
+        "text_level": 1,
+        "bbox": [
+            583,
+            376,
+            608,
+            391
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "作为风险管理的最高决策与监督机构，负责审议公司风险管理策略、基本制度及重大风险解决方案，监督公司整体风控状况。",
+        "bbox": [
+            642,
+            369,
+            881,
+            399
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/0022264d674126362e4c6fc6d90b749bee557ddc91c586379c5b117856da0999.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            546,
+            459,
+            569,
+            489
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "董事会审计委员会",
+        "text_level": 1,
+        "bbox": [
+            576,
+            460,
+            616,
+            489
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "在风险管理中承担关键监督职能，负责指导公司内部控制体系的建设与评价，监督内部控制的有效实施，审阅公司的财务报告及内部控制评价报告。",
+        "bbox": [
+            642,
+            459,
+            877,
+            489
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/aff8a07ddac1ff9a1b7f7e81bc0c335bdc25bf2abbd4d4c289e71015efa1b2e8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            546,
+            548,
+            569,
+            579
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "管理层",
+        "text_level": 1,
+        "bbox": [
+            583,
+            556,
+            608,
+            571
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "负责组织实施董事会审议通过的风险管理策略与决议，建立健全公司全面风险管理体系，领导各职能部门开展日常风险识别、评估、应对与监控工作，向董事会报告重大风控事项。",
+        "bbox": [
+            642,
+            543,
+            881,
+            588
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c8c86b41e61d57f4bdd2b296c930959c673d54c586043ab3d7d800cf68a5f21.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            546,
+            638,
+            569,
+            667
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "审计法务部",
+        "text_level": 1,
+        "bbox": [
+            583,
+            638,
+            608,
+            667
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "公司设立了审计法务部，在董事会审计委员会的指导下，独立开展内部审计工作，对内部控制的设计与运行有效性进行监督检查，并提出改进建议。",
+        "bbox": [
+            642,
+            636,
+            880,
+            667
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/abd5cc5214ea2f14c64f371ece4975fe3fbdb89a04c5225f457a4519a9300496.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Two business professionals shaking hands at a desk with documents and a laptop in the background (no visible text or symbols)",
+        "sub_type": "natural_image",
+        "bbox": [
+            497,
+            686,
+            998,
+            998
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "内部控制体系与运作",
+        "text_level": 1,
+        "bbox": [
+            44,
+            164,
+            176,
+            190
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "公司致力于建立并持续完善内部控制体系，覆盖经营管理各环节，旨在合理保证公司经营管理的合法合规与资产安全，财务报告及经营信息的真实完整。董事会及管理层高度重视各环节风险识别，定期评估公司财务、经营、行业及公司治理相关风险，适时制定应对措施。",
+        "bbox": [
+            43,
+            206,
+            415,
+            262
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/02daa1faa9644db3b42ed252fa99b971b9acbd1cfa51e8abc44816d69ae43d7d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            332,
+            81,
+            371
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "资金管理",
+        "text_level": 1,
+        "bbox": [
+            118,
+            327,
+            152,
+            342
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "完善公司资金管理制度。对募集资金实行专户存储、专款专用，并定期披露使用情况。对经营性资金的使用、审批、支付等环节设有明确的授权与流程控制。",
+        "bbox": [
+            117,
+            350,
+            398,
+            380
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/246bc9c925a26de2bfe06ad8cd755daa9b7a138f53acffbc137a6770524bf05d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            420,
+            81,
+            459
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "采购与销售管理",
+        "text_level": 1,
+        "bbox": [
+            118,
+            413,
+            174,
+            429
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "针对生态农牧食品、生态能源等不同业务板块，建立了相应的采购计划、供应商管理、销售定价及客户信用评估流程。",
+        "bbox": [
+            117,
+            438,
+            397,
+            467
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/a291cc401761643ae9fc2137968b0346fefed1d49d817efe3698d524d1c09e2b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            506,
+            81,
+            546
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "资产管理",
+        "text_level": 1,
+        "bbox": [
+            118,
+            501,
+            152,
+            516
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "对固定资产、存货、应收账款、长期股权投资等资产建立了台账管理、定期盘点、减值测试及处置审批制度。",
+        "bbox": [
+            117,
+            525,
+            398,
+            553
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/d79c1a6b63c2714f2ea45fca523e9d7f453caa3ef0b311037117fe1894c1edcb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            594,
+            81,
+            634
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "财务报告",
+        "text_level": 1,
+        "bbox": [
+            118,
+            588,
+            152,
+            603
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "遵循企业会计准则，建立了从凭证编制、账簿登记到报表生成的完整财务处理流程和复核机制，确保财务信息真实、准确、完整。",
+        "bbox": [
+            117,
+            612,
+            398,
+            641
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/5e5669a4b3576f26acd86c305afe23f4cea222bce83292fb29d845132bb7ef4f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            682,
+            81,
+            721
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "关联交易",
+        "text_level": 1,
+        "bbox": [
+            118,
+            676,
+            152,
+            691
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "制定了关联交易管理制度，确保关联交易决策程序合规、定价公允、及时透明，严格履行关联交易相关上会审议程序及信息披露义务。",
+        "bbox": [
+            117,
+            698,
+            400,
+            729
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "商业道德",
+        "text_level": 1,
+        "bbox": [
+            533,
+            164,
+            658,
+            211
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "商业道德风险识别",
+        "text_level": 1,
+        "bbox": [
+            533,
+            257,
+            650,
+            282
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "公司董事会深刻认识到，健全商业道德与反腐败体系是公司治理的基石，关乎公司声誉、长期价值及可持续发展能力。天域生物致力于构建预防为主、全面覆盖的风险识别与管理机制，将合规要求融入业务流程。",
+        "bbox": [
+            531,
+            298,
+            738,
+            372
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "公司通过制定内部政策，明确禁止形式贿赂、回扣、欺诈及洗钱等行为，并对存在利益冲突的敏感场景做出具体规范。此外，公司通过新员工入职培训、内部宣导等多种形式，对管理层与全体员工进行全覆盖的商业道德与反腐败教育，提升全员合规意识与风险辨识能力。",
+        "bbox": [
+            531,
+            381,
+            738,
+            475
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "供应商反贪腐管理",
+        "text_level": 1,
+        "bbox": [
+            748,
+            257,
+            865,
+            282
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "构建阳光、廉洁、负责任的采购生态，是实现价值链商业道德目标的关键。公司在供应商准入环节明确阐述廉洁合作与反商业贿赂的具体要求，加强供应商准入合规审核；此外，通过建立常态化采购合规审核机制，公司定期对关键供应商的行为准则履行及商业道德管理情况进行评估。",
+        "bbox": [
+            746,
+            298,
+            953,
+            394
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/14617b53dd0d66298cd2106869d430845b7e6d1fdae616e1a23881b2e3fcf7ec.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Modern multi-story office building with glass facade and wooden windows, featuring people walking in the foreground (no visible text or signage)",
+        "sub_type": "natural_image",
+        "bbox": [
+            497,
+            589,
+            998,
+            998
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "25",
+        "bbox": [
+            934,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Environmental Compliance &",
+        "bbox": [
+            44,
+            128,
+            252,
+            154
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Green Low-Carbon",
+        "bbox": [
+            45,
+            157,
+            178,
+            180
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "02",
+        "text_level": 1,
+        "bbox": [
+            883,
+            392,
+            940,
+            454
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "环境合规与",
+        "text_level": 1,
+        "bbox": [
+            820,
+            534,
+            952,
+            576
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "绿色低碳",
+        "text_level": 1,
+        "bbox": [
+            846,
+            581,
+            954,
+            623
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            872,
+            50,
+            954,
+            65
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "©",
+        "bbox": [
+            898,
+            874,
+            949,
+            947
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "应对气候变化",
+        "text_level": 1,
+        "bbox": [
+            45,
+            175,
+            233,
+            221
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "公司严格遵守《中华人民共和国环境保护法》《中华人民共和国水污染防治法》《中华人民共和国固体废物污染环境防治法》等国家及地方各项环保法律法规，将环境友好理念融入战略规划与日常运营。",
+        "bbox": [
+            43,
+            258,
+            461,
+            294
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "报告期内，公司持续完善环境管理体系，积极识别并管理环境相关风险与机遇，致力于通过精细化运营减少生产活动对环境的影响，为实现国家“双碳”目标贡献力量。",
+        "bbox": [
+            43,
+            302,
+            465,
+            338
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            67,
+            408,
+            86,
+            423
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "公司已将“应对气候变化”议题纳入日常管理层决策与监督体系。",
+        "bbox": [
+            117,
+            407,
+            311,
+            422
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/f652b05c4cf8f18dfa1b173a88402d9f772350a2feb30ce67ef6b2c4b343cec8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            449,
+            89,
+            480
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. 董事会下设的“战略与 ESG 委员会”负责气候相关风险与机遇的总体评估、目标审定及监督执行，确保气候议题与公司整体战略的深度融合。",
+            "2. 管理层设立跨部门 “气候变化工作小组”，由分管相关领导牵头，统筹协调定期气候风险与机遇识别、减排项目推进等工作。"
+        ],
+        "bbox": [
+            116,
+            429,
+            443,
+            495
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            67,
+            532,
+            86,
+            548
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "天域生物通过系统分析运营全流程及价值链关键节点后，识别出气候变化在短期、中期和长期对公司商业模式、财务状况及经营成果产生的重大影响（财务重要性），同时评估了公司活动对气候与环境产生的重大影响（影响重要性）。",
+        "bbox": [
+            116,
+            526,
+            443,
+            571
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/0461c2dbe5b8103c731858c0f137390a5244fe282b2042a75e7afe795ae8ac29.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            581,
+            88,
+            620
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "\\- 风险识别",
+        "bbox": [
+            119,
+            586,
+            155,
+            599
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "A. 物理风险：报告期内极端天气事件（如洪涝、干旱、持续高温）频率与强度增加，将直接威胁公司养殖基地的产量稳定性、动物健康与生产效能，造成资产损毁与供应链中断，导致运营成本上升和收入波动。",
+            "B. 转型风险:"
+        ],
+        "bbox": [
+            117,
+            604,
+            443,
+            651
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. “双碳”政策趋紧与环保标准提升，使环境合规与技改成本上升；",
+            "b. 下游客户及消费者对低碳农产品的偏好日益增强，若公司未能有效推进绿色转型，可能面临市场竞争力下降与品牌价值受损风险；（注明：按公司目前触达客户群体，尚未产生明显影响）。"
+        ],
+        "bbox": [
+            124,
+            659,
+            443,
+            714
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "\\- 机遇识别",
+        "bbox": [
+            119,
+            722,
+            155,
+            734
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "A. 融资机遇：良好的气候治理与减排绩效有助于获得绿色信贷、绿色债券等优惠融资，降低资金成本。",
+            "B. 市场与产品机遇：公司可结合自身业务发展情况，考虑积极开发低碳、有机农产品，满足绿色消费趋势，获取产品溢价，开拓新兴市场。",
+            "C. 运营效率机遇：公司可考虑在生产运营中适量作减排技术投入，在达成减排目标的同时降低能源与外购肥料成本，实现资源循环利用与运营效率提升。"
+        ],
+        "bbox": [
+            117,
+            744,
+            432,
+            841
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "风险和",
+        "text_level": 1,
+        "bbox": [
+            556,
+            276,
+            582,
+            291
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "机遇管理",
+        "text_level": 1,
+        "bbox": [
+            556,
+            292,
+            589,
+            307
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "报告期内，公司依据《上市公司可持续发展报告编制指南》的温室气体核算流程与方法，初步尝试核算范围一与范围二的温室气体排放量。同时，公司开展“节水节能”专项行动，降低单位产品水耗与能耗，有效提升效率资源。",
+        "bbox": [
+            605,
+            276,
+            932,
+            320
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/91a1c753cf625ee8b4d0a2de69802bbf653cb6a11db452fac0eb7ecf7ff0d665.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            555,
+            333,
+            577,
+            364
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "风险应对方面，公司通过优化养殖场选址与设计、加强防灾减灾设施建设与仓储物流设施的防洪防高温改造、完善应急预案，提升对极端气候事件的抵御能力。",
+        "bbox": [
+            605,
+            328,
+            927,
+            356
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "机遇把握方面，公司将识别出的可能机遇汇总后尝试作专题分析，为管理层日常经营决策提供有效支持。",
+        "bbox": [
+            605,
+            365,
+            913,
+            379
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "指标",
+        "text_level": 1,
+        "bbox": [
+            556,
+            433,
+            574,
+            447
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "与目标",
+        "text_level": 1,
+        "bbox": [
+            556,
+            448,
+            581,
+            462
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2026年，公司将为量化管理绩效并驱动作持续改进，尝试对关键指标与目标作设立与追踪",
+        "bbox": [
+            605,
+            446,
+            872,
+            460
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2025年，公司环保投入约为357.8万元，已计入当期资本支出及费用。",
+        "bbox": [
+            605,
+            464,
+            811,
+            478
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/57fa3986ebe0e4d1d5497f7a7aa625bff6a432c2506da1b1747b99fef3e9c5d8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            556,
+            475,
+            577,
+            501
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "报告期内",
+        "text_level": 1,
+        "bbox": [
+            556,
+            548,
+            589,
+            563
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "绩效情况",
+        "text_level": 1,
+        "bbox": [
+            556,
+            565,
+            589,
+            579
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "公司温室气体范围 1 排放量约为",
+        "bbox": [
+            605,
+            548,
+            703,
+            563
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "公司温室气体范围 2 排放量约为",
+        "bbox": [
+            767,
+            548,
+            864,
+            563
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "30,730.9",
+        "bbox": [
+            605,
+            581,
+            647,
+            599
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "17,423.1",
+        "bbox": [
+            767,
+            579,
+            808,
+            599
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "吨二氧化碳当量",
+        "bbox": [
+            605,
+            608,
+            655,
+            622
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "吨二氧化碳当量",
+        "bbox": [
+            767,
+            608,
+            816,
+            622
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/20d800ea3de327eefcf7f411aa156b669f1db79d147ad6f663c913580708aa0e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Dow view of dense green trees with sunlight filtering through, no visible text or symbols",
+        "sub_type": "natural_image",
+        "bbox": [
+            497,
+            660,
+            998,
+            998
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "28",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "29",
+        "bbox": [
+            934,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "环境管理",
+        "text_level": 1,
+        "bbox": [
+            43,
+            154,
+            169,
+            200
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "污染物排放",
+        "text_level": 1,
+        "bbox": [
+            44,
+            268,
+            119,
+            294
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            68,
+            356,
+            85,
+            370
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/4764ee8a2503b09b47c5d45e122645f096f27bec4d02bdfe9d903deb7b2f3d56.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            66,
+            381,
+            88,
+            412
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "董事会下设战略与 ESG 委员会负责监督公司总体环境合规目标达成，污染物排放管理纳入其中，日常由各生产养殖基地根据自身实际情况落实执行。报告期内，公司污染物排放符合国家及地方行业排放标准。",
+        "bbox": [
+            116,
+            366,
+            442,
+            396
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            68,
+            449,
+            85,
+            463
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/be4f43fd0ea2fbb85e9138da2a32fee3b0ca0e36877229b73aec092e9c1f7114.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            69,
+            475,
+            85,
+            504
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "我们视有效控制排放为规避监管处罚、降低环境税费、保障长期运营许可的关键，也是提升公司品牌价值、获取绿色信贷等优惠融资渠道的战略基础。",
+        "bbox": [
+            116,
+            467,
+            442,
+            496
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "风险和机遇管理",
+        "text_level": 1,
+        "bbox": [
+            68,
+            557,
+            94,
+            587
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/c00be239cf678face6f38366515b022edd593b7c3c40c5e60da4d468ece339af.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            69,
+            597,
+            90,
+            628
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1. 风险与成本：",
+        "bbox": [
+            120,
+            555,
+            167,
+            568
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 排放超标可能导致高额行政罚款、停产整改、生态损害赔偿及声誉损失，直接冲击公司营收与现金流。",
+            "b. 现行环保法规日益收紧，要求针对环保设施升级作持续投入，增加资本开支。"
+        ],
+        "bbox": [
+            127,
+            576,
+            436,
+            615
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2. 机遇与收益：",
+        "bbox": [
+            120,
+            622,
+            167,
+            634
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 领先的排放控制水平有助于获得政府环保补贴、税收优惠",
+            "b. 有机废弃物资源化利用可部分抵消治污成本，创造新的收入来源",
+            "c. 优越的环境绩效表现可增强上下游认可度，帮助公司获取优秀供应商与客户资源，提升产品议价能力与市场竞争力。"
+        ],
+        "bbox": [
+            127,
+            641,
+            443,
+            721
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "行动：报告期内，公司全面巡检辖下规模化养殖场，对排放情况作效能评估；完成相关排污管道、老旧设施的升级与改造计划，降低养殖环节氨氮与硫化氢排放强度，提升环境管理质量。",
+        "bbox": [
+            120,
+            736,
+            443,
+            768
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "废弃物处理",
+        "text_level": 1,
+        "bbox": [
+            533,
+            268,
+            608,
+            293
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            556,
+            356,
+            573,
+            370
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/ab17f6404635bf3116d560a1b6f7281cc971b5318d0c05b7464e5e61e05f9490.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            554,
+            381,
+            576,
+            412
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "公司秉持 “无害化、减量化、资源化” 原则管理废弃物。ESG 委员会监督废弃物管理策略实施与推进。公司生产与供应链管理部门负责协同从废弃物分类、收集、贮存到最终处置或利用的全过程管理，并对接第三方专业的资源化合作企业。",
+        "bbox": [
+            605,
+            366,
+            931,
+            410
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            556,
+            449,
+            573,
+            463
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/91ef55b4e1a6a75af7339b3815d370984a4c06bc60063ed89639c54f36198160.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            557,
+            474,
+            573,
+            504
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "公司将废弃物视为“放错位置的资源”，其高效处理与资源化利用是公司发展循环经济、控制运营成本、开发副产品价值的核心战略举措。有效的废弃物管理能显著降低处置费用，后续可能转化为碳减排收益。",
+        "bbox": [
+            605,
+            467,
+            931,
+            496
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "风险和机遇管理",
+        "text_level": 1,
+        "bbox": [
+            556,
+            557,
+            582,
+            587
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/293d9f56cbd31deb3b82e43cee91bb4a902db9d6679dbc45c689d0ddc52014b4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            557,
+            597,
+            578,
+            628
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1. 风险与成本：",
+        "bbox": [
+            608,
+            555,
+            655,
+            568
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "废弃物处置不当将面临罚款。随着废弃物处置市场价格上涨，相关运营费用持续增加。若资源化渠道不畅，可能导致处置成本高企或仓储压力。",
+        "bbox": [
+            608,
+            579,
+            927,
+            610
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2. 机遇与收益：",
+        "bbox": [
+            608,
+            622,
+            655,
+            635
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 畜禽粪便等农业废弃物的资源化已形成稳定商业模式，直接带来销售收入并减少外部肥料、能源采购支出。",
+            "b. 通过改进包装设计减少塑料使用，降低原材料采购成本与后端处理负担。",
+            "c. 精确的废弃物管理记录有助于通过绿色供应链审核，为公司赢得上下游订单创造可能途径。"
+        ],
+        "bbox": [
+            615,
+            641,
+            930,
+            705
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "行动：报告期内公司尝试推行生产单元废弃物分类管理，促进粪便资源的稳定消纳与价值最大化。同时，公司考虑包装物减量计划，试点使用可降解材料。",
+        "bbox": [
+            608,
+            719,
+            931,
+            750
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "30",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "31",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "能源利用",
+        "text_level": 1,
+        "bbox": [
+            45,
+            211,
+            103,
+            235
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            68,
+            320,
+            85,
+            335
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/df1f6a617470cad96db8f722932450509084223395260ee233e56c9a429077c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            345,
+            89,
+            377
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "公司能源管理工作日常由各养殖场运营部门作具体数据收集与核算，统一报送公司 ESG 工作小组。公司董事会战略与 ESG 委员会定期审议指标汇总情况并监督公司年度能源管理工作。",
+        "bbox": [
+            119,
+            330,
+            445,
+            361
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            68,
+            413,
+            85,
+            428
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/fa295b36303532cb6cf1acd4386579e012e67b3d0e970a190101f64adb4cd9b6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            68,
+            438,
+            85,
+            469
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "能源成本是公司重要的运营成本构成。提升能源利用效率、发展可再生能源，是应对能源价格波动风险、减少碳足迹、并响应国家“双碳”战略的核心路径，能源管理与公司盈利能力与气候韧性息息相关。",
+        "bbox": [
+            118,
+            431,
+            445,
+            462
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "风险和机遇管理",
+        "text_level": 1,
+        "bbox": [
+            68,
+            521,
+            101,
+            552
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/d411ce2b0aabf941a87c7e86c3a459f640ed7b75a283d87450baf0c70a12859a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            68,
+            561,
+            90,
+            592
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. 风险与成本：",
+        "bbox": [
+            120,
+            520,
+            166,
+            534
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 传统能源价格上行直接推高养殖、加工、温控等环节的成本，侵蚀利润；",
+            "b. 高耗能设备的技改投资需要前期资本投入；"
+        ],
+        "bbox": [
+            127,
+            541,
+            348,
+            579
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2. 机遇与收益：",
+        "bbox": [
+            120,
+            586,
+            166,
+            599
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 公司在实施节能改造后，可产生持续的节能效益，投资回收期明确。",
+            "b. 公司可考虑利用养殖场屋顶、闲置空地建设分布式光伏电站，在满足部分自有用电需求的同时，余电上网可产生收益，为获得可再生能源补贴提供可能。",
+            "c. 根据现行相关政策，高效的能源管理是申请绿色工厂认证、享受差别化电价政策的前提。"
+        ],
+        "bbox": [
+            127,
+            607,
+            441,
+            687
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "行动：公司充分融合生态能源板块资源，将光伏发电设施试点投放于部分生产运营场地，提升绿色能源使用率的同时获得节能收益；此外，公司计划推进集中蒸汽管道供热，以降低日常能源费用率。",
+        "bbox": [
+            119,
+            700,
+            441,
+            733
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "报告期内绩效情况",
+        "text_level": 1,
+        "bbox": [
+            68,
+            781,
+            101,
+            811
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/8f764749f02c3343d35eeebb800917c2dd4cc4038fbd84ca62286ed71ac2ce1a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            69,
+            824,
+            92,
+            846
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "公司主要养殖场外购电力总量为",
+        "bbox": [
+            119,
+            781,
+            217,
+            796
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "5,256,023",
+        "bbox": [
+            119,
+            810,
+            167,
+            828
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "千瓦时",
+        "bbox": [
+            119,
+            833,
+            142,
+            847
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "主要养殖场间接能源消耗量为",
+        "bbox": [
+            254,
+            781,
+            344,
+            796
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1,576.81",
+        "bbox": [
+            254,
+            810,
+            295,
+            828
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "吨标准煤",
+        "bbox": [
+            255,
+            833,
+            285,
+            847
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "水资源利用",
+        "text_level": 1,
+        "bbox": [
+            534,
+            211,
+            607,
+            235
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            557,
+            320,
+            574,
+            335
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/093bab2c4dd8587eea6bd3c3d31163201fcc9ddc695d46d715effe1df657555f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            553,
+            345,
+            577,
+            377
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "天域生物将水资源管理纳入公司整体环境管理体系，由生产部门与运营管理部门共同负责，在高耗水环节实行用水定额管理。",
+        "bbox": [
+            607,
+            330,
+            934,
+            360
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            557,
+            413,
+            573,
+            428
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/c57b8be85af7f7d17a628fd7570e0fabbe902f88f1957981f39785ed6c17208d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            557,
+            438,
+            573,
+            469
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "水资源是生态农牧行业的生命线。保障水资源安全、可持续利用，是维持养殖场生产稳定、保障生物资产健康、规避限水停产风险的根本。提高用水效率、开展水循环利用，直接降低取水费用与水处理成本，并增强公司在水资源紧张区域的运营韧性。",
+        "bbox": [
+            607,
+            426,
+            934,
+            470
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "风险和机遇管",
+        "text_level": 1,
+        "bbox": [
+            557,
+            521,
+            581,
+            552
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/03e96b9a6b593ec1d68d1eeedb7be12f4bf38d96027fa1fec4b7262c469a6023.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            557,
+            561,
+            578,
+            592
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1. 风险与成本：",
+        "bbox": [
+            608,
+            520,
+            654,
+            534
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "a. 若公司所在区域水资源短缺或水价大幅上涨，将直接增加生产成本。水资源短缺地区面临取水许可受限问题，制约产能扩张；",
+        "bbox": [
+            615,
+            541,
+            929,
+            572
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2. 机遇与收益：",
+        "bbox": [
+            608,
+            579,
+            654,
+            592
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 公司可以考虑增加节水灌溉、自动饮水系统、循环水养殖等方面的技术投入，长期节约水费与污水处理费。",
+            "b. 公司可考虑中水回用（即处理后的废水用于冲洗、灌溉），可降低新鲜水取用量，直接产生经济价值。"
+        ],
+        "bbox": [
+            615,
+            600,
+            928,
+            638
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "行动：公司对部分养殖场的取水 / 饮水设备作节能化升级，有效减少滴漏浪费。在预算允许的情况下，公司将考虑引进中水回用系统，将达标排放的废水部分回用于厂区绿化与清洁。",
+        "bbox": [
+            607,
+            651,
+            929,
+            682
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "报告期内绩效情况",
+        "text_level": 1,
+        "bbox": [
+            556,
+            781,
+            589,
+            811
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/2a7a81461b33c5bc398438f4c997530ec9373cdadb5d24a38ba2781f2f9452ed.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            557,
+            824,
+            580,
+            846
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "公司主要养殖场总用水量约为",
+        "bbox": [
+            608,
+            781,
+            698,
+            796
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "122,400",
+        "bbox": [
+            609,
+            806,
+            646,
+            822
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "吨",
+        "bbox": [
+            608,
+            833,
+            617,
+            847
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "32",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            49,
+            145,
+            63
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            49,
+            927,
+            63
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "33",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "环境合规管理",
+        "text_level": 1,
+        "bbox": [
+            45,
+            211,
+            134,
+            236
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "治理",
+        "text_level": 1,
+        "bbox": [
+            67,
+            320,
+            86,
+            335
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/be360abb1610a51de2a389d05def270c43d7d4a8ec66f8eca9996f6956a2230c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            345,
+            89,
+            377
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "天域生物重视可持续发展进程中的环境合规管理，公司建立了从总部到基地的环保违规报告与应急响应机制。报告期内，公司未发生环境事件整改情况。",
+        "bbox": [
+            119,
+            330,
+            442,
+            360
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "战略",
+        "text_level": 1,
+        "bbox": [
+            68,
+            413,
+            86,
+            428
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/a75073a0cb98fa35172c7a7d07a9d04b2b5a09ba6637e1fc0a2d1912bf1abc07.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            68,
+            438,
+            86,
+            469
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "健全的环境合规管理体系是防范巨额罚款、项目叫停乃至刑事责任等风险的防火墙，与保障公司资产安全与正常经营秩序息息相关。",
+        "bbox": [
+            119,
+            431,
+            445,
+            460
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "风险和 机遇管理",
+        "text_level": 1,
+        "bbox": [
+            68,
+            522,
+            101,
+            552
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/8d9cf2822d2607b617d03e9ca26fb427a446f4b42c3922ab71b51aa2fdb1951e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            68,
+            561,
+            91,
+            593
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1. 风险与成本：",
+        "bbox": [
+            120,
+            520,
+            166,
+            534
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a. 上市公司环境违法违规行为将直接导致公司遭受罚款、赔偿等经济损失，公司需同时承担修复成本；同时造成股价下跌、融资成本上升、订单流失、品牌价值受损等负面影响。",
+            "b. 维护合规体系需要投入人力与培训资源。"
+        ],
+        "bbox": [
+            126,
+            540,
+            441,
+            597
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "2. 机遇与收益：",
+        "bbox": [
+            119,
+            603,
+            166,
+            617
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "a. 持续保持 “零重大环境违法” 记录，可显著降低相关环境责任险的投保费用、提升银行信用评级，使公司在可持续发展投资与并购中更具优势。",
+        "bbox": [
+            126,
+            624,
+            441,
+            655
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "行动：报告期内，公司根据养殖场日常生产经营情况开展环境法规培训计划，定期进行环境合规风险排查。",
+        "bbox": [
+            119,
+            671,
+            440,
+            686
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/5ebdfcfce99975b9c1c77e3437613fac1e7d63658cf0755634560b5f1a83b297.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Aerial view of a green agricultural field with scattered trees and a winding dirt path, no visible text or symbols.",
+        "sub_type": "natural_image",
+        "bbox": [
+            500,
+            0,
+            998,
+            998
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "34",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "循环经济",
+        "text_level": 1,
+        "bbox": [
+            45,
+            184,
+            171,
+            230
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "公司秉持“生态”核心经营观，致力于构建资源节约、环境友好的运营体系。",
+        "bbox": [
+            43,
+            294,
+            300,
+            311
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "“种养食”生态循环：在生态农牧食品板块，公司将养殖产生的粪污经第三方处理后，转化为有机肥用于配套农田或合作农户，改善土壤质量，减少化肥使用；同时，公司在日常经营中探索沼气能源化利用，解决环保问题的同时提升产业链价值。",
+        "bbox": [
+            43,
+            319,
+            429,
+            374
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "同时，公司在生猪养殖运营过程中，通过优化饲料配方，从源头减少粮食资源消耗和氮磷排放，推动生产过程中的上下游环节的水资源循环利用和废弃物资源化。",
+        "bbox": [
+            43,
+            382,
+            429,
+            418
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "生态系统与生物多样性保护",
+        "text_level": 1,
+        "bbox": [
+            532,
+            183,
+            907,
+            230
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "公司认识到保护生态系统与生物多样性对于可持续发展的重要性，并在业务活动中尽可能减少对其产生负面影响。",
+        "bbox": [
+            531,
+            294,
+            910,
+            311
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. 在新项目选址时，主动避让自然保护区、生态保护红线等环境敏感区域，从源头降低对自然生态环境的可能干扰。",
+            "2. 公司推广绿色养殖实践，通过推广环境友好的绿色养殖模式，减少养殖活动对周边土壤、水体的潜在影响，致力于实现与周边环境的和谐共生。"
+        ],
+        "bbox": [
+            531,
+            319,
+            916,
+            380
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/8dd36b8b98c2c2eb914803104bd482d0e3fc210b0009a8ebd08c948acd0de8dc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Aerial view of a winding river surrounded by green fields, with four circular icons representing environmental or energy indicators (sunny, thermometer, globe, water meter, wind turbine).",
+        "sub_type": "natural_image",
+        "bbox": [
+            0,
+            473,
+            998,
+            998
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "36",
+        "bbox": [
+            45,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "37",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "R&D Innovation & Product Responsibility",
+        "bbox": [
+            44,
+            128,
+            227,
+            183
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "03",
+        "text_level": 1,
+        "bbox": [
+            884,
+            386,
+            939,
+            451
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "研发创新与产品责任",
+        "text_level": 1,
+        "bbox": [
+            821,
+            526,
+            952,
+            618
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            872,
+            44,
+            954,
+            57
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "创新驱动",
+        "text_level": 1,
+        "bbox": [
+            36,
+            148,
+            96,
+            172
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "公司正处于“生态农牧食品”与“生态能源”双轮驱动的战略深化与转型期。我们视研发创新为应对行业挑战、降本增效、开拓新增长曲线的关键引擎，相关投入与实践对公司财务稳健性与未来成长性具有直接且重要的影响。",
+        "bbox": [
+            34,
+            189,
+            455,
+            224
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "相关实践与举措",
+        "text_level": 1,
+        "bbox": [
+            35,
+            289,
+            114,
+            309
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "聚焦主业研发 & 探索数智化转型",
+        "text_level": 1,
+        "bbox": [
+            200,
+            365,
+            310,
+            380
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "报告期内，公司在生态农牧领域，持续推进与华中农业大学等高校的“校企合作”，围绕生猪遗传育种、疫病防控、饲料营养及红曲功能性产品开发等关键环节开展课题研究与实践转化。封闭式自循环繁育育种体系（回交育种体系）的建设，旨在减少引种风险、提升母猪遗传水平，从源头降低养殖成本。在生态能源领域，研发方向涵盖分布式光伏电站的智能化运维、光储充一体化技术应用以及光伏建筑一体化（BIPV）等，旨在提升能源业务的技术附加值与运营效率。",
+        "bbox": [
+            44,
+            413,
+            251,
+            563
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "此外，公司积极探索“数智化”升级。在生猪养殖板块，规划引入智能管理系统，通过对生物资产的数据化管理，实现精准饲喂、健康监控与智能环控，旨在提升养殖效率、降低料肉比。",
+        "bbox": [
+            258,
+            413,
+            465,
+            470
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/bc71606138d45ff4ae2812a3e911ed9315b608533027d9a84bdd1313353478ba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            406,
+            553,
+            467,
+            603
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "预期财务影响与关联",
+        "text_level": 1,
+        "bbox": [
+            35,
+            645,
+            137,
+            664
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "成本控制与效率提升",
+        "text_level": 1,
+        "bbox": [
+            45,
+            707,
+            115,
+            722
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "育种、养殖过程优化及智能化改造的研发投入，直接目标是降低单位生猪养殖成本，如：饲料转化率、死亡率等。作为生猪养殖业务盈利能力的核心决定因素，直接影响公司主营业务毛利率。",
+        "bbox": [
+            44,
+            729,
+            250,
+            779
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "产品差异化与溢价能力",
+        "text_level": 1,
+        "bbox": [
+            259,
+            707,
+            337,
+            722
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "对功能性红曲、红曲饲料添加剂等产品的研发，有助于开发具有独特健康属性的高附加值产品，帮助公司开辟新的利润增长点，提升整体产品组合的盈利能力。",
+        "bbox": [
+            258,
+            729,
+            464,
+            779
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "产品和服务安全与质量",
+        "text_level": 1,
+        "bbox": [
+            533,
+            148,
+            678,
+            172
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "优质、安全的产品与服务是公司生存与发展的基石，也是维护客户关系、保障收入持续性的根本。天域生物致力于通过精细化运营作产品交付，提升收入质量、降低运营风险。",
+        "bbox": [
+            531,
+            189,
+            952,
+            224
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "相关实践与举措",
+        "text_level": 1,
+        "bbox": [
+            533,
+            289,
+            613,
+            309
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "全过程质量控制体系",
+        "text_level": 1,
+        "bbox": [
+            533,
+            364,
+            574,
+            392
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/1f25642982f76a93ae967965f56523f7caae0187d4279cbe63c09c24f8edba2c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            360,
+            619,
+            396
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "公司生猪养殖业务严格执行养殖生产方案等相关内部制度，从种源引进、头部供应商饲料采购、饲养管理到出栏销售，实施标准化、封闭化管理。采用智能饲喂系统、环境控制系统及严格的生物安全流程（如：洗消站、空气过滤），保障猪群健康与产品安全。公司的红曲系列产品，生产拥有完整的质量管控流程，从原料（大米）采购、菌种扩培、发酵到烘干包装，均执行标准操作程序。",
+        "bbox": [
+            638,
+            345,
+            952,
+            412
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "资质与认证",
+        "text_level": 1,
+        "bbox": [
+            533,
+            470,
+            574,
+            484
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/2e3a0b9665485522c93a01c21746e7e0548ffe1c8b63b35a2844c86797a63070.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            459,
+            619,
+            495
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "公司及重要子公司持有开展主营业务所必需的一系列资质证书，如《种畜禽生产经营许可证》《动物防疫条件合格证》《食品生产许可证》《饲料添加剂生产许可证》等。公司红曲系列产品业务线已顺利通过药品监督管理部门严格审核，正式取得《药品生产许可证》，获批普通中药饮品生产线，确保生产经营活动的合法合规与产品质量达标。",
+        "bbox": [
+            638,
+            444,
+            952,
+            511
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "客户导向的 运营模式",
+        "text_level": 1,
+        "bbox": [
+            533,
+            555,
+            574,
+            584
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/748989e530b9e8c5d4d7b2a857c90a87e4de6719aab2ac589bd6a53b3e97860d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            552,
+            619,
+            588
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "公司的生猪产品采取“随行就市”的定价策略，确保交易公允；光伏业务采用“自发自用，余电上网”模式，优先保障合作方用电需求，建立稳定的客户关系。",
+        "bbox": [
+            638,
+            553,
+            951,
+            586
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "预期财务影响与关联",
+        "text_level": 1,
+        "bbox": [
+            534,
+            645,
+            635,
+            664
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "保障收入实现与稳定性",
+        "text_level": 1,
+        "bbox": [
+            533,
+            710,
+            574,
+            739
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/94a09f71037ed7fe8f4e65a664bb161416d2fa04922e9848cb5abaa8efced8a9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            707,
+            619,
+            743
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "严格的质量控制是确保生猪、红曲等产品符合市场准入标准、顺利实现销售的前提，直接关系到主营业务收入的确认与现金流回笼。稳定的产品质量有助于维护与核心客户的长期合作关系，保障收入的持续性。",
+        "bbox": [
+            638,
+            710,
+            952,
+            741
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "维护品牌声誉与市场信任",
+        "text_level": 1,
+        "bbox": [
+            533,
+            786,
+            581,
+            815
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/6eb06410b2bda0988f2b348d1d1ee96096462279923f1b6713491a3542afeedc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            781,
+            619,
+            819
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "持续的质量投入是对公司品牌资产的投资，有助于维持公司在各区域市场的信誉，支撑销售渠道的稳定。",
+        "bbox": [
+            638,
+            785,
+            900,
+            816
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "降低运营与合规风险",
+        "text_level": 1,
+        "bbox": [
+            533,
+            866,
+            573,
+            895
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/45cc3129991cf579870d9803e9241e42db9032528cdc1f3d7d539a20a2556c54.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            862,
+            619,
+            898
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "完备的经营资质和持续的质量管理，能有效防范因无证经营、产品不合格导致的行政处罚、项目停工或诉讼风险，避免由此产生的罚款、赔偿及业务中断带来的财务损失。",
+        "bbox": [
+            638,
+            864,
+            952,
+            895
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "40",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "41",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Talent Focus & Social Responsibility",
+        "text_level": 1,
+        "bbox": [
+            44,
+            128,
+            194,
+            183
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "04",
+        "text_level": 1,
+        "bbox": [
+            883,
+            395,
+            942,
+            459
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "人才聚焦与社会责任",
+        "text_level": 1,
+        "bbox": [
+            821,
+            537,
+            952,
+            627
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            871,
+            53,
+            954,
+            66
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "footer",
+        "text": "",
+        "bbox": [
+            898,
+            903,
+            947,
+            947
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "员工",
+        "text_level": 1,
+        "bbox": [
+            46,
+            122,
+            109,
+            164
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "权益保障与职业健康安全",
+        "text_level": 1,
+        "bbox": [
+            44,
+            221,
+            205,
+            246
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "公司严格遵守《中华人民共和国劳动法》《中华人民共和国安全生产法》等法律法规，建立了完善的劳动合同管理体系，畅通民主沟通与申诉渠道。在职业健康安全方面，我们针对各业务板块的特性，制定了差异化的安全管理规程：",
+        "bbox": [
+            43,
+            262,
+            464,
+            298
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "生态农牧食品业务：严格执行养殖场的生物安全流程与封闭管理，为员工配备必要的防护装备，定期进行疫病防控与安全生产培训，针对“公司+农户”模式中的合作农户，亦提供同等的安全指导。",
+        "bbox": [
+            43,
+            304,
+            464,
+            340
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "生态环境与能源业务：强化工程项目施工现场的安全管理，实施项目经理安全责任制，对高空作业、用电安全、设备操作等高风险环节进行重点监控与演练。公司已通过相关质量管理体系认证，并将安全标准融入日常运营。",
+        "bbox": [
+            43,
+            348,
+            464,
+            384
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "相关财务影响分析",
+        "text_level": 1,
+        "bbox": [
+            44,
+            423,
+            135,
+            444
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "保障收入实现与稳定性",
+        "text_level": 1,
+        "bbox": [
+            44,
+            477,
+            86,
+            510
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/d7af36eabb0ced703e257db12912ec713768ded087a7151e327a94c212170701.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            106,
+            474,
+            131,
+            511
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "健全的劳动权益保障避免劳动争议可能带来的法律诉讼、赔偿及声誉损失。严格的安全生产管理能显著降低工作场所事故发生率。",
+        "bbox": [
+            149,
+            479,
+            464,
+            511
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "运营效率与稳定性",
+        "text_level": 1,
+        "bbox": [
+            44,
+            552,
+            85,
+            583
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/41d3b3dbf6a0d4e542755c11924db5120e4670e8c3083cc330f4d072ad47d7b3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            106,
+            550,
+            131,
+            586
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "安全的工作环境有助于提升员工满意度和出勤率，减少因工伤导致的非计划性岗位空缺，保障生产与项目进度的连续性，维护营业收入与利润的稳定。在养殖业务中，有效的生物安全防控不仅是员工安全的关键，也是保障生猪健康、降低死亡率、稳定出栏量的核心，直接影响主营业务成本与收入。",
+        "bbox": [
+            149,
+            550,
+            464,
+            599
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "合规与融资成本",
+        "text_level": 1,
+        "bbox": [
+            44,
+            631,
+            85,
+            661
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/f315f631cb4edac9c6afe47a1d0459a076fdbb76bffa0505944f35b2600cf6af.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            106,
+            630,
+            131,
+            666
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "良好的劳工实践与安全记录有助于满足 ESG 投资机构的评估标准，维护公司在资本市场的声誉，为获得更优惠的融资条件创造可能条件，间接降低财务费用。",
+        "bbox": [
+            149,
+            631,
+            464,
+            662
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/1ad40577042a8224feb6a4fec9d55dae4fbd62840986908b8654d4db21ea93a6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Meeting room photo with participants seated around a conference table, nameplates visible on the table and screen",
+        "sub_type": "text_image",
+        "bbox": [
+            0,
+            749,
+            500,
+            998
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "员工关怀与人才发展通道",
+        "text_level": 1,
+        "bbox": [
+            533,
+            221,
+            693,
+            246
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "天域生物劳动用工方面的法律法规，制定了《人事基础管理制度》《薪酬体系管理制度》《社保公积金管理规定》《员工考勤管理制度》等一系列规章制度，构建起完善且规范的劳动关系管理体系。公司依法签订劳动合同、缴纳“五险一金”，切实保障每位员工的合法权益。公司秉持“敬天爱人”的经营哲学，视员工为共同发展的伙伴。我们通过多元化的关怀举措提升员工归属感，并构建系统化的人才发展体系；",
+        "bbox": [
+            531,
+            262,
+            953,
+            337
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "在招聘环节，天域生物秉持公开、竞争、择优的原则，规范招聘流程，确保招聘工作在信息、过程、结果等方面全流程公开透明，坚决杜绝雇佣童工与强制劳动的行为，保障不同国籍、种族、民族、性别、宗教信仰和文化背景的员工都能享有平等的待遇。公司重视民主管理，关注员工的意见反馈。公司内部借助“钉钉”软件搭建起畅通的沟通桥梁，通过这一在线软件，上下级以及平级之间都能够即时联系，便于员工为企业经营发展积极建言献策。",
+        "bbox": [
+            531,
+            344,
+            953,
+            420
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "员工关怀",
+        "text_level": 1,
+        "bbox": [
+            538,
+            488,
+            571,
+            503
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "公司提供具有竞争力的薪酬福利体系，及时帮扶困难员工；公司关注员工心理健康，致力于营造健康高效的工作氛围。",
+        "bbox": [
+            537,
+            509,
+            733,
+            541
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/43ae1b595327417ca159c51aee968ed2b22e90cb47ec9fdc85dd3b542a361710.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            538,
+            563,
+            566,
+            618
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "人才发展",
+        "text_level": 1,
+        "bbox": [
+            746,
+            503,
+            780,
+            517
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "公司高度重视人才梯队建设。针对核心的生态农牧食品业务，我们持续引入行业专家与技术骨干，打造专业化团队。同时，公司与华中农业大学等高等院校的农牧专业合作，定向培养潜在人才，为业务扩张储备核心人力资本。公司持续建立健全内部晋升体系，支持员工技能提升。",
+        "bbox": [
+            745,
+            522,
+            952,
+            607
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "相关财务影响分析",
+        "text_level": 1,
+        "bbox": [
+            533,
+            684,
+            623,
+            703
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "人力资本效能与成本优化",
+        "text_level": 1,
+        "bbox": [
+            533,
+            745,
+            581,
+            775
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/5a65af4dc930c9d80639949c6597c52ea85f6a30efe3999ff1f53c81cdf73953.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            739,
+            620,
+            776
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "系统的培训发展体系能加速新员工融入，提升全员专业技能与生产效率；复合型人才的持续培养是推动“数智化”转型成功、实现降本增效的重要前提。有效的人才保留策略能降低核心员工流失率，减少因频繁招聘和再培训产生的高昂成本。",
+        "bbox": [
+            638,
+            734,
+            953,
+            783
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "创新驱动与业务增长",
+        "text_level": 1,
+        "bbox": [
+            533,
+            826,
+            573,
+            856
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/0cdd55f1bb6a2cdf421d0b122a21f43f2094edd698d716b1493aa263ac3e670e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            594,
+            824,
+            620,
+            861
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "公司与华中农业大学等机构的“产学研”合作，为公司生猪育种、疫病防控等核心领域提供了持续的知识输入与人才供给，是构筑核心竞争力、驱动养殖业务高效高质可持续发展的根本，直接影响长期盈利能力和市场地位。",
+        "bbox": [
+            638,
+            824,
+            953,
+            873
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "44",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "45",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "社会责任",
+        "text_level": 1,
+        "bbox": [
+            45,
+            146,
+            171,
+            193
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "助力乡村振兴",
+        "text_level": 1,
+        "bbox": [
+            44,
+            261,
+            134,
+            286
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "公司积极将自身业务发展与国家乡村振兴战略相结合，实现经济效益与社会效益的统一。",
+        "bbox": [
+            44,
+            303,
+            339,
+            318
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "天域生物持续在湖北省枝江市、宜都市等地区深化 “公司 + 农户” 合作养殖模式。公司提供猪苗、饲料、技术指导并实行保护价回收，农户负责育肥。2025 年度，公司与 113 户合作农户结算金额约为6,998.65 万元，平均单户结算 61.93 万元，有效带动了当地农户增收致富，巩固产业帮扶成果。",
+        "bbox": [
+            43,
+            325,
+            471,
+            381
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "公司积极响应消费帮扶号召，定向采购重庆市垫江县等地区的帮扶农副产品，将优质农产品融入公司体系，增强市场推广度。",
+        "bbox": [
+            44,
+            392,
+            250,
+            447
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "2025年2月，公司控股子公司湖北天城丰泰食品有限公司向大悟县芳畈镇财政所捐赠乡村振兴款35,500元。",
+        "bbox": [
+            44,
+            460,
+            241,
+            493
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "相关财务影响分析",
+        "text_level": 1,
+        "bbox": [
+            44,
+            561,
+            135,
+            581
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "供应链稳定与成本优势",
+        "text_level": 1,
+        "bbox": [
+            45,
+            664,
+            85,
+            695
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/234f18c21818fd0bbc867963c0fa3132f9e8112d3c3c5212523ff4ec5a2aef33.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            94,
+            660,
+            120,
+            698
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "“公司+农户”模式是一种轻资产扩张策略，帮助公司在不过度投入固定资产的情况下，快速整合养殖产能，保障生猪出栏规模的稳定增长。与农户建立长期、稳定的合作关系，增强了上游供应链的韧性与可控性，有利于平滑生产计划，应对市场波动。同时，带动农户增收也反向巩固了这种合作关系的稳定性，为公司的养殖业务提供了可持续的产能基础。",
+        "bbox": [
+            125,
+            614,
+            257,
+            768
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "政策契合与风险缓释",
+        "text_level": 1,
+        "bbox": [
+            45,
+            817,
+            85,
+            847
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/95c828494a14680671f5d79e2ff836e7a711ee33cf5dcc178cd1e56d389ad0b1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            94,
+            816,
+            120,
+            853
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "积极参与乡村振兴符合国家政策导向，有助于公司在项目审批、用地保障、产业政策等方面获得地方政府更多的支持，为业务开展创造良好外部环境，降低政策性风险。",
+        "bbox": [
+            125,
+            807,
+            257,
+            873
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/e343cb595959beb4d21d376592b7873e246a8e7b2f1b6437db3f04c9907cfc8d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            275,
+            392,
+            466,
+            876
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "社会贡献与赋能社区",
+        "text_level": 1,
+        "bbox": [
+            533,
+            261,
+            664,
+            286
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "公司积极履行企业公民责任。在追求自身发展的同时，回馈社会，赋能运营所在地社区。公司持续践行“生态”核心经营观，通过生态环境治理项目和分布式光伏电站建设，直接改善项目所在地的人居环境和能源结构。公司生态能源板块的光伏项目为当地工商业用户提供绿色电力，降低项目用电成本与碳足迹。",
+        "bbox": [
+            531,
+            302,
+            952,
+            358
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "相关财务影响分析",
+        "text_level": 1,
+        "bbox": [
+            533,
+            427,
+            623,
+            447
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "维护社会资本与运营许可",
+        "text_level": 1,
+        "bbox": [
+            533,
+            484,
+            581,
+            514
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/dcf2f64f02a1f66cd76f138fcbd61f99933b90e3c5279590ef11c014907d65b3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            480,
+            619,
+            517
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "积极的社区参与有助于构建和谐的地企关系，减少项目推进中的社区阻力，保障施工与运营的顺利进行，避免因社区矛盾导致的工期延误或成本增加。",
+        "bbox": [
+            638,
+            483,
+            949,
+            515
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "员工凝聚力与雇主品牌",
+        "text_level": 1,
+        "bbox": [
+            533,
+            572,
+            573,
+            600
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/c41626ce2d2f5f2528482a61ec3e66bf196514c9b2c9701beee07e94ef81f8ed.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            595,
+            570,
+            619,
+            605
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "组织员工参与社会公益活动，能够提升员工使命感与自豪感，增强内部凝聚力，间接提升工作效率；同时，也有助于打造积极的雇主品牌，在人才竞争中占据优势。",
+        "bbox": [
+            638,
+            571,
+            951,
+            603
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/58b4a1a96c0a79f3d4f4ff7c644919e8ea10a2d38d2ebfec05c11891bfa44e94.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "植一抹绿色 树一方希望",
+        "sub_type": "text_image",
+        "bbox": [
+            533,
+            667,
+            952,
+            876
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "46",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "47",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "附录",
+        "text_level": 1,
+        "bbox": [
+            46,
+            146,
+            109,
+            193
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "关键绩效指标表",
+        "text_level": 1,
+        "bbox": [
+            45,
+            225,
+            148,
+            250
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "images/1496473ea13fea2c2f6f5bc7ed897ce90adba805e66d4f2234d78c189e1ed812.jpg",
+        "table_caption": [
+            "环境绩效"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"7\">环境合规管理</td><td>环保投入总金额</td><td>357.8万元</td></tr><tr><td>环保事故</td><td>0件</td></tr><tr><td>环境领域违法违规事件</td><td>0件</td></tr><tr><td>污染物监测合格率</td><td>98.3%</td></tr><tr><td>环保培训次数</td><td>7次</td></tr><tr><td>环保培训参加人次</td><td>122人次</td></tr><tr><td>环保培训时长</td><td>30小时</td></tr><tr><td rowspan=\"4\">能源利用</td><td>公司主要养殖场</td><td></td></tr><tr><td>间接能源消耗总量</td><td>1,576.81 吨标准煤</td></tr><tr><td>外购电力总量</td><td>5,256,023 千瓦时</td></tr><tr><td>直接能源消耗总量</td><td>404.69 吨标准煤</td></tr><tr><td rowspan=\"3\">应对气候变化能耗数据</td><td>温室气体排放总量</td><td>48,154 吨二氧化碳当量</td></tr><tr><td>直接温室气体排放量(范围一)</td><td>30,731 吨二氧化碳当量</td></tr><tr><td>间接温室气体排放量(范围二)</td><td>17,423 吨二氧化碳当量</td></tr><tr><td rowspan=\"3\">水资源利用</td><td>公司主要养殖场</td><td></td></tr><tr><td>总用水量:</td><td>122,400吨</td></tr><tr><td>水循环与再利用率</td><td>0.00%</td></tr><tr><td>污染和废弃物</td><td>废水排放量</td><td>20,160.00吨</td></tr></table>",
+        "bbox": [
+            44,
+            363,
+            466,
+            909
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "images/11e56cf58c95e5b89f5d0784aff0151700b051bb8bbac60f306a6190eabb6061.jpg",
+        "table_caption": [
+            "人资绩效"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">安全生产</td></tr><tr><td>安全生产事故类型和次数</td><td>轻微事故:1起</td></tr><tr><td>因工作关系死亡人数</td><td>0人</td></tr><tr><td>其中:公司雇员</td><td>0人</td></tr><tr><td>承包商员工</td><td>0人</td></tr><tr><td>总工伤人数</td><td>1人</td></tr><tr><td>其中:公司雇员</td><td>1人</td></tr><tr><td>因工伤损失工作日数</td><td>100个工作日</td></tr><tr><td>隐患排查整改率</td><td>100%</td></tr><tr><td>安全应急演练次数</td><td>5场次</td></tr><tr><td>安全生产投入金额</td><td>2.77万元</td></tr><tr><td colspan=\"2\">安全教育培训</td></tr><tr><td>安全教育培训总投入</td><td>5.75万元</td></tr><tr><td>安全教育培训场次</td><td>7场</td></tr><tr><td>参与安全教育培训人次</td><td>278人次</td></tr><tr><td>安全教育培训总时长</td><td>7小时</td></tr><tr><td>安全教育培训覆盖比率</td><td>98.3%</td></tr></table>",
+        "bbox": [
+            534,
+            205,
+            952,
+            909
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "48",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "49",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "images/aabbd81ccd07dd7631a0aefee4a00c1f41271da83d2a7fe589f11209513243c4.jpg",
+        "table_caption": [
+            "人资绩效"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"9\">发展与培训</td><td colspan=\"2\">员工培训</td></tr><tr><td>培训场次</td><td>8场次</td></tr><tr><td>接受培训总人数</td><td>485人</td></tr><tr><td>员工培训覆盖率(员工培训比率)</td><td>97%</td></tr><tr><td>按职级划分受训比率</td><td></td></tr><tr><td>高级管理层</td><td>15%</td></tr><tr><td>中级管理层</td><td>15%</td></tr><tr><td>基层员工</td><td>70%</td></tr><tr><td>培训总时长(超过)</td><td>28小时</td></tr></table>",
+        "bbox": [
+            44,
+            164,
+            463,
+            638
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/a7f375d8b5b367badb99bc15b8ef63398b88012367a0edba57ffe9f175fddf5d.jpg",
+        "table_caption": [
+            "员工情况"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>母公司在职员工的数量</td><td>10</td></tr><tr><td>主要子公司在职员工的数量</td><td>490</td></tr><tr><td>在职员工的数量合计</td><td>500</td></tr><tr><td>母公司及主要子公司需承担费用的离退休职工人数</td><td>3</td></tr><tr><td colspan=\"2\">专业构成</td></tr><tr><td>专业构成类别</td><td>专业构成人数</td></tr><tr><td>生产人员</td><td>336</td></tr><tr><td>销售人员</td><td>17</td></tr><tr><td>技术人员</td><td>37</td></tr><tr><td>财务人员</td><td>33</td></tr><tr><td>行政人员</td><td>77</td></tr><tr><td>合计</td><td>500</td></tr><tr><td colspan=\"2\">教育程度</td></tr><tr><td>教育程度类别</td><td>数量(人)</td></tr><tr><td>研究生及以上</td><td>25</td></tr><tr><td>本科</td><td>157</td></tr><tr><td>大专</td><td>181</td></tr><tr><td>大专以下</td><td>137</td></tr><tr><td>合计</td><td>500</td></tr></table>",
+        "bbox": [
+            532,
+            166,
+            952,
+            894
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "50",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            63,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            845,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "51",
+        "bbox": [
+            935,
+            50,
+            944,
+            61
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/1f3306aa1d71011fc0dcc154d56ade54fec778eee11ca2992a609c6cc315befc.jpg",
+        "table_caption": [
+            "公司治理绩效"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"9\">公司治理</td><td colspan=\"2\">股东会</td></tr><tr><td>召开总次数</td><td>5次</td></tr><tr><td>临时股东会次数</td><td>4次</td></tr><tr><td>审议通过事项</td><td>29项</td></tr><tr><td colspan=\"2\">董事会</td></tr><tr><td>董事会成员人数</td><td>7人</td></tr><tr><td>董事会召开次数</td><td>15次</td></tr><tr><td>审议通过事项</td><td>69项</td></tr><tr><td>平均出席率</td><td>100%</td></tr><tr><td rowspan=\"3\">合规与商业道德</td><td colspan=\"2\">合规</td></tr><tr><td>开展/参加法律合规培训次数</td><td>4次</td></tr><tr><td>开展/参加法律合规培训时数</td><td>10小时</td></tr><tr><td rowspan=\"3\">公司经营绩效指标</td><td>营业收入</td><td>72,558.89 万元人民币</td></tr><tr><td>净利润</td><td>-10,201.56 万元人民币</td></tr><tr><td>归属于母公司所有者的净利润</td><td>-10,690.39 万元人民币</td></tr><tr><td rowspan=\"3\">风险管理(内审)</td><td>内部风控培训次数</td><td>3次</td></tr><tr><td>内部风控培训总人次</td><td>35人</td></tr><tr><td>内部风控培训总小时</td><td>18小时</td></tr><tr><td rowspan=\"7\">投关管理</td><td colspan=\"2\">投资者交流</td></tr><tr><td>接待投资者现场调研次数</td><td>5次</td></tr><tr><td>解答投资者问题数量</td><td>约30个</td></tr><tr><td>投资者问题回复率</td><td>100%</td></tr><tr><td colspan=\"2\">信息披露</td></tr><tr><td>对外披露定期报告数量</td><td>4份</td></tr><tr><td>对外披露临时公告数量</td><td>123份</td></tr></table>",
+        "bbox": [
+            44,
+            225,
+            466,
+            838
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "52",
+        "bbox": [
+            46,
+            50,
+            56,
+            61
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            62,
+            50,
+            145,
+            63
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "天域生物科技股份有限公司",
+        "bbox": [
+            846,
+            50,
+            927,
+            63
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "53",
+        "bbox": [
+            935,
+            50,
+            945,
+            61
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/1e1ecf25246820b385d58dd54cabe21a03347a5fa916aa3ca331786155c9be5e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            405,
+            403,
+            458,
+            439
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "天域生物",
+        "text_level": 1,
+        "bbox": [
+            465,
+            410,
+            591,
+            434
+        ],
+        "page_idx": 27
+    }
+]
