@@ -1,0 +1,4468 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度ESG 环境、社会及治理报告"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                44,
+                318,
+                550,
+                529
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "贵州省广播电视信息网络股份有限公司\nGuizhou BC&TV Information Network CO.,LTD"
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                714,
+                503,
+                788
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b740230bc588cd9981dd650df96e2e8b4c55c1c1736d42f51e93a6501db72bfb.jpg"
+                },
+                "content": "贵州广电网络\nCHINA GUANGZHOU NET\n中国邮政储蓄银行股份有限公司",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                608,
+                0,
+                998,
+                998
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                32,
+                88,
+                100,
+                168
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "贵广网络"
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                100,
+                191,
+                137
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "GuiGuangWangLuo"
+                    }
+                ]
+            },
+            "bbox": [
+                106,
+                140,
+                191,
+                159
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "目录"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                135,
+                366,
+                189,
+                535
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "01 走进贵广"
+                    }
+                ]
+            },
+            "bbox": [
+                393,
+                218,
+                561,
+                272
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "05 社会责任"
+                    }
+                ]
+            },
+            "bbox": [
+                703,
+                218,
+                867,
+                270
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "02 公司治理"
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                381,
+                560,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "06 环境责任"
+                    }
+                ]
+            },
+            "bbox": [
+                703,
+                381,
+                867,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "03 安全播控"
+                    }
+                ]
+            },
+            "bbox": [
+                396,
+                553,
+                559,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "07 展望2026"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                553,
+                878,
+                605
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "04 政企业务"
+                    }
+                ]
+            },
+            "bbox": [
+                397,
+                718,
+                557,
+                770
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 走进贵广 - 认识贵广"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                23,
+                59,
+                431,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c38f76fa4ceb46490a16138b56651873d8601315a54dc8cf432870fe9d8c1f6f.jpg"
+                },
+                "content": "贵州广电网络\nGUIZHOU BROADCASTING INFORMATION TECHNOLOGY LTD.",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                25,
+                135,
+                861,
+                327
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "公司简介"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                79,
+                379,
+                183,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "贵州省广播电视信息网络股份有限公司是2008年3月成立的国有股份制文化企业，贵州省唯一的有线广播电视网络运营商，中国广电通信全业务在贵州唯一的运营主体，也是贵州省宣传文化系统唯一上市企业。公司牢牢把握广电网络意识形态属性、公共服务属性和技术产业属性，大力发展数字电视、高清互动、个人宽带、移动通信、固话语音、物联网等全融合业务，加快推进有线、无线与基础电信融合网业务。同时，公司按照“巩固传统基本盘、拓展新兴业态布局、谋划未来产业发展新赛道”三层递进发展路径，全面拓展市场空间，不断提升可持续经营能力，推动高质量稳健发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                475,
+                918,
+                700
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至目前，公司下设9个市州分公司和89个区县分公司，总股本12.47亿股，总资产148.47亿元。公司两次被评为全国文化体制改革先进企业（单位），两次入选全国文化企业30强提名，是全国重信誉、守合同企业，贵州省创新型领军企业，贵州文化产业示范基地。"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                711,
+                917,
+                844
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 走进贵广 - 公司业务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                431,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/96355acc178edb87f86939a65d93cc18d0ca82eb243644692fc97fd92c8364af.jpg"
+                },
+                "content": "Blue circular icon with a white television TV symbol on a monitor (no text or numbers)",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "有线电视业务"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                83,
+                198,
+                211,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托覆盖全省的五级广电光缆网络，公司开展有线电视网络建设、基本视听及节目内容传输业务，为全省用户提供稳定的广播电视信号传输与多样化视听内容服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                590,
+                238,
+                868
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3c919c8be9a2120e8fa1b6d21a3f1c7fd35353c97ab2c16f57e4d44e6ec9a04b.jpg"
+                },
+                "content": "Icon of two computer monitors with Wi-Fi symbol, set against a blue circular background (no text or symbols)",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "宽带网络业务"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                309,
+                198,
+                436,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "面向个人及家庭用户，同时拓展政府机关、企事业单位等集团客户，提供高速宽带网络接入服务，并基于宽带网络基础，延伸开展视频监控、数据专线、智慧组网等综合信息服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                288,
+                598,
+                463,
+                874
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a7b09664f45ebc01bec71f3219c01f2e0e2fcbe59633090207cd10e46862eadb.jpg"
+                },
+                "content": "5G",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "5G业务"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                544,
+                198,
+                672,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在贵州省内开展192号段移动通信业务，推动广电5G与传统有线电视、宽带网络协同融合发展，为用户提供差异化的移动通信服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                527,
+                598,
+                700,
+                835
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/93206366203310d1197e46a3d2afb91611473dca3f91a9c18ff4a2259db8af08.jpg"
+                },
+                "content": "Blue circular icon with a white open book and star symbol (no text or symbols)",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "政企业务"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                780,
+                198,
+                907,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为党政机关、应急管理、公共安全、智慧城市、医疗、水利、煤炭等领域，提供信息传输等服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                758,
+                598,
+                930,
+                753
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 走进贵广 - 资质认证"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                61,
+                436,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信息系统建设和服务能力等级证书CS2"
+                    }
+                ]
+            },
+            "bbox": [
+                113,
+                168,
+                366,
+                203
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "安防工程企业设计施工维护能力证书（一级）"
+                    }
+                ]
+            },
+            "bbox": [
+                113,
+                216,
+                405,
+                251
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "安全生产标准化认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                262,
+                278,
+                296
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "安全生产许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                309,
+                220,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "电信网码号资源使用证书"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                357,
+                278,
+                390
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "广播电视节目传送业务经营许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                113,
+                403,
+                337,
+                437
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "广播电视节目制作经营许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                113,
+                450,
+                308,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "建筑业企业资质证书"
+                    }
+                ]
+            },
+            "bbox": [
+                113,
+                496,
+                250,
+                529
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "企业信用等级认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                542,
+                263,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "企业信用评价AAA级信用企业"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                590,
+                309,
+                622
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "卫星地面接收设施安装服务许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                637,
+                337,
+                670
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信息网络传播视听节目许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                683,
+                308,
+                716
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "有线广播电视工程服务认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                729,
+                322,
+                762
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "增值电信业务经营许可证"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                777,
+                278,
+                809
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中国电子信息行业联合会证书"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                822,
+                307,
+                855
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO9001) 质量管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                155,
+                740,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO10006) 项目质量管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                201,
+                778,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO14001) 环境管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                250,
+                750,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ISO20000）信息技术服务管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                294,
+                807,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO22301) 业务连续性管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                342,
+                793,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO27001) 信息安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                388,
+                778,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO27017)云服务信息安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                435,
+                821,
+                468
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO27040) 数据存储安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                481,
+                807,
+                516
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO27701) 隐私信息安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                529,
+                807,
+                562
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO38505-1) 数据治理管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                575,
+                793,
+                609
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(ISO45001) 职业健康安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                622,
+                807,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "大数据安全管理体系认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                668,
+                696,
+                703
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "服务质量等级认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                714,
+                653,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "数据安全能力成熟度等级认证证书"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                762,
+                725,
+                796
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信息技术服务标准符合性证书（IAAS公有云）"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                809,
+                797,
+                842
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信息系统服务交付能力等级证书CCID"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                855,
+                745,
+                888
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 公司治理-党建引领"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                436,
+                133
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司党委坚持以习近平新时代中国特色社会主义思想为指导，深入学习贯彻党的二十大和二十届历次全会精神，全面贯彻落实新时代党的建设总要求和新时代党的组织路线，全面加强公司党的建设，为推进公司改革发展稳定提供坚强保证。"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                183,
+                481,
+                359
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d0a73ae16dd10af1a19ca616546d267d058ab958fa114632c3550307336f1156.jpg"
+                },
+                "content": "入党誓词\n我志愿加入中国共产党，拥护党的纲领，每年参加宣誓。履行党员义务，执行党的决定、严守党的秘密，保守党的秘密，对党忠诚、奉献工作，为广大文件干终身。随时增量为保障人民牺牲一切、奋斗奋斗。",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                61,
+                440,
+                478,
+                859
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "聚焦思想铸魂，筑牢政治引领根基"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                555,
+                190,
+                936,
+                242
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司党委始终把党的政治建设摆在首位，坚定拥护“两个确立”、坚决做到“两个维护”，落实省委相关规定，通过观看影片、学习重要论述、开展“三会一课”与主题党日等，强化忠诚教育。坚持以第一议题“第一遵循”“第一政治要件”抓实理论武装，开展党委理论学习中心组学习8次、“第一议题”学习29次，专题学习并配发相关学习资料。严格落实意识形态工作责任制，制定年度任务清单，加强阵地管理与宣传报道，在公司官网、官微发布稿件894篇（次），在行业媒体发布稿件123篇（次），“红飘带”被中央及省级媒体报道443次；确保元旦、春节、全国两会、“九三阅兵”等重要保障期安全播出。"
+                    }
+                ]
+            },
+            "bbox": [
+                552,
+                314,
+                938,
+                862
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 公司治理-党建引领"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                378,
+                133
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "聚焦强基固本，建强基层战斗堡垒"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                403,
+                75,
+                752,
+                125
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "01"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                62,
+                250,
+                98,
+                300
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "推动党组织换届"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                125,
+                222,
+                275,
+                266
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "按照 “成熟一个、推动一个” 的原则，推动基层党组织换届应换尽换。全年共有59个届期将满的党支部开展换届选举；公司共有117个党支部，其中有正式党员7人及以上的党支部77个，均设置了支部委员会，配齐支委委员。正式党员不足7人的党支部40个，均设书记1名，其中7个党支部还增设副书记1名。同时，完成公司机关党委换届选举工作。"
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                294,
+                461,
+                492
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "03"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                65,
+                594,
+                100,
+                642
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "开展深入贯彻中央八项规定精神学习教育"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                132,
+                566,
+                473,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "将纪律教育和廉洁文化建设作为思想政治建设的重要内容。年初召开全面从严治党工作会议，通报典型案例，集中收看六盘水市城区分公司原总经理仲刚警示教育片，深化以案说德、以案说纪、以案说法、以案说责；组织观看国家广电总局专题讲座《调查研究是我们党的法宝》，开展“黔网纪·家书话廉”廉洁教育、“黔网纪·青廉说”演讲比赛等活动。召开警示教育大会，对公司各级关键岗位干部等重点群体进行纪法教育。通过系列举措，引导干部职工知敬畏、存戒惧、守底线。"
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                625,
+                461,
+                909
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "02"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                548,
+                250,
+                583,
+                300
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "加强党对统战、群团工作领导"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                612,
+                222,
+                887,
+                266
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "坚持党对统战工作的全面领导，按要求抓好统战工作。发挥工会作用，对32名困难、患病职工进行慰问；组织开展中医义诊、关爱女性义诊、健步走等多个活动。组织团员积极开展主题团日等活动。"
+                    }
+                ]
+            },
+            "bbox": [
+                611,
+                296,
+                934,
+                427
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e9d069fe36237bdd8df1ddd1df8b88a997b0cc80c4c098922dde093b9e6a2042.jpg"
+                },
+                "content": "黔网纪·青博说",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                561,
+                500,
+                906,
+                888
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 公司治理-廉政建设"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                378,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司以习近平新时代中国特色社会主义思想为指导，全面贯彻落实二十届四中全会、二十届中央纪委四次全会、十三届省纪委四次全会部署要求，深入学习习近平总书记在贵州考察时的重要讲话精神，扎实开展深入贯彻中央八项规定精神学习教育，紧紧围绕公司发展大局，强化监督执纪问责，深化正风肃纪反腐，为公司改革创新、转型发展提供坚强纪律保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                181,
+                521,
+                400
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "以政治监督为统领，加强对“第一议题”落实情况、贯彻落实中央八项规定精神情况、审计反馈问题整改情况等开展监督检查，全年开展监督检查11次，发现问题25个。召开2025年党的建设暨全面从严治党工作会议压紧压实全面从严治党政治责任。动态更新监督对象廉政档案38册，出具党风廉政回复意见167人次，开展“一把手”监督谈话22人次。紧扣元旦春节、五一端午、国庆中秋等节日节点，发送廉洁短信9000余条。围绕公司经营管理中的重点难点问题，组织开展“调研式”监督11次，收集意见建议135条。"
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                403,
+                521,
+                696
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e1051564b26e27dfccf5a5fea5eff226464fd0bf757e4375ab29f3aff1d86c90.jpg"
+                },
+                "content": "党风廉政建设和反腐败工作协调\n小组联席会\n2025年12月25日",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                527,
+                203,
+                958,
+                646
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "修订完善《反舞弊制度》《党风廉政建设和反腐败协调小组工作制度》《联系市（州）分公司纪委工作制度》等制度，制定《失密泄密追责问责管理办法（试行）》《酒驾醉驾问题问责处理办法（试行）》，切实用制度管人管事，提升监督效能。"
+                    }
+                ]
+            },
+            "bbox": [
+                31,
+                703,
+                951,
+                772
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "引导党员干部从思想深处筑牢拒腐防变防线。印发《贵州省广电网络公司2025年廉洁教育方案》，举办“黔网纪·警钟长鸣”警示教育活动、“黔网纪·青廉说”演讲比赛、“黔网纪·家书话廉”廉洁教育活动。深化以案说德、以案说纪、以案说法、以案说责，制作警示教育片1部，征集廉洁家书62篇，印发典型案例通报1批次，组织召开警示教育大会，警醒教育2000余人。积极采取通报典型案例、在微信群转发典型案例等多形式开展警示教育，累计受教育人数达1.12万余人次，公司全体党员、干部职工受到深刻警醒、警示、警诫。"
+                    }
+                ]
+            },
+            "bbox": [
+                30,
+                777,
+                954,
+                924
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ⅢⅢ公司治理-规范运作"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                375,
+                133
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9de7f26b33bd6953c7628290c297bc1f2d1d2b137d25a80a8e44744f7920f547.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"股东会\"] --> B[\"董事会\"]\n  C[\"党委\"] --> D[\"纪委\"]\n  B --> E[\"审计委员会、战略委员会、薪酬与考核委员会、提名委员会\"]\n  E --> B\n  B --> F[\"经营管理层\"]\n  D --> G[\"技术工程中心\"]\n  D --> H[\"安全运维中心\"]\n  D --> I[\"人力资源部\"]\n  D --> J[\"财务管理部\"]\n  D --> K[\"审计风控部\"]\n  D --> L[\"纪检室\"]\n  F --> M[\"党群工作部（党委办公室）\"]\n  F --> N[\"董事会办公室\"]\n  F --> O[\"总经理办公室\"]\n  F --> P[\"战略投资部\"]\n  F --> Q[\"企业管理部\"]\n  F --> R[\"市场运营中心\"]\n  F --> S[\"分公司\"]\n  G --> T[\"分公司\"]\n  H --> T\n  I --> T\n  J --> T\n  K --> T\n  L --> T\n  T --> U[\"贵州省文化旅游科技有限公司\"]\n  T --> V[\"贵州省广电网络多彩云科技发展有限公司\"]\n  T --> W[\"贵州天广智慧城市科技有限责任公司\"]\n  T --> X[\"贵州贵广惠教科技有限公司\"]\n  T --> Y[\"贵州中安云网科技有限公司\"]\n  T --> Z[\"中广电智慧（贵州）科技有限公司\"]\n  T --> AA[\"贵服通网络科技有限责任公司\"]\n  T --> AB[\"深圳慧酷科技有限公司\"]\n  U --> AC[\"贵阳市分公司\"]\n  V --> AD[\"遵义市分公司\"]\n  W --> AE[\"六盘水市分公司\"]\n  X --> AF[\"安顺水市分公司\"]\n  Y --> AG[\"毕节市分公司\"]\n  Z --> AH[\"铜仁市分公司\"]\n  AA --> AI[\"黔东南州分公司\"]\n  AB --> AJ[\"黔南州分公司\"]\n  AC --> AK[\"下辖12家区县级分公司\"]\n  AD --> AL[\"下辖15家区县级分公司\"]\n  AE --> AM[\"下辖3家区县级分公司\"]\n  AF --> AN[\"下辖6家区县级分公司\"]\n  AG --> AO[\"下辖9家区县级分公司\"]\n  AC --> AP[\"下辖10家区县级分公司\"]\n  AD --> AQ[\"下辖16家区县级分公司\"]\n  AE --> AR[\"下辖11家区县级分公司\"]\n  AF --> AS[\"下辖17家区县级分公司\"]\n```",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                60,
+                177,
+                471,
+                931
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司严格遵守《中华人民共和国公司法》《中华人民共和国证券法》《上市公司治理准则》《上海证券交易所股票上市规则》等法律法规和监管要求，搭建架构清晰、职责明确的公司治理结构，建立权责明确、运作规范的公司治理机制，有效保证公司治理决策的公正性与科学性。"
+                    }
+                ]
+            },
+            "bbox": [
+                580,
+                233,
+                912,
+                425
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司董事会设立战略、审计、提名、薪酬与考核四个专门委员会，审计委员会、提名委员会、薪酬与考核委员会中独立董事委员占多数，审计委员会主任委员由会计专业的独立董事担任，并新设独立董事专门会议，以充分发挥独立董事的作用。"
+                    }
+                ]
+            },
+            "bbox": [
+                580,
+                433,
+                912,
+                625
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司制定《公司章程》《股东会议事规则》《董事会议事规则》等基本制度，对董事会及其下设专门委员会的任命程序、构成、职责等做出明确规定，确保公司组织行为规范。"
+                    }
+                ]
+            },
+            "bbox": [
+                580,
+                633,
+                912,
+                785
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司本部设置13个部（室）、下设9个市州分公司和89个区县分公司，8个全资（控股）子公司。"
+                    }
+                ]
+            },
+            "bbox": [
+                580,
+                794,
+                912,
+                864
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 公司治理-合规治理"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                62,
+                381,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司共组织召开3次股东会、7次董事会、15次董事会专门委员会、4次独立董事专门会议。会议的召集、召开及表决程序符合《公司法》《公司章程》以及《股东会议事规则》《董事会议事规则》等各项规定。公司股东会、董事会及高级管理人员严格按照《公司章程》赋予的职责，履行各自的权利及义务。公司股东依法合规召集、召开股东会；公司董事勤勉认真，独立客观地履行决策职责，并对公司提出合理的意见及建议；公司高级管理人员认真严谨的开展公司经营管理工作并积极履行董事会会议决议及各项要求。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                224,
+                909,
+                427
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司按照监管部门的相关法规要求，开展治理活动并不断完善公司治理结构。严格对内幕信息进行管理，并明确公司信息披露的组织工作及披露程序，强化信息披露工作，提高公司透明度。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                433,
+                908,
+                512
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "董事会"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                572,
+                156,
+                622
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9人组成，其中，1名职工代表董事、3名独立董事。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                651,
+                455,
+                698
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "高级管理人员"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                757,
+                232,
+                809
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5人组成，其中，1名总经理（董事长代行）、2名副总经理、1名董事会秘书、1名财务总监。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                835,
+                625,
+                940
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6a8934a4c4721bc85a24904cd71a9c2cf1a61669ea6951deb6c0817f5b01f408.jpg"
+                },
+                "content": "Illustration of three people in a meeting, one presenting a presentation screen (no text or symbols visible)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                629,
+                525,
+                911,
+                950
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "公司治理-信息披露"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                91,
+                68,
+                350,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4b5d035427a64ba33e6092eaebb93c282dd7213291a75833b3d6c4204a4d146e.jpg"
+                },
+                "content": "上市公司规范治理培训",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                87,
+                188,
+                358,
+                550
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，董事会重点围绕新《公司法》落地实施及监管政策变化，全面启动治理制度系统修订工作。报告期内，公司根据《公司法》《上市公司章程指引》《上市公司独立董事管理办法》《上海证券交易所股票上市规则》等法律法规及规范性文件的规定，结合公司实际情况，系统修订了《公司章程》及配套治理制度，确保董事会决策在法治化、专业化轨道上高效运行，切实提升决策的科学性与规范性，为公司的健康、稳定、可持续发展筑牢治理根基。公司董事会及经营管理层实现权责透明、协调运转、有效制衡，切实维护全体股东利益。"
+                    }
+                ]
+            },
+            "bbox": [
+                439,
+                224,
+                936,
+                531
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司董事会始终恪守信息披露基本原则，严格遵循《上市公司信息披露管理办法》《上海证券交易所股票上市规则》等监管要求，坚持真实、准确、完整、及时、公平的披露标准，忠实履行信息披露义务，确保投资者及时了解公司重大事项，最大程度地保护投资者利益。报告期内，公司累计编制、披露公告及制备相关文件230余份，充分保障股东特别是中小股东及利益相关方的知情权。同时，公司持续加强信息披露的主动性、准确性，及时、完整地向市场公开公司的生产经营情况、发展战略等信息，公司合作的信息披露媒体为《上海证券报》，投资者了解公司的渠道十分畅通。"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                666,
+                938,
+                857
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                23,
+                66,
+                84,
+                129
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||公司治理-内控合规"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                62,
+                371,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司严格遵守《中华人民共和国公司法》《企业内部控制基本规范》《企业内部控制应用指引》等法律法规，科学制定《贵广网络内部控制评价管理制度》，建立健全内部控制体系并执行落实，保障公司经营管理合法合规、资产安全、财务报告及相关信息真实完整，有效提高经营效率和效果，促进公司发展战略稳步推进。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                185,
+                954,
+                318
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司内部控制体系建设通过持续自我完善、不断健全，形成机构设置合理、职能划分明确、协同配合默契、评价客观公正、成果转化显著的一整套严密有效、与时俱进的内部控制体系。董事会严格按照内部控制相关管理制度的规定，建立健全和严格实施内部控制，评价其有效性并如实披露内部控制评价报告；经理层深入贯彻落实董事会对内部控制的具体工作要求，组织领导公司内部控制的正常运行；审计委员会认真履行工作职责，对内部控制的建立和实施进行深入且全面的监督；审计部在董事会及审计委员会的授权下按年度组织开展独立的内部控制评价工作。"
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                331,
+                953,
+                551
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为进一步规范公司内部各个管理层次相关业务流程，分解和落实责任，控制业务风险，保证财务报告真实性，确保企业资产安全高效运行，贵广网络按照合法性、全面性、重要性、有效性、制衡性、适应性、成本效益等7大基本原则编制了《内部控制管理手册》，系统梳理涵盖公司治理、发展战略、人力资源、资金活动、资产管理、销售业务等二十大类共计500项控制活动，并通过合理制定风险应对策略、科学进行控制活动设计、系统执行自我内部控制，使得内部控制管理更加符合工作实际需要，内部控制规范体系进一步健全完善，经营管理水平和风险防范能力得到进一步提高，为公司健康、持续、稳定发展提供了更有效保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                564,
+                676,
+                885
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b5510316b2f847592e73b2fba226df75689111e21a3506fbbd26fb3f0bbc6448.jpg"
+                },
+                "content": "Illustration of two business professionals interacting with large document screens and a shield (no text or symbols)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                680,
+                535,
+                975,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 公司治理-公平竞争"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                432,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f6da886853cc5086b69ecdcd4b90bdfc7fcf1c8cba39e5d2e08b5ce46d99b170.jpg"
+                },
+                "content": "Illustration of a balance scale with documents and a document icon (no text or symbols)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                71,
+                327,
+                367,
+                798
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司在公平竞争方面，通过完善公司治理架构和强化合规管理，持续优化市场竞争环境。在采购与供应链管理中，公司建立了公开透明的招标制度，确保供应商拥有平等参与机会。"
+                    }
+                ]
+            },
+            "bbox": [
+                457,
+                272,
+                846,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司参考《中华人民共和国招标投标法》《中华人民共和国政府采购法》等法律法规，对公司的《招标管理办法》《非招标管理办法》进行了完善和修订，为维护市场公平竞争提供了制度保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                537,
+                642,
+                918,
+                831
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 安全播控 - 重要性与承诺"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                521,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司作为贵州省内主流的广播电视网络运营商及综合信息服务提供商，深刻认识到安全播出对于公司运营、社会责任及用户体验的极端重要性。在媒体融合向纵深发展、数字化转型加速的背景下，广播电视节目的安全播出不仅关系到国家文化安全和意识形态安全，更是数字贵州建设的基础底座，直接影响到广大用户的视听权益与信息安全。"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                203,
+                458,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司郑重承诺，始终把安全播出视为公司发展的“生命线”和“底线”。面对新形势下的网络攻击风险、技术迭代挑战及复杂多变的外部环境，公司将通过构建“人防+技防+智防”三位一体的安全管理体系，强化关键信息基础设施保护，优化智能运维流程，确保广播电视节目及宽带数据的安全、稳定、高质量传输，为全省用户提供安全视听与信息服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                527,
+                463,
+                844
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7c147499121a7d78f56b001d659ecacabb330cae29137de0061b6886d7791e13.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                488,
+                107,
+                964,
+                909
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 安全播控-组织体系构建"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                61,
+                494,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/72d54548780b0df7e1fb1246b1c68aeb64c485c3b38e9c5a9e97f039c603f685.jpg"
+                },
+                "content": "Meeting scene with participants seated around a conference table, one person presenting at the front; large screen displays Chinese text about basic conditions.",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                54,
+                170,
+                332,
+                453
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "依法治理，强化领导"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                96,
+                494,
+                288,
+                538
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依据《中华人民共和国安全生产法》《广播电视安全播出管理规定》及网络安全等级保护要求，贵广网络全面升级了安全生产管理体系。坚持“党政同责、一岗双责”，由公司党委直接领导安全播出与安全生产领导小组，实行主要负责人亲自抓、分管负责人具体抓的工作机制。"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                551,
+                306,
+                862
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3e5e954bf2a1c0f63e385bf31e832ae2980b46a36db934b4ae4337007ecdc791.jpg"
+                },
+                "content": "黔东南州六月安全播出安全生产工作会",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                360,
+                170,
+                637,
+                451
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "职能整合，协同高效"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                402,
+                494,
+                595,
+                540
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托公司设立的安全播出管理部门，在原有负责安全播出管理、安全生产和技术保障工作的基础上，强化了网络安全与数据安全管理职能。在部门内部设立网络安全与数据安全专职岗位，统筹负责网络攻防演练、数据隐私保护及信息系统安全评估，确保安全播出与网络安全工作“同部署、同落实、同检查”，实现管理效能的最大化。"
+                    }
+                ]
+            },
+            "bbox": [
+                387,
+                551,
+                612,
+                901
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d6f4b1d3f35e9854282546a959fc65fc469d2c6aa207c635dccb8bbd2cee5e7b.jpg"
+                },
+                "content": "Workers in safety vests and helmets on a highway under construction, with debris and traffic cones visible (no signage or text)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                665,
+                170,
+                943,
+                453
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深化合作，协同保障"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                705,
+                494,
+                897,
+                538
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "深化与贵州广播电视台、贵阳广播电视台等上游播出单位的协同合作机制，依据双方签署的《上下游单位安全播出维护协议》，明确双方在信号传输、应急处置、日常维护等方面的职责边界与协作流程。通过定期沟通机制，以及紧急情况下的快速响应机制，确保上下游单位之间的信息畅通和协同高效。"
+                    }
+                ]
+            },
+            "bbox": [
+                693,
+                551,
+                918,
+                862
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 安全播控 - 技术防范措施"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                516,
+                129
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "冗余备份 高可用性"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                273,
+                203,
+                363,
+                290
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司采用先进技术设备，提高系统稳定性和安全性。对核心播控系统实施“双路由、双电源、双核心”的冗余备份策略，关键节点采用N+1或N+2热备份确保单点故障不影响整体播出。"
+                    }
+                ]
+            },
+            "bbox": [
+                375,
+                207,
+                707,
+                383
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "智能监控预警前置"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                172,
+                435,
+                260,
+                524
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "建立完善的系统监控和故障报警机制，通过部署智能监控系统，能够实时监测系统运行状态，及时发现并处理潜在的安全隐患。同时，通过专岗7*24小时值守，确保系统稳定运行。"
+                    }
+                ]
+            },
+            "bbox": [
+                276,
+                448,
+                589,
+                622
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "定期维护状态最优"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                66,
+                677,
+                155,
+                764
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定期对播出系统进行维护和保养，制定详细的维护计划，包括月度巡查、季度维护和年度检查，确保系统处于最佳运行状态，为节目的安全播出提供有力保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                683,
+                466,
+                857
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1f816e2279f5f847c5a739ef578e8c1894775c52feaad0d69a43e12f5c13e886.jpg"
+                },
+                "content": "Blue diamond-shaped icon with two silhouette figures inside, no text or symbols present.",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                489,
+                672,
+                720,
+                888
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/caf1c26854dc47284bb98f0212b38d77353ce615f1fa46f9508b92bc26fa488f.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                698,
+                522,
+                740,
+                596
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/560c78b48bb578de96202a5386a15dc6c8d18bfcfe8937ec6ec9995700f34d8e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                809,
+                292,
+                857,
+                379
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 安全播控 - 技术防范措施"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                526,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "纵深防御，多层次保护 在网络安全方面，部署防火墙、入侵检测、态势感知等设备，构建边界防御、区域隔离、主机防护的纵深防御体系。通过多层次的安全防护，有效抵御外部攻击和内部泄露风险。"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                201,
+                293,
+                446
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "信号传输保障 网络安全防护"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                420,
+                203,
+                576,
+                309
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "数据加密，隐私保护 对传输中的数据进行加密处理，确保数据在传输过程中的保密性、完整性和可用性。同时，加强用户数据的管理和保护，实施数据分类分级管理，防止数据泄露和滥用。"
+                    }
+                ]
+            },
+            "bbox": [
+                700,
+                207,
+                956,
+                451
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4b36d9d3d6134514b896be5e6e199de207d7d3588be5e46a78107a8243ec6a78.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                223,
+                479,
+                254,
+                522
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "立体传输，多路保障 构建“光缆主传+卫星备份+灾备信源”的三维立体传输体系，依托全省光缆干线将广播电视信号覆盖至全省各村级行政单位。同时，异地部署灾备系统，省级平台故障时无缝切换灾备信源，确保节目源“零中断”。"
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                588,
+                339,
+                872
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2605a3b99f7f5437e4eed70e9629254e5a934a6363bc76ba24aee17eea784e64.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                479,
+                542,
+                514,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "应急演练，快速响应 定期组织信号传输应急演练，模拟光缆中断、卫星信号干扰等突发情况，检验并提升应急响应能力和故障恢复速度。"
+                    }
+                ]
+            },
+            "bbox": [
+                375,
+                646,
+                631,
+                812
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d4ab2b03f8704f515d2150d6e405a2f08f8cab4bbefe7a8aaa510d40f2807e69.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                743,
+                485,
+                773,
+                525
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "技术升级，持续优化 依托现有立体传输体系基础，聚焦核心能力迭代，推进干线光缆及机房基础设施隐患综合治理，优化互联网出口安全架构与直播信源接收转码能力，强化网络安全态势感知与云资源精细化管理，持续提升信号传输抗干扰能力与业务连续保障水平。"
+                    }
+                ]
+            },
+            "bbox": [
+                658,
+                588,
+                921,
+                872
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 安全播控 - 实践成果"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                59,
+                450,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，面对复杂网络环境与安全威胁，公司周密部署、高效执行，实现“零事故、零中断、零差错”，确保阅兵仪式等12场重点活动100%不间断播出。在“春节”“全国两会”“国庆”等重要节点，通过“人员值守+技术巡检+应急演练”三位一体措施，实现节目安全播出与信号连续稳定，筑牢重要时段播出防线。"
+                    }
+                ]
+            },
+            "bbox": [
+                67,
+                205,
+                381,
+                490
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/96a577b234e17695573191f49032da378e3a456aa4c6a2b4e2318420c40f677e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                544,
+                214,
+                567,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "面对突发故障或安全事件，贵广网络能够迅速启动应急预案，通过紧急切换备用信号源、修复故障设备等措施迅速恢复节目的正常播出。有效降低了事件对用户收视体验的影响，提升了公司的应急处理能力。"
+                    }
+                ]
+            },
+            "bbox": [
+                657,
+                283,
+                952,
+                475
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/025b22084d98ea6dfc2b17f27409e7ea0527c71e001dae93ccb6cec6df361e74.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                223,
+                607,
+                255,
+                659
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/81e617c8b04ca5b90cc1cd72b4bdd435ec20e76c5c82dd936a55a83fa6027edd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                180,
+                790,
+                231,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "事后对故障原因进行深入分析的机制及针对性的改进措施，有效防止了事件事故的再次发生。"
+                    }
+                ]
+            },
+            "bbox": [
+                360,
+                696,
+                664,
+                792
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/50f3f87145f086a6c4b4ff71a5962088b8d9872f250590ec48902a21ca0255b5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                838,
+                725,
+                883,
+                814
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 政企业务-核心标杆业务落地与运营"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                59,
+                671,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司政企客户业务聚焦党政机关、应急管理、公共安全、智慧城市、医疗、水利、煤炭等领域，依托覆盖贵州省、市、县、乡、村五级的光纤网络资源及属地化运维服务体系，提供专业的网络、信息化建设、云服务等全链条产品与服务，有效支撑政府治理现代化和社会民生服务数字化，助力各行业数字化转型，2025年持续深化业务布局、强化运维保障，实现政企业务稳步发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                190,
+                929,
+                307
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "新时代大讲堂"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                100,
+                372,
+                247,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由公司建设及运营的“新时代学习大讲堂”，依托五级光纤网络打造全省联动的视频培训平台，融合有线电视前端、FTTH/HFC网络及机顶盒终端，通过视频会议、IP组播、DVB广播及贵广视讯APP等技术，实现互动会议与直播模式灵活切换，高效覆盖省市县三级会场、乡镇村学习点及家庭用户。"
+                    }
+                ]
+            },
+            "bbox": [
+                34,
+                462,
+                331,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年该业务持续稳定运营，成为乡村振兴及党员干部教育的重要支撑平台，公司全年做好平台的技术维护与运营保障，确保服务不中断、体验高质量。"
+                    }
+                ]
+            },
+            "bbox": [
+                34,
+                735,
+                331,
+                885
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0e4a652615aedf43cde146df8fb6eb1254a1d3c20b0a5ee6bb88eb419185ba9b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                350,
+                338,
+                646,
+                962
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "搜索"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                368,
+                628,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "158期业务知识"
+                    }
+                ]
+            },
+            "bbox": [
+                564,
+                407,
+                613,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "会议时间：3月27日\n(星期三)19点30分至21\n点30分，主会场：省委组织人事干部学院二楼第一会议室。主讲单位：中共贵州省委网络安全和信息化委员会办公室。培训主题：网络安全专题报告。\n主持人：罗玲龙，主讲人：中央网信办网络安全协调局有关领导同志。"
+                    }
+                ]
+            },
+            "bbox": [
+                564,
+                427,
+                628,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "讲堂要讯"
+                    }
+                ]
+            },
+            "bbox": [
+                538,
+                587,
+                570,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我的大讲堂"
+                    }
+                ]
+            },
+            "bbox": [
+                589,
+                587,
+                628,
+                607
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "应急广播体系"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                742,
+                372,
+                889,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托全省五级光纤网络（行政村全域通达），构建中央至村级六级联动的应急广播体系，纵向对接国家应急广播平台，横向衔接贵州省突发事件预警信息发布系统及其他省级应急平台，支持多渠道精准推送应急信息，具备全局广播、区域覆盖、点对多点及定向点播等灵活播控能力，形成贵州省立体化预警发布网络。2025年公司重点做好各级应急广播平台和终端的日常运维与可用性保障，在应急指挥、灾害防治、政策宣贯、社区治理、乡村振兴等领域发挥积极作用。"
+                    }
+                ]
+            },
+            "bbox": [
+                665,
+                462,
+                961,
+                901
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 政企业务-核心标杆业务落地与运营"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                610,
+                129
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "雪亮工程"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                175,
+                242,
+                276,
+                290
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "全省70%地区通过广电传输专网承载雪亮工程，已完成省级总平台搭建，实现省、市、县、乡、村五级联网覆盖，大幅提升社会治安防控能力。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                355,
+                376,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "基于雪亮工程的良好服务基础，与省公安厅联合开发“平安黔哨”产品，实现市、区、街道、小区、网格、联户长、住户七级监控区域分级，支持电脑端和手机端实时查看，弥补了部分雪亮工程、天网工程的覆盖空白；该产品与数字电视套餐包捆绑面向公客市场推广，成为“集客业务公客化”创新标杆，2025年公司各级团队围绕雪亮工程及“平安黔哨”开展全流程运维，保障网络传输与平台运行稳定。"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                488,
+                376,
+                788
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/711f04b31277f2cae882ecbd67f0a890ebb92923fcce3a348e4d412fe19484d5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                415,
+                181,
+                959,
+                846
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 政企业务-全品类政企产品与服务体系"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                644,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托覆盖全省的7000多公里4级干线环网与9个市州城域网组合优势，打造全品类政企产品服务矩阵，为党政机关、企事业单位、各行业客户提供定制化、高可靠性的服务，2025年持续优化产品性能、完善服务流程，核心产品包括："
+                    }
+                ]
+            },
+            "bbox": [
+                116,
+                192,
+                880,
+                266
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/851901681ce6385495d035e2ef22ba9963f1a69f3f1373bab4947066888fb016.jpg"
+                },
+                "content": "客户为本\n市场为基\n创新为重\n服务为要\n实干为先",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                115,
+                290,
+                883,
+                544
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "网络运营商数据专线"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                178,
+                575,
+                351,
+                616
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "提供内网点对点、点对多点专线传输服务，支持业内所有数据接口，具备光纤资源环网保护、路由自动切换的优势，覆盖广、新建成本低，已应用于公安专网、环保专网、电子政务外网、应急广播点位传输线路等场景。"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                662,
+                358,
+                892
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "互联网宽带服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                416,
+                575,
+                550,
+                616
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为企业办公区域提供高速独享宽带服务，上下行网速一致、连接无限制、部署时间短，服务于各级校园网、环保检测中心等客户。"
+                    }
+                ]
+            },
+            "bbox": [
+                414,
+                662,
+                558,
+                857
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "视频会议服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                655,
+                575,
+                771,
+                616
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "通过数据专线实现高清视频会议、在线教育、网络直播等场景应用，采用有线接入降低时延，专业音视频设备提升体验，可租用平台降低客户建设成本，应用于新时代大讲堂、省监管总队律师会见系统、省治安总队全省视频会议调度系统等。"
+                    }
+                ]
+            },
+            "bbox": [
+                634,
+                662,
+                822,
+                925
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "|||||| 政企业务-全品类政企产品与服务体系"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                644,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c5dd23beb1a99ba188d61d3ec3cd7faec5920b47b7acb01ac8f536b662ad6ed9.jpg"
+                },
+                "content": "中国广电\nChina Mobile 5G\n更广更精彩\n10099",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                93,
+                194,
+                875,
+                527
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "视频监控集成服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                145,
+                579,
+                300,
+                620
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托专线资源提供音视频实时监控和历史存储服务，场景方案成熟、部署快速、投入成本灵活，应用于天网工程、污染源企业监控、校园安防、城市交通监控、小区防高空抛物等领域。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                666,
+                325,
+                862
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "信息化项目建设服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                395,
+                579,
+                567,
+                618
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "提供系统集成、弱电智能化建设、智能门禁、智慧停车等服务，凭借较强的软件开发能力和项目实施经验，承接省自然灾害应急能力提升预警指挥项目、公安情报指挥中心建设、园区弱电智能化等项目。"
+                    }
+                ]
+            },
+            "bbox": [
+                393,
+                666,
+                577,
+                896
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5G物联网卡联网服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                644,
+                579,
+                825,
+                618
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "依托广电号卡资源提供物联网无线数据传输服务，套餐覆盖小流量至1TB大流量多档位，性价比高，已应用于全省燃气抄表、出租车联网、监控视频无线回传等行业场景。"
+                    }
+                ]
+            },
+            "bbox": [
+                642,
+                666,
+                825,
+                862
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 政企业务-资源优势与服务能力"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                62,
+                544,
+                129
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "网络覆盖优势"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                58,
+                309,
+                163,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "拥有贵州省唯一的有线广播电视网络运营权，实现省、市、县、乡、村五级光纤网络全覆盖，7000多公里4级干线环网与市州城域网形成稳定的网络架构，为各类政企业务提供坚实的网络传输基础。"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                381,
+                312,
+                651
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "定制化服务优势"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                58,
+                707,
+                180,
+                744
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "可根据客户行业特性、业务需求制定个性化解决方案，从项目设计、建设实施到后期运维提供全生命周期服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                777,
+                311,
+                905
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bd7da916fb0662cb0aed93863d88026e9f3f12f0055ff3d546705faab2a5b63e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                329,
+                307,
+                660,
+                892
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2f0109363c638b96624bac215f3fb9dafbc9bd7200a85f171c20b9ad3274de6b.jpg"
+                },
+                "content": "Worker in blue uniform and yellow hard hat inspecting industrial equipment (no visible text or symbols)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                497,
+                196,
+                660,
+                472
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "属地化运维优势"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                809,
+                255,
+                930,
+                292
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "拥有专业的属地化运维服务团队，实现7*24小时服务响应，可快速解决客户网络、设备及平台的各类问题，保障政企项目长期稳定运行。"
+                    }
+                ]
+            },
+            "bbox": [
+                678,
+                325,
+                932,
+                501
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "生态协同优势"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                826,
+                609,
+                930,
+                646
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "充分发挥广电网络的意识形态属性和公共服务属性，与政府部门、各行业龙头企业深度合作，同时整合生态合作伙伴优秀产品，打造融合型信息化解决方案，实现业务协同、价值共赢。"
+                    }
+                ]
+            },
+            "bbox": [
+                670,
+                681,
+                934,
+                901
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 政企业务-业务发展亮点与成果"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                548,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f191541b5a745202099bdabb74345454cae0c04c258381ad69c9775025f36ea5.jpg"
+                },
+                "content": "Workers in yellow helmets inspecting a tree with blooming cherry blossom trees in an orchard (no visible text or symbols)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                92,
+                157,
+                472,
+                487
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "标杆项目持续深化"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                114,
+                544,
+                269,
+                587
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "应急广播、雪亮工程、新时代大讲堂等项目实现全省深度覆盖，运维保障成效显著，未发生重大服务中断事件，获得合作单位高度评价。"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                618,
+                276,
+                840
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "新兴领域实现突破"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                326,
+                522,
+                481,
+                564
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "成功切入应急管理等新兴领域，落地多个标杆性信息化建设项目，丰富了政企业务布局，为后续业务拓展奠定基础。"
+                    }
+                ]
+            },
+            "bbox": [
+                316,
+                588,
+                488,
+                809
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "产品服务体系完善"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                538,
+                342,
+                693,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在原有专线、监控等产品基础上，完善云资源、物联网卡等产品布局，形成全品类服务能力，满足客户多元化、一站式的信息化需求。"
+                    }
+                ]
+            },
+            "bbox": [
+                528,
+                424,
+                700,
+                692
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "公客与集客业务融合"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                744,
+                238,
+                916,
+                279
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "创新“集客业务公客化”模式，如“平安黔哨”产品与数字电视套餐捆绑推广，实现政企业务与公众业务相互赋能、协同发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                738,
+                318,
+                910,
+                540
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "|||||| 社会责任-股东责任"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                61,
+                400,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司高度重视投资者关系管理工作，以上海证券交易所发布的《上海证券交易所股票上市规则》等为指导，制定投资者关系管理工作计划，并切实做好落地工作。公司为贯彻证券市场公开、公平、公正原则，保护投资者的合法权益，加强公司与投资者的交流和沟通，促进公司诚信自律、规范运作，提高公司投资者关系管理水平。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                207,
+                936,
+                335
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "互动交流"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                71,
+                425,
+                161,
+                468
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司与投资者、股东保持充分有效地沟通。公司运用股东会、业绩说明会、接听投资者来电、公开邮箱等多种方式聆听投资者意见建议；同时，日常关注上交所“e互动”平台，对中小投资者的提问及时进行答复，保障投资者的知情权和参与权。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                544,
+                604,
+                675
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司已连续五年召开线上业绩说明会，向市场传递正面信息，让投资者更全面了解公司年度业绩经营情况、未来发展战略等信息，保持与资本市场投资者的紧密接触，促进投资者对公司情况的了解。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                759,
+                610,
+                888
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e8be2b219f002b99ca3511df02da859f3905411946f76b8801c8e3ea03df8aae.jpg"
+                },
+                "content": "5·15全国投资者保护日\n提质增好强信心 沟通互感促发展\n2025年贵州辖区上市公司投资者集体接待日活动暨2024年度业绩说明会",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "上证e互动回复量66则\n上证e互动回复率100%"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                653,
+                392,
+                914,
+                742
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "||||| 社会责任-员工责任"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                21,
+                62,
+                381,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司始终遵守《中华人民共和国劳动法》《中华人民共和国劳动合同法》《中华人民共和国工会法》以及地方性法律法规，并制定一系列内部规范与制度，旨在确保公平、公正公开的用工原则，严禁使用童工、强迫劳动以及因国籍、地区、种族、性别、怀孕等原因歧视员工，在招聘、晋升、福利发放等各方面保障男女性同工同酬、保障女性员工的合法权益，加强劳动合同管理，规范用工行为，充分保障员工各项合法权益。"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                225,
+                928,
+                379
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司努力营造多元、公平、公正的工作环境。截至2025年底，公司及全资（控股）子公司共有正式聘用在岗职工4334人，合同签订率100%、社会保险覆盖率100%；公司使用劳务派遣204人、使用非全日制用工190人；公司离退休及内退人员共计1543人。"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                390,
+                927,
+                464
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d33bf174eca4c9c1aadd4f0aa366f2af629f463c77a44e71a010124e6e225d52.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>人员状态</td><td>人数</td><td>比例</td></tr><tr><td>在岗</td><td>4728</td><td>75%</td></tr><tr><td>内退退休</td><td>1543</td><td>25%</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                60,
+                533,
+                275,
+                727
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/427199e031a532a399aa088594721cd97cd3fb217a99a8466aa5dbd904c386f0.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>教育程度类别</td><td>人数</td><td>比例</td></tr><tr><td>硕士及以上</td><td>43</td><td>1%</td></tr><tr><td>本科</td><td>2260</td><td>48%</td></tr><tr><td>大专及以下</td><td>2425</td><td>51%</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                283,
+                533,
+                498,
+                792
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/fb96f4e11f15317a438c62f9cfe59df42d2906b0fe62df50a249dc208f7b2f7a.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>年龄段</td><td>人数</td><td>比例</td></tr><tr><td>35岁及以下</td><td>1528</td><td>33%</td></tr><tr><td>36岁-49岁</td><td>2515</td><td>53</td></tr><tr><td>50岁及以上</td><td>685</td><td>14%</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                505,
+                533,
+                720,
+                792
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/514bcb47d62621c55f738ec23ffa7a1784a2aebafe023dc851c8a77a8f1d2aef.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>性别</td><td>人数</td><td>比例</td></tr><tr><td>男</td><td>3372</td><td>71%</td></tr><tr><td>女</td><td>1356</td><td>29%</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                728,
+                533,
+                943,
+                727
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "|||||| 社会责任-员工责任"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                59,
+                381,
+                129
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "员工薪酬与福利"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                159,
+                259,
+                339,
+                312
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司建立了完善的薪酬和福利保障制度，并围绕自身战略发展目标，不断优化薪酬体系、健全考核机制。2025年，公司对薪酬及考核办法进行了重塑优化，健全以岗位价值为依据、业绩为导向的薪酬分配体系。坚持考核结果与薪酬管理挂钩，干部员工薪酬与岗位及业绩相统一，使员工的收入与个人业绩、部门业绩、公司整体发展紧密结合，激发员工利益共享、风险共担的积极性。同时，进一步强化工会职能，积极组织开展一系列活动，丰富职工精神文化生活，提升员工归属感和幸福感。"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                357,
+                423,
+                846
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d213aaf5b5f6fe6bba119365eae3083b802f0538724125bbf9f8920be6986d5c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                455,
+                148,
+                941,
+                955
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "|||||| 社会责任-客户服务"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                378,
+                129
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/37b43a8e366538c19cfbfd2ed4094bb0d1f736adc9c1daf0e60b53550b2d3b57.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                4,
+                166,
+                992,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年，公司开展“大干300天”活动，并紧紧围绕“提升客户满意度”这一核心目标，持续优化服务流程、完善响应机制，着力构建高效、规范、贴心的综合服务体系，为全省用户提供了坚实的收视与信息保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                598,
+                236,
+                851
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "建立“线上热线+线下网点+上门维护”全渠道服务体系。96789与10099客服热线提供7×24小时不间断人工服务，全年辖区用户呼入量超160万次，接通率达95%以上，高效响应用户关于节目内容咨询、故障报修等各类诉求；线下营业厅与网格维护人员通过标准化服务流程与主动上门维护，切实保障用户基本权益，并以丰富的营销活动和贴心的便民举措，不断提升服务触达率与用户感知度。"
+                    }
+                ]
+            },
+            "bbox": [
+                256,
+                557,
+                493,
+                924
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "通过开展资费公示、需求调研，主动加强与用户的沟通联系，并引入用户评价机制推动服务提质增效。面对突发事件，公司积极配合地方党委、政府，确保有线电视网络信号稳定传输，依托96789/10099平台及时发布灾害预警、应急信息，履行公共安全服务责任。同时，依托客服渠道精准传递党和政府政策信息，有力巩固意识形态主阵地。"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                557,
+                730,
+                892
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "持续加强客服人员培训与业务协同，推动客户服务向规范化、标准化纵深发展。通过建立健全服务标准与考核机制，不断提升故障一次性解决率与用户满意度，为完善公共文化服务体系、助力公司发展提供了有力支撑。"
+                    }
+                ]
+            },
+            "bbox": [
+                753,
+                594,
+                969,
+                812
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "|||||| 社会责任-投身公益"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                62,
+                381,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025年度，为做好乡村振兴工作，公司积极响应遵义市、毕节市、铜仁市、黔东南州、黔南州、黔西南州等地方党委、政府号召，选派33名干部参与25个县（区）28个乡镇（街道）33个村（社区）驻村帮扶，解决驻村工作经费36.3万元；慰问驻村干部4000元；牵头开展3次消费帮扶，采购农产品1.124万元。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                364,
+                420,
+                705
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/49cca8be192c5f032f47d83e360b0ed4a449b8e878bb3d7fa47b1b8af046d7ea.jpg"
+                },
+                "content": "Four people standing under a tree in an orchard, examining melon fruits under a clear blue sky (no text or symbols visible)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                436,
+                255,
+                922,
+                814
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "环境责任"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                230,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "按照国家有关环境保护与资源节约的规定，结合公司实际情况，公司建立并持续完善ISO14001环境管理体系，认真落实节能减排责任，积极开发和使用节能产品，发展循环经济，降低污染物排放，提高资源综合利用效率。"
+                    }
+                ]
+            },
+            "bbox": [
+                46,
+                183,
+                948,
+                251
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "环境管理体系"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                280,
+                301,
+                409,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司建立管理体系，为环境管理提供结构化的运行机制，保护环境、保护自然。通过管理体系的实施，采用系统化的方法，加强环境管理，更有效地利用能源和资源，在遵守国家和当地的法律法规和合规义务及其他要求的前提下，使本公司的环境管理绩效不断提高，务求构建资源节约型、环境友好型企业。"
+                    }
+                ]
+            },
+            "bbox": [
+                41,
+                353,
+                413,
+                525
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "践行低碳环保"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                236,
+                637,
+                366,
+                681
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "绿色、低碳、可持续是经济社会高质量发展的重要内容，是新发展阶段、新发展理念、新发展格局的内在要求。公司积极响应政策号召，探索绿色模式创新，助力绿色GDP，积极投入到改善生态环境治理的事业中。"
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                696,
+                369,
+                833
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5613a36d60e1dead6554fb9c2a8f83c4672a85b8b51a71e504bb0504144a6b30.jpg"
+                },
+                "content": "环境管\n规和合\n提高，\n有数\n优享\n彻\n正能",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                370,
+                400,
+                633,
+                992
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "环保宣传"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                614,
+                305,
+                703,
+                348
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司作为广电行业的一员，是舆论的传递者、引导者，公司拥有数百万的有线电视用户，拥有较强的传播渠道优势以及用户优势。公司积极通过有线网络开机广告等形式，不断宣传、贯彻国家环境保护法规政策，倡导环保低碳生活，积极传递环保正能量。"
+                    }
+                ]
+            },
+            "bbox": [
+                613,
+                359,
+                970,
+                529
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "绿色运营"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                642,
+                603,
+                731,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "倡导绿色办公，引导全体员工自觉践行绿色低碳办公方式，推广使用视频会议系统、普及OA办公软件，减少非必要会议出行、节约纸张，提升办公效率；低碳出行，公司鼓励员工上下班乘坐公共交通工具，减少私家车的使用；公司推行垃圾分类处置，有效宣传并普及相关知识。"
+                    }
+                ]
+            },
+            "bbox": [
+                641,
+                659,
+                968,
+                831
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "展望2026"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                22,
+                64,
+                244,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年是“十五五”规划的开局起步之年。贵广网络将坚持以习近平新时代中国特色社会主义思想为指导，全面贯彻落实党的二十大和二十届历次全会精神，紧扣国家“双碳”目标、网络强国、数字中国战略及贵州“四区一高地”定位，将环境、社会与治理（ESG）理念深度融入公司“五新工程”与高质量发展全过程。公司将持续向主流媒体传播、公共服务惠民、数字文化赋能、综合信息服务、国家应用支撑五大功能于一体的新型广电网络发展演进，为利益相关方创造长期可持续价值，为数字贵州建设贡献负责任的广电力量。"
+                    }
+                ]
+            },
+            "bbox": [
+                51,
+                181,
+                956,
+                333
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在环境责任方面，坚持生态优先、绿色发展，守好发展和生态两条底线，按照《中共贵州省委关于制定贵州省国民经济和社会发展第十五个五年规划的建议》相关要求，深入践行美丽贵州建设要求，立足党媒政网职责使命，持续加大生态环保宣传力度，创新宣传形式，普及环保知识、倡导低碳理念，引导公众践行绿色生活方式。深化绿色运营管理，全面推行绿色办公、绿色施工，在项目建设中优先选用低碳环保、节能降耗材料，严控各类污染物排放。健全环境应急预案体系，强化极端天气、生态灾害等突发情况的应急处置能力，保障广电网络服务稳定畅通。推进广电5G网络、有线电视、宽带业务低碳化升级，探索绿色技术在网络建设、运维中的深度应用，助力“绿水青山就是金山银山”转换路径拓宽，践行生态保护责任，助力贵州生态环境质量持续提升。"
+                    }
+                ]
+            },
+            "bbox": [
+                50,
+                342,
+                951,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在社会责任方面，坚守国企担当，持续履行社会责任，全力推进新型广电网络建设，深化有线电视基本公共服务实践，积极参与广播电视重点惠民工程，扩大惠民服务覆盖面、提升服务实效性。持续完善国家应急广播体系建设，强化应急广播在灾害预警、政策宣传、民生服务中的作用，推动应急广播深度融入国家应急体系，筑牢安全防护防线。进一步强化工会职能，健全职工权益保障机制，提升员工归属感和幸福感。聚焦数据安全、网络安全，加快老旧设备更新换代，体系化推进安全保障能力建设，完善安全防护体系，压实安全责任，确保内容安全、播出安全、网络安全、数据安全，扎实做好全年重要保障期安全保障工作。依托广电网络渠道优势，常态化开展网络安全、防电诈等科普宣传活动，提升公众安全防范意识，守护群众财产安全。"
+                    }
+                ]
+            },
+            "bbox": [
+                50,
+                542,
+                951,
+                733
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在公司治理方面，持续强化党建引领保障作用，全面加强党的建设，坚定不移推进全面从严治党，深化党风廉政建设和反腐败工作，完善党建与业务深度融合机制，以高质量党建引领公司高质量发展。围绕降本增效核心目标，持续强化内控管理，优化组织架构，重塑规范化、标准化、信息化、科学化管理体系，提升管理效能。聚焦人力资源优化，提升人才队伍专业素养和创新能力，强化人才支撑保障。"
+                    }
+                ]
+            },
+            "bbox": [
+                50,
+                742,
+                951,
+                853
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "展望2026，贵广网络将把ESG作为驱动转型的核心战略框架，让绿色成为发展底色，让责任成为网络基因，让治理成为信任源泉，在“十五五”新征程中，实现经济效益与社会价值的统一，引领行业可持续发展。"
+                    }
+                ]
+            },
+            "bbox": [
+                51,
+                862,
+                951,
+                935
+            ]
+        }
+    ]
+]
