@@ -4,7 +4,7 @@
 
 ## 包内可验证范围
 
-- `formal_current` 的 200 份报告、65 项指标、13,000 行结果可由 API 读取和汇总；
+- `outputs/final_results` 的 200 份报告、65 项指标、13,000 行结果可由 API 读取和汇总；
 - `validation.json`、`COMPLETE.json` 和工程证据可供独立检查；
 - `SUBMISSION_MANIFEST.json` 记录每个包内文件的来源路径、大小和 SHA-256；
 - `latex/submission/` 保存项目文档、300 字简介和技术论文的 XeLaTeX 源文件，`outputs/ai_contest/submission/latex_build_report.json` 记录构建结果与 PDF 哈希；

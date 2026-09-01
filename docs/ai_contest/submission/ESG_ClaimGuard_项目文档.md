@@ -3,8 +3,8 @@
   <div class="cover-title">ESG ClaimGuard</div>
   <div class="cover-subtitle">可持续披露一致性预审系统</div>
   <div class="document-type">项目文档</div>
-  <div class="version">版本 v1.0</div>
-  <div class="cover-meta">日期：{{submission_date}}<br>团队名称：{{team_name}}<br>参赛组别：{{competition_group}}</div>
+  <div class="version">正式提交版</div>
+  <div class="cover-meta">日期：2026年9月1日<br>团队名称：队不起队不起<br>参赛组别：开放赛题-生成式大语言模型与智能体</div>
 </div>
 
 <div class="page-break"></div>
@@ -27,7 +27,7 @@
 
 | 序号 | 更改原因 | 版本 | 作者 | 更改日期 | 备注 |
 |---:|---|---|---|---|---|
-| 1 | 正式提交版定稿 | v1.0 | {{team_name}} | {{submission_date}} | 数据、模型、系统和交付口径统一至冻结正式版本 |
+| 1 | 正式提交版定稿 | 正式版 | 队不起队不起 | 2026年9月1日 | 数据、模型、系统和交付口径统一至冻结正式版本 |
 
 <div class="page-break"></div>
 
@@ -219,7 +219,7 @@ final_found = model_returns_found
 
 ![证据门与定量来源](latex/figures/fig_evidence_gate.png)
 
-图 10 显示 {{found}} 条 found 均通过页码、区块和精确子串合同，合同失败数为 {{evidence_failure_count}}；{{quantitative_found}} 条定量 found 均保存 value/unit 来源。它证明正式数据的内部追溯字段完整，但不能证明指标语义判断全部正确。
+图 10 显示 7,688 条 found 均通过页码、区块和精确子串合同，合同失败数为 0；3,214 条定量 found 均保存 value/unit 来源。它证明正式数据的内部追溯字段完整，但不能证明指标语义判断全部正确。
 
 ## 4.4 模型评价与适用边界
 

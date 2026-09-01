@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-01T06:27:53+00:00",
+  "generated_at": "2026-09-01T07:03:35+00:00",
   "team": "队不起队不起",
   "project": "ESG ClaimGuard",
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "files": {
     "introduction_pdf": {
       "name": "队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
       "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
       "exists": true,
-      "bytes": 40047,
-      "sha256": "6839f983d7ff8864844353e45ed8eac8ed5fb0b7e3de8b5ac62351a75512960a",
+      "bytes": 40045,
+      "sha256": "b3cd5a138d25d209273c5656bc2a3a739ffc457201ce3c4e23448960afb85c23",
       "under_200_mib": true,
       "pages": 1,
       "a4_portrait": true,
@@ -26,18 +26,18 @@
       "name": "队不起队不起_ESG ClaimGuard_项目文档.pdf",
       "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_项目文档.pdf",
       "exists": true,
-      "bytes": 1920859,
-      "sha256": "db0d072d7f16539850789752ebf2483c8d741a93f774529d81a21d5c24c71444",
+      "bytes": 1921211,
+      "sha256": "bc02e1d409dcc6b04aa133da99a2a8c54c40db6f0704f6f85903d5253af683ed",
       "under_200_mib": true,
       "pages": 15,
       "a4_portrait": true,
       "searchable": true,
       "blank_pages": [],
       "page_non_whitespace_characters": [
-        97,
+        94,
         955,
-        73,
-        838,
+        71,
+        943,
         485,
         1102,
         559,
@@ -76,8 +76,8 @@
       "name": "队不起队不起_ESG ClaimGuard_其他.zip",
       "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
       "exists": true,
-      "bytes": 4455677,
-      "sha256": "6ce288b5dd0b757da6e57bbb32eb068259b71ca9dfacfd9a5f5fd98194f4e921",
+      "bytes": 4455718,
+      "sha256": "371888f35bd3b8c9c122f80e80fd895a961479e4c6420a854d0f5f87b4433d41",
       "under_200_mib": true,
       "entries": 120,
       "zip_integrity": true,
@@ -106,26 +106,26 @@
         {
           "job": "project_document",
           "tex": "latex/submission/ESG_ClaimGuard_项目文档.tex",
-          "pdf": "outputs/ai_contest/submission/latex_stage/队不起队不起_ESG ClaimGuard_项目文档.pdf",
-          "pdf_sha256": "db0d072d7f16539850789752ebf2483c8d741a93f774529d81a21d5c24c71444",
+          "pdf": "outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf",
+          "pdf_sha256": "bc02e1d409dcc6b04aa133da99a2a8c54c40db6f0704f6f85903d5253af683ed",
           "overfull_boxes": 0,
-          "log": "outputs/ai_contest/submission/latex_stage/latex-build/project_document/project_document.log"
+          "log": "outputs/ai_contest/submission/supporting/latex-build/project_document/project_document.log"
         },
         {
           "job": "project_introduction",
           "tex": "latex/submission/ESG_ClaimGuard_参赛作品简介.tex",
-          "pdf": "outputs/ai_contest/submission/latex_stage/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
-          "pdf_sha256": "6839f983d7ff8864844353e45ed8eac8ed5fb0b7e3de8b5ac62351a75512960a",
+          "pdf": "outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_参赛作品简介.pdf",
+          "pdf_sha256": "b3cd5a138d25d209273c5656bc2a3a739ffc457201ce3c4e23448960afb85c23",
           "overfull_boxes": 0,
-          "log": "outputs/ai_contest/submission/latex_stage/latex-build/project_introduction/project_introduction.log"
+          "log": "outputs/ai_contest/submission/supporting/latex-build/project_introduction/project_introduction.log"
         },
         {
           "job": "technical_paper",
           "tex": "latex/submission/ESG_ClaimGuard_技术论文.tex",
-          "pdf": "outputs/ai_contest/submission/latex_stage/ESG_ClaimGuard_技术论文.pdf",
-          "pdf_sha256": "803b3ffec0b0128696b6488107e4e5889a355dacab2666500239b0f3a8ad8150",
+          "pdf": "outputs/ai_contest/submission/supporting/ESG_ClaimGuard_技术论文.pdf",
+          "pdf_sha256": "bb81ee2b518b866a8a41725a91e20f9d547df27fa3c124e53da5b6ffbb011c11",
           "overfull_boxes": 0,
-          "log": "outputs/ai_contest/submission/latex_stage/latex-build/technical_paper/technical_paper.log"
+          "log": "outputs/ai_contest/submission/supporting/latex-build/technical_paper/technical_paper.log"
         }
       ]
     }

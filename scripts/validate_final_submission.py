@@ -287,7 +287,7 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "team": TEAM,
         "project": "ESG ClaimGuard",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "files": files,
         "official_files_ready": sum(bool(item["exists"]) for item in files.values()),
         "official_files_total": len(files),
@@ -315,7 +315,7 @@ def main() -> int:
     )
     md_path.write_text(
         "# ESG ClaimGuard 最终提交核验\n\n"
-        f"> 团队：{TEAM}；项目：ESG ClaimGuard；日期：2026-08-31。\n\n"
+        f"> 团队：{TEAM}；项目：ESG ClaimGuard；日期：2026-09-01。\n\n"
         f"结论：{conclusion}\n\n"
         "| 项目 | 状态 | 文件名 | 大小 |\n|---|---|---|---:|\n"
         + "\n".join(rows)
