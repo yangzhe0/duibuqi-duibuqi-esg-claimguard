@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T06:23:27+00:00",
+  "generated_at": "2026-09-01T06:27:53+00:00",
   "team": "队不起队不起",
   "project": "ESG ClaimGuard",
   "date": "2026-08-31",
@@ -76,8 +76,8 @@
       "name": "队不起队不起_ESG ClaimGuard_其他.zip",
       "path": "outputs/ai_contest/submission/final/队不起队不起_ESG ClaimGuard_其他.zip",
       "exists": true,
-      "bytes": 4455647,
-      "sha256": "8a030b531b9983ecf65fac9371ff98dddfd06f04b6c197be908c98154b0d88de",
+      "bytes": 4455677,
+      "sha256": "6ce288b5dd0b757da6e57bbb32eb068259b71ca9dfacfd9a5f5fd98194f4e921",
       "under_200_mib": true,
       "entries": 120,
       "zip_integrity": true,

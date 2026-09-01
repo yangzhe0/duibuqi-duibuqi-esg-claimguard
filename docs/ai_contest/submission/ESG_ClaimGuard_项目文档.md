@@ -33,7 +33,7 @@
 
 > 本系统用于定位和整理 ESG 报告中的披露证据，输出是供人员复核的候选记录，不是企业 ESG 评分、违规认定、投资建议或法定鉴证意见。本文只报告可由仓库文件复验的工程结果，不使用未经独立人工评测的数据宣称准确率。
 
-项目代码仓库：`https://github.com/yangzhe0/ESG-ClaimGuard`（仓库名与参赛作品 ESG ClaimGuard 保持一致）。
+项目代码仓库：`https://github.com/yangzhe0/duibuqi-duibuqi-esg-claimguard`（仓库名包含团队标识，展示标题为“队不起队不起 · ESG ClaimGuard”）。
 
 # 1 项目概况
 
