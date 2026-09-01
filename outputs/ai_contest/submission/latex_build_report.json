@@ -6,7 +6,7 @@
       "job": "project_document",
       "tex": "latex/submission/ESG_ClaimGuard_项目文档.tex",
       "pdf": "outputs/ai_contest/submission/supporting/队不起队不起_ESG ClaimGuard_项目文档.pdf",
-      "pdf_sha256": "bc02e1d409dcc6b04aa133da99a2a8c54c40db6f0704f6f85903d5253af683ed",
+      "pdf_sha256": "f8b63a83318a8dba768d64b05e2a1cfb561e52065df5ebf90cdce50782ebcc59",
       "overfull_boxes": 0,
       "log": "outputs/ai_contest/submission/supporting/latex-build/project_document/project_document.log"
     },
