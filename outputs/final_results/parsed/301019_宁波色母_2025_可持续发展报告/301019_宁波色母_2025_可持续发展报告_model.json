@@ -1,0 +1,5090 @@
+[
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.437,
+                0.202,
+                0.561,
+                0.226
+            ],
+            "angle": 0,
+            "content": "宁波色母"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.272,
+                0.24,
+                0.726,
+                0.264
+            ],
+            "angle": 0,
+            "content": "2025 年度可持续发展（ESG）报告"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.386,
+                0.665,
+                0.61,
+                0.682
+            ],
+            "angle": 0,
+            "content": "宁波色母粒股份有限公司",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.444,
+                0.693,
+                0.551,
+                0.709
+            ],
+            "angle": 0,
+            "content": "2026年4月",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.495,
+                0.916,
+                0.504,
+                0.926
+            ],
+            "angle": 0,
+            "content": "1"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.152,
+                0.094,
+                0.206,
+                0.114
+            ],
+            "angle": 0,
+            "content": "目录"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.149,
+                0.124,
+                0.85,
+                0.14
+            ],
+            "angle": 0,
+            "content": "一、报告编制说明....4"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.167,
+                0.148,
+                0.848,
+                0.36
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.148,
+                0.848,
+                0.165
+            ],
+            "angle": 0,
+            "content": "1、报告披露主体....4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.172,
+                0.848,
+                0.189
+            ],
+            "angle": 0,
+            "content": "2、报告范围....4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.197,
+                0.848,
+                0.213
+            ],
+            "angle": 0,
+            "content": "3、报告期间....4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.221,
+                0.848,
+                0.237
+            ],
+            "angle": 0,
+            "content": "4、报告数据说明....4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.246,
+                0.848,
+                0.262
+            ],
+            "angle": 0,
+            "content": "5、报告参考标准....4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.27,
+                0.848,
+                0.286
+            ],
+            "angle": 0,
+            "content": "6、可靠性保证....5",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.295,
+                0.848,
+                0.311
+            ],
+            "angle": 0,
+            "content": "7、释义....5",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.319,
+                0.848,
+                0.335
+            ],
+            "angle": 0,
+            "content": "8、报告发布时间....5",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.344,
+                0.848,
+                0.36
+            ],
+            "angle": 0,
+            "content": "9、报告获取....6",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.149,
+                0.369,
+                0.848,
+                0.384
+            ],
+            "angle": 0,
+            "content": "二、公司基本信息....6"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.167,
+                0.392,
+                0.848,
+                0.482
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.392,
+                0.848,
+                0.409
+            ],
+            "angle": 0,
+            "content": "1、公司概况....6",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.417,
+                0.848,
+                0.433
+            ],
+            "angle": 0,
+            "content": "2、公司战略....6",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.442,
+                0.848,
+                0.458
+            ],
+            "angle": 0,
+            "content": "3、企业文化....7",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.466,
+                0.848,
+                0.482
+            ],
+            "angle": 0,
+            "content": "4、主要产品及业务展示....7",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.149,
+                0.49,
+                0.848,
+                0.506
+            ],
+            "angle": 0,
+            "content": "三、议题重要性评估....8"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.175,
+                0.515,
+                0.848,
+                0.604
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.515,
+                0.848,
+                0.53
+            ],
+            "angle": 0,
+            "content": "（一）双重重要性分析....8",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.539,
+                0.848,
+                0.555
+            ],
+            "angle": 0,
+            "content": "步骤一：了解公司活动和业务关系背景....8",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.564,
+                0.848,
+                0.58
+            ],
+            "angle": 0,
+            "content": "步骤二：建立可持续发展议题清单....8",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.588,
+                0.848,
+                0.604
+            ],
+            "angle": 0,
+            "content": "步骤三：议题重要性的评估与确认....9",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.175,
+                0.613,
+                0.848,
+                0.628
+            ],
+            "angle": 0,
+            "content": "（二）尽职调查、利益相关方沟通....9"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.175,
+                0.637,
+                0.848,
+                0.775
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.637,
+                0.848,
+                0.653
+            ],
+            "angle": 0,
+            "content": "1、尽职调查....9",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.662,
+                0.848,
+                0.678
+            ],
+            "angle": 0,
+            "content": "2、利益相关方沟通....10",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.175,
+                0.686,
+                0.848,
+                0.702
+            ],
+            "angle": 0,
+            "content": "（三）议题重要性分析结论....11"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.175,
+                0.71,
+                0.848,
+                0.775
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.71,
+                0.848,
+                0.727
+            ],
+            "angle": 0,
+            "content": "1、议题审议与确认....11",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.735,
+                0.848,
+                0.751
+            ],
+            "angle": 0,
+            "content": "2、整合影响与财务重要性结果....13",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.759,
+                0.848,
+                0.775
+            ],
+            "angle": 0,
+            "content": "3、重要性议题和影响、风险、机遇分析....13",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.149,
+                0.784,
+                0.848,
+                0.8
+            ],
+            "angle": 0,
+            "content": "四、公司 ESG 治理安排....15"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.175,
+                0.808,
+                0.848,
+                0.873
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.808,
+                0.848,
+                0.825
+            ],
+            "angle": 0,
+            "content": "（一）建立公司 ESG 治理架构.... 16",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.833,
+                0.848,
+                0.849
+            ],
+            "angle": 0,
+            "content": "（二）绿色制造....16",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.857,
+                0.848,
+                0.873
+            ],
+            "angle": 0,
+            "content": "（三）建立公司 ESG 相关信息报告、监督机制....17",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.149,
+                0.882,
+                0.848,
+                0.898
+            ],
+            "angle": 0,
+            "content": "五、环境维度议题....17"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.916,
+                0.505,
+                0.927
+            ],
+            "angle": 0,
+            "content": "2"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.177,
+                0.086,
+                0.851,
+                0.103
+            ],
+            "angle": 0,
+            "content": "（一）应对气候变化....17"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.185,
+                0.11,
+                0.85,
+                0.225
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.11,
+                0.85,
+                0.127
+            ],
+            "angle": 0,
+            "content": "1、气候治理架构....17",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.135,
+                0.85,
+                0.151
+            ],
+            "angle": 0,
+            "content": "2、气候相关战略....18",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.159,
+                0.849,
+                0.176
+            ],
+            "angle": 0,
+            "content": "3、气候变化风险与机遇分析....18",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.184,
+                0.848,
+                0.201
+            ],
+            "angle": 0,
+            "content": "4、气候减排措施....21",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.209,
+                0.849,
+                0.225
+            ],
+            "angle": 0,
+            "content": "5、指标与目标....22",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.176,
+                0.233,
+                0.849,
+                0.396
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.233,
+                0.849,
+                0.249
+            ],
+            "angle": 0,
+            "content": "（二）污染物排放....22",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.258,
+                0.849,
+                0.274
+            ],
+            "angle": 0,
+            "content": "（三）废弃物处理....23",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.282,
+                0.849,
+                0.298
+            ],
+            "angle": 0,
+            "content": "（四）生态系统和生物多样性保护....24",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.306,
+                0.849,
+                0.322
+            ],
+            "angle": 0,
+            "content": "（五）环境合规管理....25",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.331,
+                0.849,
+                0.347
+            ],
+            "angle": 0,
+            "content": "（六）能源利用....26",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.355,
+                0.849,
+                0.371
+            ],
+            "angle": 0,
+            "content": "（七）水资源利用....27",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.38,
+                0.849,
+                0.396
+            ],
+            "angle": 0,
+            "content": "（八）循环经济....28",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.404,
+                0.85,
+                0.421
+            ],
+            "angle": 0,
+            "content": "六、社会维度议题....28"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.176,
+                0.429,
+                0.849,
+                0.616
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.429,
+                0.849,
+                0.445
+            ],
+            "angle": 0,
+            "content": "（一）员工....28",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.453,
+                0.849,
+                0.469
+            ],
+            "angle": 0,
+            "content": "（二）产品和服务安全与质量....30",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.478,
+                0.849,
+                0.494
+            ],
+            "angle": 0,
+            "content": "（三）数据安全与客户隐私保护....32",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.502,
+                0.849,
+                0.518
+            ],
+            "angle": 0,
+            "content": "（四）创新驱动....33",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.526,
+                0.849,
+                0.542
+            ],
+            "angle": 0,
+            "content": "（五）科技伦理....34",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.551,
+                0.849,
+                0.567
+            ],
+            "angle": 0,
+            "content": "（六）供应链安全....34",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.575,
+                0.849,
+                0.591
+            ],
+            "angle": 0,
+            "content": "（七）平等对待中小企业....36",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.6,
+                0.849,
+                0.616
+            ],
+            "angle": 0,
+            "content": "（八）社会贡献与乡村振兴....36",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.625,
+                0.85,
+                0.641
+            ],
+            "angle": 0,
+            "content": "七、可持续发展相关治理维度议题....37"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.176,
+                0.649,
+                0.849,
+                0.689
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.649,
+                0.849,
+                0.665
+            ],
+            "angle": 0,
+            "content": "（一）反商业贿赂及反贪污....37",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.673,
+                0.849,
+                0.689
+            ],
+            "angle": 0,
+            "content": "（二）反不正当竞争....38",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.698,
+                0.85,
+                0.714
+            ],
+            "angle": 0,
+            "content": "八、ESG 数据表和附注....38"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.723,
+                0.85,
+                0.739
+            ],
+            "angle": 0,
+            "content": "九、对标索引表....42"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.916,
+                0.505,
+                0.927
+            ],
+            "angle": 0,
+            "content": "3"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.302,
+                0.089,
+                0.697,
+                0.12
+            ],
+            "angle": 0,
+            "content": "可持续发展（ESG）报告"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.148,
+                0.37,
+                0.17
+            ],
+            "angle": 0,
+            "content": "一、报告编制说明"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.197,
+                0.855,
+                0.3
+            ],
+            "angle": 0,
+            "content": "本报告是宁波色母粒股份有限公司（下称“宁波色母”“本公司”“公司”或“我们”）发布的第1份可持续发展（ESG）报告，旨在将可持续发展理念融入公司治理，并向我们的利益相关方全面呈现本公司在可持续发展方面的实践信息和相关绩效。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.32,
+                0.379,
+                0.341
+            ],
+            "angle": 0,
+            "content": "1、报告披露主体"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.362,
+                0.746,
+                0.38
+            ],
+            "angle": 0,
+            "content": "本报告披露范围涵盖宁波色母粒股份有限公司及其控股子公司。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.193,
+                0.402,
+                0.331,
+                0.423
+            ],
+            "angle": 0,
+            "content": "2、报告范围"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.444,
+                0.853,
+                0.489
+            ],
+            "angle": 0,
+            "content": "本报告的组织范围涵盖了公司对财务和经营政策及措施有控制权或有重大影响的所有实体。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.193,
+                0.511,
+                0.331,
+                0.531
+            ],
+            "angle": 0,
+            "content": "3、报告期间"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.553,
+                0.85,
+                0.599
+            ],
+            "angle": 0,
+            "content": "本报告为年度报告，时间范围为 2025 年 01 月 01 日至 2025 年 12 月 31 日，为增强报告可比性和完整性，部分内容可能超出此时间范围。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.193,
+                0.621,
+                0.379,
+                0.641
+            ],
+            "angle": 0,
+            "content": "4、报告数据说明"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.662,
+                0.85,
+                0.708
+            ],
+            "angle": 0,
+            "content": "本报告所引用的数据和案例均来自本公司和控股子公司的正式文件和统计报告。如无特别说明，本报告所示金额均以人民币列示。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.73,
+                0.379,
+                0.75
+            ],
+            "angle": 0,
+            "content": "5、报告参考标准"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.772,
+                0.853,
+                0.901
+            ],
+            "angle": 0,
+            "content": "本报告根据《企业可持续披露准则——基本准则（试行）》《深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）》（以下简称《指引》）《深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作》《深圳证券交易所创业板上市公司自律监管指南第3号——可持续发展报告编制》等进行编制。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.917,
+                0.505,
+                0.927
+            ],
+            "angle": 0,
+            "content": "4"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.85,
+                0.163
+            ],
+            "angle": 0,
+            "content": "本报告在编制过程中，通过识别重要的利益相关方，分析和评估可持续发展相关的重要议题，决策报告界限，收集、汇总、整理、审阅相关材料和资料，最终形成本报告。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.186,
+                0.355,
+                0.206
+            ],
+            "angle": 0,
+            "content": "6、可靠性保证"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.227,
+                0.85,
+                0.273
+            ],
+            "angle": 0,
+            "content": "本公司及董事会全体成员保证信息披露内容真实、完整和准确，没有虚假记载、误导性陈述或重大遗漏。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.295,
+                0.283,
+                0.315
+            ],
+            "angle": 0,
+            "content": "7、释义"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.33,
+                0.843,
+                0.761
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>释义项</td><td>释义内容</td></tr><tr><td>宁波色母、上市公司、本公司、公司、我们</td><td>宁波色母粒股份有限公司</td></tr><tr><td>中山子公司</td><td>宁波色母粒(中山)有限公司</td></tr><tr><td>滁州子公司</td><td>宁波色母粒(滁州)有限公司</td></tr><tr><td>中山分公司</td><td>宁波色母粒股份有限公司中山市分公司</td></tr><tr><td>“双碳”</td><td>“碳达峰”、“碳中和”</td></tr><tr><td>可持续发展</td><td>指满足当代人需求又不损害子孙后代需求的发展模式,即在经济发展的同时,要求社会通过提高生产潜力和确保所有人的公平机会来满足人类的发展,并采取保护环境和合理利用资源的方针,以实现经济、社会与环境的协调发展</td></tr><tr><td>议题</td><td>指体现对公司、经济、社会、环境和利益相关方具有影响的事项或因素</td></tr><tr><td>温室气体</td><td>指《京都议定书》列明的7种温室气体,包括二氧化碳、甲烷、一氧化二氮、氢氟碳化物、三氟化氮、全氟化碳和六氟化硫</td></tr><tr><td>二氧化碳当量</td><td>指气体的公吨数乘以其全球变暖潜势(GWP)</td></tr><tr><td>温室气体范围1排放</td><td>企业拥有或控制的来源产生的直接温室气体排放</td></tr><tr><td>温室气体范围2排放</td><td>指企业消耗的外购电力、供暖或制冷所产生的间接温室气体排放</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.775,
+                0.379,
+                0.796
+            ],
+            "angle": 0,
+            "content": "8、报告发布时间"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.818,
+                0.348,
+                0.835
+            ],
+            "angle": 0,
+            "content": "2026年4月29日",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.916,
+                0.506,
+                0.927
+            ],
+            "angle": 0,
+            "content": "5"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.193,
+                0.094,
+                0.333,
+                0.114
+            ],
+            "angle": 0,
+            "content": "9、报告获取"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.136,
+                0.853,
+                0.21
+            ],
+            "angle": 0,
+            "content": "为践行低碳环保理念，我们将以电子版形式发布本报告。若您需要获取本报告，可在深圳证券交易所官方网站（www.szse.cn）或巨潮资讯网（www.cninfo.com.cn）阅读电子版报告。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.236,
+                0.37,
+                0.258
+            ],
+            "angle": 0,
+            "content": "二、公司基本信息"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.195,
+                0.288,
+                0.332,
+                0.308
+            ],
+            "angle": 0,
+            "content": "1、公司概况"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.33,
+                0.853,
+                0.404
+            ],
+            "angle": 0,
+            "content": "公司地处浙江省宁波市鄞州区潘火街道金辉西路168号，下属两家控股子公司：宁波色母粒（中山）有限公司，地处广东省中山市南头镇尚义路9号；宁波色母粒（滁州）有限公司，地处安徽省滁州市常州北路301号。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.413,
+                0.854,
+                0.515
+            ],
+            "angle": 0,
+            "content": "公司主要从事色母粒的研发、生产、销售和技术服务，致力于为顾客提供塑料着色定制化产品，精准满足顾客塑料着色和功能需求；是一家具有自主研发和创新能力的高新技术企业，被入选工业和信息化部第三批专精特新“小巨人”企业名单，获宁波市鄞州区质量奖。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.524,
+                0.852,
+                0.626
+            ],
+            "angle": 0,
+            "content": "公司产品广泛应用于电子电器、日用品、食品饮料、化工、日化、建材、农业、汽车、医疗等领域，在高端家电、食品饮料包装、光学薄膜等要求产品具备高性能高标准高品质的领域中得到广泛应用，并与众多知名企业建立了长期稳定的合作关系。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.636,
+                0.853,
+                0.821
+            ],
+            "angle": 0,
+            "content": "公司经过 40 多年的发展，一直遵循 “市场导向、服务顾客，研发品管、齐头并进；提升装备、结构转型，成本合理、精益求精” 的管理方针，加大研发投入和技术创新，持续不断优化生产工艺，部分产品的性能已基本达到或部分超过国际领先的色母粒企业同类产品，实现了部分进口替代。现已成为国内领先的塑料色母粒供应商之一。公司的色母粒产品产销量、销售额及市场占有率在行业中名列前茅，其中彩色塑料母粒被工业和信息化部认定为 “制造业单项冠军（2025年-2027年）”；2024 年起公司被认定为国家级绿色工厂。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.193,
+                0.842,
+                0.332,
+                0.863
+            ],
+            "angle": 0,
+            "content": "2、公司战略"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.188,
+                0.884,
+                0.851,
+                0.902
+            ],
+            "angle": 0,
+            "content": "紧跟国家《碳达峰碳中和的中国行动》，依据《浙江省国民经济和社会发展",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.917,
+                0.506,
+                0.927
+            ],
+            "angle": 0,
+            "content": "6"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.853,
+                0.276
+            ],
+            "angle": 0,
+            "content": "第十四个五年规划和二〇三五年远景目标纲要》、《深化生态文明示范创建高水平建设新时代美丽浙江规划纲要（2020—2035年）》和《浙江省生态环境保护“十四五”规划》为牵引，以服务高质量发展为主题，节能降碳增效和循环经济助力降碳提升为总抓手，积极推动公司绿色发展和应对气候变化等任务上升到新高度；围绕宁波色母发展战略，深耕“双碳”领域，提升盈利能力，大力推动构建“碳设计—碳智造”二位一体产业布局，致力于成为技术领先、生态协同的塑料色母粒优秀供应商，提升上市公司内在价值，走向世界。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.194,
+                0.297,
+                0.332,
+                0.317
+            ],
+            "angle": 0,
+            "content": "3、企业文化"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.339,
+                0.853,
+                0.412
+            ],
+            "angle": 0,
+            "content": "企业使命：以技术创新驱动绿色发展，聚焦“双碳”领域，为顾客提供定制化高品质产品和服务，助力国家“双碳”战略目标实现，共建可持续发展的美好未来。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.422,
+                0.854,
+                0.496
+            ],
+            "angle": 0,
+            "content": "企业愿景：成为全球领先的绿色塑料色母粒优质供应商，构建“碳设计—碳智造”二位一体塑料色母粒绿色制造企业，以技术创新和生态协同为魂，塑造行业标杆，推动人与自然和谐共生。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.506,
+                0.788,
+                0.524
+            ],
+            "angle": 0,
+            "content": "企业理念：实事求是、勇于实践、敢于创新、绿色共生、合作共赢。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.534,
+                0.729,
+                0.552
+            ],
+            "angle": 0,
+            "content": "企业价值观：为股东和顾客创造价值，就是为自己创造未来。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.192,
+                0.573,
+                0.45,
+                0.594
+            ],
+            "angle": 0,
+            "content": "4、主要产品及业务展示"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.615,
+                0.854,
+                0.688
+            ],
+            "angle": 0,
+            "content": "公司的主要产品为塑料色母粒，广泛应用于 PE、PP、AS、PET、EVA、ABS 等塑料制品领域，并最终应用于电子电器、日用品、食品饮料、日化、建材、农业、汽车、医疗等行业。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.699,
+                0.646,
+                0.716
+            ],
+            "angle": 0,
+            "content": "公司主要产品、生产主要工艺及应用领域情况如下：",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.146,
+                0.72,
+                0.932,
+                0.905
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>产品名称</td><td>产品生产主要工艺</td><td>产品示例</td><td>应用领域</td></tr><tr><td>塑料色母粒</td><td>选用塑料树脂、颜料及助剂,经过高速混合、均速控温混炼、挤出、冷却、切粒而成,根据顾客要求可制成不同颜色。</td><td><img src=\"data:image/jpeg;base64,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\"/></td><td>食品饮料包装、电子电器、日化用品、日用品、家用电器、光学薄膜、食品医药、日用品包装薄膜、食品饮料包装、医疗用品、塑料原料、汽车塑料配件、遮阳网、农业地膜、建筑材料、电子产品、改性塑料等行业</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.493,
+                0.916,
+                0.506,
+                0.927
+            ],
+            "angle": 0,
+            "content": "7"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.148,
+                0.093,
+                0.396,
+                0.115
+            ],
+            "angle": 0,
+            "content": "三、议题重要性评估"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.142,
+                0.853,
+                0.272
+            ],
+            "angle": 0,
+            "content": "重要性议题识别是公司 ESG 管理的重要环节，有助于公司聚焦关键领域，明确 ESG 战略规划与工作重点。公司 2025 年首次开展全面识别和评估重要性议题；以后公司将每两年开展一次对重要性议题的全面识别与评估，在单数年开展全面的双重重要性评估，双数年则基于上一年度全面评估结果，结合公司业务发展变化、行业实践及监管披露要求，对相关议题进行针对性识别与适度调整。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.281,
+                0.855,
+                0.41
+            ],
+            "angle": 0,
+            "content": "2025 年宁波色母首次参考《指引》设置的 21 个议题为基础，以相关利益方需求为出发点，结合行业特性、经营业务、自身发展战略及可持续发展能力，评估各议题在短期、中期、长期对公司的财务影响，以及公司在相关议题上的表现对经济、社会和环境产生的实际与潜在影响，识别相关事项进行优先度排序，并最终确认公司可持续发展的关键性议题。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.432,
+                0.438,
+                0.451
+            ],
+            "angle": 0,
+            "content": "（一）双重重要性分析"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.188,
+                0.474,
+                0.538,
+                0.492
+            ],
+            "angle": 0,
+            "content": "步骤一：了解公司活动和业务关系背景"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.505,
+                0.853,
+                0.607
+            ],
+            "angle": 0,
+            "content": "公司分析自身内部经营活动与色母粒业务关系，重点识别塑料色母粒行业价值链上下游可持续发展相关影响。在此基础上，公司进一步研究外部客观环境，包括宏观政策、产业政策、监管要求与行业热点，以系统性识别可能对公司产生的潜在影响。同时，公司识别并梳理主要受影响的内外部重点利益相关方。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.188,
+                0.62,
+                0.498,
+                0.638
+            ],
+            "angle": 0,
+            "content": "步骤二：建立可持续发展议题清单"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.651,
+                0.857,
+                0.78
+            ],
+            "angle": 0,
+            "content": "公司使用《指引》中设置的21个议题作为议题清单基础，结合公司所处色母粒行业特点、行业发展阶段、公司自身经营模式及所处产业价值链等情况，识别其他具有财务重要性或影响重要性的议题。通过尽职调查、风险管理等内部流程以及同业披露实践对标分析、行业可持续发展趋势研究等方式识别重要性议题，完善符合公司实际的可持续发展议题库清单。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.79,
+                0.855,
+                0.891
+            ],
+            "angle": 0,
+            "content": "基于相关规定与要求，公司进一步结合行业标准及公司发展趋势、同业分析等结果，增加公司特定议题，从而形成覆盖全面的议题清单。报告期内，公司识别了19个议题，其中“合规及风险管理”为公司特定议题，与“尽职调查”议题合并为“合规及风险管理尽职调查”议题，合并“社会贡献”和“乡村振兴”",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.916,
+                0.506,
+                0.927
+            ],
+            "angle": 0,
+            "content": "8"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.091,
+                0.484,
+                0.108
+            ],
+            "angle": 0,
+            "content": "议题为“社会贡献与乡村振兴”议题。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.188,
+                0.119,
+                0.403,
+                0.136
+            ],
+            "angle": 0,
+            "content": "宁波色母议题清单如下:",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.14,
+                0.843,
+                0.314
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>类别</td><td>议题清单</td></tr><tr><td>环境</td><td>1、应对气候变化,2、污染物排放,3、废弃物处理,4、环境合规管理,5、能源利用,6、水资源利用,7、循环经济,8、生态系统和生物多样性保护</td></tr><tr><td>社会</td><td>1、社会贡献与乡村振兴,2、创新驱动,3、供应链安全,4、产品和服务安全与质量,5、数据安全与客户隐私保护,6、员工,7、平等对待中小企业</td></tr><tr><td>治理</td><td>1、合规及风险管理尽职调查,2、利益相关方沟通,3、反商业贿赂及反贪污,4、反不正当竞争</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.187,
+                0.322,
+                0.498,
+                0.34
+            ],
+            "angle": 0,
+            "content": "步骤三：议题重要性的评估与确认"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.187,
+                0.353,
+                0.434,
+                0.371
+            ],
+            "angle": 0,
+            "content": "1、影响重要性评估与确认："
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.381,
+                0.853,
+                0.483
+            ],
+            "angle": 0,
+            "content": "基于访谈与问卷调查，公司对可持续发展 19 个议题可能产生的影响进行初步分析。同时，通过利益相关方沟通，公司广泛征集相关方对议题影响的性质（正面或负面）、影响发生与否（实际或潜在）的意见，并从“影响的严重程度”（影响规模、范围、不可补救性）和“影响发生的可能性”两个维度进行综合评分。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.492,
+                0.854,
+                0.538
+            ],
+            "angle": 0,
+            "content": "在此基础上，公司综合多元相关方意见，并参考内外部专家建议，最终形成公司影响重要性议题 12 个，其中环境 5 个，社会 4 个，治理 3 个。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.548,
+                0.434,
+                0.566
+            ],
+            "angle": 0,
+            "content": "2、财务重要性评估与确认："
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.576,
+                0.853,
+                0.678
+            ],
+            "angle": 0,
+            "content": "通过访谈与问卷调查，公司初步分析可持续议题的相关影响，并邀请股东、相关高管及部门负责人参与评估。公司从“影响发生的可能性”和“财务影响的程度”两个维度出发，结合短期（1年以内）、中期（1-5年）和长期（5年以上）不同时间跨度，对所有适用议题进行系统评估。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.687,
+                0.854,
+                0.733
+            ],
+            "angle": 0,
+            "content": "公司综合股东、高管及部门负责人的意见，并参考内部专家建议，最终形成针对公司所有议题的财务重要性议题5个，其中环境2个，社会3个。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.206,
+                0.754,
+                0.557,
+                0.775
+            ],
+            "angle": 0,
+            "content": "（二）尽职调查、利益相关方沟通"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.188,
+                0.796,
+                0.307,
+                0.813
+            ],
+            "angle": 0,
+            "content": "1、尽职调查"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.827,
+                0.852,
+                0.873
+            ],
+            "angle": 0,
+            "content": "宁波色母重视可持续发展相关风险的识别与管理工作, 公司及子公司相关职能部门根据职责分工开展相关工作。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.883,
+                0.851,
+                0.9
+            ],
+            "angle": 0,
+            "content": "宁波色母尽职调查范围覆盖主要业务活动及关键供应链环节，以双重重要性",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.916,
+                0.506,
+                0.927
+            ],
+            "angle": 0,
+            "content": "9"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.85,
+                0.136
+            ],
+            "angle": 0,
+            "content": "评估结果为参考，重点关注可能产生重大环境、社会影响的领域。公司根据业务特点及风险状况，动态调整尽职调查的深度和广度。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.855,
+                0.248
+            ],
+            "angle": 0,
+            "content": "宁波色母通过利益相关方沟通、影响评估等多种方式，识别公司经营与价值链中可能存在的负面影响或风险。对于已识别的可持续发展相关风险，公司根据风险性质和影响程度进行分类管理，采取包括但不限于风险规避、风险控制、风险转移等应对措施，并持续跟踪措施成效。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.26,
+                0.367,
+                0.279
+            ],
+            "angle": 0,
+            "content": "2、利益相关方沟通"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.292,
+                0.855,
+                0.449
+            ],
+            "angle": 0,
+            "content": "宁波色母定期向重点利益相关方了解其对公司可持续发展的意见与期待、开展针对性交流与回应，与各相关方建立长期互信的合作关系。报告期内，根据公司业务及经营的特点，公司识别出包括股东、政府及监管机构、客户、合作伙伴、员工和社区在内的七大利益相关方，并为利益相关方建立了有效的沟通机制和多元化的沟通渠道，确保及时准确的沟通与反馈，并据此持续完善 ESG 管理体系和提升 ESG 管理水平。",
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.375,
+                0.459,
+                0.664,
+                0.476
+            ],
+            "angle": 0,
+            "content": "利益相关方关注议题及沟通方式"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.48,
+                0.843,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>利益相关方</td><td>关注议题</td><td>沟通方式</td></tr><tr><td>股东或潜在投资者</td><td>创新驱动循环经济供应链安全应对气候变化合规及风险管理尽职调查数据安全与客户隐私保护反商业贿赂及反贪污</td><td>股东会信息披露投资者热线电话深交所互动易业绩说明会现场调研公众号</td></tr><tr><td>政府及监管机构</td><td>数据安全与客户隐私保护环境合规管理合规及风险管理尽职调查能源利用反商业贿赂及反贪污反不正当竞争生态系统和生物多样性保护</td><td>政企沟通及会议交流现场考察及信息披露专项检查</td></tr><tr><td>客户</td><td>创新驱动产品和服务安全与质量数据安全与客户隐私保护合规及风险管理尽职调查反商业贿赂及反贪污反不正当竞争应对气候变化</td><td>客户会议大型展会行业年会或行业研讨会售前和售中沟通售后服务客户满意度调查客户现场审核</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.51,
+                0.927
+            ],
+            "angle": 0,
+            "content": "10"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.843,
+                0.667
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>利益相关方</td><td>关注议题</td><td>沟通方式</td></tr><tr><td></td><td>污染物排放循环经济供应链安全</td><td></td></tr><tr><td>供应商或合作伙伴</td><td>供应链安全创新驱动数据安全与客户隐私保护产品和服务安全与质量循环经济反商业贿赂及反贪污反不正当竞争应对气候变化循环经济合规及风险管理尽职调查</td><td>供应商年会大型展会行业年会或行业研讨交流供应商审核供应商培训</td></tr><tr><td>员工</td><td>员工创新驱动产品和服务安全与质量水资源利用社会贡献与乡村振兴数据安全与客户隐私保护合规及风险管理尽职调查反商业贿赂及反贪污</td><td>提供健康安全的工作环境及健康安全培训构建人才发展通道开展培训工会与职工代表大会员工活动与座谈内部信息沟通平台</td></tr><tr><td>合作伙伴</td><td>应对气候变化创新驱动</td><td>协会交流互访战略合作项目沟通产学研合作项目</td></tr><tr><td>社区</td><td>社会贡献与乡村振兴污染物排放废弃物处理水资源利用循环经济</td><td>开展社区公益活动开展志愿服务活动开展慈善一日捐活动无偿献血活动</td></tr></table>",
+            "cell_merge": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.682,
+                0.484,
+                0.702
+            ],
+            "angle": 0,
+            "content": "（三）议题重要性分析结论"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.188,
+                0.724,
+                0.367,
+                0.741
+            ],
+            "angle": 0,
+            "content": "1、议题审议与确认"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.755,
+                0.853,
+                0.884
+            ],
+            "angle": 0,
+            "content": "公司基于利益相关方和专家意见，结合战略优先级与经营管理情况，设定重要性阈值标准。在此基础上，公司形成具有企业战略价值的议题清单，并界定各议题的适用范围。随后，公司通过分析利益相关方对议题的综合评估结果（包括影响重要性与财务重要性）与专家建议，构建双重重要性矩阵，系统呈现评估结果。该矩阵经公司董事会战略与ESG委员会审核确认后，在报告中进行披露。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.508,
+                0.927
+            ],
+            "angle": 0,
+            "content": "11"
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.219,
+                0.094,
+                0.241,
+                0.32
+            ],
+            "angle": 0,
+            "content": "非常重要\n对经济、社会和环境影响的重要性"
+        },
+        {
+            "type": "chart",
+            "bbox": [
+                0.252,
+                0.093,
+                0.755,
+                0.324
+            ],
+            "angle": 0,
+            "content": "| Point ID | X (approx) | Y (approx) |\n| --- | --- | --- |\n| 1 | ~85 | ~10 |\n| 2 | ~15 | ~65 |\n| 3 | ~20 | ~55 |\n| 4 | ~30 | ~70 |\n| 5 | ~85 | ~45 |\n| 6 | ~50 | ~60 |\n| 7 | ~40 | ~30 |\n| 8 | ~15 | ~20 |\n| 9 | ~45 | ~25 |\n| 10 | ~85 | ~30 |\n| 11 | ~90 | ~80 |\n| 12 | ~80 | ~75 |\n| 13 | ~60 | ~80 |\n| 14 | ~70 | ~70 |\n| 15 | ~55 | ~15 |\n| 16 | ~20 | ~45 |\n| 17 | ~45 | ~40 |\n| 18 | ~30 | ~25 |\n| 19 | ~55 | ~30 |",
+            "sub_type": "scatter"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.427,
+                0.328,
+                0.56,
+                0.342
+            ],
+            "angle": 0,
+            "content": "对公司财务的重要性"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.66,
+                0.329,
+                0.721,
+                0.343
+            ],
+            "angle": 0,
+            "content": "非常重要"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.226,
+                0.351,
+                0.303,
+                0.367
+            ],
+            "angle": 0,
+            "content": "环境议题"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.375,
+                0.318,
+                0.39
+            ],
+            "angle": 0,
+            "content": "1 应对气候变化",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.394,
+                0.303,
+                0.408
+            ],
+            "angle": 0,
+            "content": "② 污染物排放",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.412,
+                0.303,
+                0.427
+            ],
+            "angle": 0,
+            "content": "③ 废弃物处理",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.431,
+                0.317,
+                0.445
+            ],
+            "angle": 0,
+            "content": "4 环境合规管理",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.45,
+                0.288,
+                0.464
+            ],
+            "angle": 0,
+            "content": "5 能源利用",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.469,
+                0.302,
+                0.483
+            ],
+            "angle": 0,
+            "content": "6 水资源利用",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.487,
+                0.288,
+                0.501
+            ],
+            "angle": 0,
+            "content": "7 循环经济",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.506,
+                0.403,
+                0.52
+            ],
+            "angle": 0,
+            "content": "8 生态系统和生物多样性保护",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.193,
+                0.375,
+                0.403,
+                0.52
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.447,
+                0.351,
+                0.523,
+                0.366
+            ],
+            "angle": 0,
+            "content": "社会议题"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.374,
+                0.581,
+                0.388
+            ],
+            "angle": 0,
+            "content": "⑨ 社会贡献与乡村振兴",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.394,
+                0.509,
+                0.408
+            ],
+            "angle": 0,
+            "content": "10 创新驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.412,
+                0.523,
+                0.427
+            ],
+            "angle": 0,
+            "content": "11 供应链安全",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.431,
+                0.595,
+                0.445
+            ],
+            "angle": 0,
+            "content": "12 产品和服务安全与质量",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.45,
+                0.609,
+                0.464
+            ],
+            "angle": 0,
+            "content": "13 数据安全与客户隐私保护",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.469,
+                0.48,
+                0.482
+            ],
+            "angle": 0,
+            "content": "14 员工",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.487,
+                0.566,
+                0.501
+            ],
+            "angle": 0,
+            "content": "15 平等对待中小企业",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.421,
+                0.374,
+                0.609,
+                0.501
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.686,
+                0.351,
+                0.761,
+                0.366
+            ],
+            "angle": 0,
+            "content": "治理议题"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.374,
+                0.848,
+                0.388
+            ],
+            "angle": 0,
+            "content": "16 合规及风险管理尽职调查",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.393,
+                0.791,
+                0.407
+            ],
+            "angle": 0,
+            "content": "17 利益相关方沟通",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.412,
+                0.819,
+                0.426
+            ],
+            "angle": 0,
+            "content": "18 反商业贿赂及反贪污",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.43,
+                0.776,
+                0.444
+            ],
+            "angle": 0,
+            "content": "19 反不正当竞争",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.66,
+                0.374,
+                0.848,
+                0.444
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.417,
+                0.535,
+                0.622,
+                0.553
+            ],
+            "angle": 0,
+            "content": "双重重要性议题矩阵图"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.584,
+                0.862,
+                0.869
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>环境议题</td><td>社会议题</td><td>治理议题</td></tr><tr><td>1 应对气候变化</td><td>9 社会贡献与乡村振兴</td><td rowspan=\"2\">16 合规及风险管理尽职调查</td></tr><tr><td>2 污染物排放</td><td>10 创新驱动</td></tr><tr><td>3 废弃物处理</td><td>11 供应链安全</td><td>17 利益相关方沟通</td></tr><tr><td>4 环境合规管理</td><td rowspan=\"2\">12 产品和服务安全与质量</td><td>18 反商业贿赂及反贪污</td></tr><tr><td>5 能源利用</td><td>19 反不正当竞争</td></tr><tr><td>6 水资源利用</td><td rowspan=\"2\">13 数据安全与客户隐私保护</td><td></td></tr><tr><td>7 循环经济</td><td></td></tr><tr><td rowspan=\"2\">8 生态系统和生物多样性保护</td><td>14 员工</td><td></td></tr><tr><td>15 平等对待中小企业</td><td></td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.915,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "12"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.09,
+                0.467,
+                0.108
+            ],
+            "angle": 0,
+            "content": "2、整合影响与财务重要性结果"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.122,
+                0.85,
+                0.195
+            ],
+            "angle": 0,
+            "content": "2025 年度，重要性议题识别结果如上矩阵图所示。经识别，3 项议题对公司具有财务重要性及影响重要性，2 项议题仅具有财务重要性，9 项议题仅具有影响重要性。",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.199,
+                0.86,
+                0.354
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>双重重要性议题</td><td>仅财务重要性议题</td><td>仅影响重要性议题</td></tr><tr><td>能源利用、供应链安全、产品和服务安全与质量</td><td>创新驱动、应对气候变化</td><td>污染物排放、废弃物处理、环境合规管理、水资源利用、数据安全与客户隐私保护、员工、合规及风险管理尽职调查、利益相关方沟通、反商业贿赂及反贪污</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.389,
+                0.549,
+                0.407
+            ],
+            "angle": 0,
+            "content": "3、重要性议题和影响、风险、机遇分析"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.432,
+                0.86,
+                0.905
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">类别</td><td rowspan=\"2\">重要性议题</td><td rowspan=\"2\">影响周期</td><td rowspan=\"2\">受影响的利益相关方</td><td colspan=\"2\">影响、风险与机遇描述</td></tr><tr><td>影响、风险</td><td>机遇</td></tr><tr><td rowspan=\"5\">环境</td><td>应对气候变化</td><td>中长期</td><td>供应商、客户</td><td colspan=\"2\">详见“五、环境维度议题(一)应对气候变化2、气候相关战略”影响、风险与机遇描述。</td></tr><tr><td>污染物排放</td><td>短期</td><td>客户、社区</td><td>污染物未能按照法律法规要求进行处理和定期监测,将可能导致超标排放,引发环境合规风险。</td><td>在环境保护相关政策的加持下,直接刺激企业碳监测及碳治理刚需,驱动双碳市场扩容,为公司业务带来更多机会。</td></tr><tr><td>废弃物处理</td><td>短期</td><td>社区</td><td>废弃物没有得到妥善合规处理,可能对厂区周边环境产生污染影响。</td><td>长期合规的排放与经营可以提升企业声誉与形象。</td></tr><tr><td>环境合规管理</td><td>中长期</td><td>政府及监管机构</td><td>因环境问题管理不当,受到监管处罚而产生直接经济损失或企业声誉损失。</td><td>客户倾向采购环保合规、低碳的产品,并通过配方创新技术确保环境合规,有助于公司提升市场竞争力。</td></tr><tr><td>能源利用</td><td>中长期</td><td>政府及监管机构</td><td>采购绿色能源或将带来额外的财务成</td><td>光伏发电自用,降低公司碳足迹;节</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "13"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.906
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\"></td><td></td><td></td><td></td><td>本。</td><td>能技术的改造降低公司运营成本。</td></tr><tr><td>水资源利用</td><td>中长期</td><td>社区、员工</td><td>节水设备的安装或将增加财务成本。</td><td>长期有效的冷却循环节水系统可以降低公司经营成本。</td></tr><tr><td rowspan=\"4\">社会</td><td>创新驱动</td><td>中长期</td><td>员工、客户、供应商、股东或潜在投资者、合作伙伴</td><td>科技创新与知识产权保护或将带来更高的财务成本与人力成本。</td><td>长期性提升公司在行业内的竞争力与领先性;以市场需求和客户需求为导向的产品创新,提升色母粒市场占有率。</td></tr><tr><td>供应链安全</td><td>中长期</td><td>供应商、客户、股东或潜在投资者</td><td>公司强化对供应商的ESG风险监督,助力供应链的可持续发展能力提升;消除客户供应链合规顾虑,协助客户满足当地监管需求。若公司未及时识别供应商ESG风险并协助其开展提升工作,可能导致供应商因ESG能力不足而丧失市场机会。</td><td>公司与供应链合作伙伴构建紧密的合作关系,强化自身供应链韧性,保障业务的稳健性,持续提升公司的市场竞争力。</td></tr><tr><td>产品和服务安全与质量</td><td>长期</td><td>客户、供应商、员工</td><td>产品质量出现严重问题,会导致客户投诉或索赔,需投入额外人力及物力消除相关影响,降低公司市场竞争能力。</td><td>公司通过完善的售前、售中、售后服务,深化与客户的合作关系,提升客户满意度及客户粘性。同时,公司建立和完善客户反馈机制,推动创新并优化服务体验,不断巩固客户关系,为业务长期发展提供支撑。</td></tr><tr><td>数据安全与客户隐私保护</td><td>中长期</td><td>员工、客户、供应商、股东或潜在投资者、合作伙伴</td><td>数据及客户信息泄漏将违反相关法律法规,或将带来合规风险,造成罚款等财务损失,亦将对客户权益带来负面影响,</td><td>配方数据的安全能有效提升配色速度。保障客户权益,维护公司与客户间的信任关系。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "14"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.694
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\"></td><td></td><td></td><td></td><td>降低客户对公司的信任,影响公司声誉与形象。</td><td></td></tr><tr><td>员工</td><td>中长期</td><td>员工</td><td>无法有效引进人才、人才流失、人才技能增长不足,均会降低公司生产力。</td><td>引进多元化人才、人员团队稳定有助于促进公司稳健发展;员工技能增长有助于更好地适应快速变化的市场环境,提升公司产品的市场竞争力。</td></tr><tr><td rowspan=\"3\">治理</td><td>合规及风险管理尽职调查</td><td>长期</td><td>员工、客户、供应商、股东或潜在投资者</td><td>忽略法律法规经营带来的违规风险;不完善的风险管理或将降低公司整体风险应对能力,造成财务损失、法律问题和声誉风险等多项负面影响。</td><td>健全的风险管理体系或将有效提升公司在风险环境中的发展韧性。</td></tr><tr><td>利益相关方沟通</td><td>长期</td><td>所有利益相关方</td><td>不能及时回应利益相关方的期望与诉求可能导致信息透明度低,影响外界对公司的评价。</td><td>及时回应利益相关方的合理关切,提高公司透明度,增强与相关方之间的信任。</td></tr><tr><td>反商业贿赂及反贪污</td><td>长期</td><td>员工、客户、供应商、股东或潜在投资者、合作伙伴</td><td>存在商业贿赂及贪污行为,违反商业道德和合规要求,或将导致法律问题、制裁、财务损失、声誉受损,以及客户和投资者的流失。</td><td>良好的廉洁形象,可以为公司获得竞争优势、增强品牌美誉度、减少内部损耗、增强员工忠诚度和责任感。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.148,
+                0.714,
+                0.434,
+                0.736
+            ],
+            "angle": 0,
+            "content": "四、公司 ESG 治理安排"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.763,
+                0.853,
+                0.894
+            ],
+            "angle": 0,
+            "content": "宁波色母将可持续发展理念深度融入企业战略顶层设计，以利益相关方沟通为纽带倾听多方诉求，立足色母粒行业可持续发展趋势、对标国内外先进披露标准与同业实践不断完善公司工作。针对各类议题，公司深度研判潜在风险与发展机遇，持续提升ESG治理水平，既积极回应社会各界与利益相关方的殷切期望，又不断强化公司经营与治理效能，以高质量ESG管理引领企业可持续发展，践行",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "15"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.091,
+                0.383,
+                0.108
+            ],
+            "angle": 0,
+            "content": "企业社会责任与行业担当。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.13,
+                0.507,
+                0.15
+            ],
+            "angle": 0,
+            "content": "（一）建立公司 ESG 治理架构"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.172,
+                0.853,
+                0.412
+            ],
+            "angle": 0,
+            "content": "宁波色母已建立并持续优化董事会战略与 ESG 委员会、ESG 领导小组、公司及各子公司相关职能部门三级 ESG 治理架构，统筹领导宁波色母范围内的企业 ESG 工作，开展重大事项的审议决策，形成自上而下、分工明确的管理组织机制；其中，董事会战略与 ESG 委员会由董事长担任主任，董事及独立董事担任委员，负责战略层面统筹 ESG 与可持续发展相关风险及机遇；ESG 领导小组作为 ESG 工作归口管理部门，指导开展 ESG 年度报告信息收集工作、各利益相关方的需求回应工作、收集汇总 ESG 工作进展和成效；执行层由公司及各子公司相关职能部门构成，配合管理层执行 ESG 信息收集工作，提交相关信息，配合参与公司 ESG 宣贯、培训等活动，负责具体落地实施。",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.416,
+                0.86,
+                0.766
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>组织架构</td><td>职能部门</td><td>职责</td></tr><tr><td>决策层</td><td>董事会战略与ESG委员会</td><td>审议并批准公司整体ESG战略、愿景、目标与政策。监督ESG相关风险与机遇的识别、评估及管理。审批公司年度ESG报告及相关披露文件。对公司ESG相关工作执行情况进行监督检查,并提出指导意见,确保建立并运行有效的ESG管理体系。</td></tr><tr><td>管理层</td><td>ESG领导小组</td><td>ESG领导小组由公司总经理担任组长,组员包含公司及各子公司相关负责人,协助ESG委员会开展实质性议题评估,制定具体的ESG工作计划与目标协调各职能部门推进ESG项目,统筹内外部资源。组织编制年度ESG报告,并向ESG委员会汇报工作进展。</td></tr><tr><td>执行层</td><td>公司与各子公司相关职能部门</td><td>按照ESG领导小组要求,落实相关ESG管理举措。由公司及各子公司相关职能部门负责人与专员组成。负责在各自业务领域内落实公司ESG政策与行动计划。收集、整理并上报ESG相关绩效数据与信息。负责与本业务相关的利益相关方日常沟通维护工作。</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.782,
+                0.367,
+                0.801
+            ],
+            "angle": 0,
+            "content": "（二）绿色制造"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.824,
+                0.853,
+                0.898
+            ],
+            "angle": 0,
+            "content": "公司积极响应国家“绿色制造”政策，自2020年开始绿色工厂的创建工作，成立绿色工厂领导小组，由总经理担任小组组长全面领导和统筹，公司各职能部门骨干作为组员协助配合，明确各部门职责，并专门印发了《宁波色母粒股份有",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "16"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.091,
+                0.854,
+                0.248
+            ],
+            "angle": 0,
+            "content": "限公司绿色工厂管理制度》、《绿色工厂实施方案》、《绿色工厂中长期计划》等文件，明确创建工作的责任制，并对工作情况进行考核和奖励，制定了量化的绿色工厂目标和详细的实施方案。公司董事会高度重视和制度保障，有效地推进了绿色工厂的创建工作，经过不懈努力，公司被认定为鄞州区区级、宁波市市级、浙江省省级、国家级绿色工厂，不断提高绿色制造水平，将绿色制造理念深入日常生产工作。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.206,
+                0.269,
+                0.689,
+                0.29
+            ],
+            "angle": 0,
+            "content": "（三）建立公司 ESG 相关信息报告、监督机制"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.312,
+                0.855,
+                0.469
+            ],
+            "angle": 0,
+            "content": "公司将可持续发展理念深度融入整体发展战略，董事会通过审批战略、评估风险、设定目标、监督执行、审查绩效和利益相关方沟通等方式监督公司 ESG 相关的影响、风险和机遇。ESG 领导小组每半年向董事会报告一次 ESG 相关目标进展。2025 年公司董事会战略与 ESG 委员会共召开 2 次专门会议，探讨 ESG 相关影响、风险和机遇的优先级，决议和审核公司 ESG 战略中的中期目标和绩效指标。公司与各子公司相关职能部门的 ESG 目标纳入管理体系的考核。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.495,
+                0.372,
+                0.516
+            ],
+            "angle": 0,
+            "content": "五、环境维度议题"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.547,
+                0.414,
+                0.567
+            ],
+            "angle": 0,
+            "content": "（一）应对气候变化"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.188,
+                0.589,
+                0.348,
+                0.606
+            ],
+            "angle": 0,
+            "content": "1、气候治理架构"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.62,
+                0.853,
+                0.721
+            ],
+            "angle": 0,
+            "content": "宁波色母高度重视气候变化带来的风险与机遇，逐步建立并完善气候治理体系，在 ESG 领导小组下设 ESG 工作执行层，负责管理公司及各子公司的应对气候变化工作以驱动公司整体目标的达成，以科学的治理模式推动公司低碳转型，践行公司对气候变化的社会责任。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.182,
+                0.731,
+                0.411,
+                0.749
+            ],
+            "angle": 0,
+            "content": "①做好温室气体盘查工作",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.759,
+                0.852,
+                0.86
+            ],
+            "angle": 0,
+            "content": "2025 年开始公司执行《温室气体盘查管理制度》，在公司及各子公司选拔了碳管理员作为基层应对气候变化工作者，负责碳排放数据管理以及减排项目的推动，报告期内组织了碳管理员进行培训，以点带面，不断提高公司及各子公司的低碳转型意识以应对气候变化带来的机遇和挑战。依据 ISO14064—1:2018 温室",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "17"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.091,
+                0.852,
+                0.136
+            ],
+            "angle": 0,
+            "content": "气体核查方法核算公司及各子公司的碳排放，全面了解和掌握公司温室气体排放情况，为公司制定减排策略提供重要数据基础，助力公司节能减排目标的实现。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.182,
+                0.146,
+                0.33,
+                0.163
+            ],
+            "angle": 0,
+            "content": "②绿色产品研发",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.174,
+                0.855,
+                0.359
+            ],
+            "angle": 0,
+            "content": "公司积极开发制造绿色产品，挖掘产品绿色性能。目前已开发出碳中和色母粒，采用再生塑料与生物基颜料制成，碳中和母粒中生物基颜料着色力达到传统颜料水平，使用该产品实现减碳、碳中和的目的。公司研究开发出的光伏组件用抗PID专用母粒，专门用于光伏组件的背层封装，有效解决光伏组件的电诱导衰减问题，提升组件对可见光的有效利用率。公司继续致力于研究开发出更多碳中和新产品，不断提升产品绿色性能。推行清洁生产，使产品环境均符合相关国内外指令及环保法律法规要求。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.372,
+                0.347,
+                0.39
+            ],
+            "angle": 0,
+            "content": "2、气候相关战略"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.403,
+                0.855,
+                0.533
+            ],
+            "angle": 0,
+            "content": "宁波色母围绕国家 “双碳” 目标和行业绿色转型要求，将应对气候变化纳入核心战略，秉持绿色工厂发展理念，积极开展气候相关风险与机遇的识别与评估，明确不同类型风险的潜在影响，并制定针对性应对措施。公司以技术创新为驱动，持续优化气候应对策略，提升经营韧性与适应能力，致力于在企业经营中降低碳排放、提升能源效率，积极推动公司绿色低碳转型，为可持续发展提供有力支撑。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.542,
+                0.854,
+                0.644
+            ],
+            "angle": 0,
+            "content": "公司聚焦塑料色母粒产品低碳化，紧密围绕公司色母粒产品业务特点与发展规划，从低碳设计到低碳制造逐年提高绿色技改、清洁能源、碳管理体系的资金与人力投入，优先保障低碳转型项目落地，旨在降低气候变化对公司的不利影响，提升公司的绿色竞争力，为推动行业绿色转型与全球气候治理贡献力量。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.657,
+                0.449,
+                0.675
+            ],
+            "angle": 0,
+            "content": "3、气候变化风险与机遇分析"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.688,
+                0.852,
+                0.846
+            ],
+            "angle": 0,
+            "content": "公司经营活动产生的温室气体排放强度较低，对环境、社会和经济造成的气候影响较小，结合公司业务模式、产业链、色母粒行业特征及利益相关方沟通，筛选和识别出公司面临的气候相关风险和机遇，分析每项风险和机遇的当期和预期财务影响及其影响周期。预期影响的时间范围分为短期（1—2年）、中期（3—5年）和长期（5年以上），分别对应公司下一年度短期发展目标、五年中期发展规划及本世纪中叶长期发展规划。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "18"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.85,
+                0.163
+            ],
+            "angle": 0,
+            "content": "公司在评估气候风险机遇的财务状况影响时，认为公司主要业务受气候的当期影响与预期影响总体较小。同时对于预期公司绿色低碳转型投入和回报的定量评估不确定性较大，现有条件不支持定量披露，因此下表采用定性方式进行披露。",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.167,
+                0.855,
+                0.898
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>风险类型</td><td>风险/机遇名称</td><td>影响周期</td><td>影响描述</td><td>财务影响</td></tr><tr><td>急性物理风险</td><td>极端天气事件(如台风、洪水、暴雨等)</td><td>短期、中期</td><td>沿海地区易受台风/洪水影响,导致原材料供应中断,生产延误。</td><td>当期:公司报告期内资产与经营未受到极端天气事件影响。预期:预计短期和中期极端天气事件会引起公司及各子公司的供应链中断、运费上涨,导致财务的直接/间接成本增加。</td></tr><tr><td rowspan=\"2\">慢性物理风险</td><td>海平面上升/极端高温/全球变暖/平均温度上升</td><td>短期、中期、长期</td><td>沿海供应商生产基地易受海水倒灌;极端高温导致区域电力紧张,引发工厂停产,极端高温影响设备/供应链,加剧厂火灾隐患。</td><td>当期:公司报告期内生产经营未受到海平面上升/极端高温影响。预期:预计短期、中期和长期海平面上升/极端高温影响有限,长期将小幅提高公司空调制冷成本、资产损坏、保险费,导致财务间接成本增加,但对公司及各子公司生产经营不构成明显影响。</td></tr><tr><td>缺水/水资源短缺</td><td>中长期</td><td>生产过程对水资源有一定需求,易受区域水资源压力影响,成本上升,会导致生产受限。</td><td>当期:公司报告期内未受到水资源短缺影响。预期:公司生产基地位于市区、城镇,供水条件齐全,预计水资源短缺的短期至长期水价上涨,导致财务直接成本增加、限产的影响较低。</td></tr><tr><td>转型风险</td><td>气候政策法规</td><td>短期、中期、长期</td><td>受严格的气候政策监督,公司碳排放超配额需购碳权,需增加碳管理、碳减排等方面投入,环保法规日趋严格;对排放控制、能源使用及信息披露提出更高要求,需增</td><td>当期:报告期开展碳核查与气候相关披露工作,支付对应人工与咨询成本。预期:每年需支付碳核查与披露成本,预计中期和长期加大成本投</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.915,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "19"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.855,
+                0.908
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>风险类型</td><td>风险/机遇名称</td><td>影响周期</td><td>影响描述</td><td>财务影响</td></tr><tr><td rowspan=\"5\"></td><td></td><td></td><td>加合规成本。</td><td>入。</td></tr><tr><td>低碳技术转型</td><td>短期、中期、长期</td><td>公司为实现绿色转型,需增加低碳技术的碳制造投入。公司持续开发低碳产品与服务,积极推动全球气候问题缓释。同时,公司积极推进自身经营及产业链降碳。若公司温室气体管控不完善,或导致温室气体排放加剧。</td><td>当期:报告期投入成本用于产品低碳研发和生产设备节能改造。预期:预计短期和中期持续投入成本,提升产品配方设计、制造等环节,通过技术创新和管理改善,持续降低产品碳足迹,满足客户需求,扩大市场份额;长期实现公司及各子公司产品低碳设计和低碳制造的低碳转型,产品销售收入增加,竞争优势增强。</td></tr><tr><td>原材料供应</td><td>短期、中期、长期</td><td>气候变化及相关政策可能导致公司及各子公司能源、化工原料及包装材料价格波动或上涨,造成采购成本上升。</td><td>当期:报告期公司大众原材料价格未出现明显波动。预期:短期原油价格波动较大,预计公司及各子公司财务的生产成本增加,导致毛利率下降;中期至长期,公司及各子公司通过可持续优化采购策略,加强供应链多元化,推动绿色采购与循环包装应用。预计原材料价格波动对采购成本影响有限。</td></tr><tr><td>声誉风险</td><td>短期、中期、长期</td><td>若公司在气候变化应对和环境管理方面未达预期,可能影响社会形象,导致品牌声誉受损。</td><td>加强ESG信息披露,提升透明度,积极参与绿色工厂认证,强化公众沟通。</td></tr><tr><td>技术风险</td><td>短期、中期、长期</td><td>向低碳或新技术转型过程中,若技术不成熟或不匹配生产需求,可能带来不确定性,短期内投资回报率较低。</td><td>加强技术研发投入,开展技术可行性评估,分阶段推进新技术试点应用。</td></tr><tr><td>机遇</td><td>绿色技术创新</td><td>短期、中期、</td><td>开发和推广绿色、低碳产品,可以满足市场需求,</td><td>推出环保产品,推动绿色供应链建设,提升产</td></tr></table>",
+            "cell_merge": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "20"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.855,
+                0.407
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>风险类型</td><td>风险/机遇名称</td><td>影响周期</td><td>影响描述</td><td>财务影响</td></tr><tr><td rowspan=\"3\"></td><td>与低碳产品开发</td><td>长期</td><td>增强品牌竞争力。</td><td>品市场辨识度。</td></tr><tr><td>提升资源利用效率</td><td>短期、中期、长期</td><td>通过提升能源、水资源和原材料利用效率,降低经营成本;使用更低成本或更稳定的清洁能源,降低对传统能源的依赖与价格波动风险。</td><td>经营成本降低。应对策略:优化节能管理,促进工艺与设备升级;使用光伏,优化能源结构;购买绿证,降低产品碳足迹。</td></tr><tr><td>企业韧性</td><td>短期、中期、长期</td><td>公司具备更强气候韧性,有效控制气候相关风险,吸引长期投资者与稳定客户。</td><td>当期:公司因气候风险造成的财务损失较小。预期:短期至长期,气候风险造成公司财务损失整体可控,市场规模稳步增长。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.186,
+                0.414,
+                0.347,
+                0.433
+            ],
+            "angle": 0,
+            "content": "4、气候减排措施"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.446,
+                0.85,
+                0.519
+            ],
+            "angle": 0,
+            "content": "为减缓气候变化，降低公司碳排放，公司开展多项减排工作，包括生产设备升级更新、倡导绿色办公等，有效降低公司生产经营排放强度，致力于减少公司的碳足迹。",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.142,
+                0.525,
+                0.854,
+                0.716
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.529,
+                0.85,
+                0.63
+            ],
+            "angle": 0,
+            "content": "①2025 年公司持续推进绿色能源使用。公司及各子公司厂房屋顶均已安装了分布式光伏发电设施，提高绿电自用率，为能源结构绿色转型迈出坚实步伐；公司宿舍公寓楼安装太阳能空气源热泵热水系统；通过指定绿色电力证书交易平台向省外购买绿色电力证书。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.64,
+                0.85,
+                0.686
+            ],
+            "angle": 0,
+            "content": "②引入高效注塑机、双螺杆挤出机等先进设备，提升生产效率、试产效率与能源利用率，降低生产能耗，实现节能减排。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.696,
+                0.664,
+                0.714
+            ],
+            "angle": 0,
+            "content": "③合理规划办公场所用电策略和推行无纸化办公模式。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.724,
+                0.851,
+                0.853
+            ],
+            "angle": 0,
+            "content": "公司推进无纸化办公模式，倡导纸张回收利用，将复印纸、信纸等背面加以利用，以达到减少纸张使用量的目的。公司及各子公司主要办公场所全面推广使用 LED 节能灯具；严格执行公司空调温度控制标准，下班后各部门负责人应确保本部门所使用的设备、风扇、空调、饮水机、照明等电源切断，公共场所的手动开关尽可能改为自动开关。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.507,
+                0.927
+            ],
+            "angle": 0,
+            "content": "21"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.187,
+                0.09,
+                0.326,
+                0.108
+            ],
+            "angle": 0,
+            "content": "5、指标与目标"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.122,
+                0.85,
+                0.167
+            ],
+            "angle": 0,
+            "content": "宁波色母通过低碳产品开发和提升能效、优化能源使用结构等方式，推动温室气体排放量稳步降低。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.177,
+                0.851,
+                0.222
+            ],
+            "angle": 0,
+            "content": "短期（1-2 年）目标：持续完成公司及各子公司碳盘查，建立温室气体核算与管理体系。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.233,
+                0.851,
+                0.279
+            ],
+            "angle": 0,
+            "content": "中期（3-5年）目标：以2025年碳排放强度为基准，公司到2030年碳排放强度下降 \\(3\\%\\) ；2030年实现公司经营层面的碳达峰。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.289,
+                0.851,
+                0.334
+            ],
+            "angle": 0,
+            "content": "长期（5 年以上）目标：2050 年实现公司经营层面碳中和，构建色母粒产业链低碳体系，助力行业与国家 “双碳” 目标。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.344,
+                0.851,
+                0.445
+            ],
+            "angle": 0,
+            "content": "报告期内，公司及各子公司依据 ISO14064—1:2018 温室气体核查方法开展温室气体盘查；采用排放因子法，使用国家标准《温室气体排放核算与报告要求》提供的燃料排放因子开展温室气候核算，2025 年公司及各子公司温室气体排放总量（范围 1+范围 2）：6446 吨二氧化碳当量。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.455,
+                0.851,
+                0.557
+            ],
+            "angle": 0,
+            "content": "公司 “碳达峰、碳中和” 以采购国内绿证形式实施，宁波宁咨绿色发展有限公司通过指定绿色电力证书交易平台向公司交付电力生产日期为 2025 年 1 月 1 日至 2025 年 12 月 31 日的中国境内（浙江省除外）的 GEC 绿证 6320 张，1 张绿证对应 1MWh（兆瓦时）可再生能源电量，已于 2025 年 12 月 31 日前完成交易。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.578,
+                0.389,
+                0.598
+            ],
+            "angle": 0,
+            "content": "（二）污染物排放"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.613,
+                0.86,
+                0.898
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>污染物排放</td></tr><tr><td>治理</td><td>公司严格遵守《中华人民共和国水污染防治法》《中华人民共和国大气污染防治法》《中华人民共和国噪声污染防治法》等法律法规、《工业企业厂界环境噪声排放标准》(GB 12348-2008)等国家及行业标准、经营所在地其他相关法规和标准开展污染物排放管理工作,严格管控生产经营中废水、废气和噪声的产生与排放,减少自身环境足迹。1、水污染防治:公司及各子公司废水主要包括生活污水和少量生产废水。生活污水经化粪池预处理后达到GB8978-1996《污水综合排放标准》三级标准后纳入市政污水管网排放,其中氨氮和总磷执行《工业企业废水氮、磷污染物间接排放限值》(DB33/887-2013),不含有毒有害物质,不会对环境造成负面影响。生产废水主要为设备和产品生产过程冷却水,生产过程冷却水通过内部冷却水循环系统回收利用,实现零外排。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "22"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.683
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>2、废气污染防治:公司及中山子公司生产基地:在生产过程中投料搅拌粉尘、熔融挤出产生的粉尘和有机废气,通过“密闭收集系统与活性炭吸附装置+布袋除尘”方式集中收集处理,收集和处理后按GB31572-2025《合成树脂工业污染物排放标准》、GB14554-93《恶臭污染物排放标准》和GB37822-2019《挥发性有机物无组织排放控制标准》等标准相关限值无组织排放。员工食堂产生的油烟经净化设备处理后高空排放,各项指标均符合环保标准,不会对周边环境造成影响。3、噪声污染防治:公司及各子公司生产噪声主要源自设备运行,声频在65—85dB(A)之间。通过合理布局、厂房隔声及作业时间管控,确保厂界环境噪声排放符合GB12348-2008《工业企业厂界环境噪声排放标准》3类标准,昼间≤65dB(A),夜间≤55dB(A),对周边无影响。滁州子公司:报告期内,项目仍在建,没有投产,环保设施没有投入使用。</td></tr><tr><td>战略</td><td>公司将污染物排放管理融入企业长期发展战略,以“减污降碳、协同增效”为战略方向,确立“源头防控、过程管控、末端治理、循环利用”的战略路径,推动污染物排放从“达标管控”向“精准治理、循环提升”转型。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>短期目标:1、废气排放达到GB31572—2015《合成树脂工业污染物排放标准》表5大气污染物特别排放限值和表9企业边界大气污染物浓度限值。2、噪声排放达到GB12348-2008《工业企业厂界环境噪声排放标准》3类标准。3、废水排放达到GB8978-1996《污水综合排放标准》三级标准。中期目标:到2030年,公司及各子公司污染物排放相较于2025年下降3%。报告期内:公司及各子公司污染物经第三方检测机构检测均达标排放。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.208,
+                0.699,
+                0.389,
+                0.719
+            ],
+            "angle": 0,
+            "content": "（三）废弃物处理"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.735,
+                0.86,
+                0.907
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>废弃物处理</td></tr><tr><td>治理</td><td>公司严格遵守《中华人民共和国固体废物污染环境防治法》,制定了《固体废物管理制度》和《危险废物管理制度》对生产过程中固体废物进行管理,落实废弃物产生、收集、贮存、运输、利用、处置全过程的污染环境防治的管理,建立固体废物管理台账,如实记录产生固废的种类、数量、流向、贮存、利用、处置等信息,实现固体废物可追溯、可查询,实现对生产、生活过程中产生的一般废弃物和危险废物的有效</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "23"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.572
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>控制。公司及各子公司明确区分危险废物与一般固废,危险废物主要包括生产过程中尾气处理产生的废活性炭、废机油和环保设施运行产生的水环真空泵废水、喷淋废水等,此类废弃物由生产车间分类收集并规范包装后,运输至专用危废仓库暂存间,由固废管理专员核对接收,全程做好防渗、防泄漏防护。一般固废主要涵盖生产过程的除杂原料、生活垃圾和废包材等,实施分类收集、集中存放,优先推进资源回收利用。公司及各子公司的危险废弃物委托多家具备相应资质的第三方专业处理机构开展废弃物处置与再利用工作,严格执行转移联系单制度与全过程跟踪机制,确保危险废弃物从产生到最终处置过程合规、安全和可控,有效防范环境风险。</td></tr><tr><td>战略</td><td>公司将废弃物管理纳入整体环境管理体系,严格遵循“减量化、资源化、无害化”原则,围绕治理架构、战略规划、治理措施及指标目标构建公司废弃物管理机制,实现一般固废与危险废物的规范化、可追溯,切实降低废弃物对环境的影响。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>指标:固体废弃物分类收集、处置合规率达到100%,无环境污染事故发生。目标:到2030年,吨产品的危废产生量相较于2025年下降3%。力争废包材等可回收固废资源化利用率达到90%以上。报告期内,固废分类收集,危废处置合规率达100%,无环境污染事故发生。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.588,
+                0.553,
+                0.608
+            ],
+            "angle": 0,
+            "content": "（四）生态系统和生物多样性保护"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.63,
+                0.85,
+                0.732
+            ],
+            "angle": 0,
+            "content": "公司深刻认识生物多样性对于地球生态系统稳定及人类可持续发展的重要意义，严格遵守《中华人民共和国环境影响评价法》《建设项目环境保护管理条例》等法规要求开展生态环境及生物多样性保护治理，执行环境保护“三同时”要求，拟建项目同步开展环境影响评价。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.741,
+                0.851,
+                0.844
+            ],
+            "angle": 0,
+            "content": "2025 年，公司参考《区域生物多样性评价标准》《企业生物多样性绩效规划与监测指南》制定公司内部管理制度《生物多样性管理制度》，明确公司生物多样性治理职责，指导监测与评估生物多样性状况，针对经营活动中对生物多样性可能产生的潜在影响，开展风险识别与分析工作。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.852,
+                0.851,
+                0.898
+            ],
+            "angle": 0,
+            "content": "公司及各子公司均设立于工业园内，均为工业用地，不存在任何位于自然保护区内部的生产基地，在开展生产经营活动过程中未出现对生物多样性造成重大",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "24"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.85,
+                0.163
+            ],
+            "angle": 0,
+            "content": "影响的情形。同时公司秉承集约高效的土地利用理念，在厂区内科学规划多处绿化空间，引入兼具观赏与防护功能的多样化植物物中，有效丰富了厂内植结构，增强了生物多样性与生态景观功能。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.174,
+                0.851,
+                0.219
+            ],
+            "angle": 0,
+            "content": "报告期内,在开展生产经营活动过程中未出现对生物多样性造成重大影响的情形。",
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.207,
+                0.241,
+                0.414,
+                0.261
+            ],
+            "angle": 0,
+            "content": "（五）环境合规管理"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.277,
+                0.86,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>环境合规管理</td></tr><tr><td>治理</td><td>公司及各子公司均不存在《重点排污单位名录管理规定》中规定应纳入水、大气、土壤、声环境等重点排污单位名录的情况。公司严格遵守《中华人民共和国环境保护法》及地方各项环境政策法规,积极响应国家绿色发展号召,以“以人为本营造绿色安全,齐心协力共创和谐家园”为环境管理体系管理方针,将环境管理融入生产经营,强化环境风险管理,持续完善环保合规体系,立足绿色发展理念。公司坚持以高质量发展为引领,积极践行节能减排理念,全面推行环境管理体系,高度重视环境保护与可持续发展,全力推进环境体系建设,大力推动公司及各子公司导入ISO14001环境管理体系,以不断提升企业环境管理水平和控制风险的能力。2005年公司率先通过环境管理体系认证,2025年中山子公司通过环境管理体系认证。公司持续改进生产车间作业现场环境,强化职业健康防护,着力营造绿色、安全、整洁的工作场所。公司及各子公司每年组织管理体系内审,重点核查环保风险及各项环保措施的合规性与有效性。2025年度,公司及中山子公司完成了管理体系内审,审计内容覆盖污染物排放、废弃物处置、厂区环境监测、清洁生产等核心环保管理环节,审计结果显示无环境高风险项,各项环保工作均符合管理体系标准及法规要求。公司建立《环境因素识别和评价管理程序》,定期对公司及各子公司范围内的环境因素进行识别和评价,并进行环境风险评估。公司及中山子公司管理体系已经审核符合ISO14001:2015要求,并取得相应认证证书,滁州子公司在建的年产5万吨塑料色母粒新材料项目也积极按照ISO14001要求开展环境管理体系建设;构建了系统化、规范化的环境管理机制,全面践行绿色发展理念。年产36000吨中高端色母粒生产线技改项目的环评批复在2025年4月份公示后,按照竣工环境保护自主验收要求。重新制定突发环境事件应急预案,并完成备案;同时按照新环评重新申请排污许可证;对车间除烟气装置增加二级活性炭箱体,并于2026年1月5日-1月30日进行了环评验收公示。至此公司年产36000吨中高端色母粒项目(其中7000吨产能为年产20000吨中高端色母粒募投项目)环境三同时已全部完成。</td></tr><tr><td>战略</td><td>公司及各子公司依据环境管理方针与政策,推进各项环保制度的落地,推动各项指标完成,持续追踪和提升公司环境管理合规,构建系统</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "25"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.083,
+                0.86,
+                0.257
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>化、规范化的环境管理机制,全面践行绿色发展理念。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>目标:公司环境保护合法合规,环境方向投诉率为0。报告期内,公司及各子公司未出现因环境保护违法违规而受到处罚的情况,未发生过环境污染的事件,未收到相关方关于环境方面的投拆。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.208,
+                0.272,
+                0.362,
+                0.292
+            ],
+            "angle": 0,
+            "content": "（六）能源利用"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.33,
+                0.86,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>能源利用</td></tr><tr><td>治理</td><td>公司生产经营中的主要消耗能源种类为电力,通过提高自动化、智能化水平,实现设备生产情况的实时监测,精细化管理提高设备和产线的综合能效。1、建立能源管理制度,覆盖能源计划、统计与持续改进等环节。2、定期开展设备维护和保养,确保其正常运行,避免因设备故障导致的能源浪费。3、通过工艺优化、设备升级与效能提升持续降低能耗,并加强生产过程监控,确保节能措施有效落实。4、2025年公司持续推进绿色能源使用,公司及各子公司厂房屋顶均已安装了分布式光伏发电设施,助力降低温室气体排放。全年公司及各子公司光伏发电合计3,348,316KWh,使用绿色电力2,086,626KWh,绿电自用率达62.32%,能源结构绿色转型迈出坚实步伐。5、引入高效注塑机、双螺杆挤出机等先进设备,提升生产效率、试产效率与能源利用率,降低生产能耗。6、生产和办公环节均主要消耗电力,合理规划节能降耗与清洁能源利用策略。公司办公用电时要求减少日光灯数量,下班后各部门负责人应确保本部门所使用的设备、风扇、空调、饮水机、照明等电源切断,空调使用时应控制在适宜时间和温度范围内,采用节能灯,公共场所的手动开关尽可能改为自动开关。7、宿舍公寓楼安装太阳能空气源热泵热水系统。通过上述措施,公司努力构建绿色低碳的用能结构,持续提升能源综合利用效率。</td></tr><tr><td>战略</td><td>公司以“装备提升、绿色低碳发展”为能源利用管理战略方向,确立“遵守法规、节能降耗、持续改进”的能源方针,将能源管理融入企业长期战略布局,围绕清洁能源、能源高效利用、污染减排等核心目标,以技术创新为驱动,推动能源利用,助力实现企业可持续发展与产品生产绿色转型。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "26"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.313
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>短期目标:吨产品用电(电单耗)440度/吨.中期目标:计划到2028年电单耗(产品吨用电)相比较2025年电单耗减少约3%。长期目标:计划2030年清洁能源(分布式光伏发电)自用率达75%;通过装备升级/工艺优化,实现生产环节电单耗同比下降。报告期内,2025年吨产品用电429.9度/吨,使用绿色电力覆盖率达14.72%。</td></tr></table>",
+            "cell_merge": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.208,
+                0.328,
+                0.389,
+                0.349
+            ],
+            "angle": 0,
+            "content": "（七）水资源利用"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.364,
+                0.86,
+                0.911
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>水资源利用</td></tr><tr><td>治理</td><td>公司将水资源利用融入在管理体系中,明确各部门在节水、减排、污水处理方面的职责。公司及各子公司水资源消耗主要是生产冷却循环水、办公用水以及食堂生活用水,用水来源均为市政供水,不涉及由取水、耗水、排水或储水量变化导致的直接或间接水资源重大影响。1、公司及各子公司每个用水环节均安装水表,每天派专人抄表,监测厂区内用水量,每年进行水资源风险识别与评估,在管理体系中设定了吨产品用水量的水单耗目标。2、节约用水举措公司秉持“节约用水”的理念,生产车间和研发中心均安装冷却循环水系统,其中在建的滁州子公司将安装节能型冷却水系统。日常用水时坚持杜绝开长流水,人走关水龙头,购买各种节水装置(如节水马桶、节水开关等),污水处理废水回用与生产或生活上(如冲厕所、绿化清扫等)检查各类设备水池、水管是否有漏水及时堵漏。对全员节约用水的意识进行教育与倡导,在用水区域进行标语宣告。</td></tr><tr><td>战略</td><td>公司制定水资源管理战略,保护水资源质量,确保所有排放的废水均符合或严于当地法规标准。同时致力于生产过程中实现水循环与回用,减少对新鲜水资源的依赖。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>短期目标:吨产品用水1.7度中期目标:计划到2028年水单耗(产品吨用水)相比较2025年水单耗减少约3%。长期目标:通过装备升级/工艺优化,实现生产环节水单耗同比下降。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "27"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.223,
+                0.086,
+                0.576,
+                0.103
+            ],
+            "angle": 0,
+            "content": "报告期内，2025年产品吨用水1.69度。"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.123,
+                0.367,
+                0.143
+            ],
+            "angle": 0,
+            "content": "（八）循环经济"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.165,
+                0.853,
+                0.267
+            ],
+            "angle": 0,
+            "content": "公司始终将可持续发展理念融入战略规划与经营实践，致力于在技术创新、生产制造及市场服务中贯彻循环经济原则。积极推动材料利用、工艺优化与产品管理，努力构建绿色、高效、可循环的产业生态，以实现经济效益、环境效益与社会效益的协同发展。",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.146,
+                0.276,
+                0.854,
+                0.46
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.276,
+                0.637,
+                0.295
+            ],
+            "angle": 0,
+            "content": "1、推行成品大包装模式，减少或取消产品小包装。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.304,
+                0.855,
+                0.433
+            ],
+            "angle": 0,
+            "content": "2、重复使用洗车料：在产品制造过程中，生产洗车用的材料优先按颜色深浅分类循环重复使用，降低了产品的环境影响，提高了产品的废弃料和边角料的可回收性与可循环利用性，减少了废弃物的产生，助力构建可持续的产品生命周期。3、原材料外包装的重复使用，将原材料包装袋在生产过程中循环使用，减少了生产中转环节的新袋使用量。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.443,
+                0.393,
+                0.46
+            ],
+            "angle": 0,
+            "content": "3、建立托盘回收机制。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.47,
+                0.851,
+                0.543
+            ],
+            "angle": 0,
+            "content": "通过上述措施，降低包装采购成本及固废处置费用，实现降本增效，同时减少木材等原材料消耗和废弃物处理，践行绿色低碳经营理念，助力公司可持续发展目标达成。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.554,
+                0.848,
+                0.6
+            ],
+            "angle": 0,
+            "content": "报告期内，公司塑料树脂原材料包装袋 100% 使用可循环回收。2025 年累计回收托盘 200 余个并投入循环使用。洗车平均吨耗料 6.5kg/吨。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.626,
+                0.37,
+                0.648
+            ],
+            "angle": 0,
+            "content": "六、社会维度议题"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.679,
+                0.319,
+                0.698
+            ],
+            "angle": 0,
+            "content": "（一）员工"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.714,
+                0.86,
+                0.906
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>员工</td></tr><tr><td>治理</td><td>为满足公司发展的人才需求,公司通过社交媒体、招聘平台、内部推荐及校企合作等多元化渠道,持续加强人才引进力度与质量,并重点围绕战略塑料新材料领域吸纳专业人才,以匹配公司未来人才布局及能力要求。此外,公司持续优化线下招聘流程,通过院校宣讲、学生来公司实习等形式,提升招聘效率与学生体验,进一步增强人才引进实效。公司建立完善的离职反馈与改进机制,通过一对一访谈倾听员工离职原因与改进建议,将员工意见转化为制度优化的重要依据。在关注员</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "28"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.086,
+                0.85,
+                0.14
+            ],
+            "angle": 0,
+            "content": "工职业发展诉求的同时，公司聚焦工作环境与管理流程的优化需求，通过系统化分析形成管理闭环，持续完善人才梯队建设，推动组织管理能力的迭代升级。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.266,
+                0.142,
+                0.482,
+                0.159
+            ],
+            "angle": 0,
+            "content": "1、以师带徒的导师模式"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.161,
+                0.852,
+                0.27
+            ],
+            "angle": 0,
+            "content": "公司持续完善涵盖专业力、领导力等核心模块的员工培训体系，并通过“专业人员结对、导师辅导、实战锻炼”相结合的“以师带徒”模式，助力员工将专业知识转化为解决实际问题的能力，从而夯实公司人才梯队基础，助力公司业务及战略目标达成。报告期内，公司更新《培训实施管理细则》等内部制度，为培训工作的规范化、体系化实施提供制度支撑。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.273,
+                0.389,
+                0.289
+            ],
+            "angle": 0,
+            "content": "2、安全教育"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.29,
+                0.851,
+                0.381
+            ],
+            "angle": 0,
+            "content": "公司搭建 “三级安全教育” 培训体系，覆盖公司级、部门级及特定岗位安全培训，其中公司级培训包括新员工入职安全培训及全体员工年度安全培训，要求员工 100% 完成。公司不定期开展专项职业健康与安全培训，包括公共安全、特种设备与机械设备安全、职业健康、应急管理及施工作业安全。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.383,
+                0.851,
+                0.474
+            ],
+            "angle": 0,
+            "content": "公司定期组织开展安全生产月系列宣教活动，向员工宣传普及安全生产知识。公司制定了《事故隐患内部报告奖励制度》，积极倡导全体员工提报日常安全隐患并提出创新改进合理化建议，增设了“安全生产奖”。鼓励员工提报高价值隐患，推动解决业务中的实际痛点，实现安全管理的持续优化。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.265,
+                0.476,
+                0.421,
+                0.492
+            ],
+            "angle": 0,
+            "content": "3、职业健康管理"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.494,
+                0.85,
+                0.585
+            ],
+            "angle": 0,
+            "content": "公司严格遵守《中华人民共和国职业病防治法》，强化涉粉岗位员工职业健康保护，系统性梳理职业健康管理体系文件。为规范职业病防护设施管理，公司制定《职业病防护设施管控程序》，明确职业病防护设施的管理要求，同时通过跨部门协同机制，明确各环节责任分工与流程衔接。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.587,
+                0.851,
+                0.659
+            ],
+            "angle": 0,
+            "content": "针对职业病风险岗位，公司提供符合岗位要求的劳保用品，配备除尘器、耳塞等防护设施，并定期点检维护，强化作业防护。同时，为涉及职业病危害的员工提供岗前、在岗、调岗及离岗体检，完善职业健康监护档案，实现“一人一档”，全方位保障员工职业健康与安全。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.265,
+                0.662,
+                0.421,
+                0.678
+            ],
+            "angle": 0,
+            "content": "4、保障员工权益"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.679,
+                0.851,
+                0.752
+            ],
+            "angle": 0,
+            "content": "公司及各子公司严格遵守《中华人民共和国劳动法》《中华人民共和国劳动合同法》《中华人民共和国未成年人保护法》等相关法律法规，依法制定《劳动合同管理办法》、《人事制度》等系列制度，全方位保障员工权益。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.754,
+                0.85,
+                0.844
+            ],
+            "angle": 0,
+            "content": "（1）在招聘雇佣环节，公司严格遵守法律法规，秉承公开透明、公平竞争、择优录用的原则，平等雇佣少数民族、残疾人，保障员工多元化，严禁雇用童工，杜绝任何形式的歧视与强迫劳动。报告期内，公司劳动合同签订率、社会保险缴纳率和住房公积金缴纳率100%，女性员工占比59%，在职残疾人员工4名。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.846,
+                0.85,
+                0.9
+            ],
+            "angle": 0,
+            "content": "（2）在休假制度方面，公司公休假和法定节假日遵循《全国年节及纪念日放假办法》及相关法律法规执行。员工依法享受年假等法定假期。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "29"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.498
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>(3)在薪酬福利方面,公司明确薪资福利制度,依据相关考勤及工资相关管理办法,保障员工公平合法合理的薪资福利待遇。除法定福利外,公司还为员工提供廉价的一日三餐、年度体检、员工宿舍等公司福利。5、员工活动公司组织开展形式多样、丰富多彩的员工文体活动,丰富员工业余文化生活,营造温馨且充满活力的工作氛围,满足广大员工精神文化需求。</td></tr><tr><td>战略</td><td>公司秉承以人为本的管理理念,确保每位员工在尊重和信任的环境中充分发挥潜力,为面对全球化竞争的风险与机遇预备强有力的人力支持。公司致力于打造一支专业化、年轻化、国际化的人才队伍,增强团队的创新水平,从而提升公司核心竞争优势,实现员工与公司的共同成长。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>目标:1、法定年龄员工社保和公积金缴纳率100%,2、职业病发生率为0。报告期内,法定年龄员工社保和公积金缴纳率100%,公司未发现职业病病例。</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.514,
+                0.506,
+                0.534
+            ],
+            "angle": 0,
+            "content": "（二）产品和服务安全与质量"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.55,
+                0.86,
+                0.908
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>产品和服务安全与质量</td></tr><tr><td>治理</td><td>公司作为塑料色母粒行业的制造企业,业务布局涵盖研发、生产到国家支持的八大产业。通过技术创新、绿色制造及社会责任实践,将产品安全、质量管控、服务与可持续发展深度融合。以质量、标准、服务和效益为重点,围绕“主动提升装备、产品结构主动转型、客户结构主动转型和团队年轻化”的理念,秉持“技术领先、品质管控、持续改善、客户满意”的质量方针,建立并推行质量/环境/职业健康与安全三体系的《管理手册》,依托PDCA闭环管理模式不断完善优化质量管理与客户服务体系,以持续改进产品与服务品质,致力于为客户创造高价值服务。报告期内,公司未发生产品或服务相关的安全与质量重大责任事故。公司实行总经理负责制,形成“总经理统筹一分管副总执行—部门落实”的层级质量管理体系,各部门责任人严格按照《管理手册》推进相关工作,确保权责清晰、运转高效。公司及中山子公司已通过ISO 9001质量管理体系认证。在客户服务方面,公司构建以技术支持为核心的售后服务体系,为客户提供深度定制的塑料制品着色的专业解决方案,充分彰显公司对技术支持与客户服务的高度重视和承诺。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "30"
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "bbox": [
+                0.224,
+                0.086,
+                0.851,
+                0.9
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.086,
+                0.851,
+                0.269
+            ],
+            "angle": 0,
+            "content": "1、产品质量管理：公司致力于为客户提供优质的产品与服务，坚持产品全生命周期质量管理，制定《化学有害物质管理手册》《不合格品管制程序》《产品设计开发程序》《客户满意度调查控制程序》《客户投诉处理程序》等多项产品质量相关管理制度，按照产品标准从设计研发、原材料采购、生产，到成品检测、仓储、交付，开展质量监督管理，层层把关，严格落实质量管控，确保交付产品符合相关规定与客户要求。公司持续完善质量管理体系与生产批次追溯机制，通过严格的原材料检验、充分的作业前准备、精细的生产过程控制以及全面的成品检验，对产品实施精细化质量管控，确保产品符合客户需求的安全与性能标准，巩固公司市场竞争优势，夯实客户信任根基。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.272,
+                0.851,
+                0.473
+            ],
+            "angle": 0,
+            "content": "2、化学有害物质管理：为满足 REACH 法规中高关注物质（SVHC）候选清单已增加到 250 项。欧盟 RoHS2.0（2011/65/EU），即《电子电气设备中特定有害物质禁用指令》在 2019 年 7 月正式强制实施。2021 年 3 月 8 日起分阶段实施的美国 TSCA 管控的 5 种 PBT 物质。公司已建立有害物质管控和追溯体系，加强了产品标识和批次管理，配置有 X 荧光光谱仪、气相色谱质谱联用仪，用于 RoHS 的 10 项化学物质检测。对原材料采购、产品生产直至成品制造过程中涉及到的环境有害物质进行严格管控，形成“源头防控—过程监管—终端把关—持续改进”的管理闭环，为产品环保合规性筑牢全链条防护屏障。在此基础上，公司每年委托具备资质的第三方检测机构，对原材料及产品开展专业化学检测，确保产品始终符合环保和安全要求。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.476,
+                0.85,
+                0.567
+            ],
+            "angle": 0,
+            "content": "3、不合格品控制：公司制定《不合格品控制程序》，明确不合格品区别、评审、隔离、处理及预防程序，防止不合格品被误用造成损失；同时，公司建立健全异常质量事件快速响应机制及追溯系统，确保在发生任何偏差时能够迅速采取纠正措施，保障产品质量的稳定性和可靠性，持续提升质量精细化管理水平。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.568,
+                0.85,
+                0.641
+            ],
+            "angle": 0,
+            "content": "4、售后服务保障：公司秉持客户至上的服务宗旨，构建以技术支持为核心的售后服务体系，为客户提供深度定制的塑料制品着色的专业解决方案，24小时响应及时的客户售后服务管理，全方位提升客户售后服务体验与满意度。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.642,
+                0.85,
+                0.734
+            ],
+            "angle": 0,
+            "content": "5、公司建立安全生产领导小组，由总经理担任组长、各职能部门负责人为组员。该小组负责审核与发布公司的安全生产相关政策，对重大安全问题做出决策。环境健康与安全部履行安全监督管理职责，在各部门设置安全员，协助开展安全生产工作，并根据部门实际情况制定相应的安全生产管理制度，定期开展安全生产隐患排查。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.223,
+                0.735,
+                0.851,
+                0.863
+            ],
+            "angle": 0,
+            "content": "6、公司不断加强安全应急管理工作，加强火灾防控宣传教育，提升应对突发事件的预防与处置能力。公司制定《安全生产事故应急预案》，建立了应急救援组织体系。公司组织开展消防安全知识宣传教育培训，普及消防知识“四懂四会”标准、灭火器和消防栓的使用方法、防烟面具佩戴方法、火灾逃生基础知识以及火灾自救方法，组织观看重大火灾事故警示教育片，不断强调消防安全的重要性与火灾的严重后果，提升职工基本的火灾预防知识和逃生技能。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.864,
+                0.85,
+                0.9
+            ],
+            "angle": 0,
+            "content": "7、公司及中山子公司通过 ISO 45001:2018 职业健康安全管理体系认证。同时，为员工投保了安责险。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.507,
+                0.927
+            ],
+            "angle": 0,
+            "content": "31"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.573
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>战略</td><td>公司深入研判产品和售后服务质量方面存在的潜在风险与发展机遇。针对识别的风险,公司依据风险特性、质量管控要求及相关标准规范,制定并实施针对性应对措施,实现风险的精准防控;同时,公司主动把握潜产品结构转型机遇,以品质升级为抓手,持续提升产品核心竞争力,夯实市场领先地位。公司始终坚持“安全第一、预防为主”的方针,构建系统化、规范化的安全管理体系,致力于营造健康、安全的工作环境。通过建立完善的安全责任制,强化全员参与、科学管理,公司持续改进安全生产措施,确保各项安全管理工作得以有效执行。同时,公司注重培养员工安全与职业健康意识,推动安全文化建设,最大限度地降低安全风险,为生产经营活动的顺利开展提供坚实保障。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>短期目标:1、母粒产品销售数量增加10%以上。2、交付产品顾客使用批合格率99.3%以上。3、顾客满意度90%以上。4、重大大火灾、触电、机械伤害等安全、环境事故为0。5、产能利用率达50%以上。中期目标:到2028年产能利用率达60%以上。长期目标:到2030年产能利用率达85%以上。报告期内,1、客户投诉处理及时率达到100%,2、客户满意度达到95.5%。3、重大大火灾、触电、机械伤害等安全、环境事故为0。4、公司及中山子公司每月组织安全培训及不定期考试问答,共开展安全演练1次,未发生因消防问题导致员工受伤或死亡等事件,未受到安全处罚。5、产能利用率为52.7%。</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.589,
+                0.53,
+                0.608
+            ],
+            "angle": 0,
+            "content": "（三）数据安全与客户隐私保护"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.624,
+                0.86,
+                0.908
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>数据安全与客户隐私保护</td></tr><tr><td>治理</td><td>公司信息数据安全与客户隐私保护视为企业生存与发展的基石,制定了《信息安全管理政策》和《IT管理制度》等管理制度,建立了权责明确的信息安全管理架构,在实际运行中结合云桌面、文件管理系统、网络边界防护设备等技术措施对信息安全进行保护,保障信息安全工作的有序推进和高效执行。1、信息安全管理:公司高度重视信息安全保障工作,通过构建多层次、全方位的防护体系筑牢安全防线,一方面,严格规范网络终端、机房设备及软件使用等管理;另一方面,通过统一部署云桌面、防病毒及终端管理软件,对敏感数据实施加密存储与精细化权限管控,严禁数据违规外传,全面防范各类信息安全风险,切实保障公司信息资产的保密性、完整性与可用性。2、客户隐私保护:公司高度重视客户隐私保护,通过数据加密、</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "32"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.554
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>访问控制等一系列严格措施,确保公司客户隐私信息的安全、保密,为客户提供安全可靠的服务。3、信息安全应急管理:公司制定《计算机网络安全突发事件应急预案》,详细规定应对网络安全突发事件的流程、措施及责任分配,全力保障公司信息系统的稳定与数据安全。3、推动数字化建设:公司始终以全面数字化转型为核心发展方向之一,通过部署一系列高效集成的数字化软件管理系统,将业务流程、生产经营、人事管理等关键环节纳入智能化管理范畴,大幅提升了公司的整体经营效率与生产质量,构建起坚实稳固的数字化底座,为公司持续深耕市场、增强核心竞争力注入强劲动力。</td></tr><tr><td>战略</td><td>建立和完善1、综合管控供应链、生产、财务、质量、采购等核心模块的ERP系统;2、管理和跟踪所有与产品相关的数据和过程的PDM管理系统;3、实时监控生产过程,综合管理生产计划、设备状态和质量数据的MES系统;4、确保实物资产管理的可追溯性的条码管理系统。5、色母粒产品研发项目数据管理系统。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>目标:1、确保所有涉及客户信息的系统符合国家信息安全等级保护制度要求。2、客户隐私泄露事件发生率为0。报告期内,公司未发生重大信息安全事件;客户隐私泄露事件发生次数为0,申报1项软著。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.208,
+                0.569,
+                0.365,
+                0.59
+            ],
+            "angle": 0,
+            "content": "（四）创新驱动"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.605,
+                0.86,
+                0.908
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>创新驱动</td></tr><tr><td>治理</td><td>公司始终坚持“创新是魂”发展战略,将自主研发作为核心竞争力。通过构建创新管理体系,公司持续优化创新流程与制度建设,打造高水平研发平台与研发团队,并强化创新项目的过程管控与评估,确保创新成果高效转化与应用。公司采用自主研发模式,拥有多项核心技术的自主知识产权。公司的研发力量以具有创新精神的生产经验丰富的技术人员为核心,以公司所掌握的先进的配色技术和成熟的生产工艺为基础,公司研发活动的开展紧贴市场需求,以客户需求和市场需求为导向进行新产品、新工艺、新技术的研发。为确保公司的创新能力和技术优势,公司建立了《研发立项管理制度》、《研发投入核算财务管理制度》、《研发中心管理制度》和《研发人员绩效考核奖励制度》等文件,规范公司技术研发相关工作,并不断完善研发项目管理、项目成果评价和人才培养等机制。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "33"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.498
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>宁波色母粒工程技术中心负责对新产品开发立项进行评估,确保新产品开发流程合理,有效控制风险。研发中心定期评估公司现有技术与行业标杆的差距,跟踪国内外同行动态,并审视新产品开发方向,为企业科技发展战略、研发机制优化及项目立项决策提供科学的依据,助力提升公司竞争优势。公司拥有博士后工作站、浙江省工程技术企业中心和宁波市色母粒技术工程中心,在研发创新平台下,形成以“市场—产品—技术”为驱动的创新模式,持续搭建了前沿研发平台,通过在全国范围内布点建立“产研销”一体化的组织平台,增强了公司产品的韧性和竞争优势。公司主持和参与起草行业标准5件,公司及各子公司申请发明专利5件,拥有已授权的发明专利13件。</td></tr><tr><td>战略</td><td>公司以科技创新驱动可持续发展,按客户需求和市场需求对科研项目开发形成战略布局,中长期聚焦于塑料色母粒领域。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>目标:研发投入与销售收入同步增长。报告期末,公司研发投入金额达1,744.41万元,占营业收入3.373%。申请发明专利数量4件,发明专利授权2件。公司主持起草行业标准1件,参与起草行业标准3件。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.514,
+                0.367,
+                0.534
+            ],
+            "angle": 0,
+            "content": "（五）科技伦理"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.556,
+                0.853,
+                0.629
+            ],
+            "angle": 0,
+            "content": "根据《关于加强科技伦理治理的意见》的有关规定，公司业务范围不涉及生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动，该议题不适用于本公司。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.651,
+                0.389,
+                0.671
+            ],
+            "angle": 0,
+            "content": "（六）供应链安全"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.687,
+                0.86,
+                0.897
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>供应链安全</td></tr><tr><td>治理</td><td>公司始终坚持“诚实守信、互利共赢、合法合规”的交易原则,致力于与供应商、客户建立长期稳定的战略合作伙伴关系,从而保障原材料供应、产品销售的供应链可靠性和安全性。公司产品以定制化生产为主,主要用于下游客户塑料制品生产,公司产品的销售方式主要为直销,不存在经销商销售,客户中存在部分贸易商,均采用买断式销售。公司部分产品采用受托加工的方式,即由客户提供全部或部分原材料或关键材料,公司按客户要求进行生产加工,将加工后的产成品销售给客户的一种生产方式。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "34"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.85
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>公司采用“订单式采购和备货式采购”相结合的模式,根据客户订单所需的原材料数量结合库存情况进行相应的采购,同时对于历史上使用较多的原材料设置安全库存,以满足生产需要。公司采购的主要原材料包括树脂、钛白粉、颜料、炭黑、助剂等。公司制定了《外部提供过程、产品和服务的控制程序》《采购内控制度》等制度对采购活动进行有效地控制。公司供应科负责选择原材料供应商,组织对供应商的质量能力评定,实施采购,确保采购物资质量,日常对供应商实施记录和监控。1、供应商准入:审核供应商合作表现、原材料质量、履约能力等,要求供应商提供资质文件、财务报表等完整材料,通过供应科初审、复核及终审的多级审核机制,严格核验资质合规性;对合作过的供应商,按照原材料类别进行整合,梳理合作过程中的质量、生产供给能力、售后服务、合作诚信等方面表现;对未合作过的供应商,依据品牌标准、质量标准、供给能力标准、信誉标准四个方面对新供应商展开准入调查;对拟准入供应商开展视频或现场考察,剔除法务、财务等方面高风险主体,审核通过后纳入供应商管理系统。2、供应商监督:未出现客户信息泄露情况,客户投诉解决率100%。每半年从商务合作、到货及时性、原材料质量、售后服务等履约维度,对供应商进行综合评价;依托数字化平台与实地考察相结合,全面掌握供应商履约能力与经营状况。3、供应商退出:每半年对供应商的合作情况进行梳理,考察其商务合作、供应商原材料到货及时性、到货质量、原材料使用质量、售后服务等合同履约情况,淘汰履约表现不佳的劣质供应商。4、供应商协作共赢:公司致力于与供应商协作发展、合作共赢,共同推动产业进步,积极与供应商沟通交流,促进双方在技术创新、产品质量提升以及绿色发展理念上达成共识。不定期举办供应商交流活动,提供技术指导和培训服务。</td></tr><tr><td>战略</td><td>公司供应链安全秉持以以“实现成本、质量、技术领先,构建绿色、合规的供应链体系,并成为价值驱动中心”为供应链安全战略目标。公司注重打造良性的伙伴关系,通过技术与业务能力的赋能,持续提升供应链效率与可持续性,推动供应链绿色合规发展,为公司、供应链及社会创造长期价值。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>目标:1、保障原材料持续稳定供应,杜绝因供应链中断导致生产停滞。2、确保所有供应商100%签署《供应商廉洁承诺书》。报告期内,原材料持续稳定供应,没有发生因供应链中断导致生产停滞情形。</td></tr></table>",
+            "cell_merge": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "35"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.094,
+                0.461,
+                0.114
+            ],
+            "angle": 0,
+            "content": "（七）平等对待中小企业"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.136,
+                0.855,
+                0.294
+            ],
+            "angle": 0,
+            "content": "公司始终将诚信经营作为企业发展的根基，秉持公平、包容的采购原则，认真履行平等对待中小企业的社会责任。公司一直将中小企业视为供应链不可或缺的重要一环，通过持续优化采购流程，加强双向沟通与交流，确保所有合作伙伴，无论规模大小，均能获得公平的市场参与机会。公司注重与中小企业供应商建立并维护长期、稳定的合作关系，致力于构建一个包容、共赢的商业生态系统，共同促进产业链的健康与繁荣。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.303,
+                0.855,
+                0.405
+            ],
+            "angle": 0,
+            "content": "公司严格遵守法律法规与商业道德准则，坚持依法纳税、合规经营，在商业往来中恪守契约精神。公司合同付款率持续保持100%，对中小供应商的款项均按时足额支付，未发生合同违约或拖欠情况，在业内树立了良好的信誉形象。1990年起公司连年被评为浙江省重合同守信用企业。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.414,
+                0.854,
+                0.46
+            ],
+            "angle": 0,
+            "content": "报告期末，公司及各子公司应付账款（含应付票据）余额未超过 9000 万元且占总资产的比重未超过 10%。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.481,
+                0.484,
+                0.502
+            ],
+            "angle": 0,
+            "content": "（八）社会贡献与乡村振兴"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.523,
+                0.852,
+                0.596
+            ],
+            "angle": 0,
+            "content": "公司积极投身社会公益事业，身体力行地践行社会责任，为社区发展和社会进步不断贡献力量。公司从2007年起设立宁波色母粒慈善冠名基金，依托专业慈善机构，更好地向弱势群体提供帮助。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.607,
+                0.848,
+                0.652
+            ],
+            "angle": 0,
+            "content": "公司通过常态化的社会贡献实践，在社会各界树立起“负责任”的品牌形象，为企业业务拓展与合作奠定坚实的信任基础。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.662,
+                0.851,
+                0.735
+            ],
+            "angle": 0,
+            "content": "公司积极探索助力乡村振兴的长效机制，发挥资源与能力优势，通过开展就业和教育等举措，促进产业升级和绿色经济发展，为科技创新与乡村振兴的深度融合贡献自身力量。",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.146,
+                0.746,
+                0.851,
+                0.846
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.746,
+                0.848,
+                0.79
+            ],
+            "angle": 0,
+            "content": "1、稳定就业：公司通过扩大招工范围、增加就业岗位等方式，支持农民工及脱贫人口就业，帮助经济相对落后地区解决人员就业问题。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.801,
+                0.849,
+                0.846
+            ],
+            "angle": 0,
+            "content": "2、教育振兴：公司坚持以教育赋能乡村振兴，持续开展助学项目，为困难学生提供更多接受教育的机会，重视学生健康成长。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.857,
+                0.851,
+                0.902
+            ],
+            "angle": 0,
+            "content": "报告期内，在公益慈善领域累计投入6.2万元，开展各类社会贡献项目3项，覆盖特殊人群关爱和教育助学，资助1名经济困难学生，为其提供学业支持，",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "36"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.09,
+                0.848,
+                0.135
+            ],
+            "angle": 0,
+            "content": "助力青年成长成才；资助困难群体 12 名。公司在经济相对落后地区共计招聘近 20 名人员。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.163,
+                0.559,
+                0.186
+            ],
+            "angle": 0,
+            "content": "七、可持续发展相关治理维度议题"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.215,
+                0.484,
+                0.235
+            ],
+            "angle": 0,
+            "content": "（一）反商业贿赂及反贪污"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.25,
+                0.84,
+                0.852
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>重要性议题</td><td>反商业贿赂及反贪污</td></tr><tr><td>治理</td><td>公司始终坚持合规经营,恪守商业道德,高度重视商业贿赂、职务侵占、利益输送等廉洁风险,严格遵循《关于禁止商业贿赂行为的暂行规定》等法律法规及监管要求,结合业务布局、授权管理和外部合作模式,对销售管理、费用使用、供应商合作等关键环节可能存在的商业贿赂及贪污风险进行持续识别和管控,制定《廉洁自律管理制度》,将反商业贿赂及反贪污等商业道德准则融入企业经营活动中。公司通过制度约束、审计监督、举报调查和责任追究等多种手段,防范和应对员工及相关方在履职过程中可能发生的违规行业,充分发挥审计委员会的监督引领作用,建立健全反舞弊机制,聚焦高风险领域与关键业务环节强化管控,并通过常态化内部审计开展舞弊风险核查,维护公平、透明、合规的经营环境。员工商业道德素养培育与廉洁合规意识提升,构建了常态化廉洁教育机制:将廉洁教育纳入年度培训计划、新员工入职开设廉洁必修课程、宣贯并签署《廉洁自律承诺书》等举措。通过一系列培训及宣贯,传递国家法律法规、公司廉洁管理制度及行为准则,确保员工精准掌握合规要求,筑牢商业道德与廉洁从业的思想防线,保障公司经营活动规范有序开展。公司持续规范完善商业道德举报监督机制,设立邮箱和举报热线等举报渠道,确保举报信息的安全与保密,对于实名举报且经查实的违规行为,给予举报人适当的奖励。同时严格落实举报人保护机制,加强对举报人个人信息、举报内容等敏感信息的保密与安全防护,防止举报人信息泄露。</td></tr><tr><td>战略</td><td>持续提升员工商业道德素养培育与廉洁合规意识,构建公司常态化廉洁自律机制。</td></tr><tr><td>影响、风险和机遇管理</td><td>详见“三、议题重要性评估(三)议题重要性分析结论3、重要性议题和影响、风险、机遇”</td></tr><tr><td>指标与目标</td><td>报告期内,公司未发生涉及商业贿赂的违规事件。</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "37"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.207,
+                0.094,
+                0.411,
+                0.114
+            ],
+            "angle": 0,
+            "content": "（二）反不正当竞争"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.136,
+                0.853,
+                0.266
+            ],
+            "angle": 0,
+            "content": "公司在经营过程中严格遵守《中华人民共和国反不正当竞争法》《中华人民共和国反垄断法》等有关法律法规要求，树立自身品牌，注重商标注册和专利保护，以避免遭受不正当竞争行为侵害，发现其他企业实施了对本公司的不正当竞争行为时，公司积极采取法律手段，避免发生不正当竞争行为。规范关联交易行为，防止损害公司及中小股东利益。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.275,
+                0.855,
+                0.431
+            ],
+            "angle": 0,
+            "content": "1、公司设立了商业秘密保护领导小组，作为公司商业秘密保护的内部管理机构，商业秘密保护领导小组是公司商业秘密保护管理工作的决策和领导部门，全面负责公司商业秘密保护管理工作，组长由公司总经理担任，副总经理为组员，负责指导协调公司及各子公司的商业秘密保护管理工作的具体实施，指导协调商业秘密事件的调查和应急处置，对商业秘密保护管理情况进行检查、监督和报告等。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.442,
+                0.852,
+                0.598
+            ],
+            "angle": 0,
+            "content": "2、公司严格执行《商业秘密保护条例》，增强公司反垄断合规风险防控和处置能力，培育公平竞争文化，促进公司持续健康发展。在人事体系，梳理了管理、研发和销售等岗位流程，将保密协议和反不正当竞争相关条款签署嵌入劳动合同条款中，实现了人员参与情况的可量化、可干预、可追溯。公司法务部门负责统筹、组织和推进反不正当竞争、反垄断和商业秘密保护合规管理工作，为管理、销售、生产、技术和供应部门提供合规支持。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.609,
+                0.851,
+                0.683
+            ],
+            "angle": 0,
+            "content": "3、公司已制定了《公司章程》《关联交易管理制度》，详细规定了关联交易的范围、审议、披露及回避程序。明确要求所有董事和高级管理人员及期家属在涉及持股、任职、业务往来等情形时必须履行回避义务，避免利益冲突。",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.146,
+                0.275,
+                0.855,
+                0.683
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.692,
+                0.851,
+                0.766
+            ],
+            "angle": 0,
+            "content": "报告期内，未发生因公司不正当竞争行为而导致的诉讼或重大行政处罚。公司进行的关联交易均出于正常业务需要，遵循市场公平原则，定价公正适当，并严格履行了决策程序与信息披露义务，未发生损害股东权益的情形。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.792,
+                0.427,
+                0.814
+            ],
+            "angle": 0,
+            "content": "八、ESG 数据表和附注"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.841,
+                0.235,
+                0.858
+            ],
+            "angle": 0,
+            "content": "经济绩效"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.862,
+                0.86,
+                0.895
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>指标</td><td>单位</td><td>2025 年</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "38"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.084,
+                0.86,
+                0.203
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>营业总收入</td><td>万元</td><td>46,886</td></tr><tr><td>利润总额</td><td>万元</td><td>12,693</td></tr><tr><td>资产总额</td><td>万元</td><td>125,110</td></tr><tr><td>纳税总额</td><td>万元</td><td>4,732</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.235,
+                0.235,
+                0.253
+            ],
+            "angle": 0,
+            "content": "环境绩效"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.262,
+                0.275,
+                0.28
+            ],
+            "angle": 0,
+            "content": "应对气候变化"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.284,
+                0.86,
+                0.655
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">绩效指标</td><td rowspan=\"2\">单位</td><td colspan=\"4\">2025年</td></tr><tr><td>公司</td><td>中山子公司</td><td>滁州子公司</td><td>合计</td></tr><tr><td>温室气体排放总量(范围一+范围二)</td><td><eq>tCO_2e</eq></td><td>5,306</td><td>993</td><td>147</td><td>6,446</td></tr><tr><td>范围一排放</td><td><eq>tCO_2e</eq></td><td>95</td><td>26</td><td>55</td><td>176</td></tr><tr><td>其中:公司食堂用液化天然气—固定源</td><td><eq>tCO_2e</eq></td><td>1</td><td></td><td></td><td>1</td></tr><tr><td>其中:分布式光伏发电—固定源</td><td><eq>tCO_2e</eq></td><td>94</td><td>26</td><td>55</td><td>175</td></tr><tr><td>范围二排放</td><td><eq>tCO_2e</eq></td><td>5,211</td><td>967</td><td>92</td><td>6,270</td></tr><tr><td>其中:外购电力</td><td><eq>tCO_2e</eq></td><td>5,540</td><td>967</td><td>92</td><td>6,599</td></tr><tr><td>中国境内(浙江省除外)GEC绿证</td><td><eq>tCO_2e</eq></td><td>-329</td><td></td><td></td><td>-329</td></tr></table>"
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.146,
+                0.66,
+                0.853,
+                0.818
+            ],
+            "angle": 0,
+            "content": "注：依据生态环境部、国家统计局、国家能源局2025年第19号公告《关于发布2024年电力碳足迹因子数据的公告》，2024年全国电力平均碳足迹因子为\\(0.5777\\mathrm{kgCO_2e / kWh}\\)，光伏发电电力碳足迹因子为 \\(0.0520\\mathrm{kgCO_2e / kWh}\\) 。根据国家温室气体排放因子数据库的数据，液化天然气燃烧的低位发热量 \\(521.6\\mathrm{TJ} / 10^{4}\\mathrm{t}\\)，因子 \\(56.8\\mathrm{tCO_2 / TJ}\\)，计算液化天然气燃烧碳排放。国家可再生能源信息管理中心核发的中国境内（浙江省除外）GEC绿证1张对应1MWh可再生能源电量。"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.147,
+                0.854,
+                0.275,
+                0.872
+            ],
+            "angle": 0,
+            "content": "环境合规管理"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.876,
+                0.86,
+                0.909
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>绩效指标</td><td>单位</td><td>2025 年</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "39"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.084,
+                0.86,
+                0.231
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>年度环保投入</td><td>万元</td><td>127</td></tr><tr><td>重大环境污染事件数量</td><td>件</td><td>0</td></tr><tr><td>火灾等重大危险、对环境严重影响的事故次数</td><td>次</td><td>0</td></tr><tr><td>公司因环境污染造成处罚和其他成本</td><td>万元</td><td>0</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.262,
+                0.375,
+                0.28
+            ],
+            "angle": 0,
+            "content": "污染物排放和废弃物处理"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.284,
+                0.861,
+                0.487
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">绩效指标</td><td rowspan=\"2\">单位</td><td colspan=\"2\">2025年</td></tr><tr><td>公司</td><td>中山子公司</td></tr><tr><td>废水、废气、噪声排放</td><td>/</td><td>环保设施有效运行,三废达标排放。</td><td>环保设施有效运行,三废达标排放。</td></tr><tr><td>危废处理</td><td>%</td><td>执行转移联系单制度合规处置</td><td>执行转移联系单制度合规处置</td></tr><tr><td>固体废弃物分类处置率</td><td>%</td><td>100</td><td>100</td></tr></table>"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.518,
+                0.354,
+                0.536
+            ],
+            "angle": 0,
+            "content": "能源利用和水资源利用"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.541,
+                0.86,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">绩效指标</td><td rowspan=\"2\">单位</td><td colspan=\"4\">2025年</td></tr><tr><td>公司</td><td>中山子公司</td><td>滁州子公司</td><td>合计</td></tr><tr><td>全年总耗电量</td><td>KWh</td><td>11,168,000</td><td>3,346,140</td><td>257,186</td><td>14,771,326</td></tr><tr><td>外购电力</td><td>KWh</td><td>9,589,800</td><td>1,673,070</td><td>158,926</td><td>11,421,796</td></tr><tr><td>生产用电</td><td>KWh</td><td>10,869,306</td><td>3,301,792</td><td></td><td>14,171,098</td></tr><tr><td>环保设施用电</td><td>KWh</td><td>948,943</td><td>284,321</td><td></td><td>1,233,264</td></tr><tr><td>生活用电</td><td>KWh</td><td>298,684</td><td>44,348</td><td></td><td>343,032</td></tr><tr><td>基建用电</td><td>KWh</td><td></td><td></td><td>257,186</td><td>257,186</td></tr><tr><td>分布式发电量</td><td>KWh</td><td>1,804,700</td><td>494,916</td><td>1,048,700</td><td>3,348,316</td></tr><tr><td>光伏发电自用量</td><td>KWh</td><td>1,578,200</td><td>410,166</td><td>98,260</td><td>2,086,626</td></tr><tr><td>分布式光伏发电上网电量</td><td>KWh</td><td>226,600</td><td>84,750</td><td>950,440</td><td>1,261,790</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "40"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.343
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">绩效指标</td><td rowspan=\"2\">单位</td><td colspan=\"4\">2025年</td></tr><tr><td>公司</td><td>中山子公司</td><td>滁州子公司</td><td>合计</td></tr><tr><td>全年水资源消耗总量</td><td><eq>m^3</eq></td><td>43,649</td><td>9,729</td><td>14,715</td><td>68,093</td></tr><tr><td>工业用水</td><td><eq>m^3</eq></td><td>30,962</td><td>4,981</td><td></td><td>35,943</td></tr><tr><td>生活用水</td><td><eq>m^3</eq></td><td>12,687</td><td>4,748</td><td></td><td>17,435</td></tr><tr><td>基建用水</td><td><eq>m^3</eq></td><td></td><td></td><td>14,715</td><td>14,715</td></tr><tr><td>公司食堂用天然气</td><td><eq>m^3</eq></td><td>4,227</td><td></td><td></td><td>4,227</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.148,
+                0.375,
+                0.234,
+                0.393
+            ],
+            "angle": 0,
+            "content": "社会绩效"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.403,
+                0.356,
+                0.421
+            ],
+            "angle": 0,
+            "content": "产品和服务安全与质量"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.425,
+                0.86,
+                0.685
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>绩效指标</td><td>单位</td><td>2025年</td></tr><tr><td>顾客满意度得分</td><td>得分</td><td>94%</td></tr><tr><td>投诉处理完成率</td><td>%</td><td>100</td></tr><tr><td>职业健康与安全投入</td><td>万元</td><td>137</td></tr><tr><td>职业健康岗中体检率</td><td>%</td><td>100</td></tr><tr><td>职业健康岗前体检率</td><td>%</td><td>100</td></tr><tr><td>职业病发生率</td><td>%</td><td>0</td></tr><tr><td>重大火灾、触电、机械伤害等安全、环境事故</td><td>次</td><td>0</td></tr></table>"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.149,
+                0.717,
+                0.194,
+                0.734
+            ],
+            "angle": 0,
+            "content": "员工"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.738,
+                0.86,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>绩效指标</td><td>单位</td><td>2025年</td></tr><tr><td>员工学历构成(硕士及以上)</td><td>人</td><td>4</td></tr><tr><td>员工学历构成(本科及以下)</td><td>人</td><td>348</td></tr><tr><td>员工性别构成(女)</td><td>人</td><td>110</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.508,
+                0.927
+            ],
+            "angle": 0,
+            "content": "41"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.231
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>员工性别构成(男)</td><td>人</td><td>242</td></tr><tr><td>员工体检覆盖率</td><td>%</td><td>100</td></tr><tr><td>员工社会保障覆盖率</td><td>%</td><td>100</td></tr><tr><td>员工住房公积金覆盖率</td><td>%</td><td>100</td></tr><tr><td>休育儿假员工返岗率</td><td>%</td><td>100</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.148,
+                0.263,
+                0.233,
+                0.28
+            ],
+            "angle": 0,
+            "content": "创新驱动"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.285,
+                0.86,
+                0.488
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>绩效指标</td><td>单位</td><td>2025年</td></tr><tr><td>研发投入</td><td>万元</td><td>1,744</td></tr><tr><td>研发人员占比</td><td>%</td><td>11.08</td></tr><tr><td>专利授权数量</td><td>项</td><td>13</td></tr><tr><td>专利申请数量</td><td>项</td><td>5</td></tr><tr><td>报告期内的专利授权数量</td><td>个</td><td>2</td></tr><tr><td>报告期内的专利申请数量</td><td>个</td><td>4</td></tr></table>"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.509,
+                0.342,
+                0.531
+            ],
+            "angle": 0,
+            "content": "九、对标索引表"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.34,
+                0.554,
+                0.659,
+                0.571
+            ],
+            "angle": 0,
+            "content": "可持续发展（ESG）报告对标索引表"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.579,
+                0.86,
+                0.912
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>披露要求</td><td>对应的本报告章节</td></tr><tr><td>应对气候变化</td><td>五、环境维度议题(一)应对气候变化</td></tr><tr><td>污染物排放</td><td>五、环境维度议题(二)污染物排放</td></tr><tr><td>废弃物处理</td><td>五、环境维度议题(三)废弃物处理</td></tr><tr><td>生态系统和生物多样性保护</td><td>五、环境维度议题(四)生态系统和生物多样性保护</td></tr><tr><td>环境合规管理</td><td>五、环境维度议题(五)环境合规管理</td></tr><tr><td>能源利用</td><td>五、环境维度议题(六)能源利用</td></tr><tr><td>水资源利用</td><td>五、环境维度议题(七)水资源利用</td></tr><tr><td>循环经济</td><td>五、环境维度议题(八)循环经济</td></tr><tr><td>乡村振兴</td><td>六、社会维度议题(八)社会贡献与乡村振兴</td></tr><tr><td>社会贡献</td><td>六、社会维度议题(八)社会贡献与乡村振兴</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "42"
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.084,
+                0.86,
+                0.501
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>披露要求</td><td>对应的本报告章节</td></tr><tr><td>创新驱动</td><td>六、社会维度议题(四)创新驱动</td></tr><tr><td>科技伦理</td><td>六、社会维度议题(五)科技伦理</td></tr><tr><td>供应链安全</td><td>六、社会维度议题(六)供应链安全</td></tr><tr><td>平等对待中小企业</td><td>六、社会维度议题(七)平等对待中小企业</td></tr><tr><td>产品和服务安全与质量</td><td>六、社会维度议题(二)产品和服务安全与质量</td></tr><tr><td>数据安全与客户隐私保护</td><td>六、社会维度议题(三)数据安全与客户隐私保护</td></tr><tr><td>员工</td><td>六、社会维度议题(一)员工</td></tr><tr><td>尽职调查</td><td>三、议题重要性评估(二)尽职调查、利益相关方沟通1、尽职调查</td></tr><tr><td>利益相关方沟通</td><td>三、议题重要性评估(二)尽职调查、利益相关方沟通2、利益相关方沟通</td></tr><tr><td>反商业贿赂及反贪污</td><td>七、可持续发展相关治理维度议题(一)</td></tr><tr><td>反不正当竞争</td><td>七、可持续发展相关治理维度议题(二)</td></tr></table>",
+            "cell_merge": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "43"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.157,
+                0.09,
+                0.326,
+                0.108
+            ],
+            "angle": 0,
+            "content": "附件：反馈意见表"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.119,
+                0.26,
+                0.136
+            ],
+            "angle": 0,
+            "content": "尊敬的读者：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.85,
+                0.22
+            ],
+            "angle": 0,
+            "content": "感谢您阅读《宁波色母 2025 年度可持续发展（ESG）报告》，为向您及其他利益相关方提供更专业、更有价值的企业 ESG 信息，请您协助我们完成反馈意见表中的相关问题，以帮助我们在今后进一步提升 ESG 工作水平。",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.146,
+                0.262,
+                0.527,
+                0.279
+            ],
+            "angle": 0,
+            "content": "一、选择题（请您在相应的位置选择打√）"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.295,
+                0.474,
+                0.312
+            ],
+            "angle": 0,
+            "content": "1. 对于宁波色母而言，您的身份是：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.322,
+                0.789,
+                0.367
+            ],
+            "angle": 0,
+            "content": "□ 员工 □ 客户 □ 消费者 □ 供应商 □ 监管机构 □ 媒体 □ 其他\n（请注明）",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.378,
+                0.414,
+                0.394
+            ],
+            "angle": 0,
+            "content": "2. 您对本报告的整体评价是:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.406,
+                0.546,
+                0.422
+            ],
+            "angle": 0,
+            "content": "□ 很好 □ 较好 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.433,
+                0.412,
+                0.45
+            ],
+            "angle": 0,
+            "content": "3. 您认为本报告的内容质量:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.461,
+                0.546,
+                0.478
+            ],
+            "angle": 0,
+            "content": "□ 很高 □ 较高 □ 一般 □ 较低 □ 很低",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.489,
+                0.372,
+                0.506
+            ],
+            "angle": 0,
+            "content": "4. 您认为本报告的结构:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.517,
+                0.587,
+                0.534
+            ],
+            "angle": 0,
+            "content": "□ 很合理 □ 较合理 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.545,
+                0.472,
+                0.561
+            ],
+            "angle": 0,
+            "content": "5. 您认为报告版式设计和呈现形式:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.572,
+                0.546,
+                0.589
+            ],
+            "angle": 0,
+            "content": "□ 很好 □ 较好 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.6,
+                0.552,
+                0.617
+            ],
+            "angle": 0,
+            "content": "6. 您认为宁波色母在环境议题上的综合表现:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.628,
+                0.546,
+                0.645
+            ],
+            "angle": 0,
+            "content": "□ 很好 □ 较好 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.656,
+                0.552,
+                0.673
+            ],
+            "angle": 0,
+            "content": "7. 您认为宁波色母在社会议题上的综合表现:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.684,
+                0.546,
+                0.7
+            ],
+            "angle": 0,
+            "content": "□ 很好 □ 较好 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.711,
+                0.552,
+                0.728
+            ],
+            "angle": 0,
+            "content": "8. 您认为宁波色母在治理议题上的综合表现:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.739,
+                0.546,
+                0.756
+            ],
+            "angle": 0,
+            "content": "□ 很好 □ 较好 □ 一般 □ 较差 □ 很差",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.147,
+                0.767,
+                0.301,
+                0.784
+            ],
+            "angle": 0,
+            "content": "二、开放性问题:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.795,
+                0.647,
+                0.812
+            ],
+            "angle": 0,
+            "content": "您认为本报告还需要披露哪些您希望进一步了解的信息？",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.85,
+                0.557,
+                0.867
+            ],
+            "angle": 0,
+            "content": "您对宁波色母的 ESG 工作有哪些意见和建议？",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.917,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "44"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.091,
+                0.473,
+                0.108
+            ],
+            "angle": 0,
+            "content": "如果方便，请您告知我们您的信息：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.201,
+                0.163
+            ],
+            "angle": 0,
+            "content": "姓名：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.481,
+                0.146,
+                0.572,
+                0.163
+            ],
+            "angle": 0,
+            "content": "联系电话：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.174,
+                0.24,
+                0.192
+            ],
+            "angle": 0,
+            "content": "电子邮箱：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.481,
+                0.174,
+                0.572,
+                0.192
+            ],
+            "angle": 0,
+            "content": "联系地址:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.229,
+                0.686,
+                0.247
+            ],
+            "angle": 0,
+            "content": "本报告为中文版，您可以在巨潮资讯网下载本报告的电子档。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.257,
+                0.846,
+                0.275
+            ],
+            "angle": 0,
+            "content": "如需获取纸质报告或对本报告有任何疑问，您可以选择以下方式联系我们：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.285,
+                0.365,
+                0.302
+            ],
+            "angle": 0,
+            "content": "电话：86-574-88393328",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.313,
+                0.363,
+                0.33
+            ],
+            "angle": 0,
+            "content": "传真：86-574-88393335",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.341,
+                0.384,
+                0.358
+            ],
+            "angle": 0,
+            "content": "电子邮箱：nbsml@muli.cn",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.368,
+                0.655,
+                0.386
+            ],
+            "angle": 0,
+            "content": "联系地址：浙江省宁波市鄞州区潘火街道金辉西路168号",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.397,
+                0.273,
+                0.413
+            ],
+            "angle": 0,
+            "content": "邮编：315105",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.489,
+                0.916,
+                0.509,
+                0.927
+            ],
+            "angle": 0,
+            "content": "45"
+        }
+    ]
+]
